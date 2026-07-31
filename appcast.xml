@@ -4,6 +4,39 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 31 Jul 2026 16:48:35 -0700</pubDate>
+            <sparkle:version>188</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 188)</h2>
+<p><b>Client / Reviewer mode.</b> Invite someone into a review by name, at the access level you choose, and send them a single file to open.</p>
+<ul>
+<li><b>Session ▸ Invite a Reviewer…</b> — name them, pick their tier, save the invite. Opening it puts them in the review: session, passcode, host address and identity all carried, nothing to configure. Their name comes from the invite, so their first comment is attributed correctly.</li>
+<li><b>Reviewer</b> — playback, compare, annotation, comments, marking a preferred version, note and report export, and the looks you saved to the session bank.</li>
+<li><b>Expert reviewer</b> — all of that plus the review grade, printer lights, scopes, their own LUTs and Film Lab. For directors who like to tinker.</li>
+<li>Neither tier reaches the pipeline: no conform, no relink, no packaging.</li>
+<li>A guest sees their tier at the bottom-left of the viewport, and <b>Session ▸ Sign Out of Review</b> returns their copy to full mode.</li>
+</ul>
+<p><b>Where a shared review reaches:</b> the same LAN, a <b>Tailscale</b> network, or a VPN — anywhere the guest's Mac can open a connection to yours. Invites now carry the host's address and prefer a Tailscale one, because browsing by name uses Bonjour and Bonjour is multicast, which a tailnet doesn't carry. There's no internet relay yet, so a client with no VPN and no tailnet still can't join a live session — send them a session package for those.</p>
+<p>Also: a connection that can't reach the host now says so instead of sitting on "Connecting…", and the dead plain-1–4 zoom keys are gone (those digits pick the compare set; zoom is ⌘1–⌘4).</p>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.188.zip" length="23860184" type="application/octet-stream" sparkle:edSignature="B9LWuMyuEfWBIE/m+7udXGLnRv7e/YQDRFb3QnjJydKKrs/nD1TT1/Ypyut/KgL+oH+DZXCZ4WlZELP3R51KDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi188-187.delta" sparkle:deltaFrom="187" length="395550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8IDcr827p82ik2FWuLcAzSI8WRRZ9a7uRNI0LTfll+SMr2YRMEIiw01R7JSbSDNq8blsfBixQQ/0HPpGvA35Cw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi188-184.delta" sparkle:deltaFrom="184" length="613182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AbojtE0KamXkh3AgA46W15bVZXQS78VznPtgeYjsy1jNq1/Tq5IwdYuBd2uVe7M0W2CZn0S+UdPTVGDsH23iCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi188-182.delta" sparkle:deltaFrom="182" length="636314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ImdWTMr2+YpLh9TTxHDd5UHQZw5kxFYQPlEzyZ/qyEAim5DUxk3mPa0Xssg4whmix+vN4tFcS7/6pzM/5OBLCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi188-180.delta" sparkle:deltaFrom="180" length="652186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DPWYZkr9p0g9RvQPkFsxq86A5K5JodncJ5RPf4pKXoxl20jwZ5HX8HHIKcpE7JWZ7qHhClDnlMKOr9f4rriJCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi188-178.delta" sparkle:deltaFrom="178" length="651590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FJ3/EJ+0wS04TmKvYI47CnAoim6+EsnCScv5Nu8cepM4PsDfMBdUJpgk2+ok92uXeBN+n9zsqIE7t7k8GqoGAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 31 Jul 2026 16:38:34 -0700</pubDate>
             <sparkle:version>187</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -58,30 +91,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi184-178.delta" sparkle:deltaFrom="178" length="392710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HhSTrIfJ6WpiChGAqO8mv5+YVWVi35wMHoVv3ddiyyVgQXQc7QCNSwefC8H/U//fU4xOxC9PXJIQd4749JjKCA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi184-175.delta" sparkle:deltaFrom="175" length="400046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j17GeiD993kZ8Em1wXa9ijKDNDWfpSyFAc+IS9B4Xq+ycHMAq1V/rMBAJSpQ9/0u8Pb/d9RpsC+w5SeFPM2DDg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi184-173.delta" sparkle:deltaFrom="173" length="399882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bfPHnd+Mv+1PiunCT5D+mQpHb4gM3JAcLW2S5Dj5ng+uEQM7aD1/l8Uu4JkN4nmsYaJd29rd2IuIEQjsTUG8CQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 31 Jul 2026 15:42:24 -0700</pubDate>
-            <sparkle:version>182</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.2 (build 182)</h2>
-<ul>
-<li><b>Clear a frame's marks</b> — Notes ▸ Clear Marks on This Frame (⇧⌘⌫), or the trash button on that frame's row in the notes sidebar. ⌘Z undoes it.</li>
-<li>Saved sessions open again, and double-click opens them in Asobi.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.182.zip" length="23751796" type="application/octet-stream" sparkle:edSignature="j4Hfxp7SXsMsZeXlP2Qe6eU21k4y0t4CyQUDcAgL3PrsjzMkuMawCVRkafyd+AeLHA4043OZQpel983l9K9zBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi182-180.delta" sparkle:deltaFrom="180" length="323286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YRnArLYYJx1Wzi/p5y3Nq8GXOlojD8a5O3uF+vrXEGUL9A31DbKerMgLL0vraWNOy17Q2pNQ5oUY5MQk4QufBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi182-178.delta" sparkle:deltaFrom="178" length="328198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VKylBr8Uj6VP7kT2GAYb59vUzhME3Ug7ex4QSPyGHTDfcyMld77UWNbiXwyvDv9d6lqDWeCDKvk/xY3kwiUfAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi182-170.delta" sparkle:deltaFrom="170" length="507314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Um8xbDfVD/xVL3rTjrbkNZuC6eMQUKG42fn49l5F7AQhAs8nFdnbNJNbJFfoRAPwFdaHzfbjAuDLtygWcoqxCg=="/>
             </sparkle:deltas>
         </item>
     </channel>

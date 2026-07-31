@@ -3,6 +3,19 @@
     <channel>
         <title>Asobi</title>
         <item>
+            <title>0.2</title>
+            <pubDate>Fri, 31 Jul 2026 11:00:47 -0700</pubDate>
+            <sparkle:version>149</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.2.149.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.149.zip" length="23462613" type="application/octet-stream" sparkle:edSignature="AtJosX1H20x1CjSIIP4M+BXX63CbwxRCnm0Pqc6bhBUnPWbrkHPduARUaciHf3c183voipYXGZzzjpNsl+I8BQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi149-111.delta" sparkle:deltaFrom="111" length="13590774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="79n2Wsk3+MD0jtBmnkmqNgKsQpoZzs6WyZyKRGiYPb5P4w910tdQVyQhTbWlIfR9XxQWJ2J3oht7FfkElaGtAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1</title>
             <pubDate>Thu, 30 Jul 2026 21:25:23 -0700</pubDate>
             <sparkle:version>111</sparkle:version>
@@ -27,16 +40,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi109-105.delta" sparkle:deltaFrom="105" length="355146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n8MUhqOmLzg/IAUTfHUUip8bCMeRJW2sS4xkUI4WCbKsHbaI9gmV6apzaijKoZPStipLfoy+amgSg8zpEj8YAA=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1</title>
-            <pubDate>Thu, 30 Jul 2026 20:50:55 -0700</pubDate>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.1.105.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.1.105.zip" length="10205714" type="application/octet-stream" sparkle:edSignature="z1Huxmb/QDyTWLieMjzANkIuOOtjvOI+IwlYRYPal3EZ6on/6DZA2vApk6QIiH0/8YiETUB6DAzvtl/zy16nDw=="/>
         </item>
     </channel>
 </rss>

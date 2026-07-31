@@ -9,7 +9,13 @@
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.2.175.html</sparkle:releaseNotesLink>
+            <description><![CDATA[<style>body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }</style>
+<h2>Asobi 0.2 (build 175)</h2>
+<ul>
+<li><b>Voice notes can reach the microphone.</b> Asobi now asks for permission properly and appears in System Settings ▸ Privacy &amp; Security ▸ Microphone. Press V and allow the prompt.</li>
+</ul>
+]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.175.zip" length="23745536" type="application/octet-stream" sparkle:edSignature="gJsROO4AOZjkxxXtPi+hFUMmEkj5akiY7dzfR2FoxeA5TVZNpRV7YCBsEFV20358cOLY2LdyWXwPCjEFQmLYBg=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi175-173.delta" sparkle:deltaFrom="173" length="144870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hAUxfH1jbJDpazx/uKCcCcE8T51kRonPFZQJ8Jrj6TL2qYplgHonjbel62tLcy84LSMx8exk7t/qc3Qf8Q+8CA=="/>
@@ -26,15 +32,16 @@
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.2.173.html</sparkle:releaseNotesLink>
+            <description><![CDATA[<style>body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }</style>
+<h2>Asobi 0.2 (build 173)</h2>
+<ul>
+<li><b>Voice notes replay the picture.</b> A note now remembers where the playhead went while you were talking — play it back and the shot follows. Long notes get a scrubber so you can jump to the part you want.</li>
+<li><b>Comments as subtitles</b>: tick the box when exporting a movie and your notes burn in over the frames they were made about.</li>
+<li><b>EXR timecode</b> is read from the file header, alongside the QuickTime timecode support added in the last build.</li>
+</ul>
+]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.173.zip" length="23745184" type="application/octet-stream" sparkle:edSignature="tc6Rj+r79v8OFya6/YHZKNWaS+1x0EkW10MUhud6FroM2aXOBJ993eoLr3BETMYsCsSy8FSN7U7TWhTwiVzSAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi173-170.delta" sparkle:deltaFrom="170" length="449874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dn5AIf6s7fCilSd2ia0TquWwvEjV/p86884T9w6Kc++YvgTwQ84MD0i1Rn0xBODPH0ovmOxtUbwZ2wCJClVcBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi173-168.delta" sparkle:deltaFrom="168" length="503310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C/t+GqHeCAvFkbvyaRv/DPwX5WcGzxzCxOsqWTTJnyrQPgOxLEsUUf9qvHfXVLMiSwdZuepzmwLKuepZd5j6AQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi173-166.delta" sparkle:deltaFrom="166" length="517862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OYU4gjKLkwWUbto+/UrgEMdxsc6Vgsx8mGg2IupjI/TmK/Q2Z7ceeCLFTikB04DFTm7szo7u7Qu/BoMYgnW/BA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi173-164.delta" sparkle:deltaFrom="164" length="525134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5IKSGHTCk03L6BtKz8MsfglTt3Ha3mhiZSulzVQi+so9CHMSUo75C35/h159xtJ3D43k1bYs9vTL38qzelOyAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi173-162.delta" sparkle:deltaFrom="162" length="528918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H0LM0fneSkmIIvhXldNRF3iNZ/gZbP5CAW61aDfxUmhJerjwSDKXpkrMRwc8HTphmmokCy4UKui+w+yO76YdAQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>0.2</title>
@@ -43,15 +50,15 @@
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.2.170.html</sparkle:releaseNotesLink>
+            <description><![CDATA[<style>body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }</style>
+<h2>Asobi 0.2 (build 170)</h2>
+<ul>
+<li><b>Timecode now comes from the file.</b> A delivery that starts at 01:00:00:00 reads 01:00:00:00 — in the HUD, in burn-ins, and in exported movies.</li>
+<li><b>Burn-ins no longer black out a strip of the frame</b> — each label sits on its own small plate, and the text follows the HUD Text size setting.</li>
+</ul>
+]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.170.zip" length="23720991" type="application/octet-stream" sparkle:edSignature="Q4gR1EyCGxgfJc75utGFB3gfvoDqLs40EuhqPSRnXNo6ALv4YYt/ySx8H0Bb0qVWGDBFGm87oedpv0z7dq37Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi170-168.delta" sparkle:deltaFrom="168" length="342862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8PbUlO1JQjNRXLP4E3RcqigQPoNYiVqSGP7FshPeQIAAkg8UHhk8pV2bLkL+H0f9CQ74cTK21ZPJMN0N9GENBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi170-166.delta" sparkle:deltaFrom="166" length="390602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TeDDUdgXcwMiwv2FhTjiaCCSxmzwImeE3gzwCG8U/UXRQMBucTkm6UZ7jB4Cbn/ztXwvNQjcSHnFvGcr1DPwAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi170-164.delta" sparkle:deltaFrom="164" length="395586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YOwaW2AUkhwKD/cKEDIMLi06UZIGNMx9qic/iVMTIJuGr+j/cuycTPfJyZDE3mHFD831rtJNCSPuHhtvnL4TBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi170-162.delta" sparkle:deltaFrom="162" length="408198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eh+ihamIFhsNR8jyC9J4V9V3dLjJQY2UeuR0XwNOreOmZObPG0cXoDpa+h3Oi/zrL237jW/v/V1WWpaIMJVLDg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi170-156.delta" sparkle:deltaFrom="156" length="708726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y+BbsHh/z8q5DoFD/Yw9b5ou/IV1BN5INMcAHK0i7nqPtUk2+B4On4n7uGrbmup7ZOIuzJPpE9BifyCu/02YCQ=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>

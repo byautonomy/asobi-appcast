@@ -4,6 +4,20 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 31 Jul 2026 11:17:09 -0700</pubDate>
+            <sparkle:version>152</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.2.152.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.152.zip" length="23523917" type="application/octet-stream" sparkle:edSignature="suMwm5+DDiuB6rZ9ZB42IuSFm/yifJLkP012giKvIi/IqQh+f8phsoMLnpdAtDts80p6Klq/5o8gGS4vRylyCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi152-149.delta" sparkle:deltaFrom="149" length="448362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LmmqnCfyBQY+wa1uGkAXgXvH1P2YC68EH6d6ZLHtARAoeO+FZ+rmn6Q+cvR45umjhMmDWvcmw1x1A1HHHEMoCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi152-111.delta" sparkle:deltaFrom="111" length="13651114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hiUYLqWjZg04iCy+H2rHzZnr7V2mtnQNbH8PW7cpcuNDRNqdQxhxOPCB0o9Ekb6Wl5iMbfP4AAKc03/i9SbfDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 31 Jul 2026 11:00:47 -0700</pubDate>
             <sparkle:version>149</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -26,19 +40,6 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi111-109.delta" sparkle:deltaFrom="109" length="19438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cNFJzblg2fvC0vENy+oiu2eFb9K7HGGUe9775AlSySJXeZ3GiligGxsFUiZGBUgiXlokEOd7ybqWW2v9unOPBA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi111-105.delta" sparkle:deltaFrom="105" length="354006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YjKaOzE/cPGKNgapxKw+LCVwH17ikw4/R9GcZQb24tI3ossll2tQv6waQfgzF0Gg15s8A4pOsYm5psMy7TgyAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1</title>
-            <pubDate>Thu, 30 Jul 2026 21:13:31 -0700</pubDate>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/byautonomy/asobi-appcast/main/Asobi-0.1.109.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.1.109.zip" length="10270177" type="application/octet-stream" sparkle:edSignature="GzS1wWDh426x82SwOI7FOND5D7BgjF9syxD8TkVdvTCMiOImkqd3sNtw2ifIwtx6+KOtIeLOYM/MIWgdiQpaCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi109-105.delta" sparkle:deltaFrom="105" length="355146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n8MUhqOmLzg/IAUTfHUUip8bCMeRJW2sS4xkUI4WCbKsHbaI9gmV6apzaijKoZPStipLfoy+amgSg8zpEj8YAA=="/>
             </sparkle:deltas>
         </item>
     </channel>

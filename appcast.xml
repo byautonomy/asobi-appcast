@@ -4,6 +4,33 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 31 Jul 2026 15:36:02 -0700</pubDate>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.2 (build 180)</h2>
+<ul>
+<li><b>Saved sessions open again.</b> Session files were greyed out in the Open dialog. They're now selectable, and double-clicking one in Finder opens it in Asobi.</li>
+<li>Shot names never crop in the PDF report; tidier movie-export dialog.</li>
+<li>Voice notes can ask for microphone permission (build 175 fix).</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.180.zip" length="23746074" type="application/octet-stream" sparkle:edSignature="L/hTto+x9gEmk6li2l7Jl5VOL+ZPZKIcHanTYAy8VJLZlV70H9kh5qBU637DG/XtA98b6uk7PLNuqLX8xaf3CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi180-178.delta" sparkle:deltaFrom="178" length="229458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KUCB4XQGviqoDLeqZ9BO/YXdtoeiFSWhE2bY/VCCVSYPa7YMcla37WVp3lMSRxtXow61Th070yFDWy5jk42JAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi180-175.delta" sparkle:deltaFrom="175" length="275338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5e0bjgVXm7hmFeYKic0SV/cVe8f5Ge9yLZElRyDEaQO3RlD9rF4n8Hn7lchcbCPM/nSSMfWASIcOMSsh7BScAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi180-173.delta" sparkle:deltaFrom="173" length="282550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o7EHG4hquvq7tyjpUSyKlx4dwQJZGVw8g2QaoBRuQVQ2ixrrtVk0dEQvWisaFpdBfVvFtmyi6ILa9tnC+myZAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi180-170.delta" sparkle:deltaFrom="170" length="455246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0GKWiUozggdjdpQf1RJ7qnBJ58oRhbzBThtn0/+vnWVvAyVLlhaBVPfFqIEKcJLwrixQEFFnd0PbUgi9LUjXCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi180-168.delta" sparkle:deltaFrom="168" length="523142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WEYujEplzyBCMsHdq1bKnlkFBgovq2R7or7P1Egp+SiDCUae3uFmyS9DNFrAWTDzDBHT5ZwcY5rvGG12VHQBDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 31 Jul 2026 14:29:57 -0700</pubDate>
             <sparkle:version>178</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -51,24 +78,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi175-166.delta" sparkle:deltaFrom="166" length="514922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bDDHqMSq7syG8y01rYMpYBlnnIRwlKlT+nM5CmvvWZsB4ytcxn0SwmB+5ubcrinZad0j0rpIWtSMBZyZnRDkAw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi175-164.delta" sparkle:deltaFrom="164" length="516326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qg49q4ZesOIp9XVcX3ZtZZOhA4VlRf9DYQ3VxBuzkHMgXj/FmSIfpajDmZgNklNMjiMV4t7IT7LKv/q20wr1BQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 31 Jul 2026 14:08:26 -0700</pubDate>
-            <sparkle:version>173</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }</style>
-<h2>Asobi 0.2 (build 173)</h2>
-<ul>
-<li><b>Voice notes replay the picture.</b> A note now remembers where the playhead went while you were talking — play it back and the shot follows. Long notes get a scrubber so you can jump to the part you want.</li>
-<li><b>Comments as subtitles</b>: tick the box when exporting a movie and your notes burn in over the frames they were made about.</li>
-<li><b>EXR timecode</b> is read from the file header, alongside the QuickTime timecode support added in the last build.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.173.zip" length="23745184" type="application/octet-stream" sparkle:edSignature="tc6Rj+r79v8OFya6/YHZKNWaS+1x0EkW10MUhud6FroM2aXOBJ993eoLr3BETMYsCsSy8FSN7U7TWhTwiVzSAw=="/>
         </item>
     </channel>
 </rss>

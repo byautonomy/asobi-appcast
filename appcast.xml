@@ -4,6 +4,33 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 31 Jul 2026 14:29:57 -0700</pubDate>
+            <sparkle:version>178</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.2 (build 178)</h2>
+<ul>
+<li><b>Shot names are never cropped in the PDF report</b> — they wrap onto as many lines as they need.</li>
+<li>Tidier movie-export dialog.</li>
+<li>Carries the microphone fix from build 175: voice notes can now ask for permission properly.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.178.zip" length="23745459" type="application/octet-stream" sparkle:edSignature="1JWhbxqorNlIm11sy8OxX7A3qeiHf8v9Fulqm7gZAPqOqBbhIMHzkINEDogiw3f/3dN3eY6jz9APHKKRAm48Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi178-175.delta" sparkle:deltaFrom="175" length="243370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Mqhvg5eSkpZVtx+tUH7e9+8OcSNuL/QXaS9sTwwW0bUlizMfT7dYs2d3xAYBtYX9sw2gZrOzsEAQwKVNf57AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi178-173.delta" sparkle:deltaFrom="173" length="255262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="igmM0XSoHfmBPhkHrvb2t8JobdHmPUicU4y0/dlPE1CZ6MZS3OgK4Pg1S3u7K0FX0TuKom95W2RuQBtD+jNLAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi178-170.delta" sparkle:deltaFrom="170" length="454090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="381tF0zVOCbE8qVxf/aRe/IgCl/JnqVXA5Dulb+os5/Rf+GOylErStJTlpVaY/8QIoYbcMjsOpBU4qA4Wy9LDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi178-168.delta" sparkle:deltaFrom="168" length="526658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="htDXMVYqDSW/R3ajKkGDo4GAexxP5XAj7dw4wWK8PvwvC+5N/Y1xt5eTAtxw7W04PcaB8klBLE1ibrcTagWUAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi178-166.delta" sparkle:deltaFrom="166" length="534426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+rnNChM/DgnkxVq82Gmc1DaAGpQ6k8vf/eHIkXaUy0TnJZxhT+m3E1T9qSni2GGT+Hh7+kqZgy0exzbk0zNWAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 31 Jul 2026 14:15:50 -0700</pubDate>
             <sparkle:version>175</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -42,23 +69,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
 </ul>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.173.zip" length="23745184" type="application/octet-stream" sparkle:edSignature="tc6Rj+r79v8OFya6/YHZKNWaS+1x0EkW10MUhud6FroM2aXOBJ993eoLr3BETMYsCsSy8FSN7U7TWhTwiVzSAw=="/>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 31 Jul 2026 13:55:53 -0700</pubDate>
-            <sparkle:version>170</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }</style>
-<h2>Asobi 0.2 (build 170)</h2>
-<ul>
-<li><b>Timecode now comes from the file.</b> A delivery that starts at 01:00:00:00 reads 01:00:00:00 — in the HUD, in burn-ins, and in exported movies.</li>
-<li><b>Burn-ins no longer black out a strip of the frame</b> — each label sits on its own small plate, and the text follows the HUD Text size setting.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.170.zip" length="23720991" type="application/octet-stream" sparkle:edSignature="Q4gR1EyCGxgfJc75utGFB3gfvoDqLs40EuhqPSRnXNo6ALv4YYt/ySx8H0Bb0qVWGDBFGm87oedpv0z7dq37Cw=="/>
         </item>
     </channel>
 </rss>

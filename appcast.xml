@@ -10,7 +10,15 @@
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<style>
+/* Sparkle renders these in a WKWebView that follows the SYSTEM
+   appearance — a hardcoded near-black was invisible on the dark
+   ground (James, 2026-08-01). Declare both schemes and switch the
+   ink. */
+:root { color-scheme: light dark; }
 body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
 h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
 p { margin: 4px 0 10px; }
 </style>
@@ -41,7 +49,15 @@ p { margin: 4px 0 10px; }
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<style>
+/* Sparkle renders these in a WKWebView that follows the SYSTEM
+   appearance — a hardcoded near-black was invisible on the dark
+   ground (James, 2026-08-01). Declare both schemes and switch the
+   ink. */
+:root { color-scheme: light dark; }
 body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
 h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
 p { margin: 4px 0 10px; }
 </style>
@@ -72,7 +88,15 @@ p { margin: 4px 0 10px; }
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<style>
+/* Sparkle renders these in a WKWebView that follows the SYSTEM
+   appearance — a hardcoded near-black was invisible on the dark
+   ground (James, 2026-08-01). Declare both schemes and switch the
+   ink. */
+:root { color-scheme: light dark; }
 body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
 h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
 p { margin: 4px 0 10px; }
 </style>

@@ -4,6 +4,39 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Sat, 01 Aug 2026 22:08:07 -0700</pubDate>
+            <sparkle:version>236</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 236)</h2>
+<p><b>The overnight watcher asks Kitsu too.</b></p>
+<ul>
+<li><code>asobi watch --kitsu-project NAME</code> gives the headless 3am watcher the same tracker oracle the app got in build 232: deliveries whose version is already in Kitsu ingest immediately — <code>kitsu-confirmed</code> in the cron log — and land in the morning's session carrying their task, ready to publish back.</li>
+<li>Pass <code>KITSU_TOKEN</code> in the job's environment (cron has no keychain); <code>--kitsu-url</code> overrides the app-saved server.</li>
+<li>Fixed: the headless watcher's <code>--quiescence</code> flag was parsed but never applied.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.236.zip" length="33617463" type="application/octet-stream" sparkle:edSignature="gLVP4xjpzZqPy1ePL3smdOaFXy7+Sc/KQ4nwLUl+9YMq3HfOykEG9CdN4SGV7Pyv6jybN7ujSgQ7A1ePlIA3Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi236-234.delta" sparkle:deltaFrom="234" length="360330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zbdA3zVMWfEEs9O0tbvaG+9FagnU+lhWN+jde/ScJyrxpFGs3PNQ3wpkodVQDdPUSgdpUYrw/Yk2kDlH0LdQAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi236-232.delta" sparkle:deltaFrom="232" length="11883466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yZppbqPdcQ/n2xgN9WF7y/TaBci0cv3Z5mDjyppkU1lNbHcs4T+cib4ghwMT+pfMljI3qBiv9Kbh0yNDxOIoBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi236-230.delta" sparkle:deltaFrom="230" length="12014394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gJiv/khOZOqDUj1t/neX2z6ZmkzCse0tnvPe6WlRFgd2/qs0mzJioJQ+keeJtDFn75z5+yPNWMLhZaOVhLsDAg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi236-228.delta" sparkle:deltaFrom="228" length="12111522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XNxQVtxj3ma4VRJ0/2CShNf0vly4oVmF9aAfbCLP3jDK0mmqwbEG73OhU2TrNt1q0CiKts2hpVGjgntAj9afCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi236-226.delta" sparkle:deltaFrom="226" length="12174686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PCAgAOUpQyKQG6FNKCOouoaa+K3spgmuBLePaRnj/tq2HjDUM89qlmJa9CD6Tdr9+a0nNfVaRnMLJjT8kdThAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Sat, 01 Aug 2026 21:50:47 -0700</pubDate>
             <sparkle:version>234</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -67,40 +100,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi232-226.delta" sparkle:deltaFrom="226" length="1063258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fjWe1lyD/B1ZTsgGAG3cZ8jxl8QOlt5f2Sfhi6xAZMleWuYncjHKmm+yKizKlu+EnYmOT6nA/S3sWgTVoRvABw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi232-224.delta" sparkle:deltaFrom="224" length="1201450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/QysykJgEL+tNdmsELKQt/zuX2Im4v+dxlhKHQRGbc1tpYMwiq8mUo2W5nIUz53VvVqAtBlipI680Hg33rcTAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi232-222.delta" sparkle:deltaFrom="222" length="1253410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="srX+6DP9y9UM6Wwjn+2kflMxoK+VnmKJmqXrMijo9a0oxT3ATTcT4J2BELF3NsYcRleDVlFFLqbndvDI53j+AA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Sat, 01 Aug 2026 21:34:03 -0700</pubDate>
-            <sparkle:version>230</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 230)</h2>
-<p><b>Kitsu, without the homework.</b></p>
-<ul>
-<li><b>Review List from Kitsu works from an empty window</b> — it was greyed out until media was loaded, which is backwards: pulling a list is how an empty window gets its playlist. Watch Folder for Dailies is un-gated the same way.</li>
-<li><b>Statuses are picks now, not vocabulary.</b> The panel asks your Kitsu instance for its task statuses and shows them by name — tick the ones that count as "awaiting review". No more typing <code>wfa,Review,pndng</code> from memory.</li>
-<li>The panel remembers your project between opens, labels every field, and says when it's loading a project's playlists instead of showing a stale list.</li>
-<li>Fixed: a Kitsu request arriving while another was in flight was silently dropped — a pull that did nothing, with no error. Requests queue now, and failures say so.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.230.zip" length="33114490" type="application/octet-stream" sparkle:edSignature="7PLNCe3PhBrzh8UxKERspzAEzW7Au9kMykLXJti0m6PPkQg30OWG3weR9+XdG61FAfXOqwOc1aloOs5B33kZBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi230-228.delta" sparkle:deltaFrom="228" length="448550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NX59ErU3LmFizZm1iDZensBlNZa8i6luQIh8WUW2LOvJdEoXlpysg6Kf8Hi57pWbnevXZGg2r6ZSSbfKz6/QDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi230-226.delta" sparkle:deltaFrom="226" length="563566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ngj/RlZdsjqj7e++NHCmMfaPcTl0eBUQywMLXQZGqKZNxOe3WFkkSzji7YwtV0c/1ALyqppWEup+Q095Iyr9AQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi230-224.delta" sparkle:deltaFrom="224" length="714746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3R8ja2JlHxNyXP6V97XdY1mB8mMaIJ+DPo5faAr3yUJ0Xa900dR+EVqfpK5O9yQwa86Yl8sm19MhC4MmwDxZDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi230-222.delta" sparkle:deltaFrom="222" length="772990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WH9t4WzsHCMal6zqfEvDQcEvZBkszybs/39CIdTcL9xrw8uoOkz+hVHaslA5Vde2SGTAU2K2a0lBf6T6vUskCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi230-220.delta" sparkle:deltaFrom="220" length="833502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gOHizSMvMYzrwpstf67INz0v2a6zZU17Au9F+IagUyBwYLHTYhVI0nAAjULNlAgcb4zktOeJ1FaqhKzrGYbWBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

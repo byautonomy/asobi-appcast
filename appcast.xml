@@ -4,6 +4,39 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Mon, 03 Aug 2026 11:17:05 -0700</pubDate>
+            <sparkle:version>324</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 324)</h2>
+<p><b>Reply to comments — in the app and on the web.</b></p>
+<ul>
+<li>Every comment now has a Reply field in the app's notes sidebar, and a matching "Reply…" affordance on the web page. Replies are attributed, tinted so they read as replies at a glance, and shown threaded under their comment on every seat.</li>
+<li>Two people replying to the same comment at the same time both survive, everywhere — replies merge, they never overwrite.</li>
+<li>Deleting a reply follows the comment rule: your own replies anywhere, any reply if you're the host. Deleted replies stay deleted across reconnects.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.324.zip" length="33867262" type="application/octet-stream" sparkle:edSignature="SgVP8q/Gg1X7R+HScjsPEWiPo98p8gQH1YYCWUazeNnVTRtkrjMVupiLfTGnqroMNaXhNUBbj/tOV+1xO9jKCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi324-322.delta" sparkle:deltaFrom="322" length="528210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fZfvcSNCUpTePL4VWGrHoCzk3WU3GkfP+XyaGj6Z26UhvNY7GmydP+whsBN9xz99mYXbMUMNL3bGIXZ+wKKbDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi324-315.delta" sparkle:deltaFrom="315" length="580358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hZNHi4U8w05tljOYeA8cQ7jKeD7vcRw9qyA8uFTAkOW0D9GukddCdfrAeCb6dlEciN1TYLKZ+Vo20qXCo+BgBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi324-310.delta" sparkle:deltaFrom="310" length="620134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WVpNyiJ71YCgIJ+RkDrISvY4XMV4IeIjav++YHh4xf+6RLjAa7Nb0Kh8N8uhoekEYOTNXF8Kt/o6nSESb7JsAQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi324-307.delta" sparkle:deltaFrom="307" length="628302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G3jKAoLNkTWel+34PYZIFW44F0c7A+VHJbQ+M5T1k7E46EIxeM3tgqcFu3OZ/joGfWMqwNCPGAm8fRTaf5BZDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi324-305.delta" sparkle:deltaFrom="305" length="704854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q1+qsg8P+Zxhd1KZfwFUq1/qoc0xMFHgCqTz0vWAm+3JLED3Yf9ncReBrNg+M1ipMWJ4Wt/a4/Cml9QlnEVjDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Mon, 03 Aug 2026 10:54:09 -0700</pubDate>
             <sparkle:version>322</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -69,38 +102,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi315-302.delta" sparkle:deltaFrom="302" length="606470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FCyu/0n2RbCBFhFflEYUwRuqhgupFikE6MMhSs9d3XYddEsx2eP5kUK2S9aaGcM31WFMDrlXYG3iGJoPflguCw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi315-297.delta" sparkle:deltaFrom="297" length="636034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3nTL3dDIv8VlReFcHlw0Lciho1EvWMrZjlWtODQXVkbwA0Ca65rf7oFH4g8ZCqarTJPi4B2p1QAIV5Q8xLNSAw=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Mon, 03 Aug 2026 09:18:59 -0700</pubDate>
-            <sparkle:version>310</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.310.zip" length="33822915" type="application/octet-stream" sparkle:edSignature="4pNpbi4yuOwovf3ODvgpZ3sAXRm657Y48lGFp4eiZpDrNdtmKN2+4cY85p9kg9DFM+LOdAO9bKMT7zxZMYBiCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi310-307.delta" sparkle:deltaFrom="307" length="403006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CYstwgp+HGj2llANq06BYb1GFfSATi+YO7VD+461yENADG2UQ/88Ui+0Ok7zpg7fWsW+yg6JgnYwz3Qt2gd0Dg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi310-305.delta" sparkle:deltaFrom="305" length="543226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4rDvfH0ETWfEwKplUtVbzFLHJ8EITIpsXNAyhGFeEIRmEPuQ58H4xLHqu7ihCF788B7EISFBzB8cdriExvIMAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi310-302.delta" sparkle:deltaFrom="302" length="549330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FymU42/EKzvncjKhphSP8yQdLY84M6xNlx8NEHSWVPst/RSAAl3n/wBJU4gaFEAsnw4fb/AuPMvRrtq1sxgKCg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi310-297.delta" sparkle:deltaFrom="297" length="605818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h9tLbKdqR5jTenqzfb0GXVKlZQ7V2dYaw0XXUOwu3NWyfRVKBB9MWNu03N5qIRmDK42OsqF4w+WjplQTNvtHDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi310-295.delta" sparkle:deltaFrom="295" length="603874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zu9r7XPtAJU5PlyVmrqtxtzSW95NEYM6KbdzpuCAed2/ti7E0/qX8eeCRDjfwjCpaT1VMTKBLdAUCfWUJTF3Bg=="/>
-            </sparkle:deltas>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 310)</h2>
-<p><b>Web voice notes play in the app, and important web notices can't be missed.</b></p>
-<ul>
-<li>Voice notes recorded in the browser now play back inside Asobi — click play on the note like any other; the audio fetches and decrypts on demand.</li>
-<li>Policy messages on the web (like original downloads being off) appear as a centered notice with an OK button instead of a thin top banner.</li>
-</ul>
-]]></description>
         </item>
     </channel>
 </rss>

@@ -4,6 +4,36 @@
         <title>Asobi Review</title>
         <item>
             <title>0.2</title>
+            <pubDate>Tue, 04 Aug 2026 05:38:45 -0700</pubDate>
+            <sparkle:version>392</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi Review 0.2 (build 392)</h2>
+<p><b>Your manual, written for you.</b></p>
+<ul>
+<li>Help → Asobi Manual is now the <b>Reviewer Guide</b>: six short chapters on joining from your invite, watching, marking up, compare &amp; looks, and the Expert reviewer tools — nothing about surfaces this edition doesn't have.</li>
+<li>Manual rendering: bullets that wrap across lines no longer split mid-sentence.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/AsobiReview-0.2.392.zip" length="38295399" type="application/octet-stream" sparkle:edSignature="Zr6zAujAh7ufACiOY4ddZtJrne+1M4/Co3HQG60mRStoqR1X1Nru+XwQyCBBMlpiC8jyGwztbu20mEwIab7gAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review392-389.delta" sparkle:deltaFrom="389" length="325422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HyPCe5U+cGBWKUvZRSkyGcPwjwlyGbtLahs89rP20k9AWLCJ8NGYP7IhgxRMTlT4yufh6GAohPm38GetUN6BDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review392-386.delta" sparkle:deltaFrom="386" length="462006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2Z14tMM4ihB5hBJYIeTevIGFW6tcy0C/vPqaLUfYoUjbn9XcbnUNh0FrTCZ694ipkS0VMfoCXZxE30OWjzwEBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review392-382.delta" sparkle:deltaFrom="382" length="548430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7GsOO5rqBgc+CZrwbqHkmIi9K/G/ZHjovsbkY6RA1SSqGDfu8i+5OKhA/f8WyQj0PA+weZSE1OJtDJ6bwqX8Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Mon, 03 Aug 2026 20:41:04 -0700</pubDate>
             <sparkle:version>389</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -59,31 +89,6 @@ p { margin: 4px 0 10px; }
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review386-382.delta" sparkle:deltaFrom="382" length="467694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GcfgugWAE8LgjcP2+ieNeCRfOGxMa5Qr5o7cKahYlEPIcVOfhZx0/3ePoPgRaZ6KJEXV6wXAZuD7+9L24oCuDg=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Mon, 03 Aug 2026 19:48:23 -0700</pubDate>
-            <sparkle:version>382</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi Review 0.2 (build 382)</h2>
-<p><b>Welcome to Asobi Review.</b></p>
-<ul>
-<li>Open the invite file you were sent (double-click it, or File → Open) and you're in the review — playing, commenting, and drawing with your name already on your notes. Without an invite you can still open media you've been given and review it on your own.</li>
-<li>Updates arrive automatically, like this one.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/AsobiReview-0.2.382.zip" length="38272224" type="application/octet-stream" sparkle:edSignature="3yiXEalPbnxjlsauymXJoqSGCDMk2IPl49xH+UM9SHErYPtfUXEF93ZzY1C3NnjCNbeIl90gZQZKRnAgAHjdDQ=="/>
         </item>
     </channel>
 </rss>

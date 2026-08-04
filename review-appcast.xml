@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Asobi Review</title>
+        <item>
+            <title>0.2</title>
+            <pubDate>Mon, 03 Aug 2026 19:48:23 -0700</pubDate>
+            <sparkle:version>382</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi Review 0.2 (build 382)</h2>
+<p><b>Welcome to Asobi Review.</b></p>
+<ul>
+<li>Open the invite file you were sent (double-click it, or File → Open) and you're in the review — playing, commenting, and drawing with your name already on your notes. Without an invite you can still open media you've been given and review it on your own.</li>
+<li>Updates arrive automatically, like this one.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/AsobiReview-0.2.382.zip" length="38272224" type="application/octet-stream" sparkle:edSignature="3yiXEalPbnxjlsauymXJoqSGCDMk2IPl49xH+UM9SHErYPtfUXEF93ZzY1C3NnjCNbeIl90gZQZKRnAgAHjdDQ=="/>
+        </item>
+    </channel>
+</rss>

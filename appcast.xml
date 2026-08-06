@@ -4,6 +4,39 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Thu, 06 Aug 2026 10:55:59 -0700</pubDate>
+            <sparkle:version>452</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 452)</h2>
+<p><b>⌘Z belongs to your markup again.</b></p>
+<ul>
+<li><b>Fixed: ⌘Z could crash the app.</b> Undo was still the stock macOS one, aimed at the text-editing history the system quietly keeps as you type in a note or a text mark. Once that history referred to a field you'd already finished with, undoing it took the app down.</li>
+<li><b>⌘Z now means "take back my last mark"</b> — every time, including after you've typed a note. Previously, typing anywhere in the app quietly hijacked ⌘Z away from your markup for the rest of the session.</li>
+<li>Undo inside a text field still undoes your typing while you're editing it, and the text mark editor now keeps its own history that ends when the edit does.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.452.zip" length="37271328" type="application/octet-stream" sparkle:edSignature="irm1P0zpBo3hJpYPARJBU9YXA9fl0BXh3+WIUjrzbitrTllDl77GaNklT9V6fExdYFAsn2B8AtjLquhz/I9UBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-451.delta" sparkle:deltaFrom="451" length="635494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dz5kwL5AMRQBRHmFA6udRpzoKzJ4ilYwDZ6KUkUIvYk3nvnDyPHop3SLXeSSX5CSuuHu58Jjh+JScCzwCFDzDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-446.delta" sparkle:deltaFrom="446" length="793478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s2vvs4m6Y5e9hkKEfDdUbv8HNUPePYOgcsFTB6lkVHD1PQozHUcX9yBemoJt//4EAR14vTFbpWWq+5WQgwK2Ag=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-444.delta" sparkle:deltaFrom="444" length="844018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BigPubISzAfLFR6UIDpohJFGwiw1sPdheTxM5gMJ4kpa0MN3reLYDOm151TkrmmCg05CS31Z1Eq9Avnc56IzBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-443.delta" sparkle:deltaFrom="443" length="852786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tY0i0/ac3K9Yy4grKTv5rA9ZZkCtF+IXvZCZdxk9MRENh6WgKoBDYKy9FYlHB/RYkr0FFAQ4V/BAoq5e2tp1AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-442.delta" sparkle:deltaFrom="442" length="846950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ajuSXWmJOaqTboUhS36X00Gqq8GXPqzxy3k8nCNUPmMiMlGWEv8WQh34LoEvcetgdpVpbCsgzC4ayp/ugOoWBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Wed, 05 Aug 2026 22:21:36 -0700</pubDate>
             <sparkle:version>451</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -65,37 +98,6 @@ p { margin: 4px 0 10px; }
 <li><b>asobi:// links open sessions in the app</b> — the daily record's "open in Asobi" is one click.</li>
 </ul>
 ]]></description>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Wed, 05 Aug 2026 20:06:32 -0700</pubDate>
-            <sparkle:version>444</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 444)</h2>
-<ul>
-<li><b>Frame grabs are sized for sharing</b>: high-quality JPEG by default — a 4K grab lands around a megabyte instead of six. Tick <b>Lossless PNG</b> in the export dialog (or save with a .png extension) when lossless matters.</li>
-<li>Manual: <b>"One room, every kind of seat"</b> — the recipe for mixing internal seats, remote Asobi Review seats, and browser seats in one session with one link.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.444.zip" length="37208102" type="application/octet-stream" sparkle:edSignature="6ZDsF6/BJgLSxHKGXwriplsIZlVOKWziDA/IFF9ryV5tRo+LiCoKKb7f9QA96RdX5EpKsrfAkP9jpmCBYARJBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi444-443.delta" sparkle:deltaFrom="443" length="344142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IuA3tu76KiFzU4wi5cH1Umg1ThgK0iyQwRK5NpBd1hzvIXHYc9/0f7CJG6w46cGs2COD62vJ2UosaYmRhqRtDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi444-442.delta" sparkle:deltaFrom="442" length="345922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lGUUzdXxyoDzduRTgdBmVoULy5V6cYWiU4ql38LpYDKd4dcJUVqGGhYsof16jS1ANBO1nB763Y2r2iP7cfTaCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi444-441.delta" sparkle:deltaFrom="441" length="725082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LSX5XHjIj081XynGimIewYSDbrVH+2bJfUDI2FMY4vtbCRAFuEpcrzRlbjvmvjqxCKp/zKvRaPPjqfPhlUljBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi444-440.delta" sparkle:deltaFrom="440" length="746882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vJ6pY/sSNyCVdR/vzGFBJTXyLjub6pWvEWV8JFOYB2ErLf3GlAS0NLAmRybGHpNO0/wKMT+P6cbwFvlBPWoHBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi444-439.delta" sparkle:deltaFrom="439" length="771338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LotLsHlAdCaLLQEUYSn3bPqnvh/cRBoCnj2rlMl2D85WHynkjT2bBuJefvoL/QvR3JnoL/L6D1l4FnMn41D3Dg=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>

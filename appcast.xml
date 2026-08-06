@@ -4,6 +4,40 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Thu, 06 Aug 2026 15:23:36 -0700</pubDate>
+            <sparkle:version>456</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 456)</h2>
+<p><b>Transcription works again, and session reels hold the right frame.</b></p>
+<ul>
+<li><b>Fixed: voice notes stuck on "Transcribing…" forever.</b> Asobi insisted on macOS's on-device recogniser, which has started reporting itself available and then never answering — with nothing to time it out. Transcription now lets macOS pick the engine and gives up honestly if it stalls. Your recordings were never at risk: they sit in <code>~/.asobi/notes</code> the whole time.</li>
+<li><b>New: Notes ▸ Transcribe Again</b> — re-runs every note whose transcript never landed, straight from the audio already on disk.</li>
+<li><b>New: Settings ▸ Notes ▸ "Transcribe voice notes on this Mac only"</b> for work that must never leave the machine. Off by default, so transcription keeps working when the local engine won't; on, and a stall says so instead of waiting.</li>
+<li><b>Fixed: Whole Session Reel froze voice notes on the wrong frame — and dropped your markup with it.</b> The reel has its own hold, which build 455 didn't reach: it stayed on the frame where you pressed record, so any marks further along never appeared. Reels now follow your playhead exactly as playback does, and your marks show while you talk about them.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.456.zip" length="37290305" type="application/octet-stream" sparkle:edSignature="DEglXoxvK9ANWdiwi1q0rA4Rdk4kFf1FGrBKk44/eeMSEEdUAWj6rqtxVnz4PVmgiMSZEYtv/Wbx5x16VPnoCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi456-455.delta" sparkle:deltaFrom="455" length="627034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xWONCA1o1Zuh/MuASIjpkBucfVv11OY0WzQdtbeSgd5LDfXD8DyO37kuKm8//GW+7FZKO5BLOEz7KsUfbaWvBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi456-454.delta" sparkle:deltaFrom="454" length="712018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Scf8iUtrEo504FLfZNg10o0D6wOvt/1f/0w6dh8qNiw9qXurK2oUO4FX7CTPvs1UNn9yu32RmpNfz75dWlCPDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi456-453.delta" sparkle:deltaFrom="453" length="706426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t0aMVS+ZiK1y8uaedmVAPe3jxByTcFqF4kDWApCF0j8MhZiflB0R0a0AQ0xq8hJ8J1A5taIrkgORqOKiV92WBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi456-452.delta" sparkle:deltaFrom="452" length="738394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ADKDt/efkYH6EoMKMiLZI2ECyXH8BkquOnthIyOaXCYRL7dcaoaiKKSWd3tZxy1gS7NuhF4BxtQ03RT2xM7aBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi456-451.delta" sparkle:deltaFrom="451" length="777022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KfNKYQQLU4q35YB9hgnYJK7JvE/TeE7OTPuooIiq1dEmxeeq5CfoGK2gySu52zkifB3wUPMyr2tMExX2i4uXCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Thu, 06 Aug 2026 13:07:31 -0700</pubDate>
             <sparkle:version>455</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -64,38 +98,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi454-451.delta" sparkle:deltaFrom="451" length="641370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SjF+8tjxudynwBKZkK7j+/FX3GCnZL+XsfwqAeWcG7YJ5KWf78RLscyB/iZzG/qJ6ZMsxqR7Fv3DAAHGYX+XAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi454-446.delta" sparkle:deltaFrom="446" length="821358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tytcLlDmYDYP/BBQzsm1po/TpEpsMqOZCrn9F3g+XMBfx1ejkUBe63eA/4A3A54XUopLG7/aFIvJcQxK112XAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi454-444.delta" sparkle:deltaFrom="444" length="860486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Sr7aayUeIpVnznV9JsyBbpDlbVOglqWMuUrjSuUlV4WgFlUk7ukSOVomk6n+8fURr4h31CnEaeJXycNXvxjPDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Thu, 06 Aug 2026 11:13:56 -0700</pubDate>
-            <sparkle:version>453</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 453)</h2>
-<p><b>⌘Z while typing a text mark.</b></p>
-<ul>
-<li><b>Fixed: ⌘Z did nothing while you were typing into a text annotation.</b> Build 452 stopped that from crashing, but left the key doing nothing at all in the one place you'd most reflexively reach for it. It now takes back your typing, as it should.</li>
-<li>Undo and Redo stay live and decide what they mean at the moment you press them: your typing while a field has focus, your last mark everywhere else.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.453.zip" length="37267922" type="application/octet-stream" sparkle:edSignature="kRBhtg9KoLtRopdKRLfVfI1GVHVoD2kksn8P+fBrIeQVPcOUmSvL6MK4hSsJFKFs0wUdXkVzM9Tuq2IxBVSqBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-452.delta" sparkle:deltaFrom="452" length="489202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RcFS3zK9UGqb1RtP1aPaibQGLTKrW7qIOwrluf2ZrV7PtB0f3fVVlmxJ7x4pkVt2WIZhAURtlr/xkl2i7gDLCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-451.delta" sparkle:deltaFrom="451" length="671274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U0SkhNxeoQGXpiPJcwvIbgDMQ/oCfF8aqegD4gmbY1L/PtKfLR0JxZaGvbu6HUqnYPa0Vsc56pNCUs5rUYj0DQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-446.delta" sparkle:deltaFrom="446" length="804950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nllAT9fVZE/duJNxqzAVYDWJ0fSYuQ3RNPi2f7ZlWk1MJgLcPhQMSeROqPZQhtBPxrAuRoY0Gd6cCjnOAgqxDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-444.delta" sparkle:deltaFrom="444" length="862762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q3YcS/qP7omdjrvTJH8ZZM+GP9gPge2ErCaNoJHBBUFUXjpjYkvAHgbPTbFwLDKBOswu0a7vj6yoOzksOBnKCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-443.delta" sparkle:deltaFrom="443" length="863722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bP2KG1d0pzQ1thn1ElKCwjMi5mm2/P7LnreAkfAdDX1QMwTWBj2yA8EEvq2V41r0t8dYz5yQAZzBMyMDNxkzDA=="/>
             </sparkle:deltas>
         </item>
     </channel>

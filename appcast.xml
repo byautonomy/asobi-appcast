@@ -4,6 +4,38 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Thu, 06 Aug 2026 13:07:31 -0700</pubDate>
+            <sparkle:version>455</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 455)</h2>
+<p><b>Exported voice notes follow the playhead.</b></p>
+<ul>
+<li><b>Fixed: voice notes in exported QuickTimes froze on the wrong frame.</b> The export held on the frame where you <i>pressed record</i>, not the frame you were talking about — so a note where the playhead moved while you spoke landed short by however far you'd travelled.</li>
+<li>The picture now follows your playhead exactly as it does when you play the note back in the app: if you scrubbed while talking, the export scrubs with you and ends where you ended. Notes recorded on a still frame freeze as before, and subtitles are unchanged.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.455.zip" length="37271548" type="application/octet-stream" sparkle:edSignature="enhi6gVErKsnliS9ptZ2tok04BNHtBRNMm5z3shlTNB9STr4YP05VweTpdbOGt7KXbou0fR18hhIAkvpnNpKAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi455-454.delta" sparkle:deltaFrom="454" length="396578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KrqP6oPjork68K4RwvND+dzn4bcbds+QNgnyPoFpv0WV+mMRocVBJqIK3Sy83wENwH7lhieAfgb8En2dG04UDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi455-453.delta" sparkle:deltaFrom="453" length="412702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GJwuMlNxETR4GjiWhT6YOoaKEMxqN2/ujoDyZSvH3bUmPhKdrDHlzsaGpUsWxyEXFpYpPXKKSbcLx6FmNkeQBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi455-452.delta" sparkle:deltaFrom="452" length="466314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZH6n/HyZ/+Zj5z8PBdYwjm51Uc+dSyPo1B60QBQSuj3guWw1Q0OIdsziXr8B+57jMSsIu3eIJYUvNtj/qvXcCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi455-451.delta" sparkle:deltaFrom="451" length="696630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LU755AoklUy2XT4axhgKb8WY67ElMju0byJTaclMebqPV/97xV4IglQ3gkDw3u6pjurfYgYv780E+WkAmQmxBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi455-446.delta" sparkle:deltaFrom="446" length="864354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U4N+ZOiGRhAaQD9odTiaDUltfxOw8/0r3/0qTsIZ+uOpDIdpiKtmJxA5Jg91U2byWACVe71YdO1kQY7//GlPCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Thu, 06 Aug 2026 11:30:35 -0700</pubDate>
             <sparkle:version>454</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -64,39 +96,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-446.delta" sparkle:deltaFrom="446" length="804950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nllAT9fVZE/duJNxqzAVYDWJ0fSYuQ3RNPi2f7ZlWk1MJgLcPhQMSeROqPZQhtBPxrAuRoY0Gd6cCjnOAgqxDw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-444.delta" sparkle:deltaFrom="444" length="862762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q3YcS/qP7omdjrvTJH8ZZM+GP9gPge2ErCaNoJHBBUFUXjpjYkvAHgbPTbFwLDKBOswu0a7vj6yoOzksOBnKCA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi453-443.delta" sparkle:deltaFrom="443" length="863722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bP2KG1d0pzQ1thn1ElKCwjMi5mm2/P7LnreAkfAdDX1QMwTWBj2yA8EEvq2V41r0t8dYz5yQAZzBMyMDNxkzDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Thu, 06 Aug 2026 10:55:59 -0700</pubDate>
-            <sparkle:version>452</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { color: #e6e6e6; }
-}
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 452)</h2>
-<p><b>⌘Z belongs to your markup again.</b></p>
-<ul>
-<li><b>Fixed: ⌘Z could crash the app.</b> Undo was still the stock macOS one, aimed at the text-editing history the system quietly keeps as you type in a note or a text mark. Once that history referred to a field you'd already finished with, undoing it took the app down.</li>
-<li><b>⌘Z now means "take back my last mark"</b> — every time, including after you've typed a note. Previously, typing anywhere in the app quietly hijacked ⌘Z away from your markup for the rest of the session.</li>
-<li>Undo inside a text field still undoes your typing while you're editing it, and the text mark editor now keeps its own history that ends when the edit does.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.452.zip" length="37271328" type="application/octet-stream" sparkle:edSignature="irm1P0zpBo3hJpYPARJBU9YXA9fl0BXh3+WIUjrzbitrTllDl77GaNklT9V6fExdYFAsn2B8AtjLquhz/I9UBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-451.delta" sparkle:deltaFrom="451" length="635494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dz5kwL5AMRQBRHmFA6udRpzoKzJ4ilYwDZ6KUkUIvYk3nvnDyPHop3SLXeSSX5CSuuHu58Jjh+JScCzwCFDzDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-446.delta" sparkle:deltaFrom="446" length="793478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s2vvs4m6Y5e9hkKEfDdUbv8HNUPePYOgcsFTB6lkVHD1PQozHUcX9yBemoJt//4EAR14vTFbpWWq+5WQgwK2Ag=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-444.delta" sparkle:deltaFrom="444" length="844018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BigPubISzAfLFR6UIDpohJFGwiw1sPdheTxM5gMJ4kpa0MN3reLYDOm151TkrmmCg05CS31Z1Eq9Avnc56IzBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-443.delta" sparkle:deltaFrom="443" length="852786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tY0i0/ac3K9Yy4grKTv5rA9ZZkCtF+IXvZCZdxk9MRENh6WgKoBDYKy9FYlHB/RYkr0FFAQ4V/BAoq5e2tp1AQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi452-442.delta" sparkle:deltaFrom="442" length="846950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ajuSXWmJOaqTboUhS36X00Gqq8GXPqzxy3k8nCNUPmMiMlGWEv8WQh34LoEvcetgdpVpbCsgzC4ayp/ugOoWBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

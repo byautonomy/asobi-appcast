@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.446.zip" length="37213593" type="application/octet-stream" sparkle:edSignature="f7Ie7cXGicgltkMtVmph18+l0W3ul57LP8Yaiokuts71zf6tR/3UmnVZ49i/UAGpCAx5MCp01mAQWZt+69YIDQ=="/>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.446.zip" length="37213571" type="application/octet-stream" sparkle:edSignature="AWU5EthM0Ct4P24F4Wg0bYeJlyB1WMdBx/BL32URl8Gc0EkDL8HECsx/TZ3yvji59IDbR+G9ngkynQNa1iJ8DA=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi446-444.delta" sparkle:deltaFrom="444" length="550442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N0a2vFZjbUEGVKEmP5SbWNiKC4d3GgSf6MyqFD0iYhISAewMIFCs4tkaaCMyy25ioouhvLimwRN+fCvLliKeCw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi446-443.delta" sparkle:deltaFrom="443" length="563486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LrJSvP1lHSDmfAIRw2/35PLKXzIg42nfLFGkcY7J11v+EVlN1AqlaHR+K7yWA7TqsFQmVozWUGLxaz5Fp2RJBg=="/>
@@ -17,6 +17,22 @@
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi446-441.delta" sparkle:deltaFrom="441" length="775250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bm6C96N8OvPa0v/LeJLy4JZqrY6FBed0zf3EOm61qWTilJclIpCLUWbnzcT5F3WBWVoZg9H7+sb3MURR1VZRBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi446-440.delta" sparkle:deltaFrom="440" length="808382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="803CGnrbm1RREdQfhno2DEM6zfVsw76a4FRZ1f6IfJtLD6JFXJu92P0x8hmCnIssxJAnz0TCVzg8HW/6hVfbDg=="/>
             </sparkle:deltas>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 446)</h2>
+<p><b>The session that's always listened to.</b></p>
+<ul>
+<li><b>The studio watcher</b>: turn on Settings ▸ Sessions ▸ "Register shared sessions with the studio watcher" and every session you host gets an always-on seat that records notes, voice and marks around the clock — even when your Mac sleeps — writes a session file you can open directly, and sends the production a daily record. It appears in the peer list as <i>Studio Watcher</i>, because a recorded room should say so.</li>
+<li><b>asobi:// links open sessions in the app</b> — the daily record's "open in Asobi" is one click.</li>
+</ul>
+]]></description>
         </item>
         <item>
             <title>0.2</title>

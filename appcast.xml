@@ -4,6 +4,37 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 07 Aug 2026 14:37:01 -0700</pubDate>
+            <sparkle:version>481</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 481)</h2>
+<p><b>Switch optimized media off without leaving the viewer.</b></p>
+<ul>
+<li><b>New: Playback ▸ Use Optimized Media (⌥⇧R).</b> A checkmark toggle for A/B-ing a stand-in against the original without hunting through Settings.</li>
+<li><b>Fixed: turning optimized media off did nothing until you changed clips.</b> Whether a shot plays its stand-in is decided when the shot loads, so flipping the preference — from the new menu item or the Settings checkbox — left the current shot exactly as it was, which reads as a dead control. It now reloads what is on screen and says which media is playing.</li>
+<li><b>Fixed: the View menu changed shape while you were reading it.</b> macOS injects "Show Tab Bar" and "Show All Tabs" into that menu and withdraws them again when the eligible window changes underneath, so the menu visibly got shorter a moment after opening. A review window is the session and merging two of them into tabs isn't useful here, so automatic window tabbing is off — nothing is injected, so nothing can be withdrawn. Full screen is unaffected (⌃⌘F).</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.481.zip" length="37490657" type="application/octet-stream" sparkle:edSignature="h6jMXRPYDIGMrk+xAMDhDEFE65/8ci1Oy4pUAXjaXLnNcP81V+f+3oorfTRiRZxOKzurzPLOpR99TKq/5jz0BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi481-480.delta" sparkle:deltaFrom="480" length="533910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nH0DFamixcqnEjha0mRmQnTeEZRNd6v3yQh7DLZpF37EPY+d9miUaE9mYeHuL83a61rqsHB6gSkOSNpVQdHHBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi481-479.delta" sparkle:deltaFrom="479" length="682726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xe7tWA6k+gw5BdEKucP7TnevFeefbtsqoYPqMKjs+Vr7gI3RaF90xy4/TyXleszOEXKo2TZOCQy9WDRwr9xIBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi481-478.delta" sparkle:deltaFrom="478" length="684666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pBkuivEHgSFqraubYQGJpZ6t9oM+GSfViYCcHQf1Ua57wjV9Ym7PgZJQN/jR08tpBHsGOZVeAxbNBrpBEZnZCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi481-477.delta" sparkle:deltaFrom="477" length="674122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NLl+h1O80aPqT36sgq8PpcLc/iWtfGb7AX982r2sgm9WGk3WkDD/rW/RLJxxTqr3xAPwUYOtsXmxWNetSRfoDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi481-476.delta" sparkle:deltaFrom="476" length="718802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bO8IIe49/K5XuseUxVEh8QQlE6vJBI/xmqTrjFYAsZiEBLSTH8+LP0A03BUQccBHjBVzPvUXf1ppxqiAGmywBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 07 Aug 2026 14:13:15 -0700</pubDate>
             <sparkle:version>480</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -64,35 +95,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi479-476.delta" sparkle:deltaFrom="476" length="471050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xvgGYhuFaT75ElHARXrGAoY2t07F5UNmGAPVjKd1DalRKRVHNn+A+M1sJzPjOChCZsDY2r+dSimnOm9BA6jDCg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi479-475.delta" sparkle:deltaFrom="475" length="561742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IEfmZPN1r7RmUyyDI6LFfzgyITk1ZaTC+u/n6uRY3gzbbi9vGdSW5n8eIlfphm/MxZQI1saC8HgmI0LYrAr/Aw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi479-474.delta" sparkle:deltaFrom="474" length="620578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A4GDMTwxBvh35fO792NZ7JcvtzihhGS1TejIkm9uEDUa9zlvsu5XM7zaCiIup1E9P9EzbWcSo1ZzO09Jl5HvBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 07 Aug 2026 13:11:48 -0700</pubDate>
-            <sparkle:version>478</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 478)</h2>
-<p><b>A taller playlist shows more shots.</b></p>
-<ul>
-<li><b>Fixed: the floating playlist ignored the window height.</b> Widening it worked, but making it taller just added empty panel above and below a five-row list. The list now takes the height it's given — a 13-shot conform fits on screen at once — and the content sits at the top instead of floating in the middle.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.478.zip" length="37489892" type="application/octet-stream" sparkle:edSignature="kjTgnra4E2FDY8DSdeuQQMU32DozpofFNpKBpxNoUOBxGd0zlJmZ7YXkQJJ2NLtzk9BO0pYdL4iLP4x9LqgSBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi478-477.delta" sparkle:deltaFrom="477" length="231422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h7ZxsB7cvqpei8yfeeJRpu2FTnvUgPxRzVit6IzuR60VwPoxYkpfdOLsJhZ8kOHrvc0usnXRLXdbDLBSmN8zCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi478-476.delta" sparkle:deltaFrom="476" length="470162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6QYusrFZ37N9j7nEo69qTV6/Uuc4Clu4ssaDf77gsXfRpUs/36oUDqE4p6blVVAtz31H5A8aAGBObItRD7SjBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi478-475.delta" sparkle:deltaFrom="475" length="562446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ypaRZIi5HnoS66eUl12EYG5uDVXYQy9ZvWPoKz2B51XSF/dU5hKaHz1FtphkqYrxGyFRH1dl7fF7c/Hs8Sv5Cg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi478-474.delta" sparkle:deltaFrom="474" length="627518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EzPP2mKNhKO+XiwoSR3DUn7CkSG+/l4Fm1tL7qNV7bkQeh/zlJHVcxryD2XO1w7qxZgYwa64aAIYx0MiQuS5DA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi478-473.delta" sparkle:deltaFrom="473" length="723866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OOgAHeO0YJ/QxWYEC73PuH7+RVOk84UTqStzKZIqZqiHW1ZmUbqMdyWZSEeETrKGn74xlY1VSDOPn02rXRQuDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

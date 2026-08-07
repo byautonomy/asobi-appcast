@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.464.zip" length="37299961" type="application/octet-stream" sparkle:edSignature="k0AHonGmh9F7+l3ieHiBSrUpJWnJ/tjHLGWXaxanap8m8OBuoqlXlMvQ4DBrzejbPzH3t3fQJ7cjaDglxGQTAA=="/>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.464.zip" length="37299981" type="application/octet-stream" sparkle:edSignature="+UZMO73IlJSp/tbr3ZGvJYAG7deOzbpHXiszymGiVgwWcgSFzVD3HW88w3NhXrmb6otnvn/0ykWA9CzcPLd2CA=="/>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi464-457.delta" sparkle:deltaFrom="457" length="613038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S7RtRn5DXTsycpIE4aCmGBkUsOpQ0jyXhxu7kjx2NWgjMcrjUAj2cH9dF7N/tKczCrrWzWjqRu58QvYH/+U7DA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi464-456.delta" sparkle:deltaFrom="456" length="776730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e3Pw7kgKOVC5KmmLtliRNW+0shCtTdU3V6HBSO9YOA27dT/mLvvKyMYSyFTTR8AyMyw6CUKGz0U6VtAY2/v4Bw=="/>
@@ -17,6 +17,24 @@
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi464-454.delta" sparkle:deltaFrom="454" length="882786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7d4wx80yL9o2jYxj2dxRwai9ZvmSgXhHDY8GWUeZvqOCMIqKJcr5+900Io+9YAb6uO+9EFBh03QINsokboU7AQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi464-453.delta" sparkle:deltaFrom="453" length="885942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cGtxrbu3jk108qm8C16jxq0EkzcWOfAiNzpCv1K8+mhXTUBnKt/Mv7ePfJ7FrBi7y64qYWysHYYG73su2HctAA=="/>
             </sparkle:deltas>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #e6e6e6; }
+}
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 464)</h2>
+<p><b>Missing frames are shown, and no longer renumber the shot.</b></p>
+<ul>
+<li><b>Fixed: a gap in a rendered sequence silently mislabelled every frame after it.</b> A sequence numbered 1–20 missing frames 11–13 loaded as 17 frames, and the readout said <i>f 0011</i> while showing frame 14. A note about "the artifact on 11" was really about 14, and burn-in exports carried that wrong number to the vendor.</li>
+<li><b>A sequence now spans its numbering, not its file count.</b> 993–1042 is fifty frames even when three never rendered, so the frame you see is the frame Asobi names.</li>
+<li><b>Missing frames say so</b> — MISSING FRAME and the number, white on black, in the viewer, in frame grabs, and burned into movie exports and reels. Drawn after colour management, so it reads the same white on every setup.</li>
+<li>The clip title says how many are missing, so you know before you scrub. A frame that arrives later is picked up on reload.</li>
+</ul>
+]]></description>
         </item>
         <item>
             <title>0.2</title>

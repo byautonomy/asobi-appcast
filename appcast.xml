@@ -4,6 +4,38 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 07 Aug 2026 16:52:52 -0700</pubDate>
+            <sparkle:version>486</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 486)</h2>
+<p><b>Each shot's stand-in is encoded through that shot's own color space.</b></p>
+<ul>
+<li><b>Fixed: optimizing a session encoded every shot through ONE color space</b> — whichever the shot on screen happened to be using. Not all EXRs start in the same space, so this was wrong in principle; in practice one stray value baked a transform from the wrong space into all twelve stand-ins at once and clipped their highlights. Each shot now encodes through its own pinned space, falling back to the default for its format.</li>
+<li><b>A stand-in encoded from a different space than its shot now declares is treated as stale</b>, exactly like one whose source has been re-rendered: it stops being used, the playlist stops marking it ready, and re-optimizing replaces it. Stand-ins made before this build that were encoded through the wrong space will drop out on their own — <b>re-optimize to replace them.</b></li>
+<li><b>New: quitting with unsaved changes asks first.</b> A session lives in memory until you save it, so quitting used to discard per-clip color spaces, grades, marks, notes and trims without a word. Cancelling the save panel now cancels the quit rather than losing the work.</li>
+<li>Settings ▸ Color ▸ Looks directory has a Choose… button, and its field no longer wraps its placeholder into three lines.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.486.zip" length="37519613" type="application/octet-stream" sparkle:edSignature="1Yijb+9AmqTaaNccEE/BQRFTW5ee2MnbjhH/J9ZQmIVsk/giaV8qUmz8QwRTsmsuUuoSctwKIwH6gmt2U8+gCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi486-485.delta" sparkle:deltaFrom="485" length="631734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gVdxe89qN1YMSH2qnhthHAep3KkoqP7iEeGvgGVcep6XWIGxgYRFFAp9nmJ2X5NZpMKCjrZZU1q1lgpN2qgFDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi486-484.delta" sparkle:deltaFrom="484" length="655982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IyEd0knGvVUxrk9PgngeYRc6i4bIPbBEShUQFioWzIfFHIjAsCkUf/Ab0q1o+0Cz3ukPQsVA6u05N7riWmg4Cw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi486-483.delta" sparkle:deltaFrom="483" length="698682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iGSkdPUBBiz2DZQ1omL0OPjEVvWM4ltVEFNVhpbi0SvxBWf8vPLo1sAkB6g08tcrhVoWQncnBjtLiClg+FWDBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi486-482.delta" sparkle:deltaFrom="482" length="698934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o97rm/HSv1W1lPzxVVJRot1gGo2CXXDxEe2V8JA2nj7HARSb9HglSiD6E/mF/vtDXZR1w/2cMPaPv61gpYeTBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi486-481.delta" sparkle:deltaFrom="481" length="769458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="my9AieKWHGDrBk9WlhPkANadDrEFfgEFkhN2xHz0I0AqniHJdeldIuqQkwNso/HnHpXHjH4ZYFxFCcivhdCFDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 07 Aug 2026 16:20:05 -0700</pubDate>
             <sparkle:version>485</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -61,35 +93,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi484-481.delta" sparkle:deltaFrom="481" length="693398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6EYZH7JF1hveCKteul2WN2+apITjuCHrTA4s0lQ5qBszklMh015tmGgbQp3Gm4M/MPmNWtgzIiJjt01/14xGAQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi484-480.delta" sparkle:deltaFrom="480" length="768758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Ki1T2zxTj80Dsf3+SAQeXJWl3VNeUcoB6kWTJx8aAtk8u6qnhp02Nhn6lHDHiPiTiyyG+vvD1jv2LDumursAw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi484-479.delta" sparkle:deltaFrom="479" length="828706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bW7opzcnh53UQbg2laTiULOH2BUBLZstOy0CAkpArAlL5jG2KSEc4uVH11gwp7W1KBXztf0D7vwDGsv+7caSAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 07 Aug 2026 15:28:22 -0700</pubDate>
-            <sparkle:version>483</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 483)</h2>
-<p><b>Saved color spaces survive a change of OCIO config.</b></p>
-<ul>
-<li><b>Fixed: a color space you had chosen could be silently ignored after switching configs.</b> Asobi checked a saved space name against the config's list of names before using it, and that list holds only each space's canonical name — so a name saved under one config ("ACES - ACEScg") read as missing under another that calls the same space "ACEScg" and merely accepts the longer form as an alias. The saved choice was dropped and a default used instead, with nothing to say so. Every place a saved name meets the live config now asks the config to resolve it: <b>per-clip spaces, per-format defaults, the B side of a compare, LUT layers' declared spaces, grabs and exports, and the space restored at launch.</b></li>
-<li>This is the same fault fixed for optimized media in build 480, in the eleven other places it lived. If you have ever set a clip's Input and later found it back on a default, this was why.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.483.zip" length="37503403" type="application/octet-stream" sparkle:edSignature="rbSmwGZkJNxc34SkfqqSDDYJILg3kcbAI0SxWA8l2Dh32zhlnyNO+CGdyZw2kwOxIfXP6qAbV0gX/s6YqcKoAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi483-481.delta" sparkle:deltaFrom="481" length="658446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xcvIQbCIdIDk8SY4Mdx4cm2N8l1wUiyBRacA9gk4eW3rSA0anP7/E0WPjVSw2QMynrHL2MVmEWEwz6zdibfsDg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi483-480.delta" sparkle:deltaFrom="480" length="740386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MRnRfg+swlXYPXhes2CmH/MHdpbViyPbsdM9N89mT6Ty7yINLuerjOEfO+81MeR1QJJUWbftzvj9G/9N261VBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi483-479.delta" sparkle:deltaFrom="479" length="813074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6qKCnHfYIIxA8QtHPPhuNJxCFPtnmSezuiPTS2KZe9AZVUU85s4pTPgVHNUHESB/84VcpwU0IPPY5/xYhlywDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi483-478.delta" sparkle:deltaFrom="478" length="815214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MH1RC118iOO13zWBmSlbX2LaqviY9M4BVGj2Br6pjyW0QKQ9zn35mNA9IAJz6HuS9Q7es6eMoZ8XOGxR4c+OAA=="/>
             </sparkle:deltas>
         </item>
     </channel>

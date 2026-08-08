@@ -4,6 +4,36 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 07 Aug 2026 20:12:42 -0700</pubDate>
+            <sparkle:version>490</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 490)</h2>
+<p><b>Quitting knows what you have actually saved.</b></p>
+<ul>
+<li><b>Fixed: the quit prompt appeared after you had just saved, and choosing Save didn't quit.</b> The comparison that decides whether anything is unsaved was being made between two different snapshots of the app's state, so once you changed anything at all it never agreed with itself again — the session read as unsaved forever, and Save could never satisfy it. Only Don't Save got you out. It is now computed from the session itself, so both sides of the comparison are the same thing.</li>
+<li><b>Fixed: moving between clips counted as an unsaved change.</b> Saving stamps the current shot with the live loop range and rate, so simply changing shot moved that stamp and looked like an edit. Only your actual work — color spaces, grades, marks, notes, trims — counts now.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.490.zip" length="37541046" type="application/octet-stream" sparkle:edSignature="hSXld5RXiRY1sQglre0TQNyKaaFBJVDJTwOK+WojqhjpKw55bMv+9j9QuO88PNcG5Ir/WVbx9ZoKepfLLvrsBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi490-489.delta" sparkle:deltaFrom="489" length="419238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Rsor1rFfgQoXEQ02tvG/GECq9l6soIFjt+X7SA88HrAnoyeRV3sgQq+hcZ0/JBAs2ZqVl1RL4IGyh22bVk5GCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi490-488.delta" sparkle:deltaFrom="488" length="654090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3hGaAhXToTmrJiDNZqeX6lp7VoBW7o4ac7YtC12Npu8tCAZdRpPlgkyFRCG4jIxpltB2xpmKEM0r+wieQN/kCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi490-487.delta" sparkle:deltaFrom="487" length="694290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YKHh6sy/U8EJXCBzYE5gL7mc/0trUt8MLPh9kzHELmckFI1etRp548pGPU+B07QDzl1AewCj5azjYQUrUc8aAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi490-486.delta" sparkle:deltaFrom="486" length="752378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HCr+d9UnqDERTkpPIJv3pnzL4Kr2aNUKT1qD05fKMrE5R+XyItPt5wWX3KZCjPO7DskyYZHoTG+U4doBNOcFBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi490-485.delta" sparkle:deltaFrom="485" length="810718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mzbZzz7plhAATFRbKdPWeEQfguxQk5ypIsLViC/PBfSe+zLBbq/50Yna3+SvybNYKzf7AM9LIsFceywh5oc+Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 07 Aug 2026 19:23:39 -0700</pubDate>
             <sparkle:version>489</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -61,39 +91,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi488-485.delta" sparkle:deltaFrom="485" length="756582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="csqlno0Ik6cOo4Sxp5ACR1wDdNXhUMP8hPo/V5uvq3U7d/5OYOqaN3+ysUJLw+JW+eS59O/W4n5zlFR9oh+gBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi488-484.delta" sparkle:deltaFrom="484" length="745662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qDVeXB80AZXB81apcKe+Qr6E9UDAjKhVwdukVpLE57aW2y3C6O7khq+GqhZUTQUfhCDqieGPGpKlvHiLpRJfDA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi488-483.delta" sparkle:deltaFrom="483" length="782906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CuIfVVZoVZyINPl0QcULZh+TRSFu/+w0Xi3hD4y7l6EbpNqjEtzS3yIxp+Td1zDO1QKAVAAzK1XM4cI28XbtCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 07 Aug 2026 17:29:42 -0700</pubDate>
-            <sparkle:version>487</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 487)</h2>
-<p><b>The Input menu no longer changes clips' color spaces behind your back.</b></p>
-<ul>
-<li><b>Fixed: the color space menu wrote back when Asobi changed the space itself.</b> Moving between clips sets the Input space for you — and that counted as though you had chosen it, so it pinned the clip you arrived at to the space of the one you left, and left the label disagreeing with what was actually being decoded. That is why the settings could look completely wrong and then turn out to be right the moment you touched them: touching them wrote the correct value at last. Choosing a space is now the only thing that sets one.</li>
-<li><b>Fixed: saving a session overwrote the current clip's saved color space</b> with whatever the viewer was decoding — which, while an optimized stand-in plays, is the stand-in's log curve rather than the shot's own space. Saving quietly changed the shot you were sitting on. A save now only fills in a space for a clip that has never had one.</li>
-<li><b>Optimizing is a queue.</b> Asking for another shot while one is encoding adds it to the back of the queue instead of starting a second encode alongside the first — previously both ran, competing for the same GPU, with only the newer one visible.</li>
-<li>Settings ▸ Color: the OCIO config and Looks directory fields are full width with their labels above, so a long studio path is readable instead of cropped.</li>
-</ul>
-<p><b>Worth checking:</b> a clip whose space was changed by the first bug keeps that wrong value until you set it again. If a shot looks wrong, set its Input and save.</p>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.487.zip" length="37527308" type="application/octet-stream" sparkle:edSignature="bqVFRdDDbSLzwASpnYUyIS+oUL8wlCvzm/4+XUFIVbT+XJKKqYnQP36uCutx75xLQGLfpBOJnTK7v8uFC+jPDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi487-486.delta" sparkle:deltaFrom="486" length="623014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="77weU01PA2GYCgXWZWImMC3VChTIwSt39pDIXnyiijc6r6/q/QBHFdVEwkEtB87eT9mqUZzckrYdyXPFGDPXCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi487-485.delta" sparkle:deltaFrom="485" length="696590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7c1YEoqoQHnTqDbhaZYa1+o9iWTpVLvzaPAzYFN/gZ+VBsq5MxeVe1ijRlIBB7VaxFmpNfR8AuDFl2nl6guVAg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi487-484.delta" sparkle:deltaFrom="484" length="702486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jbmc5YInJ7/LHOv03OzN3n9wTFUMMXQ2KM9Y7tZpiZbzplknukzgz379IVZyWAdUzsyJ/7YUbq9GlGNsX3iAAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi487-483.delta" sparkle:deltaFrom="483" length="722294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B6kqxtmTao0UOgOnfHWn87w4qeDUMbTJ4bhlRPvOmoQ7lHpjuCiRHtlOPUsq8KalREYosXJ/Vj13Dtuu+ileBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi487-482.delta" sparkle:deltaFrom="482" length="743402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5nIOx38gb0znu03C7s1lcM5LS4qYfn+pMQZ6G2+fIn7e9DXAIfqcxVJ5WW2kerfhCw9udLQh8puXCbNBDfp6DQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

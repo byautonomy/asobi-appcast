@@ -4,6 +4,38 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Sat, 08 Aug 2026 07:15:50 -0700</pubDate>
+            <sparkle:version>494</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi 0.2 (build 494)</h2>
+<p><b>Print-film looks now apply the way Resolve applies them.</b></p>
+<ul>
+<li><b>Film Lab looks apply after the display transform</b>, on display-referred picture — the standard placement for a print emulation, and how a 2383 PFE sits in a Resolve node tree. Previously the look ran before the tonemap, in scene space, where everything above diffuse white fell outside the LUT's range: 2 stops over and 4 stops over both flattened to one value, below diffuse white. Measured now: highlights stay graded and monotonic at every strength — 2-over and 4-over land at distinct values with the print shoulder intact.</li>
+<li><b>Strength blends cleanly at any setting.</b> Halfway between no look and the full print, instead of blending against a clipped image.</li>
+<li><b>Looks will render slightly differently than before</b> — denser, more print-like in the mids, with highlights that keep their gradation. That is the placement change doing its job; recipes and saved looks are unchanged and re-render through the new placement automatically. Look chips re-render to match.</li>
+<li>This applies to Film Lab looks — live and saved ones (recognized by the recipe file saved beside the cube). Library LUTs that declare their own working spaces (camera-log print LUTs and the like) are already in their right place and are untouched.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.494.zip" length="37544232" type="application/octet-stream" sparkle:edSignature="bpGa1ZSW014aZLuZCwM+39+d1bYpy/ZiXd8VhmJZ6TyqCMAVv512+VhAQNXqJAvi+gSQJtn9/7Ks0XDx8CmTDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi494-493.delta" sparkle:deltaFrom="493" length="460286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ASRpboeK1aEPJOL6P6jLCnyBUPMEGSAvAkAGKpMlyLxBB6iWovCnA03gBjIB1nMMmSI5xdNQ8K079bvKJYF+BQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi494-492.delta" sparkle:deltaFrom="492" length="487870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h7+I+2FXp59CEiNwcWOo4tl5zDJ8hMPOa5flO1gVsoBA1Pv+06Dl6F1x3m2qxBLTADJJJDa+KObSW0bmGAZxAg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi494-491.delta" sparkle:deltaFrom="491" length="520594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qRHbeHJUx0mbJKElh5Be4WHWC1XCs+0oiTx/oVwgXnbeyIH/hdGodoCQ/3k6LNjjZ0nsLLtXtcL6UU/4vtACQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi494-490.delta" sparkle:deltaFrom="490" length="582794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bi6KK2WOB3K0e7k7Vn1nHKMUotP2L7Qg6IdcONXhRPSq18N61zrCZX/40qZZyFyROSwrcMV8/mV33y17K5UBAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi494-489.delta" sparkle:deltaFrom="489" length="574558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JXoOZ9Mmdj2D65DnxmmIt2+M0gQ7pxSjrrHBHAO6wczXnRMcgWZI8q4YfaKcPA4FftZnYyAeg3v19MURULCjBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Sat, 08 Aug 2026 06:48:17 -0700</pubDate>
             <sparkle:version>493</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -62,36 +94,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi492-489.delta" sparkle:deltaFrom="489" length="523762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NwOZvS7B+NMbc0vcofW4lsh37Fn+5Dtkwy/amrghHErFwTy9a4HbzuaC51LhElqi4wqV0l4umtiTjXmLmyTiAQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi492-488.delta" sparkle:deltaFrom="488" length="668614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qTjoBCBwD7hCmtL/jHvGRbq7RaSF0sMuxV433P2oF3hAnMZ26xDgJBq7WfUPHntn5zi61lSZrODK8nJnwQb/CQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi492-487.delta" sparkle:deltaFrom="487" length="714386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B7TPpqf0UwgD45JOBkTe47SX1KIozHeiy5ImfPZEcplIkzRiwiabaPdPGcPMl1HLrhe9sSs0W86UOXYA97OFAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 07 Aug 2026 21:24:53 -0700</pubDate>
-            <sparkle:version>491</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi 0.2 (build 491)</h2>
-<p><b>Session reels are about half the size, for the same picture.</b></p>
-<ul>
-<li><b>The whole-session reel is HEVC now, not H.264.</b> It was fixed at H.264 and a bitrate of width×height×8 — 16.6 Mbps at 1080p, which is why a five-minute reel came out at 581 MB. HEVC carries the same review picture at roughly half that. Measured on the same reel: 29 MB → 15 MB, with a 0.6% average difference between the two frames — the size is the only thing that changed.</li>
-<li><b>New: a Format menu in the reel save dialog</b> — HEVC (recommended), H.264 for anywhere that can't play HEVC, or ProRes 422 LT for finishing. Your last choice is remembered.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.491.zip" length="37541884" type="application/octet-stream" sparkle:edSignature="GF1qT8z7QuepS4/0/BQZSbw51ZdyMcs3wYeFci6YHlBBcDmANQKdqNs33rXZSbLFCg9GfKQApv9bJoVjwDPAAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi491-490.delta" sparkle:deltaFrom="490" length="426326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="50cRSHNW63PPjrHQO21/UbOWLWaPfYPUNMKPe9zuRzKXv9l6qTv5A9FQzV70a/sHK3RPd2XFJY89y5YSuEZDBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi491-489.delta" sparkle:deltaFrom="489" length="483998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2cgFQRKpraY+8sFmuMz+/whSCSeLQPwGuwb0bjLrmx3xOr6U/ZsZ8J4cBskNlC4f/tEgBtFH0JounTl/ikfDCg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi491-488.delta" sparkle:deltaFrom="488" length="652206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VFvMybuUeEceMurWZnUMBK9hbD2DJYXskiSOVxYffR1LyJrutq8D5XhAQL5PkNQlT90RzJsV/GLXKcXxHC+IBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi491-487.delta" sparkle:deltaFrom="487" length="703634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zjQa7zMwlMkGP/wptXomJdIFEg3Pl0U+lleqMl2Oil26ottHLf5gQMbIk6+6Hn8DmxcPYVgGrxCxA1bVgK5zDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi491-486.delta" sparkle:deltaFrom="486" length="755866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RoSBH+PmcDfogvjbjEOm0nPcGFNf04YlcpOYNak6cuP2m8Ta5jyJRAVAdDZUvF1JXIBM/OAmvL33gFkj82qRCA=="/>
             </sparkle:deltas>
         </item>
     </channel>

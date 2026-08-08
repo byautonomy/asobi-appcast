@@ -4,6 +4,41 @@
         <title>Asobi Review</title>
         <item>
             <title>0.2</title>
+            <pubDate>Sat, 08 Aug 2026 09:44:28 -0700</pubDate>
+            <sparkle:version>501</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+p { margin: 4px 0 10px; }
+</style>
+<h2>Asobi Review 0.2 (build 501)</h2>
+<p><b>Color follows the grader — on every seat, including the web.</b></p>
+<ul>
+<li><b>Grades follow live in hosted sessions.</b> Adjust exposure, CDL or looks and every connected Asobi — internal or Review — re-applies the same grade in its own color pipeline, so an EXR seat and an optimized-media seat land on the same picture. Late joiners receive the room's grade on arrival. Look files travel with the grade; a look a seat can't be given is dropped there, never guessed at.</li>
+<li><b>Web pages follow as a live trim</b> — a small display-referred correction applied over their streamed video in WebGL, the way a DIT trims through a monitor path. Immediate and faithful in the mids; blind to highlights their proxy already clipped.</li>
+<li><b>New: File ▸ Update Web Share with Current Grades</b> re-renders shared clips with grades baked in — exact web pixels, minutes not milliseconds, and the page retires its live trim for those clips automatically so nothing applies twice.</li>
+<li><b>The grade tools tell you about web viewers.</b> Review Grade and Film Lab show a banner whenever web seats are connected: following approximately, not following (toggle off), or unable to follow — each with the remedy named.</li>
+<li><b>All of it is switchable</b> in Settings ▸ Color ▸ Color to Other Seats, and Settings itself has been redesigned — tinted section icons, clearer grouping, and footers that explain what each control actually does.</li>
+<li><b>Fixed: exposure meant different things on different media.</b> +1 EV on an optimized stand-in rendered 80/255 brighter than the same EV on the EXR. Exposure now applies in scene-linear whatever the media, which grade-follow made mandatory: a grade must be one picture on every seat.</li>
+<li>The manual covers all of the above (expert chapters 5 and 10, client chapter 3).</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/AsobiReview-0.2.501.zip" length="37605413" type="application/octet-stream" sparkle:edSignature="80YtKnE/RuOy+acLXmuSkzap1ebMWW52x1Hnvi8GR4E3XO8VNZn4kagjqKkCZVC4EbTP8qE6ADa8qXFyZxlTCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review501-494.delta" sparkle:deltaFrom="494" length="924466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="23JxLfxCqMNGBMp7Tq/73gTG57Tu6Zc9m58Hejr+DrssGNOz4Z8JO0C35+rvoBcc1+d6Yxacs1TTOV+x5FWyAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review501-493.delta" sparkle:deltaFrom="493" length="931710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3GzlRHQpF/O0TCKELeqCpYGqho5AZC76piRVK73+gMrdipvPtDogTXLupI+XfMrkWKz/sBaNBA7OdToKg8sIBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review501-492.delta" sparkle:deltaFrom="492" length="944074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2iOek+U0N84lHcXCHdH1tD5TKlMEHJCCuPVWHn69pb7X/ebiDjrItZBUgIn7FfdC+g4N+eMvBseCWq9UtUYFBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review501-491.delta" sparkle:deltaFrom="491" length="966414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lQMSmVFBvCSi2e9RvL7oPYfHgWWxPdA5LenraIPPIxmkNqqUllyuRa/8eUesCGjQL7TeEXmwyNHisDp9ivF5AA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review501-490.delta" sparkle:deltaFrom="490" length="966818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ivYRmHt7t5ySBJ2lgir02aeHEzTSCUd7vlWOz5COoyc2aQ2rKUzMcfQ21uBuD4K6z/S2srGzsEiGF2u+VGWWDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Sat, 08 Aug 2026 07:17:02 -0700</pubDate>
             <sparkle:version>494</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -64,37 +99,6 @@ p { margin: 4px 0 10px; }
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review493-490.delta" sparkle:deltaFrom="490" length="538438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aNxcnXuNSAnhyKyz16y2qQXZIKbA3gLHIGJ15D84TONS+v5o/HGoCb8WRFyOtGF7a5aJLZkc2U2NxMOCXDMMDA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review493-489.delta" sparkle:deltaFrom="489" length="551346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VFX3lniSIDtKuXkdS6faxMRIAkDWQ+PVs6GWBopYe+g8bskfcKXPAyTPdlN7wYbRgCIDwzl38KonV3bWAgd0BA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review493-488.delta" sparkle:deltaFrom="488" length="685982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1sKHa7m46IRJUM93nbScmXIC65l20jc+DV4Hg5TrTC2iQa1keyl8xRtdK7JQ5+x+XPm/nHW1wiwPzJ3t01RqAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Fri, 07 Aug 2026 21:40:26 -0700</pubDate>
-            <sparkle:version>492</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-p { margin: 4px 0 10px; }
-</style>
-<h2>Asobi Review 0.2 (build 492)</h2>
-<p><b>Optimized media plays properly the first time through.</b></p>
-<ul>
-<li><b>Fixed: optimized media got no read-ahead at all.</b> Every frame was decoded the moment it was needed, by seeking the movie and decoding forward from the nearest keyframe — so the first pass through a shot stuttered or showed nothing, and only the second was smooth, off the cache. Switching shots mid-playback did it again each time.</li>
-<li>The cause: a stand-in is wrapped so it can report the original's frame numbers, and the read-ahead identified movies by their outermost type — so it never recognised one, and quietly did nothing. It asks the source what it is now.</li>
-<li>Measured on a 290-frame stand-in: a first pass went from <b>289 late frames to 0</b>. Jumping to an unplayed shot during playback went from every frame to 13, which is the reader starting up — under a second.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/AsobiReview-0.2.492.zip" length="37545594" type="application/octet-stream" sparkle:edSignature="lz6s1LDHnH1j9jiRHPOeDfypgjwRrwCeGvBXn7RepLSUbU4vTN7XFuC+GzhJ9hepqz5PGZGeOkfA+UgJZD6DAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review492-491.delta" sparkle:deltaFrom="491" length="383242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qufNJ+eKBIjWWSi8m483u+yd39WpVmatrmLItL/X48y8zJcUX/+yn2e+lxCz1HQ6jw9bFIeZfo2X/4M6UwTFBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review492-490.delta" sparkle:deltaFrom="490" length="513586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pkxOQPxz/H6SrGi5/eD2JgRbeQTzh2EfKTNHggxDUmfEA+lWcXEJGrIdfieQimU03lDuNdvHFbIcrtVEaUoVDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review492-489.delta" sparkle:deltaFrom="489" length="522782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JsIZa8z7LpR79h16rn0XAneTSe6pHvW5YjfuMhRXv5cMpzTasql7iWqGFe7lbWfK/5dkbWAhFJUDV4SxoB+2Ag=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review492-488.delta" sparkle:deltaFrom="488" length="667442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5idiGpF+fFdLt+50vD2WqTdXdHVnSExMMAChwkUJ5x58ibZnBmygpnbLVdI1GbHWYpmer6LZ2vghZ/VN8uIaBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi%20Review492-487.delta" sparkle:deltaFrom="487" length="716050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/TTKsmmTe7OX2H6bwTdOGmeQ6ZMZ6pV+4Mai7kHa5rPlzKVbkfkIxKsm34VLjngV6t+7w3YzKN+0vOa7AtxKBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

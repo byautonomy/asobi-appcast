@@ -4,6 +4,36 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Fri, 21 Aug 2026 12:02:42 -0700</pubDate>
+            <sparkle:version>516</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.2 (build 516)</h2>
+<ul>
+<li><b>Optimized media can no longer be encoded without a colour config.</b> <code>Asobi optimize</code> used to carry on when it had no OCIO config — encoding with no log curve at all, then writing "ACES - ACEScct" into the sidecar anyway and reporting success. The stand-in looked plausible and played back wrong, and nothing downstream could tell, because the sidecar itself was the thing that was lying. It now stops and says so. Pre-renders on a nominated machine are where this hid, since nothing there has a window to show a warning in.</li>
+<li><b>A stand-in's sidecar always tells the truth about its colour now.</b> The shaper it records is decided by whether a transform actually ran, not by what was asked for — so no future caller can reintroduce the same mismatch.</li>
+<li><b>Session packages fail loudly instead of quietly.</b> A shot whose stand-in can't be built correctly — a config with no route from the source space to the shaper — now packs its frames and tells you why, rather than travelling as a movie that never went through the curve its sidecar names. A package is the thing that leaves the building, so it is the worst place to be silently wrong.</li>
+<li><b>New <code>--no-color</code> flag</b> for the deliberate no-colour-management case. The sidecar then records no shaper, so playback doesn't undo a curve that was never applied.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.516.zip" length="38296668" type="application/octet-stream" sparkle:edSignature="+ourIDVb7rqZEkCXw6+EvitOwCq2mHPiR/WN9MnMnnUJeyu8e2CQQXrReRlRG2I7yXs3dOsiW0sKc3LiWAx4CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi516-513.delta" sparkle:deltaFrom="513" length="322466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4PM7qcwe55fQ+OPt8bFNl8vmNAr3iayOYmKs9dnplNgKu6OG3RIh6YASiq8VnSmjV9mEsOUxOGnzQKJRtzInBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi516-507.delta" sparkle:deltaFrom="507" length="1015254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YfCq9XCCwYjbw9Qd32UfqoJXiX1XGqaYDm6tuTZrwvUFYK1m7e73uXvmkispu15lVdpsUZfG9wnpTZbsG8wKAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi516-504.delta" sparkle:deltaFrom="504" length="1133198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6zTpYKYyYxlT2IxumylL6judrD+NlqPHmtqOyjdgO8/KErW7j8LH6veRzvcXhwnt6aKNCC/3MDkTnRgP3Fy7DQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi516-502.delta" sparkle:deltaFrom="502" length="1151958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NGWuLKHWVjhoicBWXQDgFeoV3+XGUAG2hyTIAt42S89aKWnR/cKL9BrixnfzWVwHQV8XQhCBNYoHdOaIXvvhCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi516-501.delta" sparkle:deltaFrom="501" length="1171518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CU6C5nocgFaXkyOHtNLyHtGkPF5QLDhJ9K/NAlBaYZTvXf4K6oKv9Lm9ih5DuktulMK37TYT0Jz766sVMIeVCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Fri, 14 Aug 2026 14:52:08 -0700</pubDate>
             <sparkle:version>513</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -59,34 +89,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi507-501.delta" sparkle:deltaFrom="501" length="631890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RUY+RF1dxf+z8pDOgFv4BD8Ql34zYHGUeKT5NO1d2RzFmOUxyphdVLN22MemVTfeKT8CzkUEkvaOjZq77U3rDA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi507-494.delta" sparkle:deltaFrom="494" length="976354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TXWaKfbEh+hQ1nj17QQ2sxY+fwjUqnHPmdO2rl7mogTW2BPohSKLsDYxdIeP3KWIoqMXQBcaPs/3SK9ScN3iDA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi507-493.delta" sparkle:deltaFrom="493" length="987970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XG4mrSKlLnLtD/h2EitH3I6jnpnBG+3JI3paY5JKEY3KfFZim90rSZQ5/CNMlDZvZ/h1GwykW7Z0wxyeysHwAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Sat, 08 Aug 2026 10:26:28 -0700</pubDate>
-            <sparkle:version>504</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.2 (build 504)</h2>
-<ul>
-<li><b>The manual's chapters are numbered coherently.</b> Every section now reads the same way — an unnumbered introduction, then chapters 1–N in reading order. The Expert Manual's stray "10 — Web Review" and mid-list "Appendix" are gone: shortcuts are chapter 9, Web Review is chapter 10.</li>
-<li><b>The sidebar sets chapter numbers in an aligned gutter</b>, so each section reads as a numbered list instead of ragged title prefixes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.504.zip" length="37605718" type="application/octet-stream" sparkle:edSignature="IdynDtdOHa8COdXIm0qCuCERr2e9wN6A8Nw5OZKM1OALl9ZwfhJKZ+xW8F2//nJuvU9o3n8IoRlEc023P9ejAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi504-502.delta" sparkle:deltaFrom="502" length="421198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="atSyoWMbDD9FajYyjLHj4dg0FEFnFrKAHdBXLD7uOEZaPUaitgQ3dzm7Ce+/EldfOH1rjQI/FvB/1lXNubxgCg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi504-501.delta" sparkle:deltaFrom="501" length="502346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LZWSlM1CG10HfgOgrPd34mgLehDu28scyssooqTfLxfATKrG2yHh9FyklHrhWu7RcoS47g1NUWaWEJpXnJW7BA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi504-494.delta" sparkle:deltaFrom="494" length="946978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TXw1KIqvn2V/EHelpWqyUnkZLV7y6pUmiOGDo6k6QK7RG+AViaslQ633wTc5in1Y9g4hBq6r0x3AHPVzc+aKCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi504-493.delta" sparkle:deltaFrom="493" length="972590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zMwZAw+fHOJ974Nrrqw26AUceyU/kDMEomapjLJKyvI2zCg4FPkcA20vAsYXL884Ol+zWMAC1iyN10Du/A04Cg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi504-492.delta" sparkle:deltaFrom="492" length="981978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="V0oJRgowwzW/HRnh/uSs0HAL+r+E6toH8lMeLiV1lrqR5Akcnz36vd0LN7zDOWz68q7zuLUttN17iQYWaLOGDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

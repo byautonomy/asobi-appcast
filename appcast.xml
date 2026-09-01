@@ -4,6 +4,37 @@
         <title>Asobi</title>
         <item>
             <title>0.2</title>
+            <pubDate>Tue, 01 Sep 2026 09:14:13 -0700</pubDate>
+            <sparkle:version>541</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.2 (build 541)</h2>
+<ul>
+<li><b>Stopping on a frame in a browser now shows that frame at full resolution.</b> The proxy a web reviewer streams is encoded for movement; a frame someone has stopped on is being judged. Park for a moment — or zoom past 1:1 — and Asobi renders that exact frame at its own full size, through the clip's own color, and it lands over the picture in the browser. The header there says "full frame" while you're looking at one. It needs the session to be live, since your Mac is what renders it; an async reviewer opening the link later still sees the proxy.</li>
+<li><b>Web proxies stop at 1920 on the long edge.</b> A 4.6K plate was being encoded at its own size, which asked about 43 Mbps of a link that then had to stream it — a share nobody could play, and one that timed out on the way up. That plate now encodes at 1920×1318 and 7.1 Mbps, and the encode itself takes a fifth of the time. <code>webshare.maxProxyEdge</code> sets the cap (2160 keeps a 1920×2160 side-by-side stack at its own size).</li>
+<li><b>The web review has zoom shortcuts.</b> F or 0 fits, 1 / 2 / 3 / 4 are 100 / 200 / 400 / 800%, and + and − step. 100% means one media pixel per screen pixel, which is the moment the full-resolution still earns its keep.</li>
+<li><b>The web review goes full screen</b> — ⇧F or the button at the end of the control bar. The whole page goes, so the notes, the markup tools and the playhead go with the picture.</li>
+<li><b>Fixed: the web display-gamma menu appeared to do nothing.</b> It was changing the setting without forcing the picture to be redrawn, so a paused frame — which is when you'd be judging gamma — kept showing what it already had. Changing it repaints now.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.541.zip" length="38543673" type="application/octet-stream" sparkle:edSignature="7tEUPlI9JXRroh6sItMPJ65KZCBzRRMQff5ayDysFCvvsxO98oa7gOfuAQH52YhQ5E9/xhP9WzOKADE9GcRcAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi541-537.delta" sparkle:deltaFrom="537" length="714154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6I39/ipiTVt8vwknO+iaXneHq3a0jrvPpQNyNNS+J+s2qWVKxcnWlEG84GedAP39S+1XGSNZjN6jf/hBl6hDAQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi541-534.delta" sparkle:deltaFrom="534" length="702598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8PUvxGKMKXDYq9k8aZ72SZmwQ/a6eDmJiJ738iZCR7xLy5/b+Gt8eY0gytugLeBsUGSHGpAR1qbzYRQzaNU+DA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi541-523.delta" sparkle:deltaFrom="523" length="936286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h8pg8md1LCeZ6S16T8WHnR+VUIynDWWOG3HdqKBn4DohzJ0jT2dnhhRll6YTCJHMXNpLm4kvP/47s/5YyKb+Bw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi541-516.delta" sparkle:deltaFrom="516" length="1454850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NTde6I6cZtXxLABe+CAFUXIPeP4MfGAinzxpfvFtBb0ssVgWP4hyTrHQQAa0ofwsdJi1VPV5e35xvFqSRnG8Cw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi541-513.delta" sparkle:deltaFrom="513" length="1466886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DzEc5p+AO3Fxhf44Jhli0hHjdTA8PsoBWGzCYm1BedPZaRtcmaj7qQ8TaDVFxf9fXIW8l2AEC5dMvPBOqWw6DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
             <pubDate>Tue, 01 Sep 2026 07:47:07 -0700</pubDate>
             <sparkle:version>537</sparkle:version>
             <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
@@ -65,40 +96,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi534-513.delta" sparkle:deltaFrom="513" length="1429882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lWCbZXi29UnRaAlLmz6slZBhQm/KK7ioe3oA3ptlu1IsiZZSuG1LVuKrJXSDXdqpT99GC+5jzaAFFkd1rKHEBg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi534-507.delta" sparkle:deltaFrom="507" length="1915790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1qxpE7n2vgJWHktUuCtLCRSSgjJtb30I8SV3V9CUbSwt+aI14LfTpCad7PgDc9C6Wh0LXNs1uaYz6OarqbnFBQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi534-504.delta" sparkle:deltaFrom="504" length="1929890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cq7DXjhX81H+PinAH0BsYOqhTIFFkqM4XfgPOCS3MrSrtPp6CMgcDVQ4+NJ7AxNHhd3QrnV9HdNg27rmLJfUCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Tue, 25 Aug 2026 16:22:57 -0700</pubDate>
-            <sparkle:version>523</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.2 (build 523)</h2>
-<ul>
-<li><b>Export a side-by-side comparison as a QuickTime.</b> File ▸ Export ▸ Export Movie with Burn-ins ▸ <b>Side-by-Side Movie…</b> writes the A/B compare as one movie — left/right or top/bottom — with each side at its own full resolution rather than the squeezed halves the on-screen mode uses. Each side keeps its own grade, look stack and input color space, carries its own marks, and gets a name plate and its own frame number, so a note about "the B side at 1043" can't be misread. The compare's sync offset carries over, and a shorter B holds its last frame instead of cutting to black.</li>
-<li><b>A size control, because 4K against 4K is 8192 pixels across.</b> That's an enormous file and past what H.264 will even encode. Pick 100 / 75 / 50 / 33 / 25 % of the A frame per side and the dialog shows the resulting output dimensions before you commit. The frame is exactly the two halves — a 1920×1080 pair exports 1920×540 across or 960×1080 stacked, never padded out to 16:9 — and a side of a different shape letterboxes inside its own half rather than being stretched.</li>
-<li><b>Whole sessions export the same way.</b> Set <b>Export</b> to "Whole session" and it walks every A/B pair — the ones you marked with the A/B chips on the playlist rows, or, with nothing marked, the first two rows of each version group — into one continuous movie. Every shot against its previous version, in a single file.</li>
-<li><b>Asobi now reads a file's color instead of assuming it.</b> Color ▸ <b>Check This File's Color…</b> (or click the color chip) opens a wizard that reads the file, shows you the same frame decoded every plausible way side by side, and asks what screen you're on. A lot of what it reports isn't a guess: an EXR's header states its primaries, a QuickTime usually carries the encoder's own color tags, anything brighter than 1.0 has to be scene-linear, and a black floor sitting around 0.09 with no highlights is a log curve. Pick the one that looks right — you don't have to know what ACEScg means to see which of six pictures is correct.</li>
-<li><b>The color chip warns you when a file disagrees with how it's being shown.</b> It turns amber and says what it thinks the file actually is. It won't interrupt a review with a dialog, it stays quiet on clips you've already given a color space, and it says nothing when the file genuinely doesn't state one. Settings turns the checking off.</li>
-<li><b>The side-by-side export comes out the way round you're looking at it.</b> In Side by Side (Top/Bottom) on screen, the movie is top/bottom; in left/right, so is the movie. The dialog still lets you override it.</li>
-<li><b>Fixed: rendered sequences were being treated as still images.</b> "Apply to all" filed a sequence's — or a movie's — color space under the one stills use, then applied it to every still and QuickTime in the playlist alongside the clips you meant. Sequences, movies and stills are told apart properly now, and the wording says which ("every EXR sequence", "every movie"). What you saw on screen was never affected; this was the bulk operation and the remembered per-format default.</li>
-<li><b>Fixed: the whole Compare menu was dead.</b> Wipe, Difference, both Side by Side modes, Stack, Clear Compare and ⌘\ Flip were all greyed out for the entire life of a compare — the menu never noticed a B side had been loaded. Everything in that menu works again.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.523.zip" length="38522950" type="application/octet-stream" sparkle:edSignature="Sxj8hyhcmFDKh36J1mUgHFOT98eg0wU/A5e+wMWxtkaoHg2bzrl5/+vd4txXrBrukhQhC+tpIbU+lh0WQMDqDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi523-516.delta" sparkle:deltaFrom="516" length="1266342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cr4TOURemdInU1olTLNwMZ+2LYqvJYk/gFIcVihanwQUm0KR/8ucoYvHutXaftXL0ZvCxnL7+A3tHIkKiFsXDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi523-513.delta" sparkle:deltaFrom="513" length="1279786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LrNFbqZyohwenHh1cVPszTB4LM4lDp9Jw00CND5YHC+LJzsrTdFYAtCff+dWE4lPMn2A7JL5aE+6t/e/m6eWCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi523-507.delta" sparkle:deltaFrom="507" length="1760098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ML1M343O3iQkVpcnRw2yRJEJjEQS0UDHNoWpZ9+4a7EGhgNv4d/MCNicxT3WXqpmTIG6P/kOCSHwjbNuOPs9Cw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi523-504.delta" sparkle:deltaFrom="504" length="1783194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H8ob6xk7UF5syR81x5RYuCcgKLDb7JSZ0aH9V/3C/l9BMV4J7+Vcp7R1rmAN2piVafleP4Glg14CfMikeX22Cg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi523-502.delta" sparkle:deltaFrom="502" length="1795466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CmkUR55CyLD+sg0q+TkVO1k3NjrpbbSpmOsCFefz4Gdn+eVYBHSi0t3DlMbdr0CtiuS7iswlJFefa+nIoWl9DA=="/>
             </sparkle:deltas>
         </item>
     </channel>

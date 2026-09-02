@@ -3,6 +3,54 @@
     <channel>
         <title>Asobi</title>
         <item>
+            <title>0.8</title>
+            <pubDate>Wed, 02 Sep 2026 16:02:22 -0700</pubDate>
+            <sparkle:version>581</sparkle:version>
+            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.8 (build 581)</h2>
+<ul>
+<li><b>Version moves to 0.8</b> — the same app you've been running, renumbered to reflect how far it's come.</li>
+<li><b>The filmstrip is a floating panel now — move it and size it.</b> Drag anywhere along its top bar to reposition it, and drag the bottom-right corner to resize it; both are remembered. Double-click the bar to send it home, or the corner to return to the default size. Until you move or size it, it stays docked and full-width as before.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.8.581.zip" length="38786176" type="application/octet-stream" sparkle:edSignature="IvTU23s/3ZlCau07gcA/ZnpnaB7TnEt5fXbpCgSMIsAR6tOLawgh+n5S2j2dV0XK//VuwYRM/g9gVqtGV/WUBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi581-580.delta" sparkle:deltaFrom="580" length="31602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z9Rc6U6KVgmOjUosoEk4allW4IGZociSrYhMBve2UBFD4ZJ/tC7IU5izgIUR+HzbaHrOQmT/kfKTstpNFa92Dw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi581-574.delta" sparkle:deltaFrom="574" length="541334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kO9m1/oKiNYJdF5BEv8OYUExkBlJXupLM5bTWS86ptRWS4C0HQm6Ycv5+WRZchcabLuINMGgt2A8i5N8fNkgCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi581-568.delta" sparkle:deltaFrom="568" length="697918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TYnixYH6O4UlTIL/GFZvxIZ0MIGNxEYhBj2vKR4dlRkAZb27La3jbKSAzUWv37+mgeZXfXTk9CcHztu6RmE1Ag=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi581-565.delta" sparkle:deltaFrom="565" length="824690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+FtsiW33J+4w7/v7551x9Yu1Q8XOXqJRIHOHV0IaxZD3Kzgb/CCQAIbai484V3qFPIuyAtGwD2k8w0lyvs41BQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi581-559.delta" sparkle:deltaFrom="559" length="1007426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sybzvd4Tny8ZrbffMdql9BOaAFnmOR5zXsnVGyvmz7+DEKWqgh621YOIuvsyiz4ad160S3wEOjAyCFAUxibsDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2</title>
+            <pubDate>Wed, 02 Sep 2026 09:03:45 -0700</pubDate>
+            <sparkle:version>580</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.2 (build 580)</h2>
+<ul>
+<li><b>The filmstrip is a floating panel now — move it and size it.</b> Drag anywhere along its top bar to reposition it, and drag the bottom-right corner to resize it; both are remembered. Double-click the bar to send it home, or the corner to return to the default size. Until you move or size it, it stays docked and full-width as before.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.580.zip" length="38784220" type="application/octet-stream" sparkle:edSignature="EFyaoYeRQPL3Fmlx5EhWMMJksT07FwhXqfWpnqfXJkFRQm2kE1nZDvfmpmvs1xKtyzcgugPWeltufwJDx+c7CQ=="/>
+        </item>
+        <item>
             <title>0.2</title>
             <pubDate>Tue, 01 Sep 2026 18:46:34 -0700</pubDate>
             <sparkle:version>574</sparkle:version>
@@ -30,65 +78,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi574-559.delta" sparkle:deltaFrom="559" length="977478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pYOydzWVj/xmxbmI3d04ISFZI1JgipUlgAk6edgBeDGtUM2GdJi7n6VScnKa5JEvcanKE3HvglcE3McAVmUwAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi574-556.delta" sparkle:deltaFrom="556" length="978118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JqA83cI6smYyyGT9eWnaw3otl+zhERjLkSvL2JM1yp8vlpiVeKBmFijCUF4JTspKu7UVRIThGB1U9tgrEI7gCQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi574-553.delta" sparkle:deltaFrom="553" length="1048246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VY57cTj9jawaA+JBUvQCr5IWM0WD36iHvymqhUOMnDYFhboMTuXHYgL2LcymkRD0eylesDGsKUPlIHHumu5MCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Tue, 01 Sep 2026 17:26:47 -0700</pubDate>
-            <sparkle:version>568</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.2 (build 568)</h2>
-<ul>
-<li><b>Right-click the picture for the things you reach for.</b> Play and pause, next and previous shot, fit to window, compare against another clip (and flip or clear it while one is loaded), a voice note, the comment stream, clearing this frame's marks, a frame grab, sharing to the web, the Shared Review window and saving the session — all one click away. Below them, File, Playback, View, Color, Compare, Session and Notes carry the rest of the menu bar.</li>
-<li><b>The clip you're dragging lights up as a whole row</b> in the Playlist panel, so it's obvious what's in hand while the drop line shows where it lands.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.568.zip" length="38763393" type="application/octet-stream" sparkle:edSignature="xt/wm5NYnF4fZM0CO4PKJJ6L2sgQZOu9aNxHD0Gjh455JydBFTx8Bb1yG+6vI7D5RGornijP0FXi3MA6Z2JrAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi568-565.delta" sparkle:deltaFrom="565" length="655226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aae1PhjqJNwx6u+sFNGmYfKuwUr52/3Dsb51pIqsaDfCNeDOIS8ZzY0IXmq+espTDTcNoTONtpco+ztamTBZAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi568-559.delta" sparkle:deltaFrom="559" length="907898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CRJ7BjltU0UpRjeDih6yXOdr30mfOK9Thzja9L/K82DPeVOgPx1wHK7FTA8gMEB1OXymCbnq+hW/WLyu9du+BQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi568-556.delta" sparkle:deltaFrom="556" length="901126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lBVYBXhDTrYjQfZAV9kXNamRu9ybwI5cuzs2kAlN2DFFLK/3kXbVQqMy3Ukvooc3A90S47X/KwtuM61q7nyWBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi568-553.delta" sparkle:deltaFrom="553" length="997126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2uhe2k6CJO/WFiEg8Vwb7eC6wmbzW4FHU2KWXWswyhQ/GPB87lhYxAqWCfo5vaUmP3elvtd6VpVEYsQ/JSxHDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi568-544.delta" sparkle:deltaFrom="544" length="1225490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8qRh3UQvsQAN5RCS8YCe98QoDlTvUvKEB/bgMdCB5iWx0zeMNK4sN3uVbDPPyrBUQYdaRohObSibOWcB8OwCCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2</title>
-            <pubDate>Tue, 01 Sep 2026 16:46:40 -0700</pubDate>
-            <sparkle:version>565</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.2 (build 565)</h2>
-<ul>
-<li><b>Drag to reorder the playlist.</b> Grab a clip's thumbnail in the Playlist panel and drop it where it goes — a line shows where it will land, and a version stack moves as one. The chevrons still work. Everyone in the room follows: native seats and the web review take the new order live, and someone who joins later gets it too.</li>
-<li><b>The web review's playlist has thumbnails now, and they're the handles.</b> A reviewer in a browser can drag clips into a new order as well; it comes back to the app and to everyone else. Needs this build on the host.</li>
-<li><b>Fixed on the web: marks, stills and the gamma menu while a grade is applied live.</b> The picture that carried your live grade sat on top of everything in the browser — reviewers couldn't see marks or the full-resolution still, and the gamma menu appeared to do nothing. All three show now, and the picture keeps its shape in any window.</li>
-<li>A guest's chevrons and sorts reorder the room too, the same as a drag.</li>
-<li>Under the hood, the web share's clip list follows the playlist on every update, and re-baking a clip with its grade finds that clip by name — so reordering during a long re-bake can't cross the wires.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.2.565.zip" length="38717749" type="application/octet-stream" sparkle:edSignature="IRQ1uoPJFGTxXQ6RzObcGf+Tcz6Rb5o+2cTU9j7ABClUUt1AP5x49lijrxB2Elo4q5HeQfCT4vqZ5CQLjFebAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi565-559.delta" sparkle:deltaFrom="559" length="825990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="55bEj130bxGhL/TVbOepRX8M8xUPsPOPp8jVkiXbegwTKBVrH7lR/bu106mluGF8eJ0wgy+PpP51Ddghmwy5Bw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi565-556.delta" sparkle:deltaFrom="556" length="821738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3WQ20EPbyItkGulWFVnI874y64dQuJlzlo63Bv93jTrXzt42QLbkUt7JMfE2Hz3gNTM9Cj8HQin5YSlbILXwCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi565-553.delta" sparkle:deltaFrom="553" length="922574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ryY80IgjGH0CMV8oYoqkFN42U0/IY/t2s6m6SNNQlg+CSc49166ROg672hewqp55OPvCibsJ7gKFKO0cYDYvDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi565-544.delta" sparkle:deltaFrom="544" length="1144766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hNmcyh2bZerinfaBJiepiscxpIQRKDG7vzXr7RwCXK0IQ36POOlkM5j6/8L+xqGH26HFVP7lB/ZJyctmLSuKAg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi565-541.delta" sparkle:deltaFrom="541" length="1164226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/tvSujPahvXQrhKrIcPZGxARcNbPWC4AGGelDaojjUdqpRmt7mY3fgtNjq4XhY6xHPWyh9RXOhjeDDVwV6yzBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

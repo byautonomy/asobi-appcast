@@ -4,6 +4,33 @@
         <title>Asobi</title>
         <item>
             <title>0.8</title>
+            <pubDate>Wed, 16 Sep 2026 16:16:03 -0700</pubDate>
+            <sparkle:version>641</sparkle:version>
+            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.8 (build 641)</h2>
+<ul>
+<li><b>Web shares of optimized QuickTimes are no longer log.</b> When a playlist holds optimized stand-in files themselves, as a bundle does, the web share baked their log picture as if it were video, and web viewers saw log. The bake now decodes such files through their recorded color curve, as the viewer always did. Re-share, or use File &#9656; Update Web Share with Current Grades, to fix a share made before this build.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.8.641.zip" length="38802657" type="application/octet-stream" sparkle:edSignature="ski260nb4KiCBIQa1e3kSZo3oO8zqjwMcTu/eTEchgdH0RMpL4rpI7TXkEKW+jxDe5b/+t8ajr2tNoeVczKLAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi641-638.delta" sparkle:deltaFrom="638" length="261862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JgrZ8YtPLkHCHf58m4JTCHE6y04z05spEAQm2M3dicWT+92sHoCSClXegzJ9zUsiTkAt4tjRUmq76KsT5yN+DQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi641-635.delta" sparkle:deltaFrom="635" length="623422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MygSklOZJRNYohaWpTbRKt5ac5v3gneZ/r/L+1tjfhOpii3LxL+NYZwgWjbEi9HItpjuLeJoXflTd+xqpwB8DQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi641-632.delta" sparkle:deltaFrom="632" length="637978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mgPHn2dCLm7B9ZP0LkD2Oie+xQkRN6EYKHDmDyeFCJdvZa6bp2eNTUefyOlXV4ya7tGa9GsApH4453OE9R60CQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi641-629.delta" sparkle:deltaFrom="629" length="663110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UgyojiiOX54jafxg3pRC9YbycHAtAgxf0ZPBPetiYuqxdW8xUyVm4Tw1eTGOrTrsB0DoRs2sSBj8PqIscavdBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi641-626.delta" sparkle:deltaFrom="626" length="661566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DKMRP/oaQ0ng8Bk4UUK9HKJX64YKA7DT3brtY4yq+rCBZrhaovreFHPGl4LANUvVXjmP1LF14TYoNPyjm5gTCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.8</title>
             <pubDate>Wed, 16 Sep 2026 15:21:45 -0700</pubDate>
             <sparkle:version>638</sparkle:version>
             <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
@@ -55,33 +82,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi635-626.delta" sparkle:deltaFrom="626" length="497778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9jWS3IyxHqDwdjSvIMO1NYkB6mEf9ACokVCG8o4Ou70/QikEZCMs9C4dJqnUOOInwlgihrHnCYcckzYfa1kzBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi635-620.delta" sparkle:deltaFrom="620" length="671390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n4AdFERHWXLrnrNAwZ95sEpWlQgeqU9B1/vOH7WUILmfG0NlyY5nigmCvV70WkPZhJG+I398+FreroYkhzaOBA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi635-616.delta" sparkle:deltaFrom="616" length="861034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bx65kzUJzf5gYFjStAcEzxaMJ6sv/J7OpI1TDV1LbLIaAbq4stdjWz25sjZW8I3no8YUHurwgP1ViQqB3oo9Ag=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.8</title>
-            <pubDate>Wed, 16 Sep 2026 13:13:43 -0700</pubDate>
-            <sparkle:version>632</sparkle:version>
-            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.8 (build 632)</h2>
-<ul>
-<li><b>Past Reviews scrolls in place.</b> Once the list passes six reviews it scrolls within its own area instead of stretching the panel, and a share that was never ended reads <b>expired</b> once its link has lapsed.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.8.632.zip" length="38795231" type="application/octet-stream" sparkle:edSignature="ZneRElQPW5DDaUsyeDGtZLTJK4JeHIKorqaQSy1IkGgAXb2GMUfgJPUM/B/TYSR04ay4EyxpizDnauzEOIwYAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi632-629.delta" sparkle:deltaFrom="629" length="379238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DuNXDksKQiBksl59EYbVPKMHotRyMsBd/F16S5Ip4URiZZAmN713klbQPHabN70yWUGmGzMdlhUFYElqr76jBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi632-626.delta" sparkle:deltaFrom="626" length="422758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VjYKAdBy4wpySYc6IL7sUMKij5DWXgHe0Rc6IX/RWzOw4av5vkSPHpyrxSNT1sSa/aTemAKL0KhdLgijA/U1DQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi632-620.delta" sparkle:deltaFrom="620" length="638882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9XI3EA4aR9hTrq0+yQ2KU8wz5r9/XKNkvfqb05g6wt4v/a1r90CxwBAtdCMPajpZX0lFBQQ4JgB1k1uL8uVxDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi632-616.delta" sparkle:deltaFrom="616" length="836678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QDIIE8MA+OTrWPwZBpRCKv39jN4UwbQe84NzmNF0cvplamNGaDmZvC37F1l3aMjOFvAjJSPD6PymHbvAQX22CQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi632-612.delta" sparkle:deltaFrom="612" length="984446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ho5sV3MfXE90RibPyKtE8OMjayIhRHhSuVjJsoRWhX1GA0+EOq2vH6AtsDdJg5IuZTA7ytTPH1+pPiabfC3EDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

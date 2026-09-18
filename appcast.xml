@@ -4,6 +4,36 @@
         <title>Asobi</title>
         <item>
             <title>0.8</title>
+            <pubDate>Fri, 18 Sep 2026 12:24:07 -0700</pubDate>
+            <sparkle:version>660</sparkle:version>
+            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.8 (build 660)</h2>
+<ul>
+<li><b>Optimized media keeps a movie&#8217;s own color.</b> Only EXR renders (and anything you have declared as the scene-linear working space) are encoded through the log curve. Movies and PNG, JPG, TIFF and DPX sequences &#8212; display-referred or camera log alike &#8212; now go straight through, so the stand-in is the original&#8217;s picture at a smaller size and decodes as whatever Input says. Correcting a clip&#8217;s input space later no longer makes its stand-in unusable. Stand-ins you already have keep working; delete and re-optimize one to move it to the new path.</li>
+<li><b>Movies that are already light are left alone.</b> A movie under 50 Mbps &#8212; H.264, HEVC, ProRes Proxy review files &#8212; gains nothing from a stand-in, so Optimize skips it and says how many it skipped. The header shows a <b>LIGHT</b> pill where a stand-in would show OPTIMIZED, and the playlist shows a small hare in the lightning-bolt column. To optimize them anyway, turn off File &#9656; Optimized Media &#9656; Skip Movies That Are Already Light.</li>
+<li><b>MXF is its own format.</b> MXF files are treated as camera footage: they default toward a camera log space rather than Rec.709, and the input space you choose for MXFs is remembered separately, so it never changes your mp4s and movs.</li>
+<li>Fixed: stand-ins made with no color management came out too bright.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.8.660.zip" length="38848418" type="application/octet-stream" sparkle:edSignature="I1ZyGdhrHZoVEcodzO+OanCDjXv4pbORnhT8bfVgwi9PSuZ2MloA0guC9l/tvFA8Q+E5OPgHj+O5xzM+QKYqDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi660-654.delta" sparkle:deltaFrom="654" length="940810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kzIWnFDQNMo5Yy9hdwHnrrV3nsoFYM12z4+vl8yFFsJvE04C8QUePy5sKfOgbc7xPU3ju68ocWIJo9gt/DX1AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi660-651.delta" sparkle:deltaFrom="651" length="932474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kWbsXsrTxDcb4+hHTFN8t4dcgXt0HcZQ7iAjQDWajmJpAWvTJPuM0HkzYgGr+oBSdhIgqxQTiZgrWj69h95LBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi660-648.delta" sparkle:deltaFrom="648" length="947762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rexuZ0dv4kH67bcaFwK8VkLlzrXMDQrYYASxofRboes520KQdW+KIraq4HxcQHw/34wUzjW21cjDR5QQ9rQtBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi660-644.delta" sparkle:deltaFrom="644" length="1025538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KMoNiRdbEkeAj/cgdjP4kPjwFG/oQJIudofll30vGS0RTlgWVHWcnjk3PFNgHhXWvlBgQCtd3/xjIOeN94/YCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi660-641.delta" sparkle:deltaFrom="641" length="1027786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FqE/S4qM7wueMZUlYp1xl6E9+uMwHhkV48rMscGL73LnvRpG+HTfCMydBaP0Z7WxUDLXtC0ouXWioVa7MfJoBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.8</title>
             <pubDate>Fri, 18 Sep 2026 11:41:34 -0700</pubDate>
             <sparkle:version>654</sparkle:version>
             <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
@@ -56,34 +86,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi651-641.delta" sparkle:deltaFrom="641" length="734706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1MLJN8mxOi8+uSulG1CpZMHmN91bKVKE0p3//nDyESwGB0nwjAooJ9UxaQtIEzShBB1JPzD2VbDxDwWnAqFwCA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi651-638.delta" sparkle:deltaFrom="638" length="743022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T2oBO9mj8X0/P0R19WcXRcxTWhJBQszn+FCxHfIdwIwjT4/+wVoUoiD5uMw7hmL9f8oS1FRW/bR5VNmKC82NDQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi651-635.delta" sparkle:deltaFrom="635" length="777402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OdoPvjnx6BdjBMRT+hQp+Yb0rn7uj+zp1IGWqY9T+4vbNg3q+MUyH/Rg4wFYFxpwfAO+EPfqkNWAZll2wVsdAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.8</title>
-            <pubDate>Thu, 17 Sep 2026 11:18:15 -0700</pubDate>
-            <sparkle:version>648</sparkle:version>
-            <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.8 (build 648)</h2>
-<ul>
-<li><b>End a review you left running.</b> Every live row in Past Reviews has an End Review button, and End All Live Reviews sits above the list. Ending a review stops its link showing media, tells pages that cached it, and releases the studio watcher&#8217;s seat in that room.</li>
-<li><b>One watcher email a day.</b> The studio watcher now sends the owners a single daily record covering every review where something was said, instead of one email per room, and rooms where people only came and went are recorded without a mail.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.8.648.zip" length="38815381" type="application/octet-stream" sparkle:edSignature="n+c7elcVyXyPe0PwQU873eAlcUm+Tzre/LlOrFYLTw7hJOODDB36xn7ELn0bjoBXQSw8/I4QWXJUid5BtyjpBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi648-644.delta" sparkle:deltaFrom="644" length="696434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gdR9BdO1FCR1Tz4O+tIpiCxMoIrZqEFmerYbIbNt4YxlptLImJxX5+TvFIOv5qqArYGEnEfcb1u0haoR+bwMDg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi648-641.delta" sparkle:deltaFrom="641" length="697042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U2bG6DbJCYBHdSlbussZ+3ZZ+7f2CO+zLhlN11jt4wghyV6Fx9MZr8VbItWdaaqha5RoYYbnlVauS9qpxuoBAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi648-638.delta" sparkle:deltaFrom="638" length="693298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sCpv7f7j+zjcn7jY58A+aPYgMunCJmfpgwBHHYC53QX5xm2wAg9rWx9W077Py9fJWqhj/dGZ0aAYZIGus1/FCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi648-635.delta" sparkle:deltaFrom="635" length="752390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UWwPYDhZWoeN8Ut7l6HYpDxTGo2IHEiBDwwTym7yms2dK/L1Cth65o2KS5q73bKiTIQBRx2aaCZrycNZSkpqAg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi648-632.delta" sparkle:deltaFrom="632" length="762534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J5mlzNpZ/JOhqOBunQkDXtgfZn/ZjFH73pPzAzzjh6vf8ZXkvDDqP+xQ/JEhAeczOfcVjXs2wawZ9vjULrLmAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

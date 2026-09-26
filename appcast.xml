@@ -4,6 +4,35 @@
         <title>Asobi</title>
         <item>
             <title>0.9</title>
+            <pubDate>Sat, 26 Sep 2026 15:09:18 -0700</pubDate>
+            <sparkle:version>894</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.9 (build 894)</h2>
+<ul>
+<li><b>When delivered media can&#8217;t be fetched, the review copies are offered</b> &#8212; once, in plain words: the same encrypted copies a browser gets, lighter than the originals, fine for notes and timing, not for judging pixels; the originals can be fetched later from Review &#8250; Network&#8230;. Say yes and the review carries on.</li>
+<li>A delivery that fails says so and adds that people can still watch review copies.</li>
+<li>Manual: the invite&#8217;s media choices, delivering from the Share window, Connections, and the review-copies offer.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.894.zip" length="61068048" type="application/octet-stream" sparkle:edSignature="ah5l5/q6SZTxZrgkFkzCOXDQyNM5JdSEdm52ofYqsrD4SptjzFSyjtqNXudenKBSeqp7I/mxYhw614Nfdf55DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi894-891.delta" sparkle:deltaFrom="891" length="680546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GjKVTRgWG1p7BAZbj8pKkgRqL+m7cdmC5LSHRUrvpDFeN5I331d4yMUatxEx1eCrjLvnOZkgI+OY9DCDXMhOCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi894-889.delta" sparkle:deltaFrom="889" length="764362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1tqqkn9Iz8SxA3Ax2HDeXEUo7MocpRLz2IfsMVOWPuD7iRsTE6gc4wWnDOThAxYnkCPWzJ+gifzVkCVfK04sAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi894-886.delta" sparkle:deltaFrom="886" length="955598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JFxpOIX/JTPgyqdNlK87YBfrHSwE+gwbyj5E+pGq0AFZ63VU2bxecPA279I9w208FDy3EF4fBNkradee1e5SBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi894-883.delta" sparkle:deltaFrom="883" length="1196874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BrrppeTID9Uk2T5HQkTSKjoBitlitv/e/LSk3t6lHe6kCXPB4dpjMs/bpAF7sYMzAqbTXXfJfOrbY6nQDZ+/DQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi894-881.delta" sparkle:deltaFrom="881" length="1192802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HLg6i/Xb9coMG4Fq+srz3s+TTzB5ZT+TFU5KcbYqy4OHt0nFWzzLcSX3hnWabtmmDcemI9U4P5hbQ8+5ojGnDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.9</title>
             <pubDate>Sat, 26 Sep 2026 15:02:55 -0700</pubDate>
             <sparkle:version>891</sparkle:version>
             <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
@@ -41,37 +70,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.889.zip" length="61058925" type="application/octet-stream" sparkle:edSignature="L7DbwkWN3drhMIqPVmQ1VhFZ1jJG369PaubNhv3um0PtgxNO37bZ3xCJDyhZi4mdErg/8qZe1dyGvyZKnnkpDQ=="/>
-        </item>
-        <item>
-            <title>0.9</title>
-            <pubDate>Sat, 26 Sep 2026 14:47:40 -0700</pubDate>
-            <sparkle:version>886</sparkle:version>
-            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.9 (build 886)</h2>
-<ul>
-<li><b>Settings &#8250; Deliveries.</b> The services on this Mac &#8212; Suite, Google Drive, Dropbox, Box, Frame.io Drive &#8212; each with where a delivery goes as a <b>template</b> with tokens ({job}, {date}, {review}, {client}, {show}) and a live preview; <b>Learn from a Folder&#8230;</b> derives the template from one example delivery folder; the studio&#8217;s layout is the default. The job is read from the clips&#8217; paths, or asked for in one picker when they name none.</li>
-<li><b>One stop shop.</b> Asobi installs rclone itself (a pinned release, checksum-checked) and <b>Connect Google Drive&#8230; / Dropbox&#8230; / Box&#8230;</b> signs in through the browser; deliveries then upload straight to the service &#8212; no desktop client needed. Asobi never sees a password or a token.</li>
-<li><b>No cross-contamination.</b> A cloud delivery goes only under the one folder the app owns, <b>AsobiReview/</b>, which the app never shares; before every Drive delivery it checks that folder is unshared and refuses if it isn&#8217;t; a link, when the policy allows one, is a reader link for the delivery folder alone, expiring where the service permits. <b>Box never gets a link</b>: invite people in Box as Previewer or Viewer, and review copies are the default for Box.</li>
-<li><b>Delete Delivery&#8230;</b> in the Review Manager removes a delivered package from the service so nothing can be downloaded again; the review&#8217;s notes and marks stay. Every delivery is recorded on the review&#8217;s row with its link.</li>
-<li>A delivery folder is never overwritten (a re-delivery gets its own), and carries a small record naming its review.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.886.zip" length="61043464" type="application/octet-stream" sparkle:edSignature="FeDgqPaYmcAA2zBcV+Mjo5RMjGxe/xTHhqcl1En2g4Y/Kii0Ie30DY7S4YvZJ4JWjI1VUXsOegCvhHKp3lY1Bw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi886-883.delta" sparkle:deltaFrom="883" length="1098318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oNF5SFjJvLGw2FBnisKk/bExDX/nlpWUr0Z1FjSLXzAOOLslXRIIub4yfqwXz0VFwqIWVNiPSEmUaoOVe4FuCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi886-881.delta" sparkle:deltaFrom="881" length="1113018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SXe89tkvXNqDBaUD5D2XR33X0RuTJ8ZRHcXDaZAGAZyJdV7I92nPPdzcUwiNECd9zlqzDxf8GG89LZWlpgkrDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi886-878.delta" sparkle:deltaFrom="878" length="1258506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4aEzTbptw095pj9d1NWgf0+h3/ape+MTdW/GXlzfR4FPGSAEMYACZpu8erKc+wRCsFkeGUj/6chnkybMiuCUDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi886-875.delta" sparkle:deltaFrom="875" length="1428594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iVmvx4asHldxnr84GA/3r8obz7MI1/iEBGcn/G/+c2lgVPBIQC6nwKUZBi5KmsRtIqdBgYfRg5A4sDsDRr0DCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi886-872.delta" sparkle:deltaFrom="872" length="1609578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h/GzriWCuv9DTMYJE5bKYIfvNb1bBb42U9m79x7Coupg7UrawP6hYHVJ7l5aErvKA90u75DFZqp1U8uqIXCpBQ=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>

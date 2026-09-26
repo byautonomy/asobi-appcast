@@ -4,6 +4,36 @@
         <title>Asobi</title>
         <item>
             <title>0.9</title>
+            <pubDate>Sat, 26 Sep 2026 07:10:27 -0700</pubDate>
+            <sparkle:version>837</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.9 (build 837)</h2>
+<ul>
+<li>The <b>Session</b> menu is now <b>Share</b>, and says what each item is for: <b>Share This Review&#8230;</b> (&#8679;&#8984;R), <b>Review Manager&#8230;</b>, <b>Open Invite File&#8230;</b>, then <b>Make an Invite File for Asobi Review&#8230;</b> and <b>Issue an Asobi Review License&#8230;</b> for the studio, and <b>Leave This Review</b> for guests. The right-click menu carries the same list; File &#9656; Share to Web&#8230; is now <b>Share This Review to the Web&#8230;</b>. Nothing moved out of reach.</li>
+<li>Plain words throughout the Share This Review window and the Review Manager: the review is <i>live</i> with <i>people</i> in it, connections are <i>over the internet</i> or <i>on this network</i>, the browser plays a <i>review copy</i>, one <i>passphrase</i> everywhere (no more &#8220;passcode&#8221;). The window&#8217;s progress line reads like a sentence (&#8220;Preparing the web link (2 of 3 clips)&#8230;&#8221;, &#8220;Live&#8221;) instead of an engine report.</li>
+<li>Buttons say what they do: <b>Start Review</b>, <b>Join</b>, <b>Leave</b>, <b>Remove</b> (a person from the review), <b>Forget Browsers</b>, <b>Reconnect</b>, <b>Reopen</b>, <b>Withdraw Delivery</b>; the checkbox is <b>Only these people can join</b>.</li>
+<li>The manual&#8217;s three books use the new names.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.837.zip" length="60187054" type="application/octet-stream" sparkle:edSignature="fFmZSNJhP7JSL+7kJkLA3L47sDM8pwSYD+uGhIWWropFntBt0NxjRgRzIAR5Nl730uuXWj/FKuttmQ15/cORBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi837-833.delta" sparkle:deltaFrom="833" length="600678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xcQR1jSRznx6GOc0e51n0cBX6rjaR19UEbQvF8RnxjBwym5cDK+AWoqFl3ONHD+5nV8VZjWlEB265UvlP9jnBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi837-828.delta" sparkle:deltaFrom="828" length="698622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A69ywe1GfA6MWw0YY4GK3P+fYLuSrxJO4tuUaQ2cFnH9Q1N037hQxjZ9N0mzWe6ZZyjig/cVEO7LxDZ5GhZ5BQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi837-823.delta" sparkle:deltaFrom="823" length="2335474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MFZ/JUlGbrdqF+IO/Hszr2Vk2QRnfEVUy5Nc2F7OoaB0y12AWwsDc3zv0Iute3Du6xwRf5JvM5itqFRRNIuMCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi837-820.delta" sparkle:deltaFrom="820" length="2333470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LYgPOOx5TbZrjpzhdVd+PhXb1MwX7B80IJ5SkRi4tY+alEZTo9nzcjNXZLQ5jEQu2kO1cOf7AzeOhq4rrTlABw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi837-818.delta" sparkle:deltaFrom="818" length="2754078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vmMGeFZxxAHOT3nnkLSKXipwsBHH4ElWUFbRFcrLSECZ+LjOmkgKtOyZQVTGERD1/HIBhQZD2k8mRVd7IGCPBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.9</title>
             <pubDate>Sat, 26 Sep 2026 06:30:46 -0700</pubDate>
             <sparkle:version>833</sparkle:version>
             <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
@@ -58,35 +88,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi828-818.delta" sparkle:deltaFrom="818" length="2533814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ftBLEhJsOIFElpMNdFFx2nyaRzRpdseda/txiVJYPTt0rZqlZZ+KvgOK0B1DXNwC12zmp1DbJca+CqJjNZp5BA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi828-815.delta" sparkle:deltaFrom="815" length="2545626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U0KdE/vVVCIgvL1/zh0WmXX5khNaV7Z4bg5hnBVWwGaYy2Q5CQT6JRciM7REhkLMzVWaW1qGI2NKz+fw694RAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi828-813.delta" sparkle:deltaFrom="813" length="2588506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W/yeOUgsGGZW7sDsIrD91xwq2c/8Ax86jeqdKIQpYqK6Qv1INnkFFH+e986qv1eDY7GRLBNMAI8Ikpzm4UlJAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9</title>
-            <pubDate>Fri, 25 Sep 2026 11:11:19 -0700</pubDate>
-            <sparkle:version>823</sparkle:version>
-            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.9 (build 823)</h2>
-<ul>
-<li>Stills show as recorded. A PNG, JPEG or TIFF was being de-gamma'd twice on the way in and then tone-mapped by the ACES view, so a dark picture went nearly black on screen and in every grab and export (sRGB 40 read 0, 128 read 35). A still now carries its own code values, like a movie frame, and its default input space is the display-referred <b>Output - sRGB</b> &#8212; through the sRGB view a still round-trips within a level, and the color check suggests the same space.</li>
-<li>If you had set a still to <b>Linear sRGB</b> or <b>sRGB - Texture</b> to compensate, set it back &#8212; Color &#9656; input space, or the color check&#8217;s suggestion.</li>
-<li>Optimized stand-ins made from PNG/JPEG/TIFF sequences by earlier builds held the old values and now count as stale; optimize them again.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.823.zip" length="60073541" type="application/octet-stream" sparkle:edSignature="qHUcfm7/iFLv1uzd6JNvVLd20pAkjFS/SM8jG/Ol0Q89bELOwS0xQ4NDSIKmF9X7m6k0yj5HGKhjnGljsHPxAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi823-820.delta" sparkle:deltaFrom="820" length="484638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xwMFMnbDNpZnyVQl87T0L1RuIxxKCVULaYRUTtqqU1nbZmj3hRjoQNxlx2QRDgNCmi3HR77F/cUW09l3Oy7dBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi823-818.delta" sparkle:deltaFrom="818" length="2065090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AN0eulWPTJpkDyTOofssw22erQfY2NxV3N//BsF+SHGFEZqK70zpWNaZcZRsEC9/6rZNWGH/e9J8yY401U4/AQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi823-815.delta" sparkle:deltaFrom="815" length="2264270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HxG0wHAAn3XVhG5EZ0OdKGcmnM63nnRZFUK37wIj7u8kOydk0TVq5SP/szWA9v3nGODHqw6AEyS1lp6FG0bZAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi823-813.delta" sparkle:deltaFrom="813" length="2307030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ROUuL0Czvkg12J6JmrrNcvwJsSu3ThJQkdrNbSmsbPgTPyFBNk967HdmIMRlyide5S8G0O+1SRysxZ/0dvoSDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi823-810.delta" sparkle:deltaFrom="810" length="2337342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wgC0fjyC9+FEZHiK4Bwme6EPWf9mgDINO+Sp7XYUAcWK98Wkpb8XehCeXJZhgiNyduvQ3dHBqsJJYiR7A4ifAw=="/>
             </sparkle:deltas>
         </item>
     </channel>

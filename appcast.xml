@@ -4,6 +4,36 @@
         <title>Asobi</title>
         <item>
             <title>0.9</title>
+            <pubDate>Sat, 26 Sep 2026 14:07:14 -0700</pubDate>
+            <sparkle:version>878</sparkle:version>
+            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 0.9 (build 878)</h2>
+<ul>
+<li><b>Drop it.</b> Drop the delivery folder, one of its files, or a zip onto the Source Links window and every clip is found nearby &#8212; the folder, its parent, its grandparent &#8212; and linked. Drop a zip onto the main window and it is unpacked and sorted through: a session package inside opens as that session, an invite is offered, a session file opens, media joins, and the review&#8217;s missing clips relink from it.</li>
+<li><b>Export Session Package: Zip the package</b> (one file to send) and <b>Deliver to</b> &#8212; Suite (into the job&#8217;s 10_DELIVERIES, watched until Suite has uploaded it), Google Drive, Dropbox or Box (the synced folder; a share link is made when rclone knows the service). The clips&#8217; source links and the invite&#8217;s note then say where the originals are.</li>
+<li>The Source Links window follows the playlist as it changes.</li>
+<li>The host sees what each person did about the media under their name &#8212; &#8220;fetched from delivery.zip&#8221;, &#8220;couldn&#8217;t fetch: access denied&#8221; &#8212; and a missing clip&#8217;s marker says why.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.878.zip" length="60888760" type="application/octet-stream" sparkle:edSignature="8d7sX7QmMoym72s3vBnm/VoH0nslMxG/ustraJrLz5CpouifRuuckGpCQEQNX9TSv2dCBAofvL3Z5BVSha1qDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi878-875.delta" sparkle:deltaFrom="875" length="1106494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UvTy/BaMgbDSxeLbTysRfnwf6ZUYvQOqZngy7sTDg41skpS1ASz6jGsZQQ3qPHTlXekFBHYPNSjfHkwLqnsQAg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi878-872.delta" sparkle:deltaFrom="872" length="1412070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5/ok2/iU9Dg6ykpq5fFXlRqINp+QN1Bt5FxUANzf7KrRQLzpsteevB10+cbEdhnrIna/A/DOWIOY+aDH4J6ZCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi878-869.delta" sparkle:deltaFrom="869" length="1778450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SbETB3Rw3KKRVtLX/9Ack9/T1CwLzZTT35JS4IM9EvZGNChQRmYFuunp87nlXp/WNi+UD/6T5AVcx/fXUmd1Ag=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi878-866.delta" sparkle:deltaFrom="866" length="1831402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y/F66QuE9Eab1fdXXf46AtGuenrVoEaDaWS5oedNgETpPswJHBIBIAOSsrEUKEoNPOL5cDocf9S2tGSHRmGhCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi878-863.delta" sparkle:deltaFrom="863" length="1824710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Go4xIKriE7yuajqKcEuoYPnYaWIPZIfonFHl6kEqAjjqSIel26FkaRNZQNxb6Lsmvk6za81LIU8pCB3WSoaLAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.9</title>
             <pubDate>Sat, 26 Sep 2026 13:41:16 -0700</pubDate>
             <sparkle:version>875</sparkle:version>
             <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
@@ -68,36 +98,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi872-863.delta" sparkle:deltaFrom="863" length="1278098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ypo0goE5OkgSDbI1v6Dy//0v5yRCxN3qIRitUEKAQDVCvmZ/20XN0pZplLFwO0QY7yFlnse0WeDtY62P01M0DQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi872-860.delta" sparkle:deltaFrom="860" length="1593610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKUYNXZu+gk5ZbDhwNGQL8dSE8w3F0u4VVTB3I9Q5ePXprvsnoNrGcmC2p3yR+DwQk2HEjRz7ZQaqVkhzYgQBQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi872-853.delta" sparkle:deltaFrom="853" length="1696462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZY63GrDTUF6AEj0wmyCwpGX4QbFQa5g23XyFGmibNwGUj2gi1Te1zXTU2TtRHMqFLvxvFpP8mVepQDGszaArBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9</title>
-            <pubDate>Sat, 26 Sep 2026 11:39:48 -0700</pubDate>
-            <sparkle:version>869</sparkle:version>
-            <sparkle:shortVersionString>0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 0.9 (build 869)</h2>
-<ul>
-<li><b>Name the review.</b> Share This Review has a <b>Review name</b> field &#8212; &#8220;Toyota Highlander&#8221; rather than &#8220;James&#8217;s review&#8221; &#8212; and that is what people see in Join a Review and on invites. The session&#8217;s title is offered to start with.</li>
-<li>The Review Manager shows a live review&#8217;s <b>passphrase itself</b>, in its capsule, for reading out &#8212; not only a copy button.</li>
-<li>The copy and refresh buttons press visibly now, and the copy button ticks green for a moment.</li>
-<li><b>Web review: no colour shift between playing and pausing.</b> The parked still and the live-trim canvas are the reference and take no gamma filter; only the video does, since only the video has the browser&#8217;s lift to correct. Measured on a live review: parked and moving within one level.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-0.9.869.zip" length="60370259" type="application/octet-stream" sparkle:edSignature="Hck/3iSUk3a4P0S0ZLSqlfczu/Qq2fWoZFAgtD1CWpScr7fE6juKIycDu9D07JeQyV1fsvutPyabUQLxqNSkCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi869-866.delta" sparkle:deltaFrom="866" length="648410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tyuP0p5Cgr1dkPla6T27fVKN42e2x2wSnu2gvOG+vxG8sFouYEUA4Kuk/psM0OpA5AMIetO0OxZIV56GItXjDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi869-863.delta" sparkle:deltaFrom="863" length="732098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XOrZ/m/KqQMObXNuQmKz+dtVmzjnbgcH1zdgKlkYaXO0+cGvvRn2qeDw0qnBV7zpZyo+KPkLjn6jssXynrshBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi869-860.delta" sparkle:deltaFrom="860" length="1163350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vrc58KdXmJUTg1C3chqInbw5GHQPHqOQ+E/OfvhwZdHu8WGdxdrX0TqTpc8DdeTegkVJWfHzL/QFepzLSvBLCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi869-853.delta" sparkle:deltaFrom="853" length="1312346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vLp08TYo0CUh4OkkxiPylvkCUVQLYd2H4KVZYmAVKiavrLo7eiVv5NctEwxFt4QIYcXp7KuNn4fnno2wZbGIBA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi869-849.delta" sparkle:deltaFrom="849" length="1331398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ahzx8+QoA0mdnu6/8f97j8OY0tsvmDL7sPU19j7rVZKY1ia4r5wTs/4CBr6nnMUNQ4izVnS/DZ5+Qoo785+jAg=="/>
             </sparkle:deltas>
         </item>
     </channel>

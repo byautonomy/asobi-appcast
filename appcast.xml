@@ -4,6 +4,33 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
+            <pubDate>Sat, 26 Sep 2026 17:09:20 -0700</pubDate>
+            <sparkle:version>929</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 929)</h2>
+<ul>
+<li><b>PDF manuals: keycaps audited across both books.</b> A Key column that is not the first column (the Reviewer Guide's drawing-tools table) is capped; "B sketch, A arrow" in the annotations chapter caps B and A like R; "Press Tab" and "Delete removes it" are keycaps. Bold A and B stay plain where they name the two sides of a compare.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.929.zip" length="66860179" type="application/octet-stream" sparkle:edSignature="vWY0j3ifc/QgddS8OSaViqi0WxV2cd017pmGzH3Eiw5gnqD6mXpJvCFCG4OhTirBheO+/o7gwArSvljAYR7cBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi929-926.delta" sparkle:deltaFrom="926" length="125506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fqNvDRTbC4cvaj98tnAHXjItOfmbP4zVaeq+CAryUV1u/Iug975nuM8qLsjPyKg8o+p7mfcWdwcuaQqw7EBUAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi929-923.delta" sparkle:deltaFrom="923" length="135218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eqz1Q19e3hL6z2/vEEiaU6aNYUgN42nxuLyJWEibLg2HevlKUC4nmktqd/UG0mBUALYflwmfoTwE+cdrSCd2AQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi929-920.delta" sparkle:deltaFrom="920" length="431790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g2YEdJifkrS4PVnnkeOHkVs2p2XT18/5HXmGbf3n4QfM1x1C7A8NyLyeILpbROsRXWSJw0IGHIwlG4FeP7ZMCw=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi929-915.delta" sparkle:deltaFrom="915" length="3583626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q9tHY6ufdD6VBUx3/T2LQyvPMOjSh6m1BOnCEFwgqXhb6t2BFYbpgzaReeb3i1G3rO09GdWirbOdr0hlMMyIDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi929-912.delta" sparkle:deltaFrom="912" length="3574754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nGcBz6QbKh1u2GpknxS35e5EwHK5ceDCof+1AtAu7uNTXoxyCroktqkI/5fsGj6+eZQi+gJ+OIXYwWNHJDGYCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Sat, 26 Sep 2026 17:04:44 -0700</pubDate>
             <sparkle:version>926</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -54,36 +81,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi923-912.delta" sparkle:deltaFrom="912" length="3568886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5MgH/nYQdhJ2CIhlEVrzhxsl35S1lHq9n/LOTOalTv9s6GxcdnMEbw2/orhK3g90tebreC/Rj904txKp8hxTDw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi923-909.delta" sparkle:deltaFrom="909" length="3585366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fHMX2bsrpC+VVhTYGdJU63cCk3VZHJV0WoHfjF3/Ue29tRygX6XqukhXcNyCkkxM9cQq6Xmtkmpm8dkALiSIAA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi923-906.delta" sparkle:deltaFrom="906" length="4301870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RTrY2WmIbPt38oO/Lo35zaemwKrXGTMPnD7XDO7wsLaiYVLL2socDbYk1OOUGxvw+YBup6/Xn6lJkpjJZZhNAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 26 Sep 2026 16:50:19 -0700</pubDate>
-            <sparkle:version>920</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 920)</h2>
-<ul>
-<li><b>Asobi 1.0.</b> The milestone release: the designed manual, deliveries to Suite, Drive, Dropbox, Box and Frame.io, reviews over the internet with review copies for every seat, and the source-links and media-provenance work of the last week.</li>
-<li><b>The manual, designed.</b> A new edition of the PDF manual and the Reviewer Guide: a framing-chart cover, part dividers, chapter openers with the chapter's own screenshot framed by gate marks, the reading text in Source Serif with Archivo headings, keycap shortcuts, a contents page with every section and its page, a tighter index, PDF bookmarks, and the license as the final pages.</li>
-<li><b>Help &#8250; Asobi Manual</b> follows the same design: the chapter numeral and title, numbered sections with the yellow tick, serif reading text, keycaps.</li>
-<li><b>The splash</b> sets the name the way the manual's cover does: Archivo Expanded, in the same yellow.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.920.zip" length="66856073" type="application/octet-stream" sparkle:edSignature="Xrr9namVuBUrAolMReUlj9PyhXELZvvqz4IBU0CGolL2iAkZsOqlDOeUzK6fjP5j4Y48Kb0Qwrg9TMPCkgLnCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi920-915.delta" sparkle:deltaFrom="915" length="3556974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qmw2S/t183hc5VstP7h9nTynezyCOOecZ8/hkCIWFG2pAkGUZZmAZXcloUDn2yINPwx0nLAE+ePc9np5vsfqBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi920-912.delta" sparkle:deltaFrom="912" length="3567202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pur0L5kCFqjIyKcc/GjlMDyuf+dcPZwa7lRUpQRNlyetYSzLT9aVrsW5jnkabjeqmqBQpclha54moWsNYRa/Aw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi920-909.delta" sparkle:deltaFrom="909" length="3579146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2afnYvfE9wf/5nwg5ukdV8s3pOp0oOovSrXO8TxRzBpCNYQp3yKSBnC6gQpoZtjeicrxs+SloZ3KlK36gggZCw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi920-906.delta" sparkle:deltaFrom="906" length="4298458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bu9I1nteKXVnlGlwwrC3PPZKfHn48cH6co+CPzFWLjC9wqOlEjycIBPHiPHDC5W02MPjnrY/4INkqEPO23vZDA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi920-903.delta" sparkle:deltaFrom="903" length="4456302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fa13QVKhksYGK7bJXNpW+YLvBhHYepmStS6sN7Krc6FTOXil4fIlShMu801HMOZTsZjYnCV+mbi2r17bPV2tDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

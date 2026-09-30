@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 11:14:39 -0700</pubDate>
-            <sparkle:version>1048</sparkle:version>
+            <pubDate>Wed, 30 Sep 2026 11:35:04 -0700</pubDate>
+            <sparkle:version>1050</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,12 +19,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1048) <span class="when">Sep 30, 2026</span></h2>
+<h2>Asobi 1.0 (build 1050) <span class="when">Sep 30, 2026</span></h2>
 <ul>
-<li><b>The brief stays with its review.</b> A review brief no longer carries over to other clips or to the next launch; it belongs to the review it was written for. The card only opens over a review.</li>
+<li><b>Each tool keeps its colour.</b> Circle in red, switch to Text and type in white, go back to the circle and it is red again. A colour picked with no tool in hand goes to the next tool you pick.</li>
+<li><b>T is Text.</b> As in every paint program and on the web page. Trim handles moved to <b>&#8679;T</b>.</li>
+<li><b>A tick to place text.</b> The text box has a &#10003; beside its size buttons; Enter still works.</li>
+<li><b>Line opacity that works.</b> It now changes a selected mark, and picking a colour keeps it instead of resetting to solid. Line width, line opacity and fill opacity open as small pop-ups from the palette, and any line width is one pop-up away after the presets. The web toolbar has line opacity too.</li>
+<li><b>Who read the brief.</b> The Review Manager shows how many have read the current brief, and who.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1048) <span class="when">Sep 30, 2026</span></h3>
+<ul>
+<li><b>The brief stays with its review.</b> A review brief no longer carries over to other clips or to the next launch; it belongs to the review it was written for. The card only opens over a review.</li>
+</ul>
 <h3>1.0 (build 1047) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>Known issues in the brief.</b> The seal on a note marks it <b>Known</b>: it gets a yellow KNOWN tag, it is listed under the brief shot by shot, and anyone typing a note near it is told. The host and studio seats can mark notes.</li>
@@ -57,9 +65,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Angled wipes cut where the line is.</b> On a wide picture, a wipe set at an angle used to cut at a steeper angle than the line drawn over it. The cut now follows the line exactly, in the app, in frame grabs and on the web. Vertical and horizontal wipes are unchanged.</li>
 <li><b>What&#8217;s New keeps the recent history.</b> This window now lists the last several updates, not just the latest, so nothing is missed if you skip a few. Reopen it any time from <b>Asobi &#9656; What&#8217;s New in Asobi&#8230;</b></li>
 </ul>
-<h3>1.0 (build 1029) <span class="when">Sep 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1050.zip" length="68072060" type="application/octet-stream" sparkle:edSignature="Th+b5YTiyAeXAXd6heFEMCNWdNCiw4Jvh/ga3O1wxmvLz7pc4OndGS2jUxDvNeE/3i3egB73VDqMlwAJGynGDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1050-1048.delta" sparkle:deltaFrom="1048" length="1105746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dfxXF115ixRQ+xQmmXSg1Jfy5qlXnAZVlNLWJSUjd793Fj3EH2R1I/5hDIhqqxDBoMgjzaUxuOHQjWLPaBrUBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1050-1047.delta" sparkle:deltaFrom="1047" length="1095418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PZqFB78eIdzC/nZTOmaY/r/l+HhEhGXUwzGd1IhW7sfphnmgdvAXLKSQDEGMnJa+HtB8vwRKhNriuMu7rR0YAg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1050-1045.delta" sparkle:deltaFrom="1045" length="1291838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Xy/Bz+OnkeAbPhqZHdjmnncrceu4YTISmTcwtFrtvUi+Sczrk7mkDT0wfb4NKyweqTENq40aNtLdIdaZ8ASBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1050-1042.delta" sparkle:deltaFrom="1042" length="1715374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D0faL/fuV5D+hghei6zTD191Fi2p8CLsyI98HWf5+ZNRcbxYxOHszVg5kXyRJweUHQqvo0VFPB5rvDyf4lasDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1050-1039.delta" sparkle:deltaFrom="1039" length="1824098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8anKJpCbr5C5qoEo1Z8shldL7Dwx5opFpD9a1PKJ5xmxfcbyAoVPcomjGqr2SG7PihjEicsIl2lUHzCcuGGxAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 30 Sep 2026 11:14:39 -0700</pubDate>
+            <sparkle:version>1048</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1048)</h2>
 <ul>
-<li><b>The selection box turns with the marks.</b> Rotate a stroke, line or arrow and the box, its handles and the rotate knob turn with it; scaling a turned selection works along its own sides, as in any graphics app. &#8679; snaps the angle to 15&#176;.</li>
+<li><b>The brief stays with its review.</b> A review brief no longer carries over to other clips or to the next launch; it belongs to the review it was written for. The card only opens over a review.</li>
 </ul>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1048.zip" length="68050273" type="application/octet-stream" sparkle:edSignature="R1JKNYoIZ9WauxVQ0/EcClvChxQpLWDNgo4ErwuA91KiVMj4J6xVBBqFPnFKeq9QH052AwrHYnnU5jm/PCPYAQ=="/>
@@ -98,34 +129,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1047-1039.delta" sparkle:deltaFrom="1039" length="1709486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R2RhU/bIRMLOJacDAmwj9ltvyRKngV70NpCNE32rQ4THASlPQw7QNwOZ8Tf0UOF+ME0WpFfD/PkPhFpRvpgWCA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1047-1037.delta" sparkle:deltaFrom="1037" length="1727534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tM7Krufa/UBKbSFJpuxQG/5ZZqTqXBUgjo4qnAFCiO5ga0ZprCpihrOBNA5Y0MDvQxrtFJ3Fg35Mm8AmBojZBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1047-1035.delta" sparkle:deltaFrom="1035" length="1794018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CWb7/KRC6pzzJYQHtQosM3kFulD0boqWpyVqkhTgsR6iglJ0WWP483eKX2pz/8/fgHok2rnfSiPU33JLugoeBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 10:49:28 -0700</pubDate>
-            <sparkle:version>1045</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1045)</h2>
-<ul>
-<li><b>The review brief.</b> <b>Review &#9656; Review Brief&#8230;</b> writes a short note that every reviewer sees as a card over the picture, <b>Before we start</b>, the first time they open the review, in the app and on the web. Say what is already known and what to look at, so the notes that come back are about what is new. Change it and everyone sees it once more. The yellow <b>BRIEF</b> tag reopens it. The host and studio seats can write it.</li>
-<li><b>Tidier Film Lab.</b> The negative and print menus now run the full width of the panel.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1045.zip" length="68013158" type="application/octet-stream" sparkle:edSignature="iG4wLXPdgXsc0HYrqw+4saNw3/7B7F/7faixTYSA9IJsTPsvfknrdq6za23hb4N6tsEqxzPgdJcjvdp4QoTBBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1045-1042.delta" sparkle:deltaFrom="1042" length="1466234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gbFpOeGNyATJZyqQzMc31muJVQjmDqea/PNTvC87fFtfM1uHWXLPSwOQUm9XcQPcJ4PyYT5jFpJ1HxrBYhdvAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1045-1039.delta" sparkle:deltaFrom="1039" length="1617414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BD5lppJeOM8L5lLlxIQBKDqX4qscUV+xU0IDXWYekVKe1nJMDNE1upqWqjs3Yuzj4pGuinukMnB/O6EvQWu0DA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1045-1037.delta" sparkle:deltaFrom="1037" length="1628254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n4IhRqekh6ogZyyiVf9r26WAXEH3MmN8+zJDgRp9yBcTJvCLU0pLwnbMh11sNhJXYSHiOBRMzYURT7t3Z+rSCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1045-1035.delta" sparkle:deltaFrom="1035" length="1714754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fhl8xeto5HrGFbOwpDepxcaMug9Xmp/5dn4wqgaz6RNF5BOd63WaVPQEongwjhHng9rT2EWz+HaYZa3T382CAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1045-1029.delta" sparkle:deltaFrom="1029" length="1740578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MZcVs5KV9nOSF3eMfjldwPARDXcA+mrT5AATLiNZklX9El69B1qcQeGZpGtVIFYyaYhAP1PQyOjzOaytzboyBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

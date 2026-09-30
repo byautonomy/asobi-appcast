@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 14:46:43 -0700</pubDate>
-            <sparkle:version>1059</sparkle:version>
+            <pubDate>Wed, 30 Sep 2026 15:15:34 -0700</pubDate>
+            <sparkle:version>1061</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,13 +19,21 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1059) <span class="when">Sep 30, 2026</span></h2>
+<h2>Asobi 1.0 (build 1061) <span class="when">Sep 30, 2026</span></h2>
+<ul>
+<li><b>You can always open your own showcase.</b> Every showcase makes a <b>Preview</b> link for you, opened from the Share window and the Review Manager. Your viewing is never counted and never sends a notification.</li>
+<li><b>The right link for each person.</b> When a showcase is for named people, the Review Manager&#8217;s <b>Links</b> menu lists each person&#8217;s own link, with <b>Email&#8230;</b>, <b>Copy for Email</b> and <b>Copy Link</b>. It no longer offers the open link, which only says &#8220;by invitation&#8221;. If someone does open that link, they see the title and the moving preview, with a way to ask for their own link.</li>
+<li><b>The email is written for you.</b> A showcase&#8217;s <b>Email</b> button opens a new Mail message with a moving preview linked to that person&#8217;s own link and a caption with the running time. <b>Copy for Email</b> does the same for Gmail on the web, and <b>Save GIF&#8230;</b> saves the preview.</li>
+<li><b>The preview starts where you are.</b> It plays 4 seconds from the frame on screen when you choose Make Showcase, and the sheet shows that frame. Portrait pieces get a portrait preview.</li>
+<li><b>Link previews in chat.</b> A showcase link pasted into Slack, Messages or LinkedIn shows its title and the moving preview. Review links still show nothing.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1059) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>Who watched your showcase.</b> Each showcase now reports how it was watched: who opened it, when, from where and on what; how far they got and whether they finished; the moments people replayed; full screen and sound. The Review Manager shows a watch-through curve, the most-watched moments, and every visit, with <b>Export Viewing CSV&#8230;</b>. Asobi tells you when someone opens it and when they finish.</li>
 <li><b>Forwarded links ask who is watching.</b> When a person&#8217;s link is opened on another device, the new viewer is asked for their name and email before it plays, so a forward becomes a named viewer.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1058) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>Showcase links.</b> <b>Review &#9656; Make Showcase&#8230;</b> makes a link for showing work, not reviewing it: a splash with the title and a play button, a plain player, and a closing card with your contact and a button to your website. Links live on show.byautonomy.com; name the people it is for and each gets their own link. Who watched, and how much, arrives in the next update.</li>
@@ -59,10 +67,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Already noted here.</b> While you type a note, a line above the field shows what has already been said at that moment, so it can be added to instead of repeated. It never stops you sending.</li>
 <li><b>Who has read the brief.</b> The host&#8217;s card shows who has closed it.</li>
 </ul>
-<h3>1.0 (build 1045) <span class="when">Sep 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1061.zip" length="68253592" type="application/octet-stream" sparkle:edSignature="YK1h5sEq2h0WZWr/BUq3eu6fY6OsFAFMJ6NWFeiPaqEWYKQUuJguScd7q1g61JkAP0vL1DU1iFqKn1gN66d7CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1061-1059.delta" sparkle:deltaFrom="1059" length="1255218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kJT88gkKd3O4xFOx3cq1SXUm0uvSzvXn+4SWYeZeNvqGy8u0c+d4XkUVWR5EnAqnl9QCQaMrPelRJiMSUlsZCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1061-1058.delta" sparkle:deltaFrom="1058" length="1323058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z7nbFC550cc6bUq2yLJTFXtYuCtof/XRPLgHQJaBdxCbwU6auaByBqogfvTwGOsLcybaauI6u69eO/fs4dkuCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1061-1053.delta" sparkle:deltaFrom="1053" length="1502058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="udpcnp5AJEYTkQIYb1+triikAynNrETlbvVGeZJWBPnRLVEbctqibDCToAINs+Cf/0KvlbkinclKD1ZlHJO4CA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1061-1051.delta" sparkle:deltaFrom="1051" length="1540658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oyAdhneeswgLjuwlYmkSjPS+bb5hBuUVEjDV5QB3qVz043aGdagYtRsRGL0jl3awlYJPt4+y5c44qXu9onhaDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1061-1050.delta" sparkle:deltaFrom="1050" length="1545302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TqnU5AAENVIjk3fLOUqcJuTK3JH+3DYeJtB3W+qNzRmuMwdx6TYaOLkqtbIjCYorAqxhmFxzAedHaSUYWjSMBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 30 Sep 2026 14:46:43 -0700</pubDate>
+            <sparkle:version>1059</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1059)</h2>
 <ul>
-<li><b>The review brief.</b> <b>Review &#9656; Review Brief&#8230;</b> writes a short note that every reviewer sees as a card over the picture, <b>Before we start</b>, the first time they open the review, in the app and on the web. Say what is already known and what to look at, so the notes that come back are about what is new. Change it and everyone sees it once more. The yellow <b>BRIEF</b> tag reopens it. The host and studio seats can write it.</li>
-<li><b>Tidier Film Lab.</b> The negative and print menus now run the full width of the panel.</li>
+<li><b>Who watched your showcase.</b> Each showcase now reports how it was watched: who opened it, when, from where and on what; how far they got and whether they finished; the moments people replayed; full screen and sound. The Review Manager shows a watch-through curve, the most-watched moments, and every visit, with <b>Export Viewing CSV&#8230;</b>. Asobi tells you when someone opens it and when they finish.</li>
+<li><b>Forwarded links ask who is watching.</b> When a person&#8217;s link is opened on another device, the new viewer is asked for their name and email before it plays, so a forward becomes a named viewer.</li>
 </ul>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1059.zip" length="68187492" type="application/octet-stream" sparkle:edSignature="gZh2jAKuHnAI53877L55yLa10WtaRWG8d+vKtA2CS+/lJTNVRr88C1o7GgiJEpqoAGchF1LSEYYnekelNvTODg=="/>
@@ -99,36 +130,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1058-1050.delta" sparkle:deltaFrom="1050" length="1226622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r6FDVCI26wWEAtd5LZX875PhHTsSNraPRQOPTkZadcC3ri7cs7I2yMWD3ehfNH+olwM4qowEWnZr1d3gT6crBg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1058-1048.delta" sparkle:deltaFrom="1048" length="1411842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4c5ou+J7u8vgR3fsGmnJPwER7i/DkgSpBB12e9coxNQiM3L8JWgNVZFIAgy+HYaZprYKDzeB+kvpJM7/DPAkAg=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1058-1047.delta" sparkle:deltaFrom="1047" length="1412494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YHtJnjLuQ3ZBAuZk+AmYefXszqgYbE04vdYLZ/gnrfArYkL0y7hONjN9dmys4TUaLCBBUx0mIbHvOTIbzlUcBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 13:10:30 -0700</pubDate>
-            <sparkle:version>1053</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1053)</h2>
-<ul>
-<li><b>Watch the speed.</b> The Network window shows the speed as it is measured, with a line of it over the test, green when fast, amber in between, red when slow, and the peak.</li>
-<li><b>Thorough Test.</b> Six seconds of eight downloads at once, for a steadier number on a fast line (uses up to 400 MB). <b>Measure Now</b> stays quick.</li>
-<li><b>Halation remembers.</b> Switching halation off and on in the Film Lab brings back your settings.</li>
-<li><b>A note in the shortcuts.</b> While you type in a text box or note field, letter keys type; press Enter (or the &#10003;) or Esc to get the shortcuts back.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1053.zip" length="68092883" type="application/octet-stream" sparkle:edSignature="NWcBPmS8ZESvZLcK9n+tvtFvB+kP/l6HtjfbgEQl4qfwtaeGJBPlA7vFdTvZw55VtFXjkxypKSS7nqY97DZzCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1053-1051.delta" sparkle:deltaFrom="1051" length="865622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FWb5/n3hIh/AI/GJDVStH2PN1fSXx5ZwbQYaSYARA1iTpSW7AOwI56GF3qKeHUf0Fq59bUKAAf50PMYlGZpJCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1053-1050.delta" sparkle:deltaFrom="1050" length="877426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hchYgdtdjBjoyLPb2xWroYHf1iYNeiMY951QVjDcQCrDih41PtyYfjhjgE4Ru26woUOoiHQHGh7AHU+Yk/leAA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1053-1048.delta" sparkle:deltaFrom="1048" length="1163282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xtMPSoWufThY3MjKLxN9p3bXopJAx0VNVbWxwfqxFzRCKm/59cd5qhNkyKIxIUNMlW1DIvO51fJoK9xDJ2A5BA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1053-1047.delta" sparkle:deltaFrom="1047" length="1161782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nYgJJPeED6oIs8vWrM3CsIXgpluFAkmENth7Pbhtstkh25Va3sdfGoMjVanDgiDDuf5SqCNGoGg76/7+e8LPCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1053-1045.delta" sparkle:deltaFrom="1045" length="1392534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7Gf4wsNcr+ikHPcMJrm+N+q1Ur3f6bBHODDZUmgnMZhUWoQG6P4vj9IReIAYMs9FvE+BQtS3FS8p+5SLz9V4DQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

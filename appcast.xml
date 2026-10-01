@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 01 Oct 2026 16:13:38 -0700</pubDate>
-            <sparkle:version>1107</sparkle:version>
+            <pubDate>Thu, 01 Oct 2026 16:19:49 -0700</pubDate>
+            <sparkle:version>1109</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,15 +19,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1107) <span class="when">Oct 1, 2026</span></h2>
+<h2>Asobi 1.0 (build 1109) <span class="when">Oct 1, 2026</span></h2>
+<ul>
+<li><b>Burn-ins on a running review:</b> turn the clip name and timecode on or off in the Share window's Options. It applies at once to clips you add, and Re-share applies it to the clips already shared.</li>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1107) <span class="when">Oct 1, 2026</span></h3>
 <ul>
 <li><b>Join studio reviews over Tailscale with the passphrase.</b> Join a Review now lists reviews hosted anywhere in the studio, marked "studio", not only ones on your own network.</li>
 <li><b>Studio Reviews has Join</b> for any running review.</li>
 <li>Clearer names in the Review Manager: Asobi Review License… and Asobi Seats….</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1104) <span class="when">Oct 1, 2026</span></h3>
 <ul>
 <li><b>Choose how long a showcase lasts:</b> 1 month, 6 months, 12 months, or until you delete it. Web review links last 7 days, or longer if you choose.</li>
@@ -64,11 +69,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>From the command line:</b> <code>Asobi checkframes &lt;clip or folder&gt; [--strict] [--csv out.csv]</code> gives the same report, for a delivery folder or a nightly job.</li>
 <li>An ended showcase&#8217;s link now says the showcase has ended, not the review.</li>
 </ul>
-<h3>1.0 (build 1074) <span class="when">Sep 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1109.zip" length="71539164" type="application/octet-stream" sparkle:edSignature="XLXMHpGae662fZiVg2dYBmm7yMc2whX8xOVnfEUstuPXfuHV6pZQxYZyQ+0GzzPL5ToANgipg6kVah37M5+SDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1109-1107.delta" sparkle:deltaFrom="1107" length="575986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="clSMMAg2Qk7k4QGvrNV/KUZ4Abl9J5HbPt8d171zj5ORbUMVLz2qeN/FsYz6/epT18wX/PrTA6hx6/oH1klyAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1109-1104.delta" sparkle:deltaFrom="1104" length="1213858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k6MEfN+qMsnPxIRnmkFnMTOix5Cr7Lm5D0KlqPJuW7dRGOZ/wvI4hEkGNEEqtt+bXDGF8u6DL2LXbqZuIrSOCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1109-1099.delta" sparkle:deltaFrom="1099" length="1370522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N/EOMR4IW/RXosB+Uf8rDflxjWcvGc+kfGmEK87+oqZm+J9KzUEJRNhD9lU68yaZcLLsD0YzzAYQSWwEBH6UDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1109-1097.delta" sparkle:deltaFrom="1097" length="1396974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bP5hjtgJ+lavNVWR8KZ00/C/xCO5Z4FeFT4CCprIFJJYxUGSu6katE1lZVnYt0H4oT3wi1Zv/sN1JCZiTA3sAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1109-1096.delta" sparkle:deltaFrom="1096" length="1397234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0M4h4BSaAqbkBkqNNnhdXwnC7pIHuSdsnOTy9ugWelLNyEFhoK+apoa60LdYJWhLyrPRFxf/iFK9Fz9i+1S9AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 01 Oct 2026 16:13:38 -0700</pubDate>
+            <sparkle:version>1107</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1107)</h2>
 <ul>
-<li><b>Showcases have their own window.</b> Make Showcase opens the Showcase window. It has a yellow accent, the steps as it&#8217;s made, who can watch, the link, Email&#8230;, Copy for Email, Preview, Save GIF&#8230;, the people you named, See Who Watched&#8230; and End Showcase. Nothing from a review is mixed in. The Share window just points to it. To come back to it, choose Review &#9656; Showcase Window.</li>
-<li><b>Reels of several clips.</b> A showcase with more than one clip shows each clip&#8217;s thumbnail, name and length on its opening screen. It has a Clips button for jumping between clips while it plays, and one timeline across the whole reel. The closing card offers &#8220;Watch another&#8221;. The Review Manager&#8217;s Viewing shows each clip: how many viewers reached it and how much of it they watched.</li>
-<li><b>Skippable sign-in.</b> When anyone with the link can watch, you can let viewers skip giving their name and email. Visits that skip are still counted, marked &#8220;skipped sign-in&#8221;. Your choice is remembered for the next showcase.</li>
+<li><b>Join studio reviews over Tailscale with the passphrase.</b> Join a Review now lists reviews hosted anywhere in the studio, marked "studio", not only ones on your own network.</li>
+<li><b>Studio Reviews has Join</b> for any running review.</li>
+<li>Clearer names in the Review Manager: Asobi Review License… and Asobi Seats….</li>
+<li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1107.zip" length="71536441" type="application/octet-stream" sparkle:edSignature="2BEKFmz9IbhfKRRCjLW/LTcFZD9Ayh/HDBecjaoRy+8EPBqnBaofF3/qleTdkUqLQyIh5Cs/fPR0GK0vslykAQ=="/>
@@ -108,34 +137,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1104-1096.delta" sparkle:deltaFrom="1096" length="1251454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UBk2OkQMBmkKhRQ9CmCEVvtZGia3JejI22NSUeq5VWYDxoSHO+Ohm4bBl2WJIywYeb0jsCpY6pd9xd5vIpEzDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1104-1094.delta" sparkle:deltaFrom="1094" length="1345534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="39thBFUBo5R1yRCImRXJBbEs61hzQMHuS0aVx959zlYI0uxhJFF+EdP6N2YrB8Gg0EicHWB/E4uiu4r6upHEDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1104-1091.delta" sparkle:deltaFrom="1091" length="1382470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BCBF1dzrHeGuCMbSPvu55wSKK0XQJWudccE/dNIjKTW33Rkf8W9lBp+Tce6O9wei9TbzxQoesxnQpQO5eS4iAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 01 Oct 2026 14:11:40 -0700</pubDate>
-            <sparkle:version>1099</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1099)</h2>
-<ul>
-<li><b>The studio watcher works away from the studio.</b> Reviews you host from home or on the road are registered with it too.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1099.zip" length="71487472" type="application/octet-stream" sparkle:edSignature="SMm9TVmBmEzFlwAtWvgyb1MhLFL8euEW1WFxiTlBHDDZ0TmxWnCUlt9uksnCIWY44D6V23LEvoi+9S94KSloCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1097.delta" sparkle:deltaFrom="1097" length="902874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qSz4Kp/QxFzDvjKp9nV6O2f3aBQxtyg+8fuD7AgFYwRchKYchytQvYTNu+K8oeoh8bW4tb98mSn6UgRsnGnoBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1096.delta" sparkle:deltaFrom="1096" length="903398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K4EPKTJ5hD3Y9SZntJ5EPGQG4SlJOIRWYZ/G49UDpkLuxzMO6Y/vhIMUXRB3X6P0MiEi0l+0R5UXsK8x39ebDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1094.delta" sparkle:deltaFrom="1094" length="1043354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FQbRe8VMCo8XaPRVH5UZ9XPz96Npeq7cvQJ/G2Wc4zO8IU1TjljNL7F39ZHsaEIo66w2cITK+E9n9ZMUiolJCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1091.delta" sparkle:deltaFrom="1091" length="1057418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RaIRUvTLpuiaE1I6Ad7CCt+l3g0DsY//SY7GBJ7iSsLSuxlLGVVvll4RTfWdoA6GFVB4oHD4TE2WtXUigIGoDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1085.delta" sparkle:deltaFrom="1085" length="1691950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="db/OKhlOj/n2JHNqn2mUfupU+WHXc9FZZmQfvsUZABWnivcrpp7bV5ZPfeen26DnLl6b/AIHC0k3FcTCQ67cBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

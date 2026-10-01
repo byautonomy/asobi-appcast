@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 18:55:07 -0700</pubDate>
-            <sparkle:version>1080</sparkle:version>
+            <pubDate>Wed, 30 Sep 2026 21:45:38 -0700</pubDate>
+            <sparkle:version>1085</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,14 +19,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1080) <span class="when">Sep 30, 2026</span></h2>
+<h2>Asobi 1.0 (build 1085) <span class="when">Sep 30, 2026</span></h2>
+<ul>
+<li><b>The manual is up to date.</b> New chapters on Showcases and Check Frames, with new pictures throughout. Help &#9656; Asobi Manual has the PDF too.</li>
+<li><b>Showcases:</b> a showcase made straight after ending a web link now opens as it should. Clip names on the opening screen drop version numbers and read more cleanly. An ended showcase now says the showcase has ended.</li>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1080) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>Check Frames.</b> Review &#9656; Check Frames&#8230; reads every frame of the clip on screen and lists the ones that look wrong. <i>Serious:</i> missing or unreadable files, files cut short, a different size, NaN or infinite pixels. <i>Worth a look:</i> a different format, black, white or flat frames, a one-frame color or brightness jump, a broken patch, a repeated frame. Each flag says why, and a click goes to the frame. Add as Notes puts each one in the review, and Export CSV&#8230; saves the list. Frames are compared with their neighbors, so a cut, a fade or a held black isn&#8217;t flagged. Image sequences get every check. QuickTimes get the picture checks.</li>
 <li><b>From the command line:</b> <code>Asobi checkframes &lt;clip or folder&gt; [--strict] [--csv out.csv]</code> gives the same report, for a delivery folder or a nightly job.</li>
 <li>An ended showcase&#8217;s link now says the showcase has ended, not the review.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1074) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>Showcases have their own window.</b> Make Showcase opens the Showcase window. It has a yellow accent, the steps as it&#8217;s made, who can watch, the link, Email&#8230;, Copy for Email, Preview, Save GIF&#8230;, the people you named, See Who Watched&#8230; and End Showcase. Nothing from a review is mixed in. The Share window just points to it. To come back to it, choose Review &#9656; Showcase Window.</li>
@@ -65,9 +71,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Halation remembers.</b> Switching halation off and on in the Film Lab brings back your settings.</li>
 <li><b>A note in the shortcuts.</b> While you type in a text box or note field, letter keys type; press Enter (or the &#10003;) or Esc to get the shortcuts back.</li>
 </ul>
-<h3>1.0 (build 1051) <span class="when">Sep 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1085.zip" length="71279698" type="application/octet-stream" sparkle:edSignature="qneOK/sdIwEZOXFUF5ZD4rDdOZ7bFheLe9ehpfEiI6rVUIUcHHpfqg3i2gnpO6XTX5aIBlAe4/csbWtgDoZvBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1085-1080.delta" sparkle:deltaFrom="1080" length="4686618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4c2lDdVNpWrqwm9voh+TuQyAKI3MItvPSLxkvO6ifi48E2uLoavPf0/z01EZad2tJG0WzS3zXKioUywuXUFlCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1085-1074.delta" sparkle:deltaFrom="1074" length="5060046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JEcAAd8prsov9ZYrloJoNq0UvdHxLQTTzvsAwWvl2Mjd1EyhdSpDZoBhHE94m9taud0DgU4dy4lVUZJLTlLyCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1085-1070.delta" sparkle:deltaFrom="1070" length="5150018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z74cVNMlRvvkowxUbNOfGdECp0Od94jWeu1ja7f1HIhJN2kiVPCur4bTihni+z5W4LU3a8E5uhqjKfoFdj9/Ag=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1085-1061.delta" sparkle:deltaFrom="1061" length="5220862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IFa9ywuk301UOMZHiLXaxI8GFgQhGTUmLN0zFz0Ye9RHVo94kMEZ1L2SmfeqAXEEfDGcUL3SzVF5R2WQJngxCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1085-1059.delta" sparkle:deltaFrom="1059" length="5253990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="csy/HYfY19FIQaq05Vb2yqz8DmXwINZT/0uKETIS7yIYwnk34Yl/YMCwCHyRvxiFzOos04jTBllaNKUObd3wDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 30 Sep 2026 18:55:07 -0700</pubDate>
+            <sparkle:version>1080</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1080)</h2>
 <ul>
-<li><b>A truer connection measurement.</b> <b>Review &#9656; Network &#9656; Measure Now</b> read far too low on fast lines (11 Mbps on a gigabit connection): it timed one small download including the connection setup. It now warms the connection, times only the data arriving, and fills a fast line with four downloads at once. The number is the speed to the review server, which is what fetching media gets; a speed test to a nearby server can read higher.</li>
+<li><b>Check Frames.</b> Review &#9656; Check Frames&#8230; reads every frame of the clip on screen and lists the ones that look wrong. <i>Serious:</i> missing or unreadable files, files cut short, a different size, NaN or infinite pixels. <i>Worth a look:</i> a different format, black, white or flat frames, a one-frame color or brightness jump, a broken patch, a repeated frame. Each flag says why, and a click goes to the frame. Add as Notes puts each one in the review, and Export CSV&#8230; saves the list. Frames are compared with their neighbors, so a cut, a fade or a held black isn&#8217;t flagged. Image sequences get every check. QuickTimes get the picture checks.</li>
+<li><b>From the command line:</b> <code>Asobi checkframes &lt;clip or folder&gt; [--strict] [--csv out.csv]</code> gives the same report, for a delivery folder or a nightly job.</li>
+<li>An ended showcase&#8217;s link now says the showcase has ended, not the review.</li>
 </ul>
 ]]></description>
             <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1080.zip" length="68411796" type="application/octet-stream" sparkle:edSignature="fHVyluaIeEchrXULtXvFCRKeNlw7E89kbRL0fe81G0/bqSyd/DwzErxcdFpYXiP5qA+RhDdfKBzDvHkhqqF0Cw=="/>
@@ -106,37 +137,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1074-1059.delta" sparkle:deltaFrom="1059" length="1478578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Vn9MwiWpEBwFmFZH6sgVNCTSsE/6+kfTXK1wQWTMRTigvyanm05jrxuFD3e86i/Ew7XY7tfkhPFwOOEHFXMQBA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1074-1058.delta" sparkle:deltaFrom="1058" length="1533998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZPMeSiY0BQ0brh74Xvz1zFCiW/NIj6qNBJFDFsg+oyg5anvaCdnd8wlL1MJuqof76KMWwGZ1b3yAkSymyXvsBA=="/>
                 <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1074-1053.delta" sparkle:deltaFrom="1053" length="1601870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BCEGStheIsKt9UZhPL/iMeVDV7eVkyDPJ2FTsJ8KDmVMvj6tpP8zdWmARBp6m1qKkLkKFgg0bnqoylPUzoEaCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 30 Sep 2026 17:35:35 -0700</pubDate>
-            <sparkle:version>1070</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1070)</h2>
-<ul>
-<li><b>Showcases always open.</b> Make Showcase now gives each showcase a room of its own. A new showcase could pick up the previous room&#8217;s key, and its page then said &#8220;isn&#8217;t available&#8221;. Ending a review and reopening it no longer leaves it locked to everyone.</li>
-<li><b>Viewers can sign in with their email.</b> Make Showcase asks who can watch: anyone with the link, who signs in with their name and email before it plays (the default), or only the people you name, one link each. The People field takes email addresses.</li>
-<li><b>You can see what happens next.</b> After Make Showcase, the Share window shows each step (preparing, uploading, making the email preview) and then what to do: Email&#8230;, Copy for Email, Preview and Save GIF&#8230;.</li>
-<li><b>Email you can edit.</b> Email&#8230; opens a new Mail message with the recipient and subject filled in. Press &#8984;V in it to add the moving preview, linked to the showcase, with the caption and link. The Review Manager&#8217;s Links menu says what each item did.</li>
-<li><b>Reopened showcases stay showcases</b>, with your Preview link. Reopening a review no longer forgets who opened it, app requests, deliveries or brief receipts.</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi-1.0.1070.zip" length="68284673" type="application/octet-stream" sparkle:edSignature="m8uxGKyH6omxIHkQJdfKxsRtCYCadC4yiOsXgbjsQ6EbG1km4j6JG5Rico5RZqGP2CF5TofFLYZcxSSgB1y2DA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1070-1061.delta" sparkle:deltaFrom="1061" length="1050958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2vMKSoQqzgEkwVBw8BWbtmepPEYAEpZWUo9ak/ct0ARgMjJbCfRnLfcDeYj/wmHyogMin/6RNPe8uq0JW4jJDQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1070-1059.delta" sparkle:deltaFrom="1059" length="1274166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z8FOVKBpCaGj+9QhB0v4xzNxRJXu0mc1X3nnRmgDOmYp9B/pu7+h33ELkDTiCvzVdk143qJFkwVnM1tn3lCzDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1070-1058.delta" sparkle:deltaFrom="1058" length="1355054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vPoye1FPYR5eUtctDNB4Nfy0U/Q8M8v478JAQReroRJSe09RhyvntKxmayY5Snn+6EPMEQ45sgzlNcDCWw3gDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1070-1053.delta" sparkle:deltaFrom="1053" length="1531054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8Ilvwkwy630yoi3CvMPJCKTQZiqrdIXUflwP8OSXHcaP88x8PSzJfi7A+xTkFFXgS4/H3X0CL2upOIkwaZ/0BQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/byautonomy/asobi-releases/main/releases/Asobi1070-1051.delta" sparkle:deltaFrom="1051" length="1560866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VP3KXv0/OaPlPV0JPwPoqqBksL808p2TfHwQnaBRmlT0Ca5R7+7mVOp910pAmL7ny08Ecj1e+r0Be3kQtDZpCA=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 01 Oct 2026 14:02:23 -0700</pubDate>
-            <sparkle:version>1097</sparkle:version>
+            <pubDate>Thu, 01 Oct 2026 14:11:40 -0700</pubDate>
+            <sparkle:version>1099</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,15 +19,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1097) <span class="when">Oct 1, 2026</span></h2>
+<h2>Asobi 1.0 (build 1099) <span class="when">Oct 1, 2026</span></h2>
+<ul>
+<li><b>The studio watcher works away from the studio.</b> Reviews you host from home or on the road are registered with it too.</li>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1097) <span class="when">Oct 1, 2026</span></h3>
 <ul>
 <li><b>Studio Reviews opens straight away.</b> Every review is checked at once and rows fill in as they answer, instead of a spinner while each is read in turn.</li>
 <li><b>Every shared review is registered with the studio watcher.</b> The setting is now on for everyone. To turn it off on your Mac, ask an admin.</li>
 <li><b>Gentler reconnecting.</b> A review that keeps dropping the connection is retried less and less often, not every second.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1091) <span class="when">Sep 30, 2026</span></h3>
 <ul>
 <li><b>The PDF manual reads properly again.</b> Pictures in the later chapters (Showcases, Check Frames, Sharing, Network) print at the right size, and the Showcases steps are numbered in order.</li>
@@ -67,10 +72,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>The preview starts where you are.</b> It plays 4 seconds from the frame on screen when you choose Make Showcase, and the sheet shows that frame. Portrait pieces get a portrait preview.</li>
 <li><b>Link previews in chat.</b> A showcase link pasted into Slack, Messages or LinkedIn shows its title and the moving preview. Review links still show nothing.</li>
 </ul>
-<h3>1.0 (build 1059) <span class="when">Sep 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1099.zip" length="71487472" type="application/octet-stream" sparkle:edSignature="SMm9TVmBmEzFlwAtWvgyb1MhLFL8euEW1WFxiTlBHDDZ0TmxWnCUlt9uksnCIWY44D6V23LEvoi+9S94KSloCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1097.delta" sparkle:deltaFrom="1097" length="902874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qSz4Kp/QxFzDvjKp9nV6O2f3aBQxtyg+8fuD7AgFYwRchKYchytQvYTNu+K8oeoh8bW4tb98mSn6UgRsnGnoBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1096.delta" sparkle:deltaFrom="1096" length="903398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K4EPKTJ5hD3Y9SZntJ5EPGQG4SlJOIRWYZ/G49UDpkLuxzMO6Y/vhIMUXRB3X6P0MiEi0l+0R5UXsK8x39ebDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1094.delta" sparkle:deltaFrom="1094" length="1043354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FQbRe8VMCo8XaPRVH5UZ9XPz96Npeq7cvQJ/G2Wc4zO8IU1TjljNL7F39ZHsaEIo66w2cITK+E9n9ZMUiolJCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1091.delta" sparkle:deltaFrom="1091" length="1057418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RaIRUvTLpuiaE1I6Ad7CCt+l3g0DsY//SY7GBJ7iSsLSuxlLGVVvll4RTfWdoA6GFVB4oHD4TE2WtXUigIGoDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1099-1085.delta" sparkle:deltaFrom="1085" length="1691950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="db/OKhlOj/n2JHNqn2mUfupU+WHXc9FZZmQfvsUZABWnivcrpp7bV5ZPfeen26DnLl6b/AIHC0k3FcTCQ67cBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 01 Oct 2026 14:02:23 -0700</pubDate>
+            <sparkle:version>1097</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1097)</h2>
 <ul>
-<li><b>Who watched your showcase.</b> Each showcase now reports how it was watched: who opened it, when, from where and on what; how far they got and whether they finished; the moments people replayed; full screen and sound. The Review Manager shows a watch-through curve, the most-watched moments, and every visit, with <b>Export Viewing CSV&#8230;</b>. Asobi tells you when someone opens it and when they finish.</li>
-<li><b>Forwarded links ask who is watching.</b> When a person&#8217;s link is opened on another device, the new viewer is asked for their name and email before it plays, so a forward becomes a named viewer.</li>
+<li><b>Studio Reviews opens straight away.</b> Every review is checked at once and rows fill in as they answer, instead of a spinner while each is read in turn.</li>
+<li><b>Every shared review is registered with the studio watcher.</b> The setting is now on for everyone. To turn it off on your Mac, ask an admin.</li>
+<li><b>Gentler reconnecting.</b> A review that keeps dropping the connection is retried less and less often, not every second.</li>
+<li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1097.zip" length="71480517" type="application/octet-stream" sparkle:edSignature="hsryMNfavDuu3fmqWX/KtOM9KrNheOrStEInf20ODGfCiZg2BD92nBWkmXOh5S+0uNfF1A9faUAtckCou/NSDQ=="/>
@@ -90,15 +120,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1096.zip" length="71478191" type="application/octet-stream" sparkle:edSignature="/kE0+BvG0dq91AzPCme/ISh4NXsUHp35j9Dhgwi1jhPxp39l/tDpD2xvjArerd4pz6Bavt9mFZ9x0xOxlTGtDw=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 01 Oct 2026 13:48:16 -0700</pubDate>
-            <sparkle:version>1094</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1094.zip" length="71473016" type="application/octet-stream" sparkle:edSignature="ZUL5ojF8HumWCao7QurEvWSM5TKLysc9gmXqY4u6GmdZYPvVHdh4OY7nx6LS4qKZ4x8aVMWBLVd1vMZ2E3UICw=="/>
         </item>
     </channel>
 </rss>

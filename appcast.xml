@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 02 Oct 2026 14:07:03 -0700</pubDate>
-            <sparkle:version>1127</sparkle:version>
+            <pubDate>Fri, 02 Oct 2026 14:52:01 -0700</pubDate>
+            <sparkle:version>1133</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,14 +19,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1127) <span class="when">Oct 2, 2026</span></h2>
+<h2>Asobi 1.0 (build 1133) <span class="when">Oct 2, 2026</span></h2>
+<ul>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1127) <span class="when">Oct 2, 2026</span></h3>
 <ul>
 <li><b>Kitsu:</b> paste any Kitsu page link into Server (a playlist, a production) and Asobi connects to the server and picks that project and playlist for you, after Connect or Sign In.</li>
 <li>Updates are much smaller: only what changed since your version is downloaded, usually about 1 MB instead of the whole app.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1117) <span class="when">Oct 1, 2026</span></h3>
 <ul>
 <li><b>Export burn-ins use the web review's timecode format:</b> "f 0000 · 00:00:00:00" at top right.</li>
@@ -63,9 +67,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Who watched is kept for good</b>, even after a showcase ends, until you choose Delete Viewing Records… in the Review Manager.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1099) <span class="when">Oct 1, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1133.zip" length="71559645" type="application/octet-stream" sparkle:edSignature="jDC210ccPsKRJEgIica84SKEeydUflGRL8Dyy23Yb5CfDVmDU0PqcwBMcz52G/uIkW/evcKueov1jhFGJf3mAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1127.delta" sparkle:deltaFrom="1127" length="391846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CnpWHVMUEdttbewc6KYPZFFLQTnCwX+PUgsWKu+gqvNcvFY1RPonmafuljhe26iE7hIWmavcQrRWxKwzN+NyDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1117.delta" sparkle:deltaFrom="1117" length="851574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CaH+f94ng6DX1g+vy3I/85xjOeVTJdGDlT0thFBFgsyjMyVm72ktCMjKJ8t6mylLrN9k90EMrnQVE06b/9gmDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1115.delta" sparkle:deltaFrom="1115" length="894010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OYsNhYIF1oVU60HYeyMRziU74RJItvSqHnkg7ywfgkXor9WrRNEISTML9Lb+aJUIuUVo7pW0KHPguhs+rcpYAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1112.delta" sparkle:deltaFrom="1112" length="1153266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lqaxN/PfFdrq2ft2N+bwKugHbpUQq9X9gMiZMeICZN7BSCmatYV+Ylrv86kdLGnLXBmy3DzRct39AcBI1ASMAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1109.delta" sparkle:deltaFrom="1109" length="1180130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n9bCXgR1vhU+qYgL5fKEx77vGup3YeDV97vnSfIOS3IxNNVx8acebjUfgxX8ymKMu/fnHVsC293xbvMZGzc2BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 02 Oct 2026 14:07:03 -0700</pubDate>
+            <sparkle:version>1127</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1127)</h2>
 <ul>
-<li><b>The studio watcher works away from the studio.</b> Reviews you host from home or on the road are registered with it too.</li>
+<li><b>Kitsu:</b> paste any Kitsu page link into Server (a playlist, a production) and Asobi connects to the server and picks that project and playlist for you, after Connect or Sign In.</li>
+<li>Updates are much smaller: only what changed since your version is downloaded, usually about 1 MB instead of the whole app.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -105,34 +133,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1117-1109.delta" sparkle:deltaFrom="1109" length="1056494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BrP3qCl8iHGoYowhraLjaVfU7Z6dP4numyfnbmDe9sJoHpX389US9rj2JRNCG7wI8KJK4YhR3LGN+FIWddA5Dw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1117-1107.delta" sparkle:deltaFrom="1107" length="1069962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IHAC01ME5mdJ3ZIpc3udKZcv5KboxHzptLHgfCOUQQG6nfx4IxvoSOMT7/mmc07FahY9S4DuvjRAvYjqZr6XCA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1117-1104.delta" sparkle:deltaFrom="1104" length="1337834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fSU9rM7j7nrfYKXLVOdQfhBh8hZ3LtOlF/2mQr3y0PhSvehRutr87PCKwYguelTrn8EMtFZx8Czxoh3ZshRJDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 01 Oct 2026 17:00:32 -0700</pubDate>
-            <sparkle:version>1115</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1115)</h2>
-<ul>
-<li><b>Delivery burn-ins for QuickTime exports:</b> choose shot name, timecode // frame, project or timeline name, date, and a custom line in the Export Movie save dialog. Shot name and timecode sit where the web review's burn-ins do. Your choices are remembered, and the session reel uses them too.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1115.zip" length="71553605" type="application/octet-stream" sparkle:edSignature="gtaTcScP4d8rLvsvHUOA6wwc32HqCeRiCL2vDu7hCzF8gRaTfRg+HR8BABpguu5BuN59Y+Z74UE7jUuuMRS+Aw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1115-1112.delta" sparkle:deltaFrom="1112" length="974570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sO7l9ebnuFR1l5As7oTEi+ZqILIZNygZoL5gYhD1DSLaPL5VBUAiDlwb34YPRizyzOTS/UK9VtZVlcUIGduvDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1115-1109.delta" sparkle:deltaFrom="1109" length="1080690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rJHZ/cjN9Q69RjVlP6CqcQAe6rEfGDopL+W7imV+TTup+2aasGUvhy/mObRBHDwkYNnCZ31sNGPgxHwsgYJuCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1115-1107.delta" sparkle:deltaFrom="1107" length="1072298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c0XkfM5j5Veh2LNIRX7jcWZ43Xv4GK0p6cV3qhwrUfTt2CvYGjvIJip92WhB0vFV4XdG01kzhNgUKJGRr9nuCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1115-1104.delta" sparkle:deltaFrom="1104" length="1344282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aKpG3WmuIAe+7aagtEZHBNu1LTzEfS19YyFub/5EN9G9qimh3U+AMcvW2qP6MDxpQDUbjFJPwDyr0nDN90XLAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1115-1099.delta" sparkle:deltaFrom="1099" length="1466218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aXD3lOKbdAl/be3qsajgPXgGZd6PHAikxhm5uVWoTQlXuAht1by1ZKSlPjBtlJWLmRTGDG6yxY7UbrB/sgjPAg=="/>
             </sparkle:deltas>
         </item>
     </channel>

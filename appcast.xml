@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 02 Oct 2026 15:18:47 -0700</pubDate>
-            <sparkle:version>1136</sparkle:version>
+            <pubDate>Fri, 02 Oct 2026 15:47:32 -0700</pubDate>
+            <sparkle:version>1139</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -19,13 +19,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1136) <span class="when">Oct 2, 2026</span></h2>
+<h2>Asobi 1.0 (build 1139) <span class="when">Oct 2, 2026</span></h2>
 <ul>
-<li>Asobi no longer asks for your Mac password ("Asobi wants to use your confidential information…") after an update. If it asks one last time after this update, enter your Mac login password and click Always Allow.</li>
+<li><b>Activation:</b> Asobi ▸ Activate Asobi… walks you through activating this Mac and confirms it. Afterwards Asobi ▸ Asobi Activation… shows who it is activated for and when it ends, with Request an Extension… if it has an end date. The About window shows it too.</li>
+<li>The link in the activation email now works in every mail app, Gmail included.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1136) <span class="when">Oct 2, 2026</span></h3>
+<ul>
+<li>Asobi no longer asks for your Mac password ("Asobi wants to use your confidential information…") after an update. If it asks one last time after this update, enter your Mac login password and click Always Allow.</li>
+<li>Small fixes and improvements.</li>
+</ul>
 <h3>1.0 (build 1133) <span class="when">Oct 2, 2026</span></h3>
 <ul>
 <li>Small fixes and improvements.</li>
@@ -58,11 +64,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Burn-ins on a running review:</b> turn the clip name and timecode on or off in the Share window's Options. It applies at once to clips you add, and Re-share applies it to the clips already shared.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1107) <span class="when">Oct 1, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1139.zip" length="71652860" type="application/octet-stream" sparkle:edSignature="cITJH8hFe8DAsM1NPrpc6kkD5yOzvMhyhUeo0voU/r6FytJfwNmrPxv8Lxvk0nFJ/HGYcMi49P4wWt7vkELbAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1139-1136.delta" sparkle:deltaFrom="1136" length="1518890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8hy8MCmo+m48lrUG1QnmxMXLJbXD5IkN010iJy3sdxfHpdWKnrHeFiTvdjmNgVhFQg/O3mwmL+tthLtkRdrZDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1139-1133.delta" sparkle:deltaFrom="1133" length="1538142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cVPGGZKifKRKaCyPksC46misrhPdyx0FvUZXVqwwBj9jWaU2Vf5UUr42eRjOPRfwueuXSRDOrfKGIg2RNwjTCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1139-1127.delta" sparkle:deltaFrom="1127" length="1518014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y4ijUES5ayPWRKym9ZiOgeaAEsblHa+e0dBp36hjHOewN8rBb9iElPSDFmK/i56Yq1XQ+MmzQ9ZdI6iLzen2Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1139-1117.delta" sparkle:deltaFrom="1117" length="1560490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o44U9dnhfMW8B4h0WG/6OtGlW1/wo0D68LEkxltg8BtNlJE6C1jfawtmGDBzm4HJJ6onremGbwMo89J/u8Q0DA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1139-1115.delta" sparkle:deltaFrom="1115" length="1590198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EOyDXOzHWqKE6NRR272BfzmJTI17yMQ8Cth9PLkSavOlgrpsWP2L3JwEA+fG5aBzkFspEYBHAbd8b2Rn+RzKCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 02 Oct 2026 15:18:47 -0700</pubDate>
+            <sparkle:version>1136</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1136)</h2>
 <ul>
-<li><b>Join studio reviews over Tailscale with the passphrase.</b> Join a Review now lists reviews hosted anywhere in the studio, marked "studio", not only ones on your own network.</li>
-<li><b>Studio Reviews has Join</b> for any running review.</li>
-<li>Clearer names in the Review Manager: Asobi Review License… and Asobi Seats….</li>
+<li>Asobi no longer asks for your Mac password ("Asobi wants to use your confidential information…") after an update. If it asks one last time after this update, enter your Mac login password and click Always Allow.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -100,35 +127,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1115.delta" sparkle:deltaFrom="1115" length="894010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OYsNhYIF1oVU60HYeyMRziU74RJItvSqHnkg7ywfgkXor9WrRNEISTML9Lb+aJUIuUVo7pW0KHPguhs+rcpYAg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1112.delta" sparkle:deltaFrom="1112" length="1153266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lqaxN/PfFdrq2ft2N+bwKugHbpUQq9X9gMiZMeICZN7BSCmatYV+Ylrv86kdLGnLXBmy3DzRct39AcBI1ASMAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1133-1109.delta" sparkle:deltaFrom="1109" length="1180130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n9bCXgR1vhU+qYgL5fKEx77vGup3YeDV97vnSfIOS3IxNNVx8acebjUfgxX8ymKMu/fnHVsC293xbvMZGzc2BQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 02 Oct 2026 14:07:03 -0700</pubDate>
-            <sparkle:version>1127</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1127)</h2>
-<ul>
-<li><b>Kitsu:</b> paste any Kitsu page link into Server (a playlist, a production) and Asobi connects to the server and picks that project and playlist for you, after Connect or Sign In.</li>
-<li>Updates are much smaller: only what changed since your version is downloaded, usually about 1 MB instead of the whole app.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1127.zip" length="71559724" type="application/octet-stream" sparkle:edSignature="PjuJNM27VtRtRFKlE8g9egRLWQjOUDGloFX104L0JhAOmBuCcV600SZ2Xm8t8GZiV4mFBR8EYdQNLxxwHKtvCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1127-1117.delta" sparkle:deltaFrom="1117" length="884014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sjZHdJP8uDpitDNQr030zTwtJh21WC4hFYtiAywKdmw+FUc82n9sDe6FlqkcKzxp3cv/ohk6bCx/P/e1cMooCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1127-1115.delta" sparkle:deltaFrom="1115" length="871670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ua7YyV2Vg1E0tsciqscORs76azfNvCVpRVjmKZLigMigMQv1LnMqTmPcemsb9UOha7QQk1HHY9bUspEOggmKCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1127-1112.delta" sparkle:deltaFrom="1112" length="1143758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SCvw9PlMiAOAeU1YRkfCMtWSsff5tFqVtxmWwBcyar9wE/vwoyBCMreW2cYqeKsI2pWr9OMXwuQKjjHb8hGaAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1127-1109.delta" sparkle:deltaFrom="1109" length="1176118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+/dhI9ZdyM87wqU9gSLSW8R/4OOPi25m7YRSK1W5JhjZ33lDtZe+vPPLRZZjdUPanBtbc60unfdBNNj2OFcfBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1127-1107.delta" sparkle:deltaFrom="1107" length="1190158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jEbgjYEgq8z8QKotlnodtEv6bDk3X2iO9hcBQAa/DOdxL0pXee8asVxVemcIYzFQQxFFagC6VkQNj6wFWvDmAw=="/>
             </sparkle:deltas>
         </item>
     </channel>

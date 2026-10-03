@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 10:23:04 -0700</pubDate>
-            <sparkle:version>1170</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 10:49:49 -0700</pubDate>
+            <sparkle:version>1174</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,21 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1170) <span class="when">Oct 3, 2026</span></h2>
+<h2>Asobi 1.0 (build 1174) <span class="when">Oct 3, 2026</span></h2>
+<ul>
+<li><b>Reports, redesigned:</b> the notes report and the review activity report now use Asobi&#8217;s own design, like the manual: numbered entries, the notes in a readable serif with a byline each, replies under their notes, and nothing split across a page.</li>
+<li><b>Spell check in comments:</b> notes and replies get the Mac&#8217;s red underline, with right-click suggestions. Autocorrect is there too if you want it: Settings ▸ Notes or Edit ▸ Spelling in Comments.</li>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1170) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Timeline markers:</b> notes show as a blue line, markup as an amber triangle on the top edge, like a mark in an edit application. A frame with both shows both.</li>
 <li><b>Replies:</b> a Send button appears beside a reply as you type (Return still sends).</li>
 <li><b>Note report:</b> replies print under their notes, the comment text is larger, and small markup is shown magnified with the whole frame as an inset that stays clear of the marks.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1165) <span class="when">Oct 2, 2026</span></h3>
 <ul>
 <li><b>Menus during playback:</b> the menu bar&#8217;s menus and submenus stay put and take clicks while a clip plays.</li>
@@ -68,9 +74,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li>The link in the activation email now works in every mail app, Gmail included.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1136) <span class="when">Oct 2, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1174.zip" length="71828412" type="application/octet-stream" sparkle:edSignature="yRmPU5ifOLWLzvjXxh+ZbjdbSez1cfq2mCF16bdbNLkAr4syisallHn0yby5JoOcFM/jXpvOekvrN5ODoU4vDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1174-1170.delta" sparkle:deltaFrom="1170" length="1218350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c29Ht8C+V6DFSbrKxm2ikk9ZgGGBmfBRpWX2GxRMP4ajlYfYAnTtE31VdhZrZuQmwNY3SbUfy0yFKsaWuzDkAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1174-1165.delta" sparkle:deltaFrom="1165" length="1273614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DDA99lAPHiRDVfH/KwxOScljntuZHBFiwBkeTiyJFM3fm5fsuVAh/lGKFzEdAoyAfgQt6T+WdleJSao/ILJUDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1174-1162.delta" sparkle:deltaFrom="1162" length="1392718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dzA5TR+IOnnDFIivkFg/Ewd5+CgAAnCA5H8sqcNlXw1aQmTv0DwpZ3EW+Ahl5ntZplhJ9Ro1qzItCOp0VqiBAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1174-1157.delta" sparkle:deltaFrom="1157" length="1771538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qrs8W/dSSTFUUJOABbOhDABVaqF/61eOHThwj5MJAOfO4eLqj2n+FcpHpIIB4NhXo+OiYQKvNJU8ADDZoniEBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1174-1153.delta" sparkle:deltaFrom="1153" length="1789182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SKvV8K6OnpDUv/jqtexUaj0VZdULR6wZuqe45+rwAl7gGfZe8vG9M5BWJsiJI+h5DguPAmzkMVFlCw3UrjXqBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 03 Oct 2026 10:23:04 -0700</pubDate>
+            <sparkle:version>1170</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1170)</h2>
 <ul>
-<li>Asobi no longer asks for your Mac password ("Asobi wants to use your confidential information…") after an update. If it asks one last time after this update, enter your Mac login password and click Always Allow.</li>
+<li><b>Timeline markers:</b> notes show as a blue line, markup as an amber triangle on the top edge, like a mark in an edit application. A frame with both shows both.</li>
+<li><b>Replies:</b> a Send button appears beside a reply as you type (Return still sends).</li>
+<li><b>Note report:</b> replies print under their notes, the comment text is larger, and small markup is shown magnified with the whole frame as an inset that stays clear of the marks.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -110,36 +141,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1165-1153.delta" sparkle:deltaFrom="1153" length="1583234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qu8JUUPfx69xdwxZdqMe0GhsOutF+aUsQBey68vHXFfDYDS0W+SUzl3MWdDTxxLeXUWBj/5k7k478k8STRRvCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1165-1144.delta" sparkle:deltaFrom="1144" length="1717514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CDBjZvahYyuYHtTg1wadjx/W6K66VAc7zkuIzq0KEqz6kSX2c9I48w6btDt314dtL95vWCA2sn+wTXdzGyAFDA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1165-1139.delta" sparkle:deltaFrom="1139" length="1883686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8AhlK7gaIeeCDSg2UqNatv0QZ9drOoHokIhYws//n9uPCBcZmyeJXLT3yKrMl2vFnKMXmXzCMWTpCbiSRmoSCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 02 Oct 2026 18:37:28 -0700</pubDate>
-            <sparkle:version>1162</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1162)</h2>
-<ul>
-<li><b>Steadier while playing:</b> menus no longer flicker or miss clicks during playback, and the toolbar keeps its width.</li>
-<li><b>Volume:</b> the Sound button opens a vertical volume slider with mute at the bottom (M still mutes).</li>
-<li><b>Aspect guides:</b> add your own ratio with Custom Ratio… (2.2, 2.20:1, 4:5 or 1920x800) — web reviewers see it too. The mask is now three simple choices: No Mask, Dim Outside, Hard Mask.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1162.zip" length="71778831" type="application/octet-stream" sparkle:edSignature="56tigJDdppZW2ukJ58/MnCTBsJXxNP14KMXba35dP1OMDC1HriojAJtNy09z6lPQY39XoXnefOCGhSXMmcq4Dg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1162-1157.delta" sparkle:deltaFrom="1157" length="1376550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IN6///jpOV9HRs18FGKeRbhYN+doGMyHnU4Di17A6YH0lOH1F3gcpvJRUl0PrEPVjCDTQO9ZkUxuw8X7+TrjCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1162-1153.delta" sparkle:deltaFrom="1153" length="1464610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ao42h2m1IFv0LskEWbViigJswPAGCXqcuoA0QSQx9Z7ctXwBbG50GV26zip3j1RDSo1+CEBEpk51IGJFMQl1AA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1162-1144.delta" sparkle:deltaFrom="1144" length="1635586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FopcGPFXAh6Ttye0Tvwai9njLOxQZAmwGhgztEKEJV2rLbDN1deCH1M/sYXMLvTBa5yhgdZDwEr0RneaPd1DBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1162-1139.delta" sparkle:deltaFrom="1139" length="1796930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rJUCtsS/lZI5j/PjM17DQNkV0M4Yf0dG06LHN37qeZC+xIEZa/dgZjIxx4GKA0JZZhy/YHwsDgIKvSr6plcoBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1162-1136.delta" sparkle:deltaFrom="1136" length="2126790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PH9R0MvRqxtDtO5QVNohPi8GX1peKtqzWpY4SIV1pAfU9FXEIsJv/fT0a8JjATBIQ0XBX0ia1RQyFCGc/RcNCw=="/>
             </sparkle:deltas>
         </item>
     </channel>

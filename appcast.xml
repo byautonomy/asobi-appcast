@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 21:31:25 -0700</pubDate>
-            <sparkle:version>1255</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 21:59:46 -0700</pubDate>
+            <sparkle:version>1259</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1255) <span class="when">Oct 3, 2026</span></h2>
+<h2>Asobi 1.0 (build 1259) <span class="when">Oct 3, 2026</span></h2>
 <ul>
-<li><b>Fixed:</b> sharing a clip whose picture starts a moment after its sound (common in files cut from streams, or exported without an edit list) failed with “Cannot Open”. The first frames now show the clip's first picture, and the share goes through.</li>
+<li><b>Showcases in HEVC:</b> each showcase now also carries an HEVC copy — the same picture in about two thirds of the data, so it streams more smoothly (4K most of all). Browsers and the iPad and iPhone app that play HEVC get it; the rest get H.264 as before.</li>
+<li><b>Knowing when H.264 can go:</b> every visit to a showcase records whether the viewer could play HEVC, and the Review Manager counts them, for each showcase and across them all.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1255) <span class="when">Oct 3, 2026</span></h3>
+<ul>
+<li><b>Fixed:</b> sharing a clip whose picture starts a moment after its sound (common in files cut from streams, or exported without an edit list) failed with “Cannot Open”. The first frames now show the clip's first picture, and the share goes through.</li>
+<li>Small fixes and improvements.</li>
+</ul>
 <h3>1.0 (build 1250) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Change who can open a review after posting it:</b> Edit… on a live review in the Review Manager switches between anyone with the link and only the people you've invited (and one browser per person). It works with the review's session closed. The link stays the same.</li>
@@ -62,10 +68,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Skip sign-in on by default:</b> new showcases let viewers skip the name and email card. Turn it off in Make Showcase if you want every visitor signed in.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1178) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1259.zip" length="72019739" type="application/octet-stream" sparkle:edSignature="1lPc51wer0N58uCN1Qhrb7Dj3HwLATXKeIMo4O34i4PfrbClUj1k5uw+2W1NCflOGJtNTNbGBQrCjIwkQ/+AAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1259-1255.delta" sparkle:deltaFrom="1255" length="1082374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BrPcWTUxHhTpoYTohIi1Q9UeF0LNpmdOusLRNLOsjAJZkqYJout1RuTaeywwV5pk1K7pBwv89eZW7YMvdMUsBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1259-1250.delta" sparkle:deltaFrom="1250" length="1231310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9RHZwGO2EZqW3xi69Ty1O6PDUTp0VVvbErrL487kptusCiACRJ5E5GkOn3LXGN1sP0zwYs4tkSZc4ajjtPO6BA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1259-1232.delta" sparkle:deltaFrom="1232" length="1442974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="h01J4EZuOfOCM33orGuCKjmiXDhouLw3zUS4yZ5MtLw6fVvlQrEw17emguRMVhHUefaY6NDOvgUIeeLf9/gUDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1259-1210.delta" sparkle:deltaFrom="1210" length="1642430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tlHVGweJTRNS4ecUeSg9ChCuDG/7SiTElrCiI/4n2EobrucGFwFdKQzT7dRvIxA538eWQOSarNywJNzsV9ppBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1259-1202.delta" sparkle:deltaFrom="1202" length="1709230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wZkyL5dDQehr6rRsI9zxeV9oDZ31lg0Of2zo96T0bqHH3COEnWr1CskDpa6jNVf4ys6vNy2Yg7hMeFZHFPiyCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 03 Oct 2026 21:31:25 -0700</pubDate>
+            <sparkle:version>1255</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1255)</h2>
 <ul>
-<li><b>Save on quit works again:</b> choosing Save when Asobi asks about unsaved changes now saves and quits (or relaunches after an update). A session with a note attachment used to read as unsaved right after saving, so the quit was cancelled, and a session you had just saved asked again.</li>
-<li><b>Quiet jumps:</b> clicking a note, its timecode or a marker no longer plays a repeating snatch of sound. Only dragging the playhead plays audio while stopped.</li>
+<li><b>Fixed:</b> sharing a clip whose picture starts a moment after its sound (common in files cut from streams, or exported without an edit list) failed with “Cannot Open”. The first frames now show the clip's first picture, and the share goes through.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -107,34 +135,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1202.delta" sparkle:deltaFrom="1202" length="1565534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jyJo+reEP04vditF/ClWLUqgBcqqIGhRvFfVG7j+GyB4foBGkLckfYKNoL9fg0SJNA8rvwh/zjOPJn/DNuCLDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1199.delta" sparkle:deltaFrom="1199" length="1563286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A/u0h+nd/rA28nwYbQN3JATRErkdfKR4hy9SDpIE6+Q0Bei5RgB5SENTdvyLaruLEUPHfSEysF26tMY8XEGJCg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1196.delta" sparkle:deltaFrom="1196" length="1631714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="17zXmtyrbiBTO0S1gPC+6/99fBua4Sw2YdMnwZ3m5/sDuRCK5wuOf2VJzbs2UjJRIbWKjEQzE/aQq+X02XrSDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 19:24:03 -0700</pubDate>
-            <sparkle:version>1232</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1232)</h2>
-<ul>
-<li><b>Showcases on your iPad or iPhone, no links to type:</b> in the Showcase window, Pair iPad or iPhone… shows a code. Point the device's Camera at it and tap Open in Asobi, and the Asobi app's start screen lists this Mac's live showcases. When you make, edit, extend or end a showcase here, the list follows. The list is sealed with the code's key, so the relay can't read it. Make a New Pairing… shuts out the devices paired before. Also in the Review Manager.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1232.zip" length="71955781" type="application/octet-stream" sparkle:edSignature="jNqh7PnK/OsPh0EZ//8+g8oixM4hiKMEUlgiR2DdYy3ikjlzf4+/OKX2h3lQEjPs86U6hgXluxIGT00nqY8wCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1232-1210.delta" sparkle:deltaFrom="1210" length="1394274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ywlvCXtyPlMltoDTCxtHp9A9XwoP6qUSBkzH54Qxc49+U8AXO0s2tS5H8pYxsgGfqq8opy/d3ZVp9vniHl6ADQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1232-1202.delta" sparkle:deltaFrom="1202" length="1441630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="urT4skTBm7XPf5uJduqzIF//RakQIu/BReWG9SksPoY6VUnzDsANklEPJ5UCgaJDEas3vG7r91zBc+RJoIjHDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1232-1199.delta" sparkle:deltaFrom="1199" length="1480890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="miIQMzULTWA62LHz1Lq9UyWKROoBiMFbiSb0ihCGutax62YtO/9QOUrzxp8VPEpOnfpdjUIeDAAszYnC/bCrAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1232-1196.delta" sparkle:deltaFrom="1196" length="1556190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8nRijcbfJpXvHoYUp1X1lGkqpnhWqScTiUVZka+dnJVdyAf+QOG9oIuxD7cATcSNNepMD6eedHCkn+QZ5OKRCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1232-1178.delta" sparkle:deltaFrom="1178" length="1564594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l5qa0S36OGIj8+rYm5iaxnnZzYf5YbhTcnlj8NMSGH+eHUnm1laWCqVjFo9QbGlYpbY65/DqnULMMT+4GlM6Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>

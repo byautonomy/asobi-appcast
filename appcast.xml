@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 17:04:17 -0700</pubDate>
-            <sparkle:version>1202</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 17:26:08 -0700</pubDate>
+            <sparkle:version>1210</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1202) <span class="when">Oct 3, 2026</span></h2>
+<h2>Asobi 1.0 (build 1210) <span class="when">Oct 3, 2026</span></h2>
+<ul>
+<li><b>Edit a showcase after posting it:</b> in the Review Manager, Edit… on a live showcase changes its title, the line under it, sign-in, Skip and the closing card's button and link. The link stays the same, nothing is sent again, and the session doesn't need to be open.</li>
+<li>Small fixes and improvements.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1202) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Reopening a showcase:</b> after a restart, reopening a live showcase from the Review Manager no longer leaves its window waiting on the email preview. The preview comes back, and Save GIF works again.</li>
 <li><b>Review Manager:</b> each link now says how long it really works, with or without Asobi open.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1199) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Showcases in more than one tab:</b> each tab now has its own Share and Showcase windows, so a new tab with a different clip can make its own showcase while another stays live.</li>
@@ -64,11 +69,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Aspect ratio bars in exports:</b> the QuickTime export&#8217;s Burn in options can add black bars outside the tightest guide on screen, with or without the frame lines and labels.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1162) <span class="when">Oct 2, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1210.zip" length="71877973" type="application/octet-stream" sparkle:edSignature="mv5f63fZgs+OQMHl/FUY6z9/wuDM213+8BOF2loYqd8aYQEiQ3sC0eAJi71JbpBDwFkn5BMrgAEi64aREzM+Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1202.delta" sparkle:deltaFrom="1202" length="1216778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yMrajmk1hMCi+rU+8z4ACwY1MBbDVym2pN9tSWmrEIMZXtHE1QS7j8J5QQl/pNGT/3NndoSgOFMeOz9esXhMBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1199.delta" sparkle:deltaFrom="1199" length="1224350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8vMnOiQR1MF2P/MkQNgviHpxT+QhSkT5Iml37zX8XD7Zh8UFGEVw6GaotDR0BMBRbkSOtTDPVfA2nk0WX7d8Dw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1196.delta" sparkle:deltaFrom="1196" length="1304054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5skwm475yqpytLZL5V0byiOV/YkFVjkFbjMLYRYCxmSvs8U6fWqhwPs3QtpHeJu+1E0Wwddt8FWfz7eLim1nBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1178.delta" sparkle:deltaFrom="1178" length="1411994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FMVhpzHON29AS21s3d4s5k393aHrB/Ir24heDpPZ6m6x2r3NTPjkGVYVzdrwGWTPqBW71tdaWcVlQDTskPO0CQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1174.delta" sparkle:deltaFrom="1174" length="1392738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Hq146yuCMYO38CfbI0kiw1qihwTq3Kk0kqC5sYn+4zeAbwC5DLvjpmzOXWjercuZhMZBSaTHTdNF+y6kiw/CCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 03 Oct 2026 17:04:17 -0700</pubDate>
+            <sparkle:version>1202</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1202)</h2>
 <ul>
-<li><b>Steadier while playing:</b> menus no longer flicker or miss clicks during playback, and the toolbar keeps its width.</li>
-<li><b>Volume:</b> the Sound button opens a vertical volume slider with mute at the bottom (M still mutes).</li>
-<li><b>Aspect guides:</b> add your own ratio with Custom Ratio… (2.2, 2.20:1, 4:5 or 1920x800) — web reviewers see it too. The mask is now three simple choices: No Mask, Dim Outside, Hard Mask.</li>
+<li><b>Reopening a showcase:</b> after a restart, reopening a live showcase from the Review Manager no longer leaves its window waiting on the email preview. The preview comes back, and Save GIF works again.</li>
+<li><b>Review Manager:</b> each link now says how long it really works, with or without Asobi open.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -107,35 +134,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1199-1174.delta" sparkle:deltaFrom="1174" length="1180182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mmi03UqazoQEiO/GLFdJ/7TUKOhSBg4ZzEQw0N/qp54lsb/pBtfxcOPlLqdaI6exb3LXxJxN5C0X9EyGzDWZCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1199-1170.delta" sparkle:deltaFrom="1170" length="1424266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TPcbzowuSHQCph144IgUuZfi4PDO3D6aUOfK0CMdWf4TGy8qc45HtdFUbDW2EniJJH+jIWxfLjYJFsPIArGFAg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1199-1165.delta" sparkle:deltaFrom="1165" length="1442902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nli9OV6VFVmpYPhTGPUlhWsYBQ3YZ4zsKai9BMOJ0OGbcM4luNnj7AGDrD62By3zB8jh/QA6EogC4fPNYFwxAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 16:14:16 -0700</pubDate>
-            <sparkle:version>1196</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1196)</h2>
-<ul>
-<li><b>Showcases on iPhone and iPad:</b> a showcase's sound now travels inside the picture, so it stays in sync on every device, through scrubs and full screen. On an iPhone, a one-clip showcase goes truly full screen. Remake a showcase to get it.</li>
-<li><b>Skip sign-in on by default:</b> new showcases let viewers skip the name and email card. Turn it off in Make Showcase if you want every visitor signed in.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1196.zip" length="71841363" type="application/octet-stream" sparkle:edSignature="Vnd6ImJXJqUnTbDbvZZZmJmkJakMqT1xNJkM8fGq/UUY2c7paM4JZ2q7kbCjv+IoArtunQ9+V0K6Ygv1GQIRCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1196-1178.delta" sparkle:deltaFrom="1178" length="998410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eK9ZZFy1hxmxtJ7nRGcqICXK4v/3itYhuU8QtQVw10xiHLgjj+hmPaWR1x4OdzufHJ7tAvImIOO8bI70BOIWDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1196-1174.delta" sparkle:deltaFrom="1174" length="1017910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ceSDiWM3RY3TaUKxKi5qqDTnP+AzGkKbC9/RiOtpW5j4oTVg3YUq2dmtsf0XFWK274ZYN3H+/9/nxWxA/e0kCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1196-1170.delta" sparkle:deltaFrom="1170" length="1304098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/pdd4aYVgj7+fs7rsZNtF25V5eg+rUxYIeooOrmYpbkKHucjbUKi24vm3WxvjWXyR7zBJnjFEZTHhWSQTa8cDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1196-1165.delta" sparkle:deltaFrom="1165" length="1356950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6wMC/tbayl5PIUij10OI3gzaBdWCGdesdivdUUsv84yzm0jJYxkF4I6BBuWbKaPYpRrBC/JseGKdGH3KPGzCCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1196-1162.delta" sparkle:deltaFrom="1162" length="1401454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U72lnuva/qeZev4DVSb8ODgL5bXEqceDlRxy7MHTmS/+w6cdvDmODQvxT6Ga16Om5Lzipq24DZP6+OXNCGboDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

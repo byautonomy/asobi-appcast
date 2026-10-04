@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 19:24:03 -0700</pubDate>
-            <sparkle:version>1232</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 21:11:46 -0700</pubDate>
+            <sparkle:version>1250</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,21 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1232) <span class="when">Oct 3, 2026</span></h2>
+<h2>Asobi 1.0 (build 1250) <span class="when">Oct 3, 2026</span></h2>
 <ul>
-<li><b>Showcases on your iPad or iPhone, no links to type:</b> in the Showcase window, Pair iPad or iPhone… shows a code. Point the device's Camera at it and tap Open in Asobi, and the Asobi app's start screen lists this Mac's live showcases. When you make, edit, extend or end a showcase here, the list follows. The list is sealed with the code's key, so the relay can't read it. Make a New Pairing… shuts out the devices paired before. Also in the Review Manager.</li>
+<li><b>Change who can open a review after posting it:</b> Edit… on a live review in the Review Manager switches between anyone with the link and only the people you've invited (and one browser per person). It works with the review's session closed. The link stays the same.</li>
+<li><b>Edit… in the Showcase window</b>, as well as in the Review Manager.</li>
+<li><b>Each review and showcase remembers what was changed after posting</b> ("sign-in turned off", "only invited people can open it"), with the date, so the viewing report makes sense.</li>
+<li>Sign-ins taken in the iPad app's event mode show as "(at an event)" in a showcase's viewing.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1232) <span class="when">Oct 3, 2026</span></h3>
+<ul>
+<li><b>Showcases on your iPad or iPhone, no links to type:</b> in the Showcase window, Pair iPad or iPhone… shows a code. Point the device's Camera at it and tap Open in Asobi, and the Asobi app's start screen lists this Mac's live showcases. When you make, edit, extend or end a showcase here, the list follows. The list is sealed with the code's key, so the relay can't read it. Make a New Pairing… shuts out the devices paired before. Also in the Review Manager.</li>
+<li>Small fixes and improvements.</li>
+</ul>
 <h3>1.0 (build 1210) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Edit a showcase after posting it:</b> in the Review Manager, Edit… on a live showcase changes its title, the line under it, sign-in, Skip and the closing card's button and link. The link stays the same, nothing is sent again, and the session doesn't need to be open.</li>
@@ -61,11 +69,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Spell check in comments:</b> notes and replies get the Mac&#8217;s red underline, with right-click suggestions. Autocorrect is there too if you want it: Settings ▸ Notes or Edit ▸ Spelling in Comments.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1170) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1250.zip" length="71997318" type="application/octet-stream" sparkle:edSignature="ioFIQ/sJDzo08QJ8V2gT++a3aficfoJ+ddZ2YLfuXGdd+zjo3QwlCpcz0nxcfUkKcf/nuIZ7oxvGFC4s+xdgDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1232.delta" sparkle:deltaFrom="1232" length="1200714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZR8jOcS5Yw7g1k/J5MiWqJwl8lf3Om/GtxxNP4NcdH6njQ+kDAJopIjp6/9DIAYlcL4wvgkvoN7HHEezBLM6Dg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1210.delta" sparkle:deltaFrom="1210" length="1484790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bJyFK+sbgJo/iuPEBFj36xqF8kU47MlOEOydu37aa5D1ZJoS6qLbE8S1/4i23BkmxDknFAQye/2pllKj/DKtBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1202.delta" sparkle:deltaFrom="1202" length="1565534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jyJo+reEP04vditF/ClWLUqgBcqqIGhRvFfVG7j+GyB4foBGkLckfYKNoL9fg0SJNA8rvwh/zjOPJn/DNuCLDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1199.delta" sparkle:deltaFrom="1199" length="1563286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A/u0h+nd/rA28nwYbQN3JATRErkdfKR4hy9SDpIE6+Q0Bei5RgB5SENTdvyLaruLEUPHfSEysF26tMY8XEGJCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1250-1196.delta" sparkle:deltaFrom="1196" length="1631714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="17zXmtyrbiBTO0S1gPC+6/99fBua4Sw2YdMnwZ3m5/sDuRCK5wuOf2VJzbs2UjJRIbWKjEQzE/aQq+X02XrSDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 03 Oct 2026 19:24:03 -0700</pubDate>
+            <sparkle:version>1232</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1232)</h2>
 <ul>
-<li><b>Timeline markers:</b> notes show as a blue line, markup as an amber triangle on the top edge, like a mark in an edit application. A frame with both shows both.</li>
-<li><b>Replies:</b> a Send button appears beside a reply as you type (Return still sends).</li>
-<li><b>Note report:</b> replies print under their notes, the comment text is larger, and small markup is shown magnified with the whole frame as an inset that stays clear of the marks.</li>
+<li><b>Showcases on your iPad or iPhone, no links to type:</b> in the Showcase window, Pair iPad or iPhone… shows a code. Point the device's Camera at it and tap Open in Asobi, and the Asobi app's start screen lists this Mac's live showcases. When you make, edit, extend or end a showcase here, the list follows. The list is sealed with the code's key, so the relay can't read it. Make a New Pairing… shuts out the devices paired before. Also in the Review Manager.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 ]]></description>
@@ -104,35 +133,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1196.delta" sparkle:deltaFrom="1196" length="1304054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5skwm475yqpytLZL5V0byiOV/YkFVjkFbjMLYRYCxmSvs8U6fWqhwPs3QtpHeJu+1E0Wwddt8FWfz7eLim1nBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1178.delta" sparkle:deltaFrom="1178" length="1411994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FMVhpzHON29AS21s3d4s5k393aHrB/Ir24heDpPZ6m6x2r3NTPjkGVYVzdrwGWTPqBW71tdaWcVlQDTskPO0CQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1210-1174.delta" sparkle:deltaFrom="1174" length="1392738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Hq146yuCMYO38CfbI0kiw1qihwTq3Kk0kqC5sYn+4zeAbwC5DLvjpmzOXWjercuZhMZBSaTHTdNF+y6kiw/CCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 17:04:17 -0700</pubDate>
-            <sparkle:version>1202</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1202)</h2>
-<ul>
-<li><b>Reopening a showcase:</b> after a restart, reopening a live showcase from the Review Manager no longer leaves its window waiting on the email preview. The preview comes back, and Save GIF works again.</li>
-<li><b>Review Manager:</b> each link now says how long it really works, with or without Asobi open.</li>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1202.zip" length="71847490" type="application/octet-stream" sparkle:edSignature="rsjfeovrHhxOm7DW1GA1QLzjYx5PvXZ1iwqMLdCUj90wXzCE1k7pbpFck+uH7wkAO4GGOfvICA0YO1NNYuaqAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1202-1199.delta" sparkle:deltaFrom="1199" length="857058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Yk5tDp248UJFGup9reVhXrm2jNNYwpyRIa2eRFwg5TzrfrHebNidLVQof1VfaUWbelrZjiOuDO3gpCsLbZMrDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1202-1196.delta" sparkle:deltaFrom="1196" length="1110094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g7r4Ldh6m+9rJgAQjF9AR68UXmMYg50PXJY6eFHOEu4PoGmAg60kXJo4u+uU05Q/EGZ1hRhtMEZJqcwR+GnXAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1202-1178.delta" sparkle:deltaFrom="1178" length="1157862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ggR4YcuUaz1bJvfs68f11jvgm6xNl0u1JZGNUFdvx39xII+R2NWhZRmVPaBY1UMeWxTdQdOyBN/JbZmwprv7Cw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1202-1174.delta" sparkle:deltaFrom="1174" length="1184206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uam6dmFoqFncOq+rTwQzWAz5Ijw8Bg61+BttRelipbDrNFHIgixkdqV2SS8sVlTP8cpKMDKs4rk2dOzaOVK4Cg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1202-1170.delta" sparkle:deltaFrom="1170" length="1420046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OHf1C0eg8LvjrBh1QasnLglkfm/UZaeLbffiVhPsKyOb0/UmdhXdQZpKsrO+Sp388+NkCknjTHQ1WdmY4HDcAA=="/>
             </sparkle:deltas>
         </item>
     </channel>

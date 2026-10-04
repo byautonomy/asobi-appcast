@@ -4,8 +4,8 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 22:02:12 -0700</pubDate>
-            <sparkle:version>1259</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 22:28:10 -0700</pubDate>
+            <sparkle:version>1264</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi Review 1.0 (build 1259) <span class="when">Oct 3, 2026</span></h2>
+<h2>Asobi Review 1.0 (build 1264) <span class="when">Oct 3, 2026</span></h2>
 <ul>
+<li><b>Fixed:</b> pausing a review you lead could leave the others one frame ahead of you.</li>
 <li>Small fixes and improvements.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1259) <span class="when">Oct 3, 2026</span></h3>
+<ul>
+<li>Small fixes and improvements.</li>
+</ul>
 <h3>1.0 (build 1255) <span class="when">Oct 3, 2026</span></h3>
 <ul>
 <li><b>Fixed:</b> clips whose picture starts a moment after their sound couldn't be shared or exported (“Cannot Open”).</li>
@@ -51,7 +56,30 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1196) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1264.zip" length="51438094" type="application/octet-stream" sparkle:edSignature="ZmlUEp2xy8GV9+FaNuwSeqVQFkps5dnAF8VJtC7PyqnWEr25Tz1ZvXXl7Dd9NKJThwo8JfHECwc1Kp/KVYvyBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1264-1259.delta" sparkle:deltaFrom="1259" length="372010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UCN0bCbsTex6OqSYujLvuU8Hr/FVmKxu4hLoZ+QpiOFZJq48es12WU0ADYYGdb5blXqK4+G38Fbd9VmcJSOeBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1264-1255.delta" sparkle:deltaFrom="1255" length="1085082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CINuNYeFEasYOG0Ra8Ecew7UxtK57ibUhBC2wTcRS6AEwhe5VWvMFhY72rV0R/sK1oaGoVVxrHi8Mm4B09z7Aw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1264-1250.delta" sparkle:deltaFrom="1250" length="1215026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4Ia4vewirMEvmYgwpGLjQOWVfs11UdESVJUAPB8sB5ECKbzlhkwyJlAQiZ/t4saqh3HS69Ciop9WZR/+3QXnAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1264-1232.delta" sparkle:deltaFrom="1232" length="1447858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PwMRoyBqCvDeG6lJq2kDM8omDQUal3QgzCebI0q3nVVe8KZeEQY6VHlvatE2SOhdQiS/cQi57OcH8STPFnxtCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1264-1210.delta" sparkle:deltaFrom="1210" length="1652338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TnkH3bG6F3cbm9Llt3QwlpfJl2MDol5FkCThyOcjFi/B0m6SAxoaS9gjgNvCd/T5SkRGifcFTt2egR+fsECNCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 03 Oct 2026 22:02:12 -0700</pubDate>
+            <sparkle:version>1259</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi Review 1.0 (build 1259)</h2>
 <ul>
 <li>Small fixes and improvements.</li>
 </ul>
@@ -91,33 +119,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1255-1210.delta" sparkle:deltaFrom="1210" length="1478042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lnuHGX6jBTxCuuYWHerStDOCOpNzLVQIAW0vWlDhW2ikQjTHGDEuUgkVmwl3cUtZSCMmbKQ6sCYcDgCUalnUAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1255-1202.delta" sparkle:deltaFrom="1202" length="1586530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rHYB/HTSphCs+T5QINahSLQfobJj2YHIpPYiS8yQ1k4oq2hKajnINwKM2aIJmQihefz0wJTwCFfXYi+bamJwDA=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1255-1199.delta" sparkle:deltaFrom="1199" length="1631170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vbk8mgiw3YYH2cP9R6MuRuBvDXNKda6yHW0zruAkIq6x8linzkx5o6V01eM0/Cbepn9UkRE2hDWFWfQa0l4fDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 03 Oct 2026 21:14:17 -0700</pubDate>
-            <sparkle:version>1250</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi Review 1.0 (build 1250)</h2>
-<ul>
-<li>Small fixes and improvements.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1250.zip" length="51415835" type="application/octet-stream" sparkle:edSignature="afgMNjZO3j2nnuQDS1aGuNfSPQfI1TJEpzwjBU50jfIIjLFAESCYuEntw3UD7MZPf54A2c6gUeV2v6HQt3pEDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1250-1232.delta" sparkle:deltaFrom="1232" length="1163394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aogEpZbLw9n3FZZR1uuyF4ogx19KrIwOh1dAgjbQphE7zmX3bCgjqfG2kmR89ZDPsZOOEpkyzXXdjFJfFJ5/Cw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1250-1210.delta" sparkle:deltaFrom="1210" length="1483830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iei5zB9SYraGAPUU3VXsWAukSPFZbXx6s8BFbRzkM/1INVBCnKxZH3APaCdkPTX5huJYOStleR71W/9ADFfdCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1250-1202.delta" sparkle:deltaFrom="1202" length="1567754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mRCidWWxrJ5Z8yHqC9m/7fsc+hITYAire7OXB4I9iSnfgi715mzt/F13jY/gSJbP4g7OUCZQllilQftEnpg7Bw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1250-1199.delta" sparkle:deltaFrom="1199" length="1555702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DIeizAnRA+BQaleTxVaN6QtgK3i3R3+9aznGxrd7ipRGn0S3cx0AC6VNdZH1veDmXexVWbYtLsUsl7nnaEWaDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1250-1196.delta" sparkle:deltaFrom="1196" length="1630886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EIW0nIDldei/C8LzNDyDI5PJnH36k6RtihsLBLdtIuaFfwPPVJlhbpfhSz/hgGKYeQ3FuIbBIWRROH0dCA3bAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

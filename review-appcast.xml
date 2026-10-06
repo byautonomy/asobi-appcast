@@ -4,8 +4,8 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
-            <pubDate>Tue, 06 Oct 2026 00:00:03 -0700</pubDate>
-            <sparkle:version>1340</sparkle:version>
+            <pubDate>Tue, 06 Oct 2026 09:41:47 -0700</pubDate>
+            <sparkle:version>1344</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi Review 1.0 (build 1340) <span class="when">Oct 5, 2026</span></h2>
+<h2>Asobi Review 1.0 (build 1344) <span class="when">Oct 6, 2026</span></h2>
+<ul>
+<li>Frame numbers and timecode in a review now match the studio's, so a clip that starts at 1001 reads 1001 here too.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1340) <span class="when">Oct 5, 2026</span></h3>
 <ul>
 <li>Movies show their real frame numbers when the file says what they are; otherwise they start at 1. Playback ▸ First Frame Number… sets one if you need to.</li>
 <li>The review page: click the timecode to switch to frame numbers.</li>
 <li>Playlist: the line joining a pair switches its compare off and on.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1311) <span class="when">Oct 4, 2026</span></h3>
 <ul>
 <li>Fixed: ending a compare from the review page now clears it here too.</li>
@@ -56,10 +60,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1255) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1344.zip" length="51880811" type="application/octet-stream" sparkle:edSignature="mn1R2gQSpnVjNDP3LumfN+6D/CZ5/2VMntO5nz1L3tn3rq42phzNg9YDjpRuX8DLYhDyGwf8klu40m12+1BRBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1340.delta" sparkle:deltaFrom="1340" length="611558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bxs4ZOexHe5pzG41rWMsoDub/qTFE8OXRrZslD0oSehrUkAbmDljxMQq2Nmp2yoyIIN3UbqQX5X1PSFzYiMwBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1311.delta" sparkle:deltaFrom="1311" length="1722646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IrNw6iZAV8hoaBaMbYZ8nWwVLH3GxZKl5lCEbcJwFcuXm27nlZCFpK9PXDQOdnv7ongjMfKpqOGdbSjiAnS1Cw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1286.delta" sparkle:deltaFrom="1286" length="2053106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9u5gs3ctpHwNc5UVKQvV2by7xGtjgAZOQZoyEOy1MBEMYAnGJo/SmFRI8Ha7xp/RwxwdkkOwMwICk2Kk00s5Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1278.delta" sparkle:deltaFrom="1278" length="2044470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1zvlycJfUFW8U6iAeWIgrbhRNpPDRX/yrfRWJgyh33rgS0D7zhV/eNQQb++ue4iOXThnnISZCzPifLfHAE3cBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1271.delta" sparkle:deltaFrom="1271" length="2130862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Do1cOc/9BYe5je4bkg1GMDHSKg2jmMHlYVGtjdTxYcJsScfK0e9daVJzutKJMZakxrN+U6vGvqI8YMLOEk7cCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Tue, 06 Oct 2026 00:00:03 -0700</pubDate>
+            <sparkle:version>1340</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi Review 1.0 (build 1340)</h2>
 <ul>
-<li><b>Fixed:</b> clips whose picture starts a moment after their sound couldn't be shared or exported (“Cannot Open”).</li>
-<li>Small fixes and improvements.</li>
+<li>Movies show their real frame numbers when the file says what they are; otherwise they start at 1. Playback ▸ First Frame Number… sets one if you need to.</li>
+<li>The review page: click the timecode to switch to frame numbers.</li>
+<li>Playlist: the line joining a pair switches its compare off and on.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1340.zip" length="51879294" type="application/octet-stream" sparkle:edSignature="TiCPgeHSR/SMNY9rjqkq8Xhsotc4Vaps25fvDz3z5Lgz80u05fvuAJGjSoQfvt3d88i5SYUGCplieo+mdGPiCg=="/>
@@ -97,33 +125,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1311-1271.delta" sparkle:deltaFrom="1271" length="1523306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NB96xt9rpr4yHTh5oAyYPpxVYgJg9vigfk6Nyz+WcuVAy16QgTEUI3GWisj8o7LT/3ysRoy9qLqM0FYkIEEdCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1311-1264.delta" sparkle:deltaFrom="1264" length="1661090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iKDlUZ7GexjMit3sLRFenC72WAER202v9FbFyliJI31qQ+THmmKIaL9DR0fxt4QZiVs7mlmYN1KvTcC6u1SyCA=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1311-1259.delta" sparkle:deltaFrom="1259" length="1653310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BC/4uUqvD8asK/zDu/jp5t7YvMtBcpQjcvvzh/V//p+/8sxd5o50Uthh57EpS67kC2k8gLdlVBnfnMvh/+IOAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 04 Oct 2026 09:40:15 -0700</pubDate>
-            <sparkle:version>1286</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi Review 1.0 (build 1286)</h2>
-<ul>
-<li>Fixed: undoing a mark didn't reach the others in the review. It does now.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1286.zip" length="51495043" type="application/octet-stream" sparkle:edSignature="UVWO32XDCj9siQs4iXtAYhk8t8mXheM4GvRFErAQSUU1ZYiqMRFvBrJrjwWt/MvcJ5NxZ0vorDTMrtqAQjB9DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1286-1278.delta" sparkle:deltaFrom="1278" length="492482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6PXwwP85aVt6nIDTqFWgAxIZOMi9IgcNgrv+ngHftchMwQyboTwLNGisYnGPh7V7SeG3jYQ1gC4Q7KiBvfjEDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1286-1271.delta" sparkle:deltaFrom="1271" length="1138902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hHjkNCl8whuUrF86DqDoJbTHA8yZMI9Hqv+KeeIOGs6BtcpBzDw6Ki6ngjckh73/bFkWPbx6ATAD7swrklpxBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1286-1264.delta" sparkle:deltaFrom="1264" length="1315302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ouy8z2RvCxAAH2G2F/Oy/jShbV+QC2kgtWVgbBN5AUrTDKIr5qz5vHkQtUq19SBaEQXZw9ntTnSRRNpSb+V2Bw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1286-1259.delta" sparkle:deltaFrom="1259" length="1331378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JGXZ7jiDghSXwIgP78rh9Be+QVLmQFmmYj4tEU3m7FfefUJiBm0bBXJt+7J7NXpvY3k2Kqq9udaH8ve3xrbzDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1286-1255.delta" sparkle:deltaFrom="1255" length="1543978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKb/GOz05v/Z9ud22ATf20QJ4kxzOZdqP1F1q3OLybgVOvpAMIgCPgOVZf5vHWmxPUaTPm3707EuAzO9AAOKAA=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 05 Oct 2026 23:53:22 -0700</pubDate>
-            <sparkle:version>1340</sparkle:version>
+            <pubDate>Tue, 06 Oct 2026 09:19:28 -0700</pubDate>
+            <sparkle:version>1344</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,7 +20,13 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1340) <span class="when">Oct 5, 2026</span></h2>
+<h2>Asobi 1.0 (build 1344) <span class="when">Oct 6, 2026</span></h2>
+<ul>
+<li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1340) <span class="when">Oct 5, 2026</span></h3>
 <ul>
 <li><b>Real frame numbers for movies:</b> a movie now reads the numbers it was rendered with: a number written in the file, the image sequence rendered beside it (a Nuke movie and its EXRs), or a frame range in its name such as shot_1001-1100.mov. Movies exported from Asobi write their number into the file.</li>
 <li><b>Asked once:</b> a movie with a timecode or a render tool's tag but no frame numbers asks for its first frame at the top of the viewer: type it, count it from the timecode, or keep 1. One answer can cover every movie like it, and Asobi remembers it for the file. <b>Playback ▸ First Frame Number…</b> changes it.</li>
@@ -28,8 +34,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Notes report:</b> timecode reads from the source's own start timecode.</li>
 <li><b>Playlist:</b> the line joining a pair switches its compare off (it dims and stays off when you come back to the clip) and on again.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1311) <span class="when">Oct 4, 2026</span></h3>
 <ul>
 <li><b>Fixed:</b> when someone in the review ended a compare from the review page, Asobi kept the second version loaded and the pair showing. Ending it now clears the compare, as Clear Compare does.</li>
@@ -61,10 +65,36 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Knowing when H.264 can go:</b> every visit to a showcase records whether the viewer could play HEVC, and the Review Manager counts them, for each showcase and across them all.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1255) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1344.zip" length="72462041" type="application/octet-stream" sparkle:edSignature="xPPE1k/d9ip/IVg9/eeSJJZ/N6uji7Fz2ydY4ZQu61Ha1PfKQnjBYIfDe3htVEpDFPAhf6t2W9un2bzpCaOAAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1340.delta" sparkle:deltaFrom="1340" length="613958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sLfyM4BuPjOLjhPzKKhCjXWHjoupnZ8RkXzC95srHakrMFiIH9rcOJ29nH0dt3tddK0lBYiheq7eyxhG+IC+Cg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1311.delta" sparkle:deltaFrom="1311" length="1728714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hAdGhu2CeuZYK7KZ9ZuMtob0cRvcAHaRBAgvd8Tg9JXNqURzJHFgEsol38eUZ9Nhnds7IeCepB53adtFKfnwBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1286.delta" sparkle:deltaFrom="1286" length="2056838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eypQQ8aa707oEwijJnGyT9b0dwYykD6eTwh/AbVifp0++m1nXzEWii/t07IObDRhPMWeLs7c8UsPpXPgHU5rAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1278.delta" sparkle:deltaFrom="1278" length="2050074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nKK0rQ0IkoA56tCCgM06o2AqkiHfYVSGScNAsCSYVglDw6sMmv9bPg1EOzPDWIiIyhhSFumAgl75DBoy+0KXAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1271.delta" sparkle:deltaFrom="1271" length="2133818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/MmzwLkPLzIbcs/xFJtCQ5jJoiAVhXsVXN3sPKMldjx0uE7J5ghkAKSw4jza7JwwQ19AoEhQnedi6LtrwMmJAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 05 Oct 2026 23:53:22 -0700</pubDate>
+            <sparkle:version>1340</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1340)</h2>
 <ul>
-<li><b>Fixed:</b> sharing a clip whose picture starts a moment after its sound (common in files cut from streams, or exported without an edit list) failed with “Cannot Open”. The first frames now show the clip's first picture, and the share goes through.</li>
-<li>Small fixes and improvements.</li>
+<li><b>Real frame numbers for movies:</b> a movie now reads the numbers it was rendered with: a number written in the file, the image sequence rendered beside it (a Nuke movie and its EXRs), or a frame range in its name such as shot_1001-1100.mov. Movies exported from Asobi write their number into the file.</li>
+<li><b>Asked once:</b> a movie with a timecode or a render tool's tag but no frame numbers asks for its first frame at the top of the viewer: type it, count it from the timecode, or keep 1. One answer can cover every movie like it, and Asobi remembers it for the file. <b>Playback ▸ First Frame Number…</b> changes it.</li>
+<li><b>The same numbers everywhere:</b> the review page, frame grabs and the notes report show them too. Click the timecode on the review page to switch to frame numbers. Footage with no numbering starts at 1.</li>
+<li><b>Notes report:</b> timecode reads from the source's own start timecode.</li>
+<li><b>Playlist:</b> the line joining a pair switches its compare off (it dims and stays off when you come back to the clip) and on again.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1340.zip" length="72460633" type="application/octet-stream" sparkle:edSignature="TJzHp9xqy1UgaSiRIp//w5xfCp3Fb2YjXkMpCAl15DEhMYqyglHqfYROwNBfueS0515ZVXKYoyL7zo6X4h17Aw=="/>
@@ -102,33 +132,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1271.delta" sparkle:deltaFrom="1271" length="1526382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k6SF7aeukJXUpPKiTL78uFzth6M0P+kg5iwc6L95Owq+BSLETwCN1T0TMeb7FHmIc2i3Qo2ohj4S+OYwwtKqCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1264.delta" sparkle:deltaFrom="1264" length="1666030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EJl69leZ1qj9DMwRVRH/rFbA/mHtYXpRrVdfDTPZHrEYVcRrwgCBjIgbtpd9auIj/Y6LANWc9wtb0Yd/vwk7DQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1259.delta" sparkle:deltaFrom="1259" length="1654030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5GsnjRmKinAwqromLKFjn0GCfZasqCs+ZVoRC9k0d9H+WTgnRnGx7jNgMPo5v90FBCCJNwMi5WCzmJ/zq99kDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 04 Oct 2026 09:37:57 -0700</pubDate>
-            <sparkle:version>1286</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1286)</h2>
-<ul>
-<li><b>Fixed:</b> undoing a mark on the Mac didn't reach the people reviewing with you, and the review page kept showing the mark. Now it goes for everyone.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1286.zip" length="72076566" type="application/octet-stream" sparkle:edSignature="dLAvmuNmUSnmz8lf7VAAVM2EjdWlQYXjSOpENHBstvZlJT8SSUlTKtYBZhHEazSTpLu5KF7T7EE02Y8Zvv3tBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1286-1278.delta" sparkle:deltaFrom="1278" length="493054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4LQN/RbxYbcJvrr9Z4cuoc/jmo308T2Lps1w5h3NO+7VeL6ew4FoHaTNwGWMQslQs7K7Bg1uZ89W30qF8hcoAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1286-1271.delta" sparkle:deltaFrom="1271" length="1146558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c6PK53YhEPw4/SAg8V4YcWv/KRANSitTu6xWwOLCA123cQgJxs1th9vqsbSamkM32DTM197QTe5pv3/aygl7Ag=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1286-1264.delta" sparkle:deltaFrom="1264" length="1318722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qKvy0M3ocGgJLlerECM1QldFp+yCJbjIITnhdr2X/e5x38KARECzE3iw/MI9wFsMjfLOZWfPR1gfZY6qYfbFDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1286-1259.delta" sparkle:deltaFrom="1259" length="1333846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wsfER/almPGQvHl0+6w1rT7DypXWApNYX8cEGEkNmhXFnAqgFytA2Ox/JPmQroneJip+9JoGweY/FL9MPmz9Cw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1286-1255.delta" sparkle:deltaFrom="1255" length="1548998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mGt2n4+kQvg8ogGBmAAycpTQqSpiED0+ArIGQaEtBLJOmlzg5LyMK/r1MY8bB2R/L+0HYkh7AKkfFJaSjDxcBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

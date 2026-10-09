@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Tue, 06 Oct 2026 09:19:28 -0700</pubDate>
-            <sparkle:version>1344</sparkle:version>
+            <pubDate>Fri, 09 Oct 2026 08:30:13 -0700</pubDate>
+            <sparkle:version>1357</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,23 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1344) <span class="when">Oct 6, 2026</span></h2>
+<h2>Asobi 1.0 (build 1357) <span class="when">Oct 9, 2026</span></h2>
 <ul>
-<li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
+<li><b>A simpler Review menu.</b> One item per thing, named for what it does now: <i>Start a Review…</i> becomes <i>Review Window</i> once one is running (⇧⌘R), and <i>Join a Review…</i> is ⇧⌘J. The right-click menu shows the same list.</li>
+<li><b>Ending a review means one thing.</b> <i>End Review…</i> ends it for everyone, closing the web link and the live review together, and asks once. <i>Step Away</i> leaves the live review but keeps the web link working, and Reopen in the Review Manager brings it back. Guests <i>Leave Review</i>. Joining another review now asks before it leaves the one you're in.</li>
+<li><b>How people get the media.</b> The Review window's Media card shows the three ways in: review copies, the studio drive and a package. One <i>Send a Package</i> menu sends it through Asobi or to Dropbox, Drive, Box or the studio drive. Source Links are now <i>Clip Locations</i>, one click deeper, in plain words.</li>
+<li><b>A new Media menu</b> holds conform, slates, watch folders, Kitsu lists, relinking, optimized media, Clip Locations and Check Frames. File keeps open, save and export. View gains Readouts and Aspect Guides, Window gains Network, and the studio watcher setting moves to Settings ▸ Reviews.</li>
+<li><b>Open several things at once.</b> Open Media takes several files and whole folders, and folders bring in their movies and sequences only.</li>
+<li><b>Slates take notes,</b> printed under the title: what to look at, what changed.</li>
+<li><b>Review Manager:</b> it opens on the review you came from and lists reviews made without a web link. Ending an old review no longer drops you from the one you're in. End All ends every review it counts, and Studio End clears viewers' saved copies unless the host chose to keep them.</li>
+<li><b>Buttons answer the click.</b> Every button shows when it's pressed, and slow ones (End, Reopen, Join) spin until they're done.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1344) <span class="when">Oct 6, 2026</span></h3>
+<ul>
+<li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
+</ul>
 <h3>1.0 (build 1340) <span class="when">Oct 5, 2026</span></h3>
 <ul>
 <li><b>Real frame numbers for movies:</b> a movie now reads the numbers it was rendered with: a number written in the file, the image sequence rendered beside it (a Nuke movie and its EXRs), or a frame range in its name such as shot_1001-1100.mov. Movies exported from Asobi write their number into the file.</li>
@@ -59,11 +70,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Fixed: people following your review could land one frame ahead of you.</b> When you paused partway through a frame, Asobi showed that frame but told everyone following (the web page, the iPad and iPhone app, other Macs) the next one. Everyone now stops on the frame you see.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1259) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1357.zip" length="72605971" type="application/octet-stream" sparkle:edSignature="pCdoogwTOqdbrGHqJjo+wSM376fM8x9u9mut0iY+1Gr7hhFujj3Jhz2b5Q/pcHJ0tbIdvD78N4RrLdVKQipPBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1344.delta" sparkle:deltaFrom="1344" length="2164150" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T/1Hx91QTKRe3T/Brq2CF2VQIrW5U0OmRCZmAWC1ttOn05EnsOba41zasj/YiV07sXyYNh03hI3ABnoXzmR/Dg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1340.delta" sparkle:deltaFrom="1340" length="2168166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nHYRjuh2AD1R9+jv2POKgwqgn5cjTy4DUs2MN9cUQsnM21QalUT7dsZLPFKmZAQFrZwDnAParlDvcATyYMgaCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1311.delta" sparkle:deltaFrom="1311" length="2565146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HOmaZoN8EYhHp+seY8rmNlIdhGyixBJzMkmGSF1u7qx1rqpYhVlzgLW3MXIgVi7fWo3drA8JEdlwpbEs4gF4Bg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1286.delta" sparkle:deltaFrom="1286" length="2834406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iYNucj0DxhiuC+V24nV6wOCz7BnY2PefuSkWCd/J7Y1caneQsZuEh2albp4KTqk1JcVD0qMn7HQkERrlZkIGBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1278.delta" sparkle:deltaFrom="1278" length="2839434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/oeYi2Yi2Xm9RCYvuWmZ5SZF4NxHNzjnURH1VziseEovCj81uTUY84JkNAuoakwEYflC7VxqDugMtdQxPTyCCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Tue, 06 Oct 2026 09:19:28 -0700</pubDate>
+            <sparkle:version>1344</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1344)</h2>
 <ul>
-<li><b>Showcases in HEVC:</b> each showcase now also carries an HEVC copy — the same picture in about two thirds of the data, so it streams more smoothly (4K most of all). Browsers and the iPad and iPhone app that play HEVC get it; the rest get H.264 as before.</li>
-<li><b>Knowing when H.264 can go:</b> every visit to a showcase records whether the viewer could play HEVC, and the Review Manager counts them, for each showcase and across them all.</li>
-<li>Small fixes and improvements.</li>
+<li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1344.zip" length="72462041" type="application/octet-stream" sparkle:edSignature="xPPE1k/d9ip/IVg9/eeSJJZ/N6uji7Fz2ydY4ZQu61Ha1PfKQnjBYIfDe3htVEpDFPAhf6t2W9un2bzpCaOAAQ=="/>
@@ -104,34 +136,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1340-1278.delta" sparkle:deltaFrom="1278" length="2037226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1jh/XVNaGauzzu+jIcSl0W+AQmCfqUaLQjfwuWiai4vIY5Dfr1izZSapBYn1V5nF/SR3zLhvzWuuuyBFSlSHAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1340-1271.delta" sparkle:deltaFrom="1271" length="2133626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DNPj86A8UbR45dTS2ylTOlFjUaY+IMZgjZopCEohdw0ZG9aGG5obVGY10pc7rR5+PZLRA1TBlwKAMsWiTsEaBw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1340-1264.delta" sparkle:deltaFrom="1264" length="2256178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Wv4s4rNe1bWryDKnp9E3Lj6rBiQJsOWgPN4I2MWUz77lktB572yLbvSRvPk2MZcuda+kmOSIisMCfz5O9Vh6AA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 04 Oct 2026 13:31:05 -0700</pubDate>
-            <sparkle:version>1311</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1311)</h2>
-<ul>
-<li><b>Fixed:</b> when someone in the review ended a compare from the review page, Asobi kept the second version loaded and the pair showing. Ending it now clears the compare, as Clear Compare does.</li>
-<li><b>Playlist:</b> click the line joining a pair to clear its compare. The pair stays.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1311.zip" length="72346116" type="application/octet-stream" sparkle:edSignature="vDFwZKEgwy163TsU34vQBgbq7ntOtu/B3/U9JMlHaRDtXzQAXFoWa/5Com5lWgp/NPcDeBdnKeEAMxFWRm3XBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1286.delta" sparkle:deltaFrom="1286" length="1301910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TSZ9vd6MURBmFPwu6sfJDcCIjoAGNcacyGKq2IcM3JG0Hot6+bSyVMw/LVfTltugmdqa4+5CSZFBdlvf+tzTAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1278.delta" sparkle:deltaFrom="1278" length="1300562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vW7HA7j6RGyiKqWUFDKrICr+1/7QbP0IyICfIT9mXzCpG16OC0E8RXx483tMA9Qa0ePCsBiBRei+AidjF2zqBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1271.delta" sparkle:deltaFrom="1271" length="1526382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k6SF7aeukJXUpPKiTL78uFzth6M0P+kg5iwc6L95Owq+BSLETwCN1T0TMeb7FHmIc2i3Qo2ohj4S+OYwwtKqCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1264.delta" sparkle:deltaFrom="1264" length="1666030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EJl69leZ1qj9DMwRVRH/rFbA/mHtYXpRrVdfDTPZHrEYVcRrwgCBjIgbtpd9auIj/Y6LANWc9wtb0Yd/vwk7DQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1311-1259.delta" sparkle:deltaFrom="1259" length="1654030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5GsnjRmKinAwqromLKFjn0GCfZasqCs+ZVoRC9k0d9H+WTgnRnGx7jNgMPo5v90FBCCJNwMi5WCzmJ/zq99kDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

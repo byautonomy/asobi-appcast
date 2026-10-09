@@ -4,8 +4,8 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 09 Oct 2026 08:38:42 -0700</pubDate>
-            <sparkle:version>1357</sparkle:version>
+            <pubDate>Fri, 09 Oct 2026 09:20:25 -0700</pubDate>
+            <sparkle:version>1360</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi Review 1.0 (build 1357) <span class="when">Oct 9, 2026</span></h2>
+<h2>Asobi Review 1.0 (build 1360) <span class="when">Oct 9, 2026</span></h2>
+<ul>
+<li><b>The Review Manager</b> lists your reviews under a Reviews section, and opens on the review you came from.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1357) <span class="when">Oct 9, 2026</span></h3>
 <ul>
 <li><b>A simpler Review menu.</b> <i>Start a Review…</i> becomes <i>Review Window</i> once one is running (⇧⌘R), and <i>Join a Review…</i> is ⇧⌘J. Joining another review asks before it leaves the one you're in.</li>
 <li><b>Leave Review keeps your access.</b> Leaving a review no longer resets you to the basic tier. <i>Sign Out of Asobi Review</i> is in the Asobi menu.</li>
 <li><b>Open several things at once.</b> Open Media takes several files and whole folders, and folders bring in their movies and sequences only.</li>
 <li><b>Buttons answer the click.</b> Every button shows when it's pressed, and slow ones spin until they're done.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1344) <span class="when">Oct 6, 2026</span></h3>
 <ul>
 <li>Frame numbers and timecode in a review now match the studio's, so a clip that starts at 1001 reads 1001 here too.</li>
@@ -58,10 +62,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li>The control bar always fits its window, and making the window smaller no longer moves it for good.</li>
 <li>Small fixes and improvements.</li>
 </ul>
-<h3>1.0 (build 1264) <span class="when">Oct 3, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1360.zip" length="52068700" type="application/octet-stream" sparkle:edSignature="YRYUGtXL+KX+na38jGIHiXBDKD9O2PKG5SSWaJO4H5xZ4Qnhac4UU31bIGhSz7VoTQdmNWZBPxDfakyhfW2qDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1360-1357.delta" sparkle:deltaFrom="1357" length="1274606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5bIIo6/QwNIi7kkzh3QGCYFkVomzvzAyHl3K3E/W+tBdLQZEaT9YxoT3+t38XT/fblOpzp+kBWq20Ax47FWsCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1360-1344.delta" sparkle:deltaFrom="1344" length="2274502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eTHNnqrRopn5mc0IZ6KvfWBqwekZ/tTJcyUJ2I0++yGL+EUyefFdpZRfeNAg3Nckmeggb1g4012OPa+yiC5NDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1360-1340.delta" sparkle:deltaFrom="1340" length="2278190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="POUhbptDqqdhAzEq9cfWRAfGE5GF3ALtdCJlQMRl+x5gSZigwsQ0EaAvqRIZSP+ZTP///eJHGunYULqE+imdAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1360-1311.delta" sparkle:deltaFrom="1311" length="2664822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fHKC74y+hIjNleyslGOFqnyUm9BCMk3qtxgYApcT5ToIUSznIk8QLg26fVah+BrliPi9kmnr88v/1FImG2pVDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1360-1286.delta" sparkle:deltaFrom="1286" length="2929198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yqPD/qXxBdTMhJxWBGlZgy3TbpJ/TQ53Ewu43WzAvNCYPsA4aLBbbSQpTeiPIZHNCqO4Ki9Cz7fhTn3FtbNoDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 09 Oct 2026 08:38:42 -0700</pubDate>
+            <sparkle:version>1357</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi Review 1.0 (build 1357)</h2>
 <ul>
-<li><b>Fixed:</b> pausing a review you lead could leave the others one frame ahead of you.</li>
-<li>Small fixes and improvements.</li>
+<li><b>A simpler Review menu.</b> <i>Start a Review…</i> becomes <i>Review Window</i> once one is running (⇧⌘R), and <i>Join a Review…</i> is ⇧⌘J. Joining another review asks before it leaves the one you're in.</li>
+<li><b>Leave Review keeps your access.</b> Leaving a review no longer resets you to the basic tier. <i>Sign Out of Asobi Review</i> is in the Asobi menu.</li>
+<li><b>Open several things at once.</b> Open Media takes several files and whole folders, and folders bring in their movies and sequences only.</li>
+<li><b>Buttons answer the click.</b> Every button shows when it's pressed, and slow ones spin until they're done.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1357.zip" length="52024398" type="application/octet-stream" sparkle:edSignature="yzL6rYkzBQbmnKow/vGHVV/tS165NWvTMx1sYmGxPlIW50xZStMNqhdE9kRfVGqadHDLzzznlrA+HOpgYSIBCw=="/>
@@ -98,35 +127,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1286.delta" sparkle:deltaFrom="1286" length="2053106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9u5gs3ctpHwNc5UVKQvV2by7xGtjgAZOQZoyEOy1MBEMYAnGJo/SmFRI8Ha7xp/RwxwdkkOwMwICk2Kk00s5Ag=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1278.delta" sparkle:deltaFrom="1278" length="2044470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1zvlycJfUFW8U6iAeWIgrbhRNpPDRX/yrfRWJgyh33rgS0D7zhV/eNQQb++ue4iOXThnnISZCzPifLfHAE3cBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1344-1271.delta" sparkle:deltaFrom="1271" length="2130862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Do1cOc/9BYe5je4bkg1GMDHSKg2jmMHlYVGtjdTxYcJsScfK0e9daVJzutKJMZakxrN+U6vGvqI8YMLOEk7cCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 06 Oct 2026 00:00:03 -0700</pubDate>
-            <sparkle:version>1340</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi Review 1.0 (build 1340)</h2>
-<ul>
-<li>Movies show their real frame numbers when the file says what they are; otherwise they start at 1. Playback ▸ First Frame Number… sets one if you need to.</li>
-<li>The review page: click the timecode to switch to frame numbers.</li>
-<li>Playlist: the line joining a pair switches its compare off and on.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1340.zip" length="51879294" type="application/octet-stream" sparkle:edSignature="TiCPgeHSR/SMNY9rjqkq8Xhsotc4Vaps25fvDz3z5Lgz80u05fvuAJGjSoQfvt3d88i5SYUGCplieo+mdGPiCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1340-1311.delta" sparkle:deltaFrom="1311" length="1715042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8gB86SGN90idB2hbDnTm4XDaU12ZKnprO7r3A2E0968a2pQuafUyW1cPruiTNl8RqnzUsrJObRVDra4Y5QWmAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1340-1286.delta" sparkle:deltaFrom="1286" length="2042386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bPP+EZQXasqFEpmp5LhF9G/dfoOI2HzlN9vJ21W7l9v0dTsdQzLxv8C+bvEFMsJNTgwDQoheAmvEviaMUCMqCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1340-1278.delta" sparkle:deltaFrom="1278" length="2032686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="voJtzWgDmPCJhP5anu9b3wvl5ycjH4Ql9xXPNy3cxrauDj33F5/tdIx1sG0VBFMhQPoS113vJDM3gGSVBsKfBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1340-1271.delta" sparkle:deltaFrom="1271" length="2130050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y3eenvcGoQ1cS5+JkK6ZqPAlLV/aOgJfcWtA7BT3N5dp2xv/iuW0Sa0HTIarChSRB6fPEfBQUmZGOgSKm3bnAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1340-1264.delta" sparkle:deltaFrom="1264" length="2253902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oh/IfXlO8mE8TFFs+1L8Af2TiUBvL/0mvoZ/ubNvAlRD09X8Hh9Zp2/zE+tk7CycMlpSvmis4+F3fooV3CNcBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 09 Oct 2026 09:16:54 -0700</pubDate>
-            <sparkle:version>1360</sparkle:version>
+            <pubDate>Sat, 10 Oct 2026 02:36:08 -0700</pubDate>
+            <sparkle:version>1367</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1360) <span class="when">Oct 9, 2026</span></h2>
+<h2>Asobi 1.0 (build 1367) <span class="when">Oct 10, 2026</span></h2>
+<ul>
+<li><b>Watermark per person.</b> Under People in the Review window, tick <i>Watermark their picture with their name</i> before you add someone: their name is tiled faintly across their picture, in the browser and in Asobi Review, and in anything they export. A package sent to them carries it too.</li>
+<li><b>Expert links show as Expert.</b> A person added as Expert now reads <i>Expert reviewer</i> in the list. Before, the row forgot the tier (the link itself was always right).</li>
+<li><b>Invite files are gone.</b> Personal links replaced them, so the Join window's <i>Open an Invite File…</i> is gone and the lock screen offers <i>Open License…</i>.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1360) <span class="when">Oct 9, 2026</span></h3>
 <ul>
 <li><b>The Review Manager has sections.</b> Requests, Reviews, and on studio and admin Macs Studio Reviews, Licenses and iPad &amp; iPhone, all in one window instead of separate ones. When a request is waiting, it opens on Requests, and each request's answer opens with the details filled in.</li>
 <li><b>Issue</b> at the foot of the list issues a license nobody has asked for yet: Asobi Review for clients and directors, or Asobi for staff and freelancers. <i>Review ▸ Studio</i> opens any section directly.</li>
 <li><b>Licenses, not seats.</b> The admin tools now say license. The Issue sheets' Role label no longer wraps.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1357) <span class="when">Oct 9, 2026</span></h3>
 <ul>
 <li><b>A simpler Review menu.</b> One item per thing, named for what it does now: <i>Start a Review…</i> becomes <i>Review Window</i> once one is running (⇧⌘R), and <i>Join a Review…</i> is ⇧⌘J. The right-click menu shows the same list.</li>
@@ -65,11 +71,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>See which comments came from a phone or tablet.</b> Notes and replies written in the Asobi app on iPhone or iPad, or on the review page in a mobile browser, show a small device icon beside the author.</li>
 <li><b>Fixed:</b> with the notes open, the control bar could run over the notes panel. It now stays beside the picture, and in a small window Open, Save and Zoom move to the menus to make room.</li>
 </ul>
-<h3>1.0 (build 1271) <span class="when">Oct 4, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1367.zip" length="72447428" type="application/octet-stream" sparkle:edSignature="yNYlMuLFfkVGzxTmwm9mYMzkf25qNZYfzXQsF7zRRjDNwqd39jq9wHCJeb1yGDuT7OqyDpKou45ts+bix9DvDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1360.delta" sparkle:deltaFrom="1360" length="1550282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dQmRbkb5sDygC4+somAqmHRbAMUUXYyxkQ9zgXihCfxaPdkrjNGPV4HbnIGYidsoO4bMiyvXax8m5y75cIsBDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1357.delta" sparkle:deltaFrom="1357" length="1676190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LSEWar61jeDLd44Y6z42x2LdbQbUzPymv+FpzPYwEtWHj/q0kyZ+jyQztF7xS1fo7xfYOEqr3u310NBU9tzzCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1344.delta" sparkle:deltaFrom="1344" length="2406194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1I+OXkRANvVjIXCbPPtoLaDw+VwyZ4o2LwrUDxvf50tmXuXuc9b9acFMn//wT9ZuDstyJKIqfdh9UlIP+XrjAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1340.delta" sparkle:deltaFrom="1340" length="2392522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8XylOxQGxe70ulJLXh6qQCYmrOJTgnw76rGtysN3C8+UzG6wBGxTG8qEHv9K4sgPgpOHftHCJq0d/xLNNl4WCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1311.delta" sparkle:deltaFrom="1311" length="2692042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pP/tZbwlrM9E3y8KYYcoCjsvrbDsIZ7CgZVbop7QO4fZOaO+9mE+Vu0jlUc6mRO3MYZzS6vr8m98K11BkNxrBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 09 Oct 2026 09:16:54 -0700</pubDate>
+            <sparkle:version>1360</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1360)</h2>
 <ul>
-<li><b>The control bar always fits its window.</b> In a narrower window, Speed, Rate, Loop, Repeat, In/Out, Cache and the grade switch move into one More menu, and in the narrowest the words under the icons give way (each icon still says what it is when you point at it). Nothing is ever cut off.</li>
-<li><b>The colour chip is a fixed size with short names</b> (ACEScg → 709, LogC3 → P3…), so the bar doesn't jump or leave a gap. The full pipeline is in its tooltip and panel.</li>
-<li><b>Fixed:</b> making the window smaller moved the control bar for good. It now comes back to where you put it.</li>
+<li><b>The Review Manager has sections.</b> Requests, Reviews, and on studio and admin Macs Studio Reviews, Licenses and iPad &amp; iPhone, all in one window instead of separate ones. When a request is waiting, it opens on Requests, and each request's answer opens with the details filled in.</li>
+<li><b>Issue</b> at the foot of the list issues a license nobody has asked for yet: Asobi Review for clients and directors, or Asobi for staff and freelancers. <i>Review ▸ Studio</i> opens any section directly.</li>
+<li><b>Licenses, not seats.</b> The admin tools now say license. The Issue sheets' Role label no longer wraps.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1360.zip" length="72650398" type="application/octet-stream" sparkle:edSignature="iadujrywqft08lgtw+n8oCXswBxb5PEv8GNk2NAO5QVKhpwhRbk3Xs05eQcwRHK7hMksmEVA47PAH4V/N95FAg=="/>
@@ -113,33 +142,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1311.delta" sparkle:deltaFrom="1311" length="2565146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HOmaZoN8EYhHp+seY8rmNlIdhGyixBJzMkmGSF1u7qx1rqpYhVlzgLW3MXIgVi7fWo3drA8JEdlwpbEs4gF4Bg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1286.delta" sparkle:deltaFrom="1286" length="2834406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iYNucj0DxhiuC+V24nV6wOCz7BnY2PefuSkWCd/J7Y1caneQsZuEh2albp4KTqk1JcVD0qMn7HQkERrlZkIGBA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1357-1278.delta" sparkle:deltaFrom="1278" length="2839434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/oeYi2Yi2Xm9RCYvuWmZ5SZF4NxHNzjnURH1VziseEovCj81uTUY84JkNAuoakwEYflC7VxqDugMtdQxPTyCCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 06 Oct 2026 09:19:28 -0700</pubDate>
-            <sparkle:version>1344</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1344)</h2>
-<ul>
-<li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1344.zip" length="72462041" type="application/octet-stream" sparkle:edSignature="xPPE1k/d9ip/IVg9/eeSJJZ/N6uji7Fz2ydY4ZQu61Ha1PfKQnjBYIfDe3htVEpDFPAhf6t2W9un2bzpCaOAAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1340.delta" sparkle:deltaFrom="1340" length="613958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sLfyM4BuPjOLjhPzKKhCjXWHjoupnZ8RkXzC95srHakrMFiIH9rcOJ29nH0dt3tddK0lBYiheq7eyxhG+IC+Cg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1311.delta" sparkle:deltaFrom="1311" length="1728714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hAdGhu2CeuZYK7KZ9ZuMtob0cRvcAHaRBAgvd8Tg9JXNqURzJHFgEsol38eUZ9Nhnds7IeCepB53adtFKfnwBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1286.delta" sparkle:deltaFrom="1286" length="2056838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eypQQ8aa707oEwijJnGyT9b0dwYykD6eTwh/AbVifp0++m1nXzEWii/t07IObDRhPMWeLs7c8UsPpXPgHU5rAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1278.delta" sparkle:deltaFrom="1278" length="2050074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nKK0rQ0IkoA56tCCgM06o2AqkiHfYVSGScNAsCSYVglDw6sMmv9bPg1EOzPDWIiIyhhSFumAgl75DBoy+0KXAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1344-1271.delta" sparkle:deltaFrom="1271" length="2133818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/MmzwLkPLzIbcs/xFJtCQ5jJoiAVhXsVXN3sPKMldjx0uE7J5ghkAKSw4jza7JwwQ19AoEhQnedi6LtrwMmJAA=="/>
             </sparkle:deltas>
         </item>
     </channel>

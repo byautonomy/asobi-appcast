@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 10 Oct 2026 18:28:00 +0200</pubDate>
-            <sparkle:version>1389</sparkle:version>
+            <pubDate>Sat, 10 Oct 2026 19:48:26 +0200</pubDate>
+            <sparkle:version>1396</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,22 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1389) <span class="when">Oct 10, 2026</span></h2>
+<h2>Asobi 1.0 (build 1396) <span class="when">Oct 10, 2026</span></h2>
+<ul>
+<li><b>Conformed stacks are right.</b> A letterbox matte or a legal card on an upper track used to pull every shot under it into one stack. A layer now joins only the shot it sits over. Graphics are set apart at the end as Graphics and References, and slugs with no media are left out.</li>
+<li><b>Speed changes are read.</b> A retime from Premiere (AAF), Resolve (OTIO) or an EDL is read the same way. The clip covers every source frame the event uses and plays at the cut's speed. Playback, Review Speed, Full speed shows it frame for frame. Speed ramps are not read yet.</li>
+<li><b>Resolve OTIO cuts land on the right frame.</b> Some clips started one frame early. Clips Resolve exports without a file path are kept and found by name.</li>
+<li><b>The first conform in a new window loads.</b> Conforming a cut with nothing else open gave an empty playlist.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1389) <span class="when">Oct 10, 2026</span></h3>
 <ul>
 <li><b>Premiere EDLs conform.</b> Import Cut for Conform refused every EDL saved with Windows line endings, which is how Premiere writes them, with "No events found". They read now.</li>
 <li><b>Conformed clips start on the right frame.</b> A cut names its sources by timecode. Asobi now finds that timecode inside each file. Before, a camera-timecode cut sent every clip to its file's last frame.</li>
 <li><b>Per-track EDLs are one cut.</b> Choose every EDL of a set (EDL 1, EDL 2, EDL 3) and the upper tracks stack with the shots they sit over.</li>
 <li><b>OTIO cuts</b> can be chosen in Import Cut for Conform, alongside AAF, XML and EDL. A cut's own frame rate is read from the cut, never assumed to be 24.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1386) <span class="when">Oct 10, 2026</span></h3>
 <ul>
 <li><b>New Project…</b> at the foot of Teams starts a project's team before its first review.</li>
@@ -72,13 +79,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Joining a review:</b> when you watch the host's streamed copies, frame numbers and timecode now match the host's, so a clip that starts at 1001 reads 1001 here too, in the viewer, grabs, exports and the notes report.</li>
 </ul>
-<h3>1.0 (build 1340) <span class="when">Oct 5, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1396.zip" length="73028602" type="application/octet-stream" sparkle:edSignature="CpsUGNfuxl5YBRQMOaBDhfAMG8TlDAr+jqPCuMJJcDMOoj9nyXplYjEPdJkXw8sMrlUGn8gg/SA9ZcE/GUB3Aw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1396-1389.delta" sparkle:deltaFrom="1389" length="1245198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QdxlyCY9D/7PGCv9b1fPhA9tXnwMRn2Y7gb4hTER5BYbPlD8Zv5p2xSTicHeOlOvqbNavpGtsL9KMLCopooGCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1396-1386.delta" sparkle:deltaFrom="1386" length="1413578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4JpJRXFQeMoap+NZfQlWk2jkSrKL4wUEQIinKoaG8/gmBiIwhmBTK3TriFeeMrkHYufD+ou2c9iLgqIhvfBbAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1396-1382.delta" sparkle:deltaFrom="1382" length="1532946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O4rs0GpNDmaFP9HeaFpJuR8w81JUpCqXFNWWCq1k1fl+mw+kplwcxYBNft0yYZn9VisdnAOBag4q3ucGakREAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1396-1367.delta" sparkle:deltaFrom="1367" length="2173422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3py41Yxo0CY7GdXWZd0v8KZspl7xxl7ZIYEe1Ut22REYaefPB7Yxc+MkBbP+rrrdtx8d7ceZqVfJB4DY1AfoAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1396-1360.delta" sparkle:deltaFrom="1360" length="2310810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bden+mcp3iB3bmTAuM2Boardqr7aGYBf7CCuOzrHXveHxMJkMQ3DX2IFXbEs4ob9BOB6BUzJrSSQtRIeeVdhDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 10 Oct 2026 18:28:00 +0200</pubDate>
+            <sparkle:version>1389</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1389)</h2>
 <ul>
-<li><b>Real frame numbers for movies:</b> a movie now reads the numbers it was rendered with: a number written in the file, the image sequence rendered beside it (a Nuke movie and its EXRs), or a frame range in its name such as shot_1001-1100.mov. Movies exported from Asobi write their number into the file.</li>
-<li><b>Asked once:</b> a movie with a timecode or a render tool's tag but no frame numbers asks for its first frame at the top of the viewer: type it, count it from the timecode, or keep 1. One answer can cover every movie like it, and Asobi remembers it for the file. <b>Playback ▸ First Frame Number…</b> changes it.</li>
-<li><b>The same numbers everywhere:</b> the review page, frame grabs and the notes report show them too. Click the timecode on the review page to switch to frame numbers. Footage with no numbering starts at 1.</li>
-<li><b>Notes report:</b> timecode reads from the source's own start timecode.</li>
-<li><b>Playlist:</b> the line joining a pair switches its compare off (it dims and stays off when you come back to the clip) and on again.</li>
+<li><b>Premiere EDLs conform.</b> Import Cut for Conform refused every EDL saved with Windows line endings, which is how Premiere writes them, with "No events found". They read now.</li>
+<li><b>Conformed clips start on the right frame.</b> A cut names its sources by timecode. Asobi now finds that timecode inside each file. Before, a camera-timecode cut sent every clip to its file's last frame.</li>
+<li><b>Per-track EDLs are one cut.</b> Choose every EDL of a set (EDL 1, EDL 2, EDL 3) and the upper tracks stack with the shots they sit over.</li>
+<li><b>OTIO cuts</b> can be chosen in Import Cut for Conform, alongside AAF, XML and EDL. A cut's own frame rate is read from the cut, never assumed to be 24.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1389.zip" length="72971830" type="application/octet-stream" sparkle:edSignature="PGw2OOR6kkC3hecIO1faLLk6+XYH1JdMMuOo6woiwQKnb2aTDP1A4ZuwLOHkanjv3X4vbpztWuz3H1+zLXPIBQ=="/>
@@ -118,38 +147,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1360.delta" sparkle:deltaFrom="1360" length="2159142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WyfbN98ScXqKHEEOPzpSxV/uF3Pe6/RKBcsSMwStFnVFX+5QPD6QtM4WfQxhNGR619qP1YJ0pFa8KM/Gkzg6Bg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1357.delta" sparkle:deltaFrom="1357" length="2250638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0SwApKObTzL4BefTtUl7VtxwztTxrqHOEvNpC/IGA2utCQhknbSW/zRauneAdRcwyisCzhlazx8zMKWV1kcDDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1344.delta" sparkle:deltaFrom="1344" length="2960222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JLrYdSin2N7zkFY8P+vX+iUQab9cq+XQjXTf0zqNDLehLxgFo8nMHfTUKGalUNYz+ozewmlCIarTEwfSUaESDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 10 Oct 2026 04:37:35 -0700</pubDate>
-            <sparkle:version>1382</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1382)</h2>
-<ul>
-<li><b>Reviews by project.</b> The Review Manager groups reviews by project, the job folder their media is in, with a fold for each project. The pop-up beside the filter sorts them: Active (what's running, then what's busiest), Newest, Oldest, Last Activity, Name, Most Watched, Ending Soonest.</li>
-<li><b>Move and rename projects.</b> Drag a review onto a project, or right-click for Move to Project. Rename a project from its header. Project ▾ in the Review window sets a review's project.</li>
-<li><b>Teams.</b> Everyone you invite to a project's review is on its team, and the next review offers them ticked: Invite All, or a group. Edit teams in the Review Manager's new Teams section, paste many people at once (name, email, group) or import a CSV, and Share with the Studio if every studio Mac should have them.</li>
-<li><b>A published review's team.</b> Its page in the Review Manager shows who has a link and invites the rest, without reopening it.</li>
-<li><b>On Other Macs.</b> On a studio Mac, the reviews other studio Macs are running show with a ring, their host and project.</li>
-<li><b>Showcases</b> carry a yellow Showcase pill in the Review Manager.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1382.zip" length="72892533" type="application/octet-stream" sparkle:edSignature="tRGAr8Xej0KwFGJ0Jw8I97ElZwKuKdU6ralYobcXFhVSfDGPzNrfQ/OCxcPkwBOvljOVd6ZtPsmWN4UzcWvaDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1382-1367.delta" sparkle:deltaFrom="1367" length="1942230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zx1jY+ufbV+EuTUrbvquTU5yP44avmddZnQ3Tw4Ci6CEq61a4n6O75JJJPqB4FXlqjeh7wjw+2eFaECOW7qdDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1382-1360.delta" sparkle:deltaFrom="1360" length="2121874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nLa4z/RgWF4sLW/xXujCVtIscdagzLqjDT0dG3O/+IzErk3xXreQyh3HGNfyaRqfcD9KBGdY/oUp1ebmDHIbAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1382-1357.delta" sparkle:deltaFrom="1357" length="2206546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="etRWUXdhHc4MWjRvF2cE8k1fh/4KOoT6cl8SVsY6i9WIaG+8JfM11oJ14xfeRb41kyUUSlwlN2IVOl9NJe1MCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1382-1344.delta" sparkle:deltaFrom="1344" length="2905890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/MI6b1BjzYDbI64iIo68bjyR/Cb2sEDLaXZxufZZohF/KnnNoknWLwzgVmfsjgpWtVZBdSP3AFa9bisdIuNhCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1382-1340.delta" sparkle:deltaFrom="1340" length="2887246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZHsae1FB2O+JwD/63oppZSCyAx+ICrzV3vStOmFtcQmVi6XLdylw/taP9OVad3P8Ndm9n2Wi/HoKODGmL2FyCg=="/>
             </sparkle:deltas>
         </item>
     </channel>

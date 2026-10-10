@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sat, 10 Oct 2026 04:37:35 -0700</pubDate>
-            <sparkle:version>1382</sparkle:version>
+            <pubDate>Sat, 10 Oct 2026 05:10:02 -0700</pubDate>
+            <sparkle:version>1386</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,7 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1382) <span class="when">Oct 10, 2026</span></h2>
+<h2>Asobi 1.0 (build 1386) <span class="when">Oct 10, 2026</span></h2>
+<ul>
+<li><b>New Project…</b> at the foot of Teams starts a project's team before its first review.</li>
+<li><b>Rename</b> a project from the Teams page (Rename…, or double-click its name) or by right-clicking it in the list. Remove Team… is there too.</li>
+<li><b>Find a team.</b> The project list filters by project or by person (type a name to see every team they're on) and sorts by Recently Used, Name or Most People.</li>
+<li><b>Sort a team</b> by clicking a column: Name, Email, Access, Opened. Longer teams get a filter.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1382) <span class="when">Oct 10, 2026</span></h3>
 <ul>
 <li><b>Reviews by project.</b> The Review Manager groups reviews by project, the job folder their media is in, with a fold for each project. The pop-up beside the filter sorts them: Active (what's running, then what's busiest), Newest, Oldest, Last Activity, Name, Most Watched, Ending Soonest.</li>
 <li><b>Move and rename projects.</b> Drag a review onto a project, or right-click for Move to Project. Rename a project from its header. Project ▾ in the Review window sets a review's project.</li>
@@ -29,8 +38,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>On Other Macs.</b> On a studio Mac, the reviews other studio Macs are running show with a ring, their host and project.</li>
 <li><b>Showcases</b> carry a yellow Showcase pill in the Review Manager.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1367) <span class="when">Oct 10, 2026</span></h3>
 <ul>
 <li><b>Watermark per person.</b> Under People in the Review window, tick <i>Watermark their picture with their name</i> before you add someone: their name is tiled faintly across their picture, in the browser and in Asobi Review, and in anything they export. A package sent to them carries it too.</li>
@@ -71,9 +78,37 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Fixed:</b> when someone in the review ended a compare from the review page, Asobi kept the second version loaded and the pair showing. Ending it now clears the compare, as Clear Compare does.</li>
 <li><b>Playlist:</b> click the line joining a pair to clear its compare. The pair stays.</li>
 </ul>
-<h3>1.0 (build 1286) <span class="when">Oct 4, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1386.zip" length="72943089" type="application/octet-stream" sparkle:edSignature="sJaLM+0OtwrIDKYs0M2SNQvhOBuwe7Q9UCxT+v2GItir6jFHlbW76z9qMfdGwVGxhIaLl4Uzdwf/iNb65FLhCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1382.delta" sparkle:deltaFrom="1382" length="960046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bpm0wan8XrmMCy/PO14b65gFZwUx8dlgvmolY1h/Z+sa+JhD19oI7Ec7pfmqJ5CRbMcQCyWR5DKeIVpGzjt7AA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1367.delta" sparkle:deltaFrom="1367" length="2008062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yilYbz5aQLwhyZsegNUwtdhnUVzvZFrbzXrYuX7PjAUCYuCwhiZ32mm1cRcAc3G4SNXlkPn7VnSOCgI/gljzCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1360.delta" sparkle:deltaFrom="1360" length="2159142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WyfbN98ScXqKHEEOPzpSxV/uF3Pe6/RKBcsSMwStFnVFX+5QPD6QtM4WfQxhNGR619qP1YJ0pFa8KM/Gkzg6Bg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1357.delta" sparkle:deltaFrom="1357" length="2250638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0SwApKObTzL4BefTtUl7VtxwztTxrqHOEvNpC/IGA2utCQhknbSW/zRauneAdRcwyisCzhlazx8zMKWV1kcDDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1386-1344.delta" sparkle:deltaFrom="1344" length="2960222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JLrYdSin2N7zkFY8P+vX+iUQab9cq+XQjXTf0zqNDLehLxgFo8nMHfTUKGalUNYz+ozewmlCIarTEwfSUaESDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 10 Oct 2026 04:37:35 -0700</pubDate>
+            <sparkle:version>1382</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1382)</h2>
 <ul>
-<li><b>Fixed:</b> undoing a mark on the Mac didn't reach the people reviewing with you, and the review page kept showing the mark. Now it goes for everyone.</li>
+<li><b>Reviews by project.</b> The Review Manager groups reviews by project, the job folder their media is in, with a fold for each project. The pop-up beside the filter sorts them: Active (what's running, then what's busiest), Newest, Oldest, Last Activity, Name, Most Watched, Ending Soonest.</li>
+<li><b>Move and rename projects.</b> Drag a review onto a project, or right-click for Move to Project. Rename a project from its header. Project ▾ in the Review window sets a review's project.</li>
+<li><b>Teams.</b> Everyone you invite to a project's review is on its team, and the next review offers them ticked: Invite All, or a group. Edit teams in the Review Manager's new Teams section, paste many people at once (name, email, group) or import a CSV, and Share with the Studio if every studio Mac should have them.</li>
+<li><b>A published review's team.</b> Its page in the Review Manager shows who has a link and invites the rest, without reopening it.</li>
+<li><b>On Other Macs.</b> On a studio Mac, the reviews other studio Macs are running show with a ring, their host and project.</li>
+<li><b>Showcases</b> carry a yellow Showcase pill in the Review Manager.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1382.zip" length="72892533" type="application/octet-stream" sparkle:edSignature="tRGAr8Xej0KwFGJ0Jw8I97ElZwKuKdU6ralYobcXFhVSfDGPzNrfQ/OCxcPkwBOvljOVd6ZtPsmWN4UzcWvaDw=="/>
@@ -112,35 +147,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1344.delta" sparkle:deltaFrom="1344" length="2406194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1I+OXkRANvVjIXCbPPtoLaDw+VwyZ4o2LwrUDxvf50tmXuXuc9b9acFMn//wT9ZuDstyJKIqfdh9UlIP+XrjAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1340.delta" sparkle:deltaFrom="1340" length="2392522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8XylOxQGxe70ulJLXh6qQCYmrOJTgnw76rGtysN3C8+UzG6wBGxTG8qEHv9K4sgPgpOHftHCJq0d/xLNNl4WCg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1367-1311.delta" sparkle:deltaFrom="1311" length="2692042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pP/tZbwlrM9E3y8KYYcoCjsvrbDsIZ7CgZVbop7QO4fZOaO+9mE+Vu0jlUc6mRO3MYZzS6vr8m98K11BkNxrBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 09 Oct 2026 09:16:54 -0700</pubDate>
-            <sparkle:version>1360</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1360)</h2>
-<ul>
-<li><b>The Review Manager has sections.</b> Requests, Reviews, and on studio and admin Macs Studio Reviews, Licenses and iPad &amp; iPhone, all in one window instead of separate ones. When a request is waiting, it opens on Requests, and each request's answer opens with the details filled in.</li>
-<li><b>Issue</b> at the foot of the list issues a license nobody has asked for yet: Asobi Review for clients and directors, or Asobi for staff and freelancers. <i>Review ▸ Studio</i> opens any section directly.</li>
-<li><b>Licenses, not seats.</b> The admin tools now say license. The Issue sheets' Role label no longer wraps.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1360.zip" length="72650398" type="application/octet-stream" sparkle:edSignature="iadujrywqft08lgtw+n8oCXswBxb5PEv8GNk2NAO5QVKhpwhRbk3Xs05eQcwRHK7hMksmEVA47PAH4V/N95FAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1360-1357.delta" sparkle:deltaFrom="1357" length="1275718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ku9XcbmL428UhUBjxNcOw0oCm1XO8siRY5Dr7IknUmjeHAqC4YeyCa2l3QcTRmiH0ymHfN8UxDWTSAPwNShXCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1360-1344.delta" sparkle:deltaFrom="1344" length="2278826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M7TqkjoPPjG4kgZWxXqYblDSANzmNvroni/CbJCq/dNExlXW7HH3wLMYvx2R4bFBK6G/bJcsVHJQG5zzyD3kDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1360-1340.delta" sparkle:deltaFrom="1340" length="2281450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r5+9wKPqmmsaGYDwiU+tiM0Xqor5tV2jkD06K8eZUxow3nDwcLYwV/aFYvt1GNVCclPOXF6FlncKH+Hh6ZRTCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1360-1311.delta" sparkle:deltaFrom="1311" length="2665782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6ewJKLN4moF+ZEEwD5c3AheMy96QMzX2ChO31jxU02R2qYo5cHtCJNacosjub/5JuFTE29R7Avtp52lKS+1sDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1360-1286.delta" sparkle:deltaFrom="1286" length="2938158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zuqupQkHeEGk8mmDjsescd/2llxv5U32zn02CS3JHZXQ4IQuTB7hQt05DSPPKtub720t/FbLrLXHdOWaRi8dAw=="/>
             </sparkle:deltas>
         </item>
     </channel>

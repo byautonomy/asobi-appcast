@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sun, 11 Oct 2026 02:27:10 +0200</pubDate>
-            <sparkle:version>1430</sparkle:version>
+            <pubDate>Sun, 11 Oct 2026 09:18:04 +0200</pubDate>
+            <sparkle:version>1441</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,25 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1430) <span class="when">Oct 11, 2026</span></h2>
+<h2>Asobi 1.0 (build 1441) <span class="when">Oct 11, 2026</span></h2>
+<ul>
+<li><b>A conform says what it is doing.</b> The Conform window opens as soon as the media folder is chosen, and a line there and above the toolbar says what is being read: the cut, how many files of the folder have been looked through, how many timecodes. Before, nothing showed until the cut had been read.</li>
+<li><b>A cut on a network drive no longer holds the window still.</b> The folder search and every check of a clip's file run off the main thread. Camera raw is no longer handed to the system movie reader for a thumbnail, which read a whole camera file across the network while everything else waited behind it.</li>
+<li><b>A conform report.</b> Report… in the Conform window writes the cut as a PDF. When files are missing, the first page opens with a yellow block saying how many, then lists each with the name the cut gives it, its track and both timecodes. Then camera originals to find, speed changes, resizes and repositions, and every shot in edit order, with missing rows marked in yellow. It uses Report Setup's studio name, project and logo.</li>
+<li><b>A cut conformed against camera files offers to develop them.</b> The offer says how many files and how much that is. Each camera file is developed whole, not only the part the cut uses. On a network drive it says that can take many hours, and Not Now is the default.</li>
+<li><b>Record TC, Dur, Source TC, Frames.</b> The Conform window's columns use the titles edit software uses. Dur is the clip's duration in the cut; Frames is how many source frames it uses.</li>
+<li><b>Network is in the Review menu, and the Conform window in Media.</b> Review ▸ Network and Media ▸ Conform Window; both were under Window. Network is also in the right-click Review menu.</li>
+<li><b>Relinking reads its folder in the background.</b> Relink Missing Media…, Locate Media… and the folders searched when a session opens say what they are looking through, and the window stays usable.</li>
+<li><b>Several EDLs as one cut.</b> An EDL holds one track. Select all of a cut's EDLs together in Conform a Cut… and each becomes a track, stacked by record timecode. This already worked; the Conform window now says so.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
 <ul>
 <li><b>Ingest CSV for Kura Hub.</b> Ingest CSV in the Pull Plates window saves the pipeline's ingest CSV for a cut, in the columns <code>vfx edit ingest</code> writes, one row per plate. When the shots folder is a job's <code>03_SHOTS</code> it is offered in that job's <code>08_EDITORIAL/edls/ingest_csv</code> under the pipeline's own file name. From Terminal: <code>--csv</code>. The pipeline's own reader read it back correctly. It has not been run through <code>vfx edit commit</code> or Kura Hub yet.</li>
 <li><b>Stacked layers are numbered in shot time.</b> A shot's first frame in the cut is 1001. A layer stacked on it that comes in five frames later is 1006 at its own first frame, so the same number is the same moment on every plate of the shot. This changes the numbers of stacked layers pulled with builds 1417 to 1427, where every plate started at 1001. A shot's first layer is unchanged.</li>
 <li><b>Each shot's plates in words.</b> A pull writes <code>KNT_BQT_010_conform.txt</code> in the shot's plates folder: every plate's source, frames, handles, retime, reposition and color spaces.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
 <ul>
 <li><b>Repositions are read and noted.</b> A scale, a move or an opacity change on a clip in a Premiere AAF is read and written out per clip, such as "Scaled 130%, moved 11.3% of the width right per the AAF". The Conform window tags those shots, its summary counts them, and each plate's header carries the line. It is never applied: a plate is the whole camera frame.</li>
@@ -77,12 +88,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Resolve OTIO cuts land on the right frame.</b> Some clips started one frame early. Clips Resolve exports without a file path are kept and found by name.</li>
 <li><b>The first conform in a new window loads.</b> Conforming a cut with nothing else open gave an empty playlist.</li>
 </ul>
-<h3>1.0 (build 1389) <span class="when">Oct 10, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1441.zip" length="73678665" type="application/octet-stream" sparkle:edSignature="/YlG+UgdrBGE/YswRr6Db2tL7qCOJvf5nC+qxtu3In22e8ii59N2IPqaiNYYpbP8MEO/9pPXEKfIiuWptWXnBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1441-1430.delta" sparkle:deltaFrom="1430" length="1759042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w5g/OQn6wv0eIc9mBYBVjxdN4mQsIl+SMRqWo6G3qbIWfsrCB/O8MpiJLFIBcuNTzdwhEOI1fbQShOG57ZKpCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1441-1427.delta" sparkle:deltaFrom="1427" length="1853750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YV9bw6pK2QNu+Vncy40NjJeQBYfgR5VtEQkROeA0bL5+WYaKmQ9xRYHaN26xq5xTvLkdJ/Fv/z1hLwhHEYbQCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1441-1421.delta" sparkle:deltaFrom="1421" length="2037694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JdW9aptD0fEMN3lR4DDII/7TKPzb8QIWt5h8ZYAK4+Bt8EkL/pUEtW8XJ3x8dVjhzgDu3NVkq5KW8/tCJ2jpBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1441-1417.delta" sparkle:deltaFrom="1417" length="2072210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DW+0odj2/wpeLKjkrecw/3aRO/jNJohAZeUm8TYe4NVdywW49ax03Uf1GQXwAGfo8SW3dI/OkoIefp3MyP8WAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1441-1409.delta" sparkle:deltaFrom="1409" length="2238306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HRFmpnUGHV1Q9FHl0YXVr3wEhbco9g3au6Uyg/sTIzlHymqJxvUXMCpUMPxWBMhPf8Dc/09P13zuG3hHgjr9Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sun, 11 Oct 2026 02:27:10 +0200</pubDate>
+            <sparkle:version>1430</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1430)</h2>
 <ul>
-<li><b>Premiere EDLs conform.</b> Import Cut for Conform refused every EDL saved with Windows line endings, which is how Premiere writes them, with "No events found". They read now.</li>
-<li><b>Conformed clips start on the right frame.</b> A cut names its sources by timecode. Asobi now finds that timecode inside each file. Before, a camera-timecode cut sent every clip to its file's last frame.</li>
-<li><b>Per-track EDLs are one cut.</b> Choose every EDL of a set (EDL 1, EDL 2, EDL 3) and the upper tracks stack with the shots they sit over.</li>
-<li><b>OTIO cuts</b> can be chosen in Import Cut for Conform, alongside AAF, XML and EDL. A cut's own frame rate is read from the cut, never assumed to be 24.</li>
+<li><b>Ingest CSV for Kura Hub.</b> Ingest CSV in the Pull Plates window saves the pipeline's ingest CSV for a cut, in the columns <code>vfx edit ingest</code> writes, one row per plate. When the shots folder is a job's <code>03_SHOTS</code> it is offered in that job's <code>08_EDITORIAL/edls/ingest_csv</code> under the pipeline's own file name. From Terminal: <code>--csv</code>. The pipeline's own reader read it back correctly. It has not been run through <code>vfx edit commit</code> or Kura Hub yet.</li>
+<li><b>Stacked layers are numbered in shot time.</b> A shot's first frame in the cut is 1001. A layer stacked on it that comes in five frames later is 1006 at its own first frame, so the same number is the same moment on every plate of the shot. This changes the numbers of stacked layers pulled with builds 1417 to 1427, where every plate started at 1001. A shot's first layer is unchanged.</li>
+<li><b>Each shot's plates in words.</b> A pull writes <code>KNT_BQT_010_conform.txt</code> in the shot's plates folder: every plate's source, frames, handles, retime, reposition and color spaces.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1430.zip" length="73591757" type="application/octet-stream" sparkle:edSignature="XWRNxzT30RfjqKRi8hzxbAPZL5RJEmx4USiRvMdQqaJj/6qccdg7bfZPwTzaLGegYqJBMa1w0zq6tnS4OJC8BA=="/>
@@ -124,37 +157,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1427-1409.delta" sparkle:deltaFrom="1409" length="1901326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9jOWohiG1cpryyYq5bGaqIsfjY4Xr28YRlahXJMuUPYAITlY2EAwGwPkJ8woSzoTa00h9DaTPH8V3QY/TCESCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1427-1405.delta" sparkle:deltaFrom="1405" length="2060526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e3YCYNLJB1upAny+HFYOZ609MVIwNvhe+SHneKJhciMr+znUYSphJVtoxafNCHyTlXzyCku9uo8dDzBP+lEYBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1427-1396.delta" sparkle:deltaFrom="1396" length="2279762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Algs/5d1ZMaZWfUv4uKECuFnlJsVQJ5NM40oCxoUQYs8SIHbUaJKh3T+GzG+lndT05LZN27s0NqbA+BT0wacDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 11 Oct 2026 01:39:19 +0200</pubDate>
-            <sparkle:version>1421</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1421)</h2>
-<ul>
-<li><b>ARRIRAW plates.</b> Pull Plates now writes plates from ARRIRAW, HDE and ARRICORE camera files. ARRI Reference Tool develops each frame to linear ACES, so there is no curve or EI to choose, and Asobi converts it to ACEScg or ACES2065-1 and writes the EXR. The tool has to be on this Mac: the manual's Camera raw section has the steps.</li>
-<li><b>Camera metadata in every plate.</b> The camera's model, serial number, ISO, shutter, lens data and the rest of ARRI's header are carried into each EXR, with the source timecode and the true frame rate.</li>
-<li><b>Camera files on a network volume are copied first.</b> The frames a plate needs are trimmed to this Mac, then developed. The row says so while it happens. This is slow over a remote link: 14 frames took nearly three minutes through the tunnel to Kura. Pull from a locally mounted camera drive when you can.</li>
-<li><b>Room on disk.</b> The window says about how much the plates will take. A pull that doesn't fit is not started. Open-gate ARRIRAW is about 45 MB a frame as ZIP, so a 20-shot cut is about 40 GB.</li>
-<li><b>Not yet.</b> Folders of <code>.ari</code> frames, RED, Blackmagic RAW and DPX are listed and not pulled. ARRI's ProRes MXF goes the same way as ARRIRAW but has not been tried on a real file.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1421.zip" length="73519235" type="application/octet-stream" sparkle:edSignature="KP+q4Iaib8+GkOCJGJKbKGOOF4BwkCZxTxxjeBDQjz3uEG8yUompl4ziPSOrTgcLg1dPvg+4wkxgP5HlnykADQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1417.delta" sparkle:deltaFrom="1417" length="1247214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cFORA24kDk/OLGN2M5CMcMtP5aCHkBY27YO8JBLkisXVB+7DvWUVbet/YAFifX6b96cTKB66Par8Q/IYXBRfCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1409.delta" sparkle:deltaFrom="1409" length="1777434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bfQCUmVEwmxLZztZoKNY6DKDNSV7k1hGMmju46smpKJIWfSfO2enxWc6xv8Jgmpe0ZX9FZxUyxMJkMpsMV8YCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1405.delta" sparkle:deltaFrom="1405" length="2011758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MJFJGr2iidZMM8EvjBfljxHJDvXxig0wjg9mkbXu04twKA5lOHnT1cNc/D18HTtSNOFzMJ0V5dZmsV7eW603AA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1396.delta" sparkle:deltaFrom="1396" length="2223878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KmtbkpbxyAQ2Hfx1ODP86wdwEoAsg/5uQb0M7fwdaIXgjeMNlDWsslpa/q4THzV5+k6SDuLFtC5SpAjrTlcHAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1389.delta" sparkle:deltaFrom="1389" length="2288002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rqWAtzpm+QFJn2ytHY2zn/+H6Kz0ikl0Q9hiZr3yHmBKpG3bN1LCNCUvHnoZBifoQCdCatr0groNkyfZS0zuBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

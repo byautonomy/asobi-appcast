@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sun, 11 Oct 2026 02:05:29 +0200</pubDate>
-            <sparkle:version>1427</sparkle:version>
+            <pubDate>Sun, 11 Oct 2026 02:27:10 +0200</pubDate>
+            <sparkle:version>1430</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,7 +20,15 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1427) <span class="when">Oct 11, 2026</span></h2>
+<h2>Asobi 1.0 (build 1430) <span class="when">Oct 11, 2026</span></h2>
+<ul>
+<li><b>Ingest CSV for Kura Hub.</b> Ingest CSV in the Pull Plates window saves the pipeline's ingest CSV for a cut, in the columns <code>vfx edit ingest</code> writes, one row per plate. When the shots folder is a job's <code>03_SHOTS</code> it is offered in that job's <code>08_EDITORIAL/edls/ingest_csv</code> under the pipeline's own file name. From Terminal: <code>--csv</code>. The pipeline's own reader read it back correctly. It has not been run through <code>vfx edit commit</code> or Kura Hub yet.</li>
+<li><b>Stacked layers are numbered in shot time.</b> A shot's first frame in the cut is 1001. A layer stacked on it that comes in five frames later is 1006 at its own first frame, so the same number is the same moment on every plate of the shot. This changes the numbers of stacked layers pulled with builds 1417 to 1427, where every plate started at 1001. A shot's first layer is unchanged.</li>
+<li><b>Each shot's plates in words.</b> A pull writes <code>KNT_BQT_010_conform.txt</code> in the shot's plates folder: every plate's source, frames, handles, retime, reposition and color spaces.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
 <ul>
 <li><b>Repositions are read and noted.</b> A scale, a move or an opacity change on a clip in a Premiere AAF is read and written out per clip, such as "Scaled 130%, moved 11.3% of the width right per the AAF". The Conform window tags those shots, its summary counts them, and each plate's header carries the line. It is never applied: a plate is the whole camera frame.</li>
 <li><b>Moves the AAF doesn't carry are flagged.</b> Premiere's Transform, Vector Motion and Warp Stabilizer write no values into an AAF. Those clips are flagged "not read": the reference is the place to see them.</li>
@@ -29,8 +37,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Network camera drives are said up front.</b> When camera files are on a network volume, the Pull Plates window says how many plates will be copied to this Mac first. Over a remote link that is slow: pull from a locally mounted camera drive when you can.</li>
 <li><b>One exception to "nothing is written over".</b> Plates pulled with builds 1417 or 1421 have no record, so the next pull rewrites their newest version in place instead of writing the next one.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
 <ul>
 <li><b>ARRIRAW plates.</b> Pull Plates now writes plates from ARRIRAW, HDE and ARRICORE camera files. ARRI Reference Tool develops each frame to linear ACES, so there is no curve or EI to choose, and Asobi converts it to ACEScg or ACES2065-1 and writes the EXR. The tool has to be on this Mac: the manual's Camera raw section has the steps.</li>
@@ -78,12 +84,37 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Per-track EDLs are one cut.</b> Choose every EDL of a set (EDL 1, EDL 2, EDL 3) and the upper tracks stack with the shots they sit over.</li>
 <li><b>OTIO cuts</b> can be chosen in Import Cut for Conform, alongside AAF, XML and EDL. A cut's own frame rate is read from the cut, never assumed to be 24.</li>
 </ul>
-<h3>1.0 (build 1386) <span class="when">Oct 10, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1430.zip" length="73591757" type="application/octet-stream" sparkle:edSignature="XWRNxzT30RfjqKRi8hzxbAPZL5RJEmx4USiRvMdQqaJj/6qccdg7bfZPwTzaLGegYqJBMa1w0zq6tnS4OJC8BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1430-1427.delta" sparkle:deltaFrom="1427" length="1108530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9B9Pk7IHmgdXyfa5YTjgw9EoGw7xQAOSAwzsAIvPeeudFyASygToerl0eDxqWZz9MQLhP7CnO4+FZsQ5Lw1IDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1430-1421.delta" sparkle:deltaFrom="1421" length="1567874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KTm2ivuVq4eT5ZwQWQFXbDTHX1oYBwp1DQLLRjUEY9VszfGTWASM9dKmoxCgscnjaBjlaN5+9zi/kQGbnkc9Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1430-1417.delta" sparkle:deltaFrom="1417" length="1670362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="I7oKYeaUlPRM/e4VkMuQhZb351nPynbyG7bvzuuIt6nB3yMsh8vdCMDeHM0UXvUs/IBlerSC/5Z9kHhA80RHCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1430-1409.delta" sparkle:deltaFrom="1409" length="1911910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NRMhraMoxRpEvohrS9TB8OS6613gh94HNJSc0A9PIz5xzBovKFk/jX3ppd99Po2EHcyFYJJG2NH08N3FHRrhAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1430-1405.delta" sparkle:deltaFrom="1405" length="2070270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HbpxWA+h/GLHZ5am6xTQ9j0R/9AZ/Ti4U+2Gc/DR9wLyKpxhmvusU03lto+SDLcRUjciVRUsF+fy9/SViNEeBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sun, 11 Oct 2026 02:05:29 +0200</pubDate>
+            <sparkle:version>1427</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1427)</h2>
 <ul>
-<li><b>New Project…</b> at the foot of Teams starts a project's team before its first review.</li>
-<li><b>Rename</b> a project from the Teams page (Rename…, or double-click its name) or by right-clicking it in the list. Remove Team… is there too.</li>
-<li><b>Find a team.</b> The project list filters by project or by person (type a name to see every team they're on) and sorts by Recently Used, Name or Most People.</li>
-<li><b>Sort a team</b> by clicking a column: Name, Email, Access, Opened. Longer teams get a filter.</li>
+<li><b>Repositions are read and noted.</b> A scale, a move or an opacity change on a clip in a Premiere AAF is read and written out per clip, such as "Scaled 130%, moved 11.3% of the width right per the AAF". The Conform window tags those shots, its summary counts them, and each plate's header carries the line. It is never applied: a plate is the whole camera frame.</li>
+<li><b>Moves the AAF doesn't carry are flagged.</b> Premiere's Transform, Vector Motion and Warp Stabilizer write no values into an AAF. Those clips are flagged "not read": the reference is the place to see them.</li>
+<li><b>A pull that was cut short is taken up again.</b> Stop a pull, or lose one to a failed plate or a shut Mac, and the next pull finishes what wasn't done and leaves the finished plates alone. The button reads Pull N Remaining. From Terminal: <code>--unfinished</code>.</li>
+<li><b>Each plate has its own versions and a record.</b> Pulling a finished plate again writes v002 beside v001. A finished version has a small JSON record beside its folder: the source file, the frames, the handles, the color spaces, the retime and the reposition.</li>
+<li><b>Network camera drives are said up front.</b> When camera files are on a network volume, the Pull Plates window says how many plates will be copied to this Mac first. Over a remote link that is slow: pull from a locally mounted camera drive when you can.</li>
+<li><b>One exception to "nothing is written over".</b> Plates pulled with builds 1417 or 1421 have no record, so the next pull rewrites their newest version in place instead of writing the next one.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1427.zip" length="73567872" type="application/octet-stream" sparkle:edSignature="thj+ZlzvKSw47pRaVER7y4HqujbnTyju7rwHF9U1aREo2/Hmz7gS1kxIek0H6123CQanlfk8mYgm+gRr/LDkDg=="/>
@@ -124,39 +155,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1405.delta" sparkle:deltaFrom="1405" length="2011758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MJFJGr2iidZMM8EvjBfljxHJDvXxig0wjg9mkbXu04twKA5lOHnT1cNc/D18HTtSNOFzMJ0V5dZmsV7eW603AA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1396.delta" sparkle:deltaFrom="1396" length="2223878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KmtbkpbxyAQ2Hfx1ODP86wdwEoAsg/5uQb0M7fwdaIXgjeMNlDWsslpa/q4THzV5+k6SDuLFtC5SpAjrTlcHAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1421-1389.delta" sparkle:deltaFrom="1389" length="2288002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rqWAtzpm+QFJn2ytHY2zn/+H6Kz0ikl0Q9hiZr3yHmBKpG3bN1LCNCUvHnoZBifoQCdCatr0groNkyfZS0zuBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 11 Oct 2026 01:14:28 +0200</pubDate>
-            <sparkle:version>1417</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1417)</h2>
-<ul>
-<li><b>Pull Plates.</b> Pull Plates in the Conform window writes a cut's plates as half-float EXRs in ACEScg or ACES2065-1, ZIP or PIZ. The window shows the plan first: every plate, the file it comes from, its frame numbers on disk and its frame count. Pull writes what the table says.</li>
-<li><b>From the camera original.</b> A camera clip is pulled from the original the Conform window found for it, never from its proxy. A render or a stock clip is pulled from the file the cut plays.</li>
-<li><b>Handles and numbering.</b> Handles are counted in the cut's frames, so a 200% shot gets twice as many source frames. The cut's first frame is 1001 with handles below it, or frames are numbered by source timecode.</li>
-<li><b>Camera files are read as the color space you choose.</b> It is never assumed. Until you choose, camera files are not pulled.</li>
-<li><b>Nothing is written over.</b> A second pull writes v002 beside v001. Each EXR's header carries the source timecode, frame rate, reel name, shot and retime, and Check Frames runs over every plate.</li>
-<li><b>What it reads today.</b> ProRes and other movies macOS decodes (ProRes in 16-bit float) and EXR sequences. ARRIRAW and ARRI MXF, RED, Blackmagic RAW and DPX are listed and not pulled yet.</li>
-<li><b>From Terminal.</b> <code>Asobi pull --session &lt;saved session&gt; --out &lt;shots folder&gt;</code> runs the same pull on a session saved from a conformed cut.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1417.zip" length="73485817" type="application/octet-stream" sparkle:edSignature="1lSxbnhANQfHauKotygbk6NG95jzOuDUZecag2kL4seP+2jS0KX0G+5EEIeuEvuBKCzQKeahO8e/qSBlgAn3Bg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1417-1409.delta" sparkle:deltaFrom="1409" length="1743750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YyrxTgjzZFPRN9eKc482ZkojvwOm5/JNUxExMoP6aq8wLJW+xNzctmuY4AitdbGGduZcEPTBYdR/PJimQGnuDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1417-1405.delta" sparkle:deltaFrom="1405" length="1963458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TNHzV446Tp/M1RGDCahRW76dTafmnhc/tRLud3K67zTKJ9Jsc9U93K08Nbs2bG1LpepjbWWI++aIuitOY63xCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1417-1396.delta" sparkle:deltaFrom="1396" length="2196354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j5ZjJYwRoUBcW7EAkB8v+29Aax4jCKoqmY9x8tOXxwC5c91PvES5aqLeAOpzAyEr9GVINwYT9CWXJb87Dk5nDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1417-1389.delta" sparkle:deltaFrom="1389" length="2264542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YWiS5XHC7VFlLp3YuKE3o1hbKVtu7baxddg54TPi9gBuyBK8UQlF8dLa9GmHK+BejUmNdFKX/m1gByMP9NPaAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1417-1386.delta" sparkle:deltaFrom="1386" length="2256470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/BI4YnF8xWdIPsWAC90n6Pnv32FbJC47Q+gwOw1VPh4EzabhyO3EaHxnAs1Eu/0kCn12sH6saPKP1sFesX2KCw=="/>
             </sparkle:deltas>
         </item>
     </channel>

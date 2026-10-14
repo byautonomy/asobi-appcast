@@ -4,6 +4,74 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 14 Oct 2026 13:55:19 -0700</pubDate>
+            <sparkle:version>1573</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+h3 { font-size: 13px; margin: 14px 0 4px; }
+.when { font-weight: 400; color: #777; }
+.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
+</style>
+<h2>Asobi Review 1.0 (build 1573) <span class="when">Oct 14, 2026</span></h2>
+<ul>
+<li><b>No color error on an offline clip.</b> Going to a conformed clip whose footage isn't there showed "Color probe failed" over its Footage Offline card. The color check now leaves an offline clip alone.</li>
+<li><b>Camera originals from your folders, even when the cut links camera files.</b> A cut conformed against camera files on another drive (the studio server) took those files as the originals and never looked in the camera folders you chose. If the camera folders hold the same file, with the cut&#8217;s timecode inside it, plates now come from there.</li>
+<li><b>Finishing v002.</b> A plate an earlier pull began and didn&#8217;t finish was marked &#8220;Taken up again&#8221;. It now says which version this pull finishes, and its tooltip says how to start a new one instead.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
+<ul>
+<li><b>DPX sequences play.</b> 8, 10, 12 and 16-bit DPX files open and play like any other image sequence, read as the color space set for DPX in Settings, Color.</li>
+<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>Network is in the Review menu.</b> Review ▸ Network; it was under Window. It is also in the right-click Review menu.</li>
+<li><b>A playlist on a network drive no longer slows the window.</b> Whether each clip's file is there is checked in the background.</li>
+<li><b>Locate Media… reads a folder in the background.</b> A line above the toolbar says how far it has got.</li>
+</ul>
+<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1573.zip" length="57265879" type="application/octet-stream" sparkle:edSignature="37AvfgmJAK/ExabBTcMtczcZzqOY1kJ8L91aY+8EvLkCuwk03ky248mTdJP6Kx3EjVJwMXQ+TtLQya5sahgLAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1573-1568.delta" sparkle:deltaFrom="1568" length="1202182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0jftyj8MSaZwBz0BuSlM0PEePmUp6r12twt0lmxT4J/GD/lS9gOwxUNoF3GqI/7wT8xy9kSLqnSnyzuOnZlXDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1573-1565.delta" sparkle:deltaFrom="1565" length="1802042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8SsjGHJALJ5EVwyW3HI6ffVnIbse9GKbexNv2LqZjKZHGhyNSZLqiBR1bMh47WC7LZ6m4V7Gu/4wCm2Ab7BbAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1573-1561.delta" sparkle:deltaFrom="1561" length="2128234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o7g+sAP6ApE8xkWnKFbsHxP/BXNh7QyYZvl033GQ+vjfcFNkMzB3RwBbjzuQQifcFhvRG3ADSM5jBiBX127jCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1573-1557.delta" sparkle:deltaFrom="1557" length="2110970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c7LYY8l98OXB15uYmy+/uV16GmRTCBd/YccWJ27YFLESKQIHelBMKk0t7aPwjlsDu5CfXQxmRLC1JF4ad3ONAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1573-1550.delta" sparkle:deltaFrom="1550" length="3496966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="51OfMuuQqTZ5ioqm4kmNj0XRdjMJRuMEHLv48TVlMNh8m8yKbVYpDLw16a7SUrK4fMgIi4NaUhMNIbdsnEmMCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Wed, 14 Oct 2026 13:29:30 -0700</pubDate>
             <sparkle:version>1568</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -137,72 +205,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1550.delta" sparkle:deltaFrom="1550" length="3402122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ydDJkIDdGjczJ5b6I9y6EKFnTtfDpxNE9+nQD+ffqR6ymSsG/EZIFGhLT1CkJF1NkqzYgStWDXzwWsmn/QBwBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1546.delta" sparkle:deltaFrom="1546" length="3791222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="szA4cAlO0qOUAxqriKaDFUHV7BAgEpGRUa359IaASsuotqh8eD3nYVHKpsG5L+TewWYrGE+7cLefhNis+47mDA=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1536.delta" sparkle:deltaFrom="1536" length="4193894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="awYfgUn0vsEBEusJphoytM6qdjdtuavYTXURMHPyjc4yHoLHeFAV8a2DYdfv8EsVHUaZM+ByKOtHejBW0bINAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 14 Oct 2026 12:07:19 -0700</pubDate>
-            <sparkle:version>1561</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-h3 { font-size: 13px; margin: 14px 0 4px; }
-.when { font-weight: 400; color: #777; }
-.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
-hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
-</style>
-<h2>Asobi Review 1.0 (build 1561) <span class="when">Oct 14, 2026</span></h2>
-<ul>
-<li><b>Camera originals from a drive of shoot days.</b> Camera Folders… has an Only in folders named field: choose the drive and type Camera Raw, and the transcodes beside each day's camera raw are left out of the search. A camera clip recorded as QuickTime and a transcode of the same name and timecode are no longer taken one for the other: the clip says Check.</li>
-</ul>
-<hr>
-<div class="earlier">Earlier updates</div>
-<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
-<ul>
-<li><b>DPX sequences play.</b> 8, 10, 12 and 16-bit DPX files open and play like any other image sequence, read as the color space set for DPX in Settings, Color.</li>
-<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>Network is in the Review menu.</b> Review ▸ Network; it was under Window. It is also in the right-click Review menu.</li>
-<li><b>A playlist on a network drive no longer slows the window.</b> Whether each clip's file is there is checked in the background.</li>
-<li><b>Locate Media… reads a folder in the background.</b> A line above the toolbar says how far it has got.</li>
-</ul>
-<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1561.zip" length="57177344" type="application/octet-stream" sparkle:edSignature="bPtwcEj49Hfy2aKQjlhDEBWzdhq25fBSMsICp8qOqdhoa9acwfBjkDPLVGQaih1iuBYs9lSpKzbyLYn2dO2HDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1561-1557.delta" sparkle:deltaFrom="1557" length="1356398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="byVPthEjr5iyIXb4G/rTphWG4ZcVR8ylm7qBAMXgv4w83v6xz5ehMSLimi48oQ3fYR2ZjFwwxHqPEtaK0hcrDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1561-1550.delta" sparkle:deltaFrom="1550" length="3274290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EhmykFaSWRaDvQDbONz4D7VbPwUffbTBxHEWzipqioW5JvkX4Z5mFR5cA0Pdhfo3etAg1eZT/15QVKeY9QETAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1561-1546.delta" sparkle:deltaFrom="1546" length="3714082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3rNqoIpQYaIMprtgT/yWOVfiO90x1sDRkOAtbPb+/uPQsPl441Tm8qedDxZYqN1kJIVTO1UGG4k9dEvWfDSACQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1561-1536.delta" sparkle:deltaFrom="1536" length="4056066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hRsFECX/vwOxqy3Kh+aUdMuQ/dX+tg51PDRUAum+HE8yEh5iqmyMt2Hq5YIrR37tbsJlhcZyGwsowdq/wul+CA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1561-1534.delta" sparkle:deltaFrom="1534" length="4086614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HNu4rBQSglJNyqITkejSaByqxG80xwR0Kl9eCULNynBowFodIdSKa9UIY5pPSBD9bB2/114MriyWRWlbVGD+AQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

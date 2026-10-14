@@ -4,6 +4,74 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 14 Oct 2026 12:58:35 -0700</pubDate>
+            <sparkle:version>1565</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+h3 { font-size: 13px; margin: 14px 0 4px; }
+.when { font-weight: 400; color: #777; }
+.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
+</style>
+<h2>Asobi Review 1.0 (build 1565) <span class="when">Oct 14, 2026</span></h2>
+<ul>
+<li><b>The Edit Ref on screen follows the cut.</b> In 1.0 (1557) and (1561) the Edit Ref drawn beside the conform was the conform's own frame number plus the Line up offset, so going from shot to shot showed parts of it out of order (frame grabs and the Record TC were right). It is now drawn at the frame of the cut the conform is showing, and runs on through a freeze.</li>
+<li><b>Line Up by Picture.</b> An Edit Ref with black or a slate before the cut, and no timecode to say so, no longer has to be lined up by eye: Line Up by Picture finds the offset from where its cuts fall against the cut's, checks a frame of up to ten shots, and offers it (Apply +7). Nothing moves until you apply it.</li>
+<li><b>Trim Handles on a conformed clip.</b> A clip of a conformed cut plays only the frames the cut uses. Trim Handles used to widen it to the whole camera file, and the Edit Ref beside it stopped following; it now leaves the clip alone, and a session saved that way plays the clip's own frames again.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
+<ul>
+<li><b>DPX sequences play.</b> 8, 10, 12 and 16-bit DPX files open and play like any other image sequence, read as the color space set for DPX in Settings, Color.</li>
+<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>Network is in the Review menu.</b> Review ▸ Network; it was under Window. It is also in the right-click Review menu.</li>
+<li><b>A playlist on a network drive no longer slows the window.</b> Whether each clip's file is there is checked in the background.</li>
+<li><b>Locate Media… reads a folder in the background.</b> A line above the toolbar says how far it has got.</li>
+</ul>
+<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li>Small fixes.</li>
+</ul>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1565.zip" length="57235789" type="application/octet-stream" sparkle:edSignature="sVaIYbHupptR2UGK4iuqGa/dvXhhZh7ibpp8+fs81SufAr87qxRbwyk7O/VGA4j2IzYuQvtD0tkf6THUTt75Aw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1561.delta" sparkle:deltaFrom="1561" length="1972742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BrmUIEI1n4ipjc+KMFzKW/4uF3ZxDZ1mzmHzPjZk5bZWkug3Dfi+N9VTrn+yTp/8Y3dc8HC5WJ+Q2m0+zFyGAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1557.delta" sparkle:deltaFrom="1557" length="1930242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="458kq5AGGwC4k15CWsPFq7RawFPoJ2L14FmiBMq1tRgY9LZp0CMTuDMkUIJZnyoXzCZVCs9uK1FwrVkCtSKmBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1550.delta" sparkle:deltaFrom="1550" length="3402122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ydDJkIDdGjczJ5b6I9y6EKFnTtfDpxNE9+nQD+ffqR6ymSsG/EZIFGhLT1CkJF1NkqzYgStWDXzwWsmn/QBwBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1546.delta" sparkle:deltaFrom="1546" length="3791222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="szA4cAlO0qOUAxqriKaDFUHV7BAgEpGRUa359IaASsuotqh8eD3nYVHKpsG5L+TewWYrGE+7cLefhNis+47mDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1565-1536.delta" sparkle:deltaFrom="1536" length="4193894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="awYfgUn0vsEBEusJphoytM6qdjdtuavYTXURMHPyjc4yHoLHeFAV8a2DYdfv8EsVHUaZM+ByKOtHejBW0bINAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Wed, 14 Oct 2026 12:07:19 -0700</pubDate>
             <sparkle:version>1561</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -136,78 +204,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1557-1536.delta" sparkle:deltaFrom="1536" length="4062778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KrJopsiH87r56HsODwq4hkY9EvVdiZWX/aKmKDYB/q1ZGD/6U7A2qDJvHPWEDAmPVPJhzKwus0j6PaxCHXbiBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1557-1534.delta" sparkle:deltaFrom="1534" length="4072354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kpKJcGtyHD7NHYJVGb93G01N0mByEk6JvsMG/ra5+sU+529ZBG5pq3qs1Dxm6wiBLGhEejqcCl93xuLt5Kg9CQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1557-1528.delta" sparkle:deltaFrom="1528" length="4390446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UQi1soHMFYgsNZgzY2evxXUwsymWE35CADk74JjG+OPCfmQ8TrGPPNjCP32e+xye9VmuYWsImp01nckIvKZiBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 14 Oct 2026 09:11:22 -0700</pubDate>
-            <sparkle:version>1550</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-h3 { font-size: 13px; margin: 14px 0 4px; }
-.when { font-weight: 400; color: #777; }
-.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
-hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
-</style>
-<h2>Asobi Review 1.0 (build 1550) <span class="when">Oct 14, 2026</span></h2>
-<ul>
-<li><b>DaVinci Resolve and ARRI's tool, one job at a time.</b> A pull and a camera raw develop no longer reach for Resolve or ARRI Reference Tool at the same moment: whichever asked first has it, and the other waits its turn. A waiting plate says Waiting for Resolve, the Pull Plates window says who has it, and Stop takes a waiting plate out of the line.</li>
-<li><b>Optimize in the Queue window.</b> Media ▸ Queue shows what is being optimized: Stop the shot being made (nothing of it is kept, and the next begins), Remove one that is waiting, and Try Again on any that didn't come out. A camera raw develop is listed there too, with its own Stop.</li>
-<li><b>Stop one camera file, or Stop All.</b> While camera raw is developing, the Queue window and the Conform window have Stop, for the file under way alone (nothing of it is kept, and the next begins), and Stop All. A file stopped is offered again by Develop….</li>
-<li><b>ALEXA 35 camera raw is recognized.</b> A real ALEXA 35 card labels its ARRIRAW differently from the Mini LF, and Asobi didn't take it for camera raw: it wasn't offered for developing, its plates didn't go to ARRI Reference Tool, and it wasn't read as LogC4. It is now.</li>
-<li><b>For editorial, in the Conform report.</b> A short section of questions to send to editorial with the cut: the events that look like one shot, and anything that couldn't be read from the cut file, each named by its Record TC.</li>
-<li><b>A shot of two takes in the Conform report.</b> Each take has its own line and its own sheet, as each has its own plate.</li>
-<li><b>A cut read back from DaVinci Resolve stays tidied.</b> With Tidy a cut with DaVinci Resolve, a saved session opened again no longer suggests joins on a cut that came back from Resolve.</li>
-</ul>
-<hr>
-<div class="earlier">Earlier updates</div>
-<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
-<ul>
-<li><b>DPX sequences play.</b> 8, 10, 12 and 16-bit DPX files open and play like any other image sequence, read as the color space set for DPX in Settings, Color.</li>
-<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>Network is in the Review menu.</b> Review ▸ Network; it was under Window. It is also in the right-click Review menu.</li>
-<li><b>A playlist on a network drive no longer slows the window.</b> Whether each clip's file is there is checked in the background.</li>
-<li><b>Locate Media… reads a folder in the background.</b> A line above the toolbar says how far it has got.</li>
-</ul>
-<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li>Small fixes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1550.zip" length="56871791" type="application/octet-stream" sparkle:edSignature="/syTgI8wsZMoAwu3pnWMw5MK7ssJL7wOub/kIG1ECgA4fFFEOE9JSh/7bb6J1PzCmDTg8rtlhaipKmxk01gzAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1550-1546.delta" sparkle:deltaFrom="1546" length="2232590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b0pti/5ULfkbPYurFBP2uan+JM3n/5zDBL30M0jHSt8vuXZQV7KJW5zxZcxbfn56EQhidgGjXMkV4/xDmjmADA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1550-1536.delta" sparkle:deltaFrom="1536" length="2798370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5zUTeFLEOrvTsyocCrQ2EG80nJt9PrPVdXiBJMgESqlc+L7TPb+a55xKoFVm5ysnr68tAAeeDvvb5zJuD5y/AA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1550-1534.delta" sparkle:deltaFrom="1534" length="2786270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="08KghqIvqDV1WZ7dOjPMzcP3TVzaTETRnsLtRJme4vTMlU+5goSrGaAyAZ15GyKaB85RMlE52hCkR3QtASfRCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1550-1528.delta" sparkle:deltaFrom="1528" length="3186746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="F38lY/RlHKSsHPYCoTED5u+87XWnc3+sLujE3gWN/DmkAHhvRGy95V6GXN6K/LbvrTSYIyxwrEYdXGcfOGZsBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1550-1523.delta" sparkle:deltaFrom="1523" length="3430218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wruGesZJyRJrzv6/ACcX3XXOnKjZgYP1ZUf4ELPhNp5yJHBgm51kKK6ntJuRFGu4Q0Wq90tJdGPRoth+71ljBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

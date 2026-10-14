@@ -4,6 +4,110 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 14 Oct 2026 12:04:38 -0700</pubDate>
+            <sparkle:version>1561</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+h3 { font-size: 13px; margin: 14px 0 4px; }
+.when { font-weight: 400; color: #777; }
+.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
+</style>
+<h2>Asobi 1.0 (build 1561) <span class="when">Oct 14, 2026</span></h2>
+<ul>
+<li><b>Camera originals from a drive of shoot days.</b> Camera Folders… has an Only in folders named field: choose the drive and type Camera Raw, and the transcodes beside each day's camera raw are left out of the search. A camera clip recorded as QuickTime and a transcode of the same name and timecode are no longer taken one for the other: the clip says Check.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
+<ul>
+<li><b>Camera raw in a conformed cut is developed for the frames the cut uses,</b> with the Pull handles, and no longer the whole take. The Conform window has a Camera raw line: it shows what is being developed, with Stop, and Develop… brings back an offer that was turned down.</li>
+<li><b>Several EDLs as one cut.</b> The EDLs of a cut are read at one frame rate, and a Cut files line says when they are drop-frame or when a track disagrees with the others. An EDL dropped later joins the cut as a new layer or replaces one. A folder of EDLs, or cut files dropped on the Conform window, are conformed. Reset starts the conform again in place.</li>
+<li><b>Plates can be written as ARRI LogC4, LogC3, Rec.709 or sRGB,</b> as well as ACEScg and ACES2065-1. Rec.709 and sRGB are the picture as that display shows it, and can be 16-bit PNG or a ProRes 4444 or 422 HQ QuickTime instead of EXR.</li>
+<li><b>Handles per plate.</b> Each plate's handles are suggested from its own layer's speed and can be typed over in the table. Scale for speed changes can be turned off. A tick beside each shot pulls it or leaves it out. Read CSV… takes handles and ticks back from an ingest CSV edited in a spreadsheet.</li>
+<li><b>RED and Blackmagic RAW plates,</b> through DaVinci Resolve Studio. Asobi starts Resolve without a window, asks for the plate's frames and quits it afterwards. It never runs while you have Resolve open. Movies through chooses Asobi or Resolve for movie files; Asobi reads ProRes exactly and is the default.</li>
+<li><b>DPX sequences</b> play in the viewer and are pulled as plates: 8, 10, 12 and 16-bit.</li>
+<li><b>A review movie and JPEG proxies with each plate.</b> The movie is the plate as the viewer shows it, with its name, frame numbers, timecode and the date burned in and a slate as the last frame. Inside a job's 03_SHOTS it goes in the job's 01_REFERENCE/dailies; the window says where before the pull.</li>
+<li><b>A shot's own name, and the pipeline's folders.</b> Click a shot's name in the Pull table to type another. Inside a job's 03_SHOTS, Shot names offers "Sequence / shot, as the pipeline": 03_SHOTS/BQT/010/plates/main/PL01/v001 with vfx edit commit's file names, template folders, .metadata.json and source_info.txt.</li>
+<li><b>A cut pulled again.</b> When the shots folder already has plates, the cut is compared with them. A shot keeps the name it was pulled under wherever it now sits; a new shot takes a number between its neighbors. Rows say New, Match, Version, Extend, Trim or Replace, and a plate that is on disk already with every frame is left alone. Pull only what changed can be unticked. A plate that only grows (the cut runs longer at its tail, or its handles do) has its new frames added to the version on disk instead of being written again. The ingest CSV lists shots the cut no longer has as OMITTED, as the pipeline does, and INGEST typed on a shot that is on disk pulls it again.</li>
+<li><b>Second Reading… in the Conform window.</b> DaVinci Resolve reads the same cut file and the two readings are compared event by event: track, place in the cut, length. A line says they agree or lists what differs.</li>
+<li><b>Kitsu from a pull.</b> Make the shots in Kitsu makes the sequence, the shots and their Plates and Compositing tasks if they aren't there, sets each shot's frames, handles and plate folder, and uploads each plate's review movie to its Plates task. Check says what a pull would make before anything is sent. The project is never made. The upload's comment says what the cut did with the layer: its retime and reposition.</li>
+<li><b>Speed ramps and repositions from a DaVinci Resolve cut.</b> A speed that changes through a clip is read from Resolve's OTIO: the clip covers every source frame the ramp uses and its plate gets a frame map with a row per frame. The reading was checked against Resolve's own render. Zoom, Pan, Tilt, Rotation, Flip, Cropping and Opacity set in Resolve's Inspector are noted on the clip, as Premiere's already were.</li>
+<li><b>A clip keeps its PL.</b> In the pipeline's folders, a clip the shot's source_info.txt already names keeps the PL it has, and a new clip takes the first free number.</li>
+<li><b>A frame map for a retimed plate.</b> A plate sped up, slowed or frozen in the cut gets a CSV beside its record saying where each frame of the cut is in the plate, handles included, with the cut's and the source's timecode. The shot's conform text gives the same as one rule to type into a retime.</li>
+<li><b>Stacked clips are marked in the Playlist.</b> The layers of a stack from a cut wear a spine down their rows and a V1, V2 chip for the track each is on, in a color and shape of their own, apart from a compare pair's bracket and A / B. The stack's header shows a layers glyph.</li>
+<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
+</ul>
+<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>A conform says what it is doing.</b> The Conform window opens as soon as the media folder is chosen, and a line there and above the toolbar says what is being read: the cut, how many files of the folder have been looked through, how many timecodes. Before, nothing showed until the cut had been read.</li>
+<li><b>A cut on a network drive no longer holds the window still.</b> The folder search and every check of a clip's file run off the main thread. Camera raw is no longer handed to the system movie reader for a thumbnail, which read a whole camera file across the network while everything else waited behind it.</li>
+<li><b>A conform report.</b> Report… in the Conform window writes the cut as a PDF. When files are missing, the first page opens with a yellow block saying how many, then lists each with the name the cut gives it, its track and both timecodes. Then camera originals to find, speed changes, resizes and repositions, and every shot in edit order, with missing rows marked in yellow. It uses Report Setup's studio name, project and logo.</li>
+<li><b>A cut conformed against camera files offers to develop them.</b> The offer says how many files and how much that is. Each camera file is developed whole, not only the part the cut uses. On a network drive it says that can take many hours, and Not Now is the default.</li>
+<li><b>Record TC, Dur, Source TC, Frames.</b> The Conform window's columns use the titles edit software uses. Dur is the clip's duration in the cut; Frames is how many source frames it uses.</li>
+<li><b>Network is in the Review menu, and the Conform window in Media.</b> Review ▸ Network and Media ▸ Conform Window; both were under Window. Network is also in the right-click Review menu.</li>
+<li><b>Relinking reads its folder in the background.</b> Relink Missing Media…, Locate Media… and the folders searched when a session opens say what they are looking through, and the window stays usable.</li>
+<li><b>Several EDLs as one cut.</b> An EDL holds one track. Select all of a cut's EDLs together in Conform a Cut… and each becomes a track, stacked by record timecode. This already worked; the Conform window now says so.</li>
+</ul>
+<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>Ingest CSV for Kura Hub.</b> Ingest CSV in the Pull Plates window saves the pipeline's ingest CSV for a cut, in the columns <code>vfx edit ingest</code> writes, one row per plate. When the shots folder is a job's <code>03_SHOTS</code> it is offered in that job's <code>08_EDITORIAL/edls/ingest_csv</code> under the pipeline's own file name. From Terminal: <code>--csv</code>. The pipeline's own reader read it back correctly. It has not been run through <code>vfx edit commit</code> or Kura Hub yet.</li>
+<li><b>Stacked layers are numbered in shot time.</b> A shot's first frame in the cut is 1001. A layer stacked on it that comes in five frames later is 1006 at its own first frame, so the same number is the same moment on every plate of the shot. This changes the numbers of stacked layers pulled with builds 1417 to 1427, where every plate started at 1001. A shot's first layer is unchanged.</li>
+<li><b>Each shot's plates in words.</b> A pull writes <code>KNT_BQT_010_conform.txt</code> in the shot's plates folder: every plate's source, frames, handles, retime, reposition and color spaces.</li>
+</ul>
+<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>Repositions are read and noted.</b> A scale, a move or an opacity change on a clip in a Premiere AAF is read and written out per clip, such as "Scaled 130%, moved 11.3% of the width right per the AAF". The Conform window tags those shots, its summary counts them, and each plate's header carries the line. It is never applied: a plate is the whole camera frame.</li>
+<li><b>Moves the AAF doesn't carry are flagged.</b> Premiere's Transform, Vector Motion and Warp Stabilizer write no values into an AAF. Those clips are flagged "not read": the reference is the place to see them.</li>
+<li><b>A pull that was cut short is taken up again.</b> Stop a pull, or lose one to a failed plate or a shut Mac, and the next pull finishes what wasn't done and leaves the finished plates alone. The button reads Pull N Remaining. From Terminal: <code>--unfinished</code>.</li>
+<li><b>Each plate has its own versions and a record.</b> Pulling a finished plate again writes v002 beside v001. A finished version has a small JSON record beside its folder: the source file, the frames, the handles, the color spaces, the retime and the reposition.</li>
+<li><b>Network camera drives are said up front.</b> When camera files are on a network volume, the Pull Plates window says how many plates will be copied to this Mac first. Over a remote link that is slow: pull from a locally mounted camera drive when you can.</li>
+<li><b>One exception to "nothing is written over".</b> Plates pulled with builds 1417 or 1421 have no record, so the next pull rewrites their newest version in place instead of writing the next one.</li>
+</ul>
+<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>ARRIRAW plates.</b> Pull Plates now writes plates from ARRIRAW, HDE and ARRICORE camera files. ARRI Reference Tool develops each frame to linear ACES, so there is no curve or EI to choose, and Asobi converts it to ACEScg or ACES2065-1 and writes the EXR. The tool has to be on this Mac: the manual's Camera raw section has the steps.</li>
+<li><b>Camera metadata in every plate.</b> The camera's model, serial number, ISO, shutter, lens data and the rest of ARRI's header are carried into each EXR, with the source timecode and the true frame rate.</li>
+<li><b>Camera files on a network volume are copied first.</b> The frames a plate needs are trimmed to this Mac, then developed. The row says so while it happens. This is slow over a remote link: 14 frames took nearly three minutes through the tunnel to Kura. Pull from a locally mounted camera drive when you can.</li>
+<li><b>Room on disk.</b> The window says about how much the plates will take. A pull that doesn't fit is not started. Open-gate ARRIRAW is about 45 MB a frame as ZIP, so a 20-shot cut is about 40 GB.</li>
+<li><b>Not yet.</b> Folders of <code>.ari</code> frames, RED, Blackmagic RAW and DPX are listed and not pulled. ARRI's ProRes MXF goes the same way as ARRIRAW but has not been tried on a real file.</li>
+</ul>
+<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>Pull Plates.</b> Pull Plates in the Conform window writes a cut's plates as half-float EXRs in ACEScg or ACES2065-1, ZIP or PIZ. The window shows the plan first: every plate, the file it comes from, its frame numbers on disk and its frame count. Pull writes what the table says.</li>
+<li><b>From the camera original.</b> A camera clip is pulled from the original the Conform window found for it, never from its proxy. A render or a stock clip is pulled from the file the cut plays.</li>
+<li><b>Handles and numbering.</b> Handles are counted in the cut's frames, so a 200% shot gets twice as many source frames. The cut's first frame is 1001 with handles below it, or frames are numbered by source timecode.</li>
+<li><b>Camera files are read as the color space you choose.</b> It is never assumed. Until you choose, camera files are not pulled.</li>
+<li><b>Nothing is written over.</b> A second pull writes v002 beside v001. Each EXR's header carries the source timecode, frame rate, reel name, shot and retime, and Check Frames runs over every plate.</li>
+<li><b>What it reads today.</b> ProRes and other movies macOS decodes (ProRes in 16-bit float) and EXR sequences. ARRIRAW and ARRI MXF, RED, Blackmagic RAW and DPX are listed and not pulled yet.</li>
+<li><b>From Terminal.</b> <code>Asobi pull --session &lt;saved session&gt; --out &lt;shots folder&gt;</code> runs the same pull on a session saved from a conformed cut.</li>
+</ul>
+<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
+<ul>
+<li><b>A saved session keeps its cut.</b> Save a conformed session and open it later: the Conform window lists the cut again, with each shot's camera original as it was found, whether or not the camera drive is mounted. Look Again searches the camera folders afresh.</li>
+<li><b>Offline shots stay in a reopened session.</b> Opening a conformed session used to drop the shots whose media wasn't on disk, and failed to open when the first shot was offline. They stay, and the session opens on the first shot that has media. A new conform does the same.</li>
+<li><b>Search Another Folder is in the Conform window.</b> When media is missing, a Media row says how many clips aren't on disk and searches another folder for them. The alert that asked before the window opened is gone. Drop Missing Clips went with it: delete the clips in the playlist.</li>
+<li><b>A freeze holds.</b> A freeze frame in a cut flashed past in one frame. It now stays for as long as the cut holds it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1561.zip" length="77762104" type="application/octet-stream" sparkle:edSignature="e0uKKXXHcej9C69emqg9DRXwJKoPlUFIWakXGojTj/+0bL/MbO1UUsgoWTjln6eyXPwSv6FBNaBbsi6sbfE2DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1561-1557.delta" sparkle:deltaFrom="1557" length="1357430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5o+EdR52zoOOvV15vM18gMq+QhUMxbF+h5JKVihrAETRsjEJifP4pETadPcTaWF3XQRVRvvlBUnReiisQcr/Cg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1561-1550.delta" sparkle:deltaFrom="1550" length="3279650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IMt5pYOftFAyfxgEoGt5yownBzJ7gfmVsgwHTHrBwi2USErmtpb43IPCzg6AFZKvzIwJVL3NxDJfgOprMJZYBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1561-1546.delta" sparkle:deltaFrom="1546" length="3707014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="51CQATrlt85uBZRpB6wsqJO+4459o94R9kNfevo6N2nz5wfi5ipBkr545qI79KuoQykogFvuOIJAgLIwUzWyAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1561-1536.delta" sparkle:deltaFrom="1536" length="4056794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/ChW23VLvGRbckv1exppjw+h9PatyFIrhGyW4aletC5bpXe+5joG2iLB6CFyzLfI0FOADXbsVSlj+onQOY4hCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1561-1534.delta" sparkle:deltaFrom="1534" length="4081146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/1jXuO24WuOdbn5/5vzi7q23H/y18tZSKJPqVzJNqoPMza1bHAom30BH2XpQQQ9i/g7Pd687A6xZlperwKrxCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Wed, 14 Oct 2026 11:10:23 -0700</pubDate>
             <sparkle:version>1557</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -218,114 +322,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1550-1534.delta" sparkle:deltaFrom="1534" length="2792370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JcNeQg8Py4qYAsnTXE9CV1bh9esWE9IGMqT1c8zYgTmENkyxhjJwXEx22TDAk0OZKuIXyArMEd2DAxbkxs2oCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1550-1528.delta" sparkle:deltaFrom="1528" length="3183354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FBx0OvFFNxAHlJNz3mPx2T879vQColww0wg3NtnV7HkSWrcdvbwTc7PN/u+4GMYxLGEyAER+R9qxRihWHsZPDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1550-1523.delta" sparkle:deltaFrom="1523" length="3437010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xjxITPJyhm2xemeUOZn9ukc1tBb1eODRcFrWFtyQUmbV2VxxOozCSxLWDqeD9Kgv9fOSWq9/YLOntOAISsDaBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 13 Oct 2026 20:49:17 -0700</pubDate>
-            <sparkle:version>1546</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } .when, .earlier { color: #9a9a9a; } hr { border-color: #444; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-h3 { font-size: 13px; margin: 14px 0 4px; }
-.when { font-weight: 400; color: #777; }
-.earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
-hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
-</style>
-<h2>Asobi 1.0 (build 1546) <span class="when">Oct 13, 2026</span></h2>
-<ul>
-<li><b>Reply to text written on the frame.</b> Words typed on the picture with the Text tool are listed in the Notes sidebar, and now have a Reply field like any note, with the paperclip and the mic. The first reply gives the text its own thread, which goes to everyone in a review, to the report and to the exports. The words stay on the frame and are edited and removed there.</li>
-<li><b>Input color space: remembered for the file, and Apply to All reaches every clip.</b> A space you pick for a clip is now also remembered for that file on this Mac, so a Kitsu playlist opened again comes back with the QuickTime and the EXR each as you set them. <b>Apply to All Movie Clips</b> / <b>Apply to All EXR Clips</b> is in the Input picker itself, covers every timeline in the session, and sets the side of a clip that is off screen too: with the previews playing, it used to pass over the EXR behind each one.</li>
-<li><b>Split at Playhead.</b> One long event of a conformed cut that is two VFX shots: park on the frame that starts the second and choose Media ▸ Conformed Cut ▸ Split at Playhead. Each half is a shot of its own, with its own name and plate; select both and Join to undo.</li>
-<li><b>The same take used again.</b> A take that comes back later in a conformed cut is tagged Same take. Each shot gets its own plate by default; in Pull Plates, click PL01 on the later shot's row and choose Use that shot's Plate to write one plate for both.</li>
-<li><b>Two takes in one shot.</b> Events of different takes can be joined by hand into one shot (a split screen, a stitch between takes): it gets a plate for each take, PL01 then PL02 in the cut's order.</li>
-</ul>
-<hr>
-<div class="earlier">Earlier updates</div>
-<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
-<ul>
-<li><b>Camera raw in a conformed cut is developed for the frames the cut uses,</b> with the Pull handles, and no longer the whole take. The Conform window has a Camera raw line: it shows what is being developed, with Stop, and Develop… brings back an offer that was turned down.</li>
-<li><b>Several EDLs as one cut.</b> The EDLs of a cut are read at one frame rate, and a Cut files line says when they are drop-frame or when a track disagrees with the others. An EDL dropped later joins the cut as a new layer or replaces one. A folder of EDLs, or cut files dropped on the Conform window, are conformed. Reset starts the conform again in place.</li>
-<li><b>Plates can be written as ARRI LogC4, LogC3, Rec.709 or sRGB,</b> as well as ACEScg and ACES2065-1. Rec.709 and sRGB are the picture as that display shows it, and can be 16-bit PNG or a ProRes 4444 or 422 HQ QuickTime instead of EXR.</li>
-<li><b>Handles per plate.</b> Each plate's handles are suggested from its own layer's speed and can be typed over in the table. Scale for speed changes can be turned off. A tick beside each shot pulls it or leaves it out. Read CSV… takes handles and ticks back from an ingest CSV edited in a spreadsheet.</li>
-<li><b>RED and Blackmagic RAW plates,</b> through DaVinci Resolve Studio. Asobi starts Resolve without a window, asks for the plate's frames and quits it afterwards. It never runs while you have Resolve open. Movies through chooses Asobi or Resolve for movie files; Asobi reads ProRes exactly and is the default.</li>
-<li><b>DPX sequences</b> play in the viewer and are pulled as plates: 8, 10, 12 and 16-bit.</li>
-<li><b>A review movie and JPEG proxies with each plate.</b> The movie is the plate as the viewer shows it, with its name, frame numbers, timecode and the date burned in and a slate as the last frame. Inside a job's 03_SHOTS it goes in the job's 01_REFERENCE/dailies; the window says where before the pull.</li>
-<li><b>A shot's own name, and the pipeline's folders.</b> Click a shot's name in the Pull table to type another. Inside a job's 03_SHOTS, Shot names offers "Sequence / shot, as the pipeline": 03_SHOTS/BQT/010/plates/main/PL01/v001 with vfx edit commit's file names, template folders, .metadata.json and source_info.txt.</li>
-<li><b>A cut pulled again.</b> When the shots folder already has plates, the cut is compared with them. A shot keeps the name it was pulled under wherever it now sits; a new shot takes a number between its neighbors. Rows say New, Match, Version, Extend, Trim or Replace, and a plate that is on disk already with every frame is left alone. Pull only what changed can be unticked. A plate that only grows (the cut runs longer at its tail, or its handles do) has its new frames added to the version on disk instead of being written again. The ingest CSV lists shots the cut no longer has as OMITTED, as the pipeline does, and INGEST typed on a shot that is on disk pulls it again.</li>
-<li><b>Second Reading… in the Conform window.</b> DaVinci Resolve reads the same cut file and the two readings are compared event by event: track, place in the cut, length. A line says they agree or lists what differs.</li>
-<li><b>Kitsu from a pull.</b> Make the shots in Kitsu makes the sequence, the shots and their Plates and Compositing tasks if they aren't there, sets each shot's frames, handles and plate folder, and uploads each plate's review movie to its Plates task. Check says what a pull would make before anything is sent. The project is never made. The upload's comment says what the cut did with the layer: its retime and reposition.</li>
-<li><b>Speed ramps and repositions from a DaVinci Resolve cut.</b> A speed that changes through a clip is read from Resolve's OTIO: the clip covers every source frame the ramp uses and its plate gets a frame map with a row per frame. The reading was checked against Resolve's own render. Zoom, Pan, Tilt, Rotation, Flip, Cropping and Opacity set in Resolve's Inspector are noted on the clip, as Premiere's already were.</li>
-<li><b>A clip keeps its PL.</b> In the pipeline's folders, a clip the shot's source_info.txt already names keeps the PL it has, and a new clip takes the first free number.</li>
-<li><b>A frame map for a retimed plate.</b> A plate sped up, slowed or frozen in the cut gets a CSV beside its record saying where each frame of the cut is in the plate, handles included, with the cut's and the source's timecode. The shot's conform text gives the same as one rule to type into a retime.</li>
-<li><b>Stacked clips are marked in the Playlist.</b> The layers of a stack from a cut wear a spine down their rows and a V1, V2 chip for the track each is on, in a color and shape of their own, apart from a compare pair's bracket and A / B. The stack's header shows a layers glyph.</li>
-<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
-</ul>
-<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>A conform says what it is doing.</b> The Conform window opens as soon as the media folder is chosen, and a line there and above the toolbar says what is being read: the cut, how many files of the folder have been looked through, how many timecodes. Before, nothing showed until the cut had been read.</li>
-<li><b>A cut on a network drive no longer holds the window still.</b> The folder search and every check of a clip's file run off the main thread. Camera raw is no longer handed to the system movie reader for a thumbnail, which read a whole camera file across the network while everything else waited behind it.</li>
-<li><b>A conform report.</b> Report… in the Conform window writes the cut as a PDF. When files are missing, the first page opens with a yellow block saying how many, then lists each with the name the cut gives it, its track and both timecodes. Then camera originals to find, speed changes, resizes and repositions, and every shot in edit order, with missing rows marked in yellow. It uses Report Setup's studio name, project and logo.</li>
-<li><b>A cut conformed against camera files offers to develop them.</b> The offer says how many files and how much that is. Each camera file is developed whole, not only the part the cut uses. On a network drive it says that can take many hours, and Not Now is the default.</li>
-<li><b>Record TC, Dur, Source TC, Frames.</b> The Conform window's columns use the titles edit software uses. Dur is the clip's duration in the cut; Frames is how many source frames it uses.</li>
-<li><b>Network is in the Review menu, and the Conform window in Media.</b> Review ▸ Network and Media ▸ Conform Window; both were under Window. Network is also in the right-click Review menu.</li>
-<li><b>Relinking reads its folder in the background.</b> Relink Missing Media…, Locate Media… and the folders searched when a session opens say what they are looking through, and the window stays usable.</li>
-<li><b>Several EDLs as one cut.</b> An EDL holds one track. Select all of a cut's EDLs together in Conform a Cut… and each becomes a track, stacked by record timecode. This already worked; the Conform window now says so.</li>
-</ul>
-<h3>1.0 (build 1430) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>Ingest CSV for Kura Hub.</b> Ingest CSV in the Pull Plates window saves the pipeline's ingest CSV for a cut, in the columns <code>vfx edit ingest</code> writes, one row per plate. When the shots folder is a job's <code>03_SHOTS</code> it is offered in that job's <code>08_EDITORIAL/edls/ingest_csv</code> under the pipeline's own file name. From Terminal: <code>--csv</code>. The pipeline's own reader read it back correctly. It has not been run through <code>vfx edit commit</code> or Kura Hub yet.</li>
-<li><b>Stacked layers are numbered in shot time.</b> A shot's first frame in the cut is 1001. A layer stacked on it that comes in five frames later is 1006 at its own first frame, so the same number is the same moment on every plate of the shot. This changes the numbers of stacked layers pulled with builds 1417 to 1427, where every plate started at 1001. A shot's first layer is unchanged.</li>
-<li><b>Each shot's plates in words.</b> A pull writes <code>KNT_BQT_010_conform.txt</code> in the shot's plates folder: every plate's source, frames, handles, retime, reposition and color spaces.</li>
-</ul>
-<h3>1.0 (build 1427) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>Repositions are read and noted.</b> A scale, a move or an opacity change on a clip in a Premiere AAF is read and written out per clip, such as "Scaled 130%, moved 11.3% of the width right per the AAF". The Conform window tags those shots, its summary counts them, and each plate's header carries the line. It is never applied: a plate is the whole camera frame.</li>
-<li><b>Moves the AAF doesn't carry are flagged.</b> Premiere's Transform, Vector Motion and Warp Stabilizer write no values into an AAF. Those clips are flagged "not read": the reference is the place to see them.</li>
-<li><b>A pull that was cut short is taken up again.</b> Stop a pull, or lose one to a failed plate or a shut Mac, and the next pull finishes what wasn't done and leaves the finished plates alone. The button reads Pull N Remaining. From Terminal: <code>--unfinished</code>.</li>
-<li><b>Each plate has its own versions and a record.</b> Pulling a finished plate again writes v002 beside v001. A finished version has a small JSON record beside its folder: the source file, the frames, the handles, the color spaces, the retime and the reposition.</li>
-<li><b>Network camera drives are said up front.</b> When camera files are on a network volume, the Pull Plates window says how many plates will be copied to this Mac first. Over a remote link that is slow: pull from a locally mounted camera drive when you can.</li>
-<li><b>One exception to "nothing is written over".</b> Plates pulled with builds 1417 or 1421 have no record, so the next pull rewrites their newest version in place instead of writing the next one.</li>
-</ul>
-<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>ARRIRAW plates.</b> Pull Plates now writes plates from ARRIRAW, HDE and ARRICORE camera files. ARRI Reference Tool develops each frame to linear ACES, so there is no curve or EI to choose, and Asobi converts it to ACEScg or ACES2065-1 and writes the EXR. The tool has to be on this Mac: the manual's Camera raw section has the steps.</li>
-<li><b>Camera metadata in every plate.</b> The camera's model, serial number, ISO, shutter, lens data and the rest of ARRI's header are carried into each EXR, with the source timecode and the true frame rate.</li>
-<li><b>Camera files on a network volume are copied first.</b> The frames a plate needs are trimmed to this Mac, then developed. The row says so while it happens. This is slow over a remote link: 14 frames took nearly three minutes through the tunnel to Kura. Pull from a locally mounted camera drive when you can.</li>
-<li><b>Room on disk.</b> The window says about how much the plates will take. A pull that doesn't fit is not started. Open-gate ARRIRAW is about 45 MB a frame as ZIP, so a 20-shot cut is about 40 GB.</li>
-<li><b>Not yet.</b> Folders of <code>.ari</code> frames, RED, Blackmagic RAW and DPX are listed and not pulled. ARRI's ProRes MXF goes the same way as ARRIRAW but has not been tried on a real file.</li>
-</ul>
-<h3>1.0 (build 1417) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>Pull Plates.</b> Pull Plates in the Conform window writes a cut's plates as half-float EXRs in ACEScg or ACES2065-1, ZIP or PIZ. The window shows the plan first: every plate, the file it comes from, its frame numbers on disk and its frame count. Pull writes what the table says.</li>
-<li><b>From the camera original.</b> A camera clip is pulled from the original the Conform window found for it, never from its proxy. A render or a stock clip is pulled from the file the cut plays.</li>
-<li><b>Handles and numbering.</b> Handles are counted in the cut's frames, so a 200% shot gets twice as many source frames. The cut's first frame is 1001 with handles below it, or frames are numbered by source timecode.</li>
-<li><b>Camera files are read as the color space you choose.</b> It is never assumed. Until you choose, camera files are not pulled.</li>
-<li><b>Nothing is written over.</b> A second pull writes v002 beside v001. Each EXR's header carries the source timecode, frame rate, reel name, shot and retime, and Check Frames runs over every plate.</li>
-<li><b>What it reads today.</b> ProRes and other movies macOS decodes (ProRes in 16-bit float) and EXR sequences. ARRIRAW and ARRI MXF, RED, Blackmagic RAW and DPX are listed and not pulled yet.</li>
-<li><b>From Terminal.</b> <code>Asobi pull --session &lt;saved session&gt; --out &lt;shots folder&gt;</code> runs the same pull on a session saved from a conformed cut.</li>
-</ul>
-<h3>1.0 (build 1409) <span class="when">Oct 11, 2026</span></h3>
-<ul>
-<li><b>A saved session keeps its cut.</b> Save a conformed session and open it later: the Conform window lists the cut again, with each shot's camera original as it was found, whether or not the camera drive is mounted. Look Again searches the camera folders afresh.</li>
-<li><b>Offline shots stay in a reopened session.</b> Opening a conformed session used to drop the shots whose media wasn't on disk, and failed to open when the first shot was offline. They stay, and the session opens on the first shot that has media. A new conform does the same.</li>
-<li><b>Search Another Folder is in the Conform window.</b> When media is missing, a Media row says how many clips aren't on disk and searches another folder for them. The alert that asked before the window opened is gone. Drop Missing Clips went with it: delete the clips in the playlist.</li>
-<li><b>A freeze holds.</b> A freeze frame in a cut flashed past in one frame. It now stays for as long as the cut holds it.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1546.zip" length="77358703" type="application/octet-stream" sparkle:edSignature="I0cqxNuwzAwHmM1B/7hlQhu65F9BiKV4Lt30E5xOScQRR+Hou2gjmSigAtvu7nq737qRqdUz13SWmfOjUOGCBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1546-1536.delta" sparkle:deltaFrom="1536" length="2369838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TFi980dJYwLBNMVsBqq7MZ3T6NHD649D15jNzdgESX5ewbm1L6RPWoRF1PCSEgOOot1D5DZE12CI2J/huvedBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1546-1534.delta" sparkle:deltaFrom="1534" length="2392370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H8QxmH1Nq9JskfdoFGyH4Kk4J+E1LIT0sGpT7DWrxnSzoGtpdmAXZYrAuFsH+30Q3hVvgl50B+VXMxvctZYiBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1546-1528.delta" sparkle:deltaFrom="1528" length="2866714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iJFFM0FU/4NsVpDmbM4lHBXwSU6npfSbMZc9kawBgUDjUWgaQFNdTYS5QdQbQ5H53nxiSANzzbH8V7K0CNEiCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1546-1523.delta" sparkle:deltaFrom="1523" length="3179370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a2bdobz/ArVwT/e9AoYlgBy4YWb+bkmV/rrXk2M8nv0UNx8sRI4VZN/FXBeKAVJIpPj/dOBeEGcxR9T3IYC8Ag=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1546-1517.delta" sparkle:deltaFrom="1517" length="3531038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g3+YRZ/uAupKmyUzTs7wJ5tgkorfwf+m1nkhGhaRCGAICRqU77WTF/nk7stVTjS8GITy0mm49SjkMZ89QvJMBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

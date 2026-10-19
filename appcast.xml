@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 12:58:33 -0700</pubDate>
-            <sparkle:version>1705</sparkle:version>
+            <pubDate>Mon, 19 Oct 2026 13:32:07 -0700</pubDate>
+            <sparkle:version>1708</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1705) <span class="when">Oct 19, 2026</span></h2>
+<h2>Asobi 1.0 (build 1708) <span class="when">Oct 19, 2026</span></h2>
+<ul>
+<li><b>Slates carry the studio and the review.</b> The Autonomy wordmark sits at the foot (another studio&#8217;s Report Setup logo, beside its name), and under the title the review in figures: project, client, date, how many shots and the running time. A title that nearly fits stays on one line.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1705) <span class="when">Oct 19, 2026</span></h3>
 <ul>
 <li><b>Slates, redrawn.</b> Insert Slate makes a card in Asobi&#8217;s own type: the title large, the project and date beneath it, your notes as a reading paragraph, and the studio along the foot. It&#8217;s drawn at the review&#8217;s own size, and typing -- gives a dash.</li>
 <li><b>Review notes go to Kitsu as they&#8217;re made.</b> While you host a review of a Kitsu playlist, each frame with notes or marks becomes a comment on its shot&#8217;s task, with the marked frame as a picture, half a minute after the last change there. Edits and deletes follow into Kitsu, and End Review sends anything still waiting. Turn it off in the Kitsu window.</li>
 <li><b>Reels for a client.</b> Playback &#9656; Source &#9656; Flip All to Source Media puts every clip on its full-resolution render. Burn in &#9656; Subtle draws small, quiet type with no plates: the shot and version, the timecode, the studio and date. The Whole Session Reel can now be Source size, UHD, HD or 1280&#160;&#215;&#160;720.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1698) <span class="when">Oct 19, 2026</span></h3>
 <ul>
 <li><b>Joining a review brings in every clip.</b> A Mac that joins while the host is in the review gets the whole playlist, in the host&#8217;s order, not just the clip the host is on. Clips this Mac doesn&#8217;t have play as the review&#8217;s copies.</li>
@@ -81,13 +85,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Network camera drives are said up front.</b> When camera files are on a network volume, the Pull Plates window says how many plates will be copied to this Mac first. Over a remote link that is slow: pull from a locally mounted camera drive when you can.</li>
 <li><b>One exception to "nothing is written over".</b> Plates pulled with builds 1417 or 1421 have no record, so the next pull rewrites their newest version in place instead of writing the next one.</li>
 </ul>
-<h3>1.0 (build 1421) <span class="when">Oct 11, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1708.zip" length="79318379" type="application/octet-stream" sparkle:edSignature="Yg3EFAhCVqAaot6buBdeE9pp537y0HfjCtYvZQt1iVgfaJZYjFTFbRYfpfqwjM0VEHgssHJNgzfQV4UsHwQ3CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1705.delta" sparkle:deltaFrom="1705" length="1580758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/OQ2QvSaFCgxzjP1kzHOvSbTcYZEejwVpxAPklBLCq5jJI3HZSOX735jcCotQvzP2gGWDbSL3a5wUtQWVk/WCQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1698.delta" sparkle:deltaFrom="1698" length="5039390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hvPS7myg6hmOs5Xvz5hx2Vs/hReT71meH+Fm6AVu7SnK+dpwBuuT0naJgnoeC9qMIIUA12SOC0d1iG7EhQWVCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1695.delta" sparkle:deltaFrom="1695" length="5096722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cs0IArDzXXws8G1LxTiCH6kFC5pbMU9vHjmv3YKEa/1cnz/Xy0Z5oMWWbKSrndZgZkd7SETx7t2eVNWor/OxBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1687.delta" sparkle:deltaFrom="1687" length="5158158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="03uASq+5+g4oI1F8Szxhm0B4I8Dtn90z2vNpp4+MB4rWsE/8UG9xY28huEqCdt1VgH+JnaAwObnGVYrupehACA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1685.delta" sparkle:deltaFrom="1685" length="5388610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lndylrerVrSuS0Nze+fWglTb75VZ7t6OKMEFGZxQnAB0EPGXUOSPX4LzY1slM1rSOsEii5yeHG1ZQFTaf+k7CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 19 Oct 2026 12:58:33 -0700</pubDate>
+            <sparkle:version>1705</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1705)</h2>
 <ul>
-<li><b>ARRIRAW plates.</b> Pull Plates now writes plates from ARRIRAW, HDE and ARRICORE camera files. ARRI Reference Tool develops each frame to linear ACES, so there is no curve or EI to choose, and Asobi converts it to ACEScg or ACES2065-1 and writes the EXR. The tool has to be on this Mac: the manual's Camera raw section has the steps.</li>
-<li><b>Camera metadata in every plate.</b> The camera's model, serial number, ISO, shutter, lens data and the rest of ARRI's header are carried into each EXR, with the source timecode and the true frame rate.</li>
-<li><b>Camera files on a network volume are copied first.</b> The frames a plate needs are trimmed to this Mac, then developed. The row says so while it happens. This is slow over a remote link: 14 frames took nearly three minutes through the tunnel to Kura. Pull from a locally mounted camera drive when you can.</li>
-<li><b>Room on disk.</b> The window says about how much the plates will take. A pull that doesn't fit is not started. Open-gate ARRIRAW is about 45 MB a frame as ZIP, so a 20-shot cut is about 40 GB.</li>
-<li><b>Not yet.</b> Folders of <code>.ari</code> frames, RED, Blackmagic RAW and DPX are listed and not pulled. ARRI's ProRes MXF goes the same way as ARRIRAW but has not been tried on a real file.</li>
+<li><b>Slates, redrawn.</b> Insert Slate makes a card in Asobi&#8217;s own type: the title large, the project and date beneath it, your notes as a reading paragraph, and the studio along the foot. It&#8217;s drawn at the review&#8217;s own size, and typing -- gives a dash.</li>
+<li><b>Review notes go to Kitsu as they&#8217;re made.</b> While you host a review of a Kitsu playlist, each frame with notes or marks becomes a comment on its shot&#8217;s task, with the marked frame as a picture, half a minute after the last change there. Edits and deletes follow into Kitsu, and End Review sends anything still waiting. Turn it off in the Kitsu window.</li>
+<li><b>Reels for a client.</b> Playback &#9656; Source &#9656; Flip All to Source Media puts every clip on its full-resolution render. Burn in &#9656; Subtle draws small, quiet type with no plates: the shot and version, the timecode, the studio and date. The Whole Session Reel can now be Source size, UHD, HD or 1280&#160;&#215;&#160;720.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1705.zip" length="79306210" type="application/octet-stream" sparkle:edSignature="r5r7EoZMID2r0qgTfgvc4jOjkhbI20z8AKO9ibmlmZbUtFz0+fCmXZnZR1uc7rwMn1FD6AvchDWONx6qQqOeDw=="/>
@@ -124,33 +149,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1698-1685.delta" sparkle:deltaFrom="1685" length="2438434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XuPxyT2DGi0MgHU1ScP+YXhRUhbsreOh9QWo8mrdMQXFCNSs1aC6H6TM6Ax+RcRUrr2GjeW5XRH8ByY1K2ggDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1698-1683.delta" sparkle:deltaFrom="1683" length="2529698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0yhpU5uHRntdsV3Pn/XJ0PTbvjjvrm8o4+H2FGIDZWWXQf0duNefALs8oFohziGO+055IIJ+9pyixXyNs9KzCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1698-1681.delta" sparkle:deltaFrom="1681" length="2554614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wgjNxwDJohnbOf/pv9eZ7OOXszsD3632CCW9svZ5YSaQlFMmEHBhrQPYBOuaV13kuCw3TWPhStEfFtiURKBoBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 07:35:55 -0700</pubDate>
-            <sparkle:version>1695</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1695)</h2>
-<ul>
-<li>Improvements and fixes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1695.zip" length="79221767" type="application/octet-stream" sparkle:edSignature="RNEiwZNdbT6/HeghbVwO0IrqSwvSEKQMtC8r0yV+2+QyhDpYo5+2mn3HowW3RkIGjT/aVcKaYB/bXaiSQIZhBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1695-1687.delta" sparkle:deltaFrom="1687" length="1066234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LlaG+lh0C8s2E3fGDVNu8UZ0JN6HsJ7cahmWAHqIQzYgPDIIFuxRVTklD4UzUZyYG3A5Yt/5uyACIv53AVzqAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1695-1685.delta" sparkle:deltaFrom="1685" length="2271110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c26YeErgpP1pcsoano7WvgabMWkbh7R7AkuLtkgpk/bfYAX9CIoAmGhKvdWQqV6J9R9ojuBey3OdK8jhoxjEBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1695-1683.delta" sparkle:deltaFrom="1683" length="2426010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XOQDReLnschh47rPoX1rxCL7S3eVC1mWvbZzd/upGowyazrGVJGCvHu8gjJOj8S26nOeGbiCKiQ4JAUUSjtBDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1695-1681.delta" sparkle:deltaFrom="1681" length="2474130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ncu58iULHDGQjnUjelaOZZC4XKor7lGcP3t/zYfCUh/ZVIkVJil9DW9c+W/9dNcGz/qKfcbMRD+z4YnruWugBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1695-1679.delta" sparkle:deltaFrom="1679" length="2654138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pdhySHwuwaZ613WT92Do5FuclMiRFd9hstA3N0MsVHze8ibuanapJE9TxHjTsABMjhf7fZ02eQrAM9iyyi8/BQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

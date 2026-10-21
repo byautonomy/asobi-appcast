@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Tue, 20 Oct 2026 19:04:30 -0700</pubDate>
-            <sparkle:version>1728</sparkle:version>
+            <pubDate>Wed, 21 Oct 2026 15:55:12 -0700</pubDate>
+            <sparkle:version>1734</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1728) <span class="when">Oct 20, 2026</span></h2>
+<h2>Asobi 1.0 (build 1734) <span class="when">Oct 21, 2026</span></h2>
 <ul>
-<li><b>Recording a session</b> no longer turns the call and the clip audio down on your Mac while it records.</li>
+<li><b>Showcase viewing</b> shows how each viewer&#8217;s connection did: its speed against what the piece needs, how long the picture took to come up and the piece to start, and any stops to load. Per visit, summed up above the visits, and in the CSV.</li>
+<li><b>Conform reports</b> list a shot&#8217;s plates as its source when its clips came from outside the cut (a color ref, an email), and no longer count the cut&#8217;s stand-in for it as missing. A new section, Plates from outside the cut, lists them with where their ranges came from.</li>
+<li><b>Finding media</b> no longer takes a file whose name merely starts with the same eight letters for the one the cut names.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1728) <span class="when">Oct 20, 2026</span></h3>
+<ul>
+<li><b>Recording a session</b> no longer turns the call and the clip audio down on your Mac while it records.</li>
+</ul>
 <h3>1.0 (build 1724) <span class="when">Oct 19, 2026</span></h3>
 <ul>
 <li><b>Update from Kitsu Playlist.</b> Media menu, or the circling arrows at the top of the Playlist: late shots and new versions from the same Kitsu playlist come into a running review, and go out to everyone in it, on the web and in Asobi.</li>
@@ -58,24 +64,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li>Improvements and fixes.</li>
 </ul>
-<h3>1.0 (build 1476) <span class="when">Oct 12, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1734.zip" length="79406463" type="application/octet-stream" sparkle:edSignature="En/35XJ5VyTRfCseM2hRYClZA1b3GbMd6xZWFTSavLntuJH0AxqEC3V/oCPcYxC5yWrFbgw9ef3PU0J+xL1eDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1734-1728.delta" sparkle:deltaFrom="1728" length="1972458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RAPiOi4aZEmRKmZ81TjBMIQOEJEV24gLrpgUNTr2A8sDZ6fP0XumYAPXOp//og0sFn5xmaMN7KWWhrnQyTOlBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1734-1724.delta" sparkle:deltaFrom="1724" length="1950186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4BZSGwRn3ktoCRR5Or/XjmHYUyFd0p2eslWgOgxBuEcr6pZU/bpHy+7fLu2OaaWSR+WXN9PwIJwJ03AxvyNYBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1734-1711.delta" sparkle:deltaFrom="1711" length="2741902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MsDJ9iXv69ffvs/w2tX9koYGqTo2C6l6XYRAHqIdcBBCmpahOWhC1mIXFdob0xwPs7ea6lxSM8WDjr8AwmgODQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1734-1708.delta" sparkle:deltaFrom="1708" length="2772550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tVLwUGpN+Ll5z7fubLZzZkLU1BsPkkUJKohQy11CtEsTyI7u1pvyNPLOm5ML1QXUpisUjo1vUDC2DQvZhqLpBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1734-1705.delta" sparkle:deltaFrom="1705" length="2821722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HlzGwKjN4y1cqlzqwHWp4q2OnNlgFxWUb1q6kjVg6PQ20kNptRBS6NCmYZ0iOlWzKTY3S9zumT8x1cgqM6lMCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Tue, 20 Oct 2026 19:04:30 -0700</pubDate>
+            <sparkle:version>1728</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1728)</h2>
 <ul>
-<li><b>Camera raw in a conformed cut is developed for the frames the cut uses,</b> with the Pull handles, and no longer the whole take. The Conform window has a Camera raw line: it shows what is being developed, with Stop, and Develop… brings back an offer that was turned down.</li>
-<li><b>Several EDLs as one cut.</b> The EDLs of a cut are read at one frame rate, and a Cut files line says when they are drop-frame or when a track disagrees with the others. An EDL dropped later joins the cut as a new layer or replaces one. A folder of EDLs, or cut files dropped on the Conform window, are conformed. Reset starts the conform again in place.</li>
-<li><b>Plates can be written as ARRI LogC4, LogC3, Rec.709 or sRGB,</b> as well as ACEScg and ACES2065-1. Rec.709 and sRGB are the picture as that display shows it, and can be 16-bit PNG or a ProRes 4444 or 422 HQ QuickTime instead of EXR.</li>
-<li><b>Handles per plate.</b> Each plate's handles are suggested from its own layer's speed and can be typed over in the table. Scale for speed changes can be turned off. A tick beside each shot pulls it or leaves it out. Read CSV… takes handles and ticks back from an ingest CSV edited in a spreadsheet.</li>
-<li><b>RED and Blackmagic RAW plates,</b> through DaVinci Resolve Studio. Asobi starts Resolve without a window, asks for the plate's frames and quits it afterwards. It never runs while you have Resolve open. Movies through chooses Asobi or Resolve for movie files; Asobi reads ProRes exactly and is the default.</li>
-<li><b>DPX sequences</b> play in the viewer and are pulled as plates: 8, 10, 12 and 16-bit.</li>
-<li><b>A review movie and JPEG proxies with each plate.</b> The movie is the plate as the viewer shows it, with its name, frame numbers, timecode and the date burned in and a slate as the last frame. Inside a job's 03_SHOTS it goes in the job's 01_REFERENCE/dailies; the window says where before the pull.</li>
-<li><b>A shot's own name, and the pipeline's folders.</b> Click a shot's name in the Pull table to type another. Inside a job's 03_SHOTS, Shot names offers "Sequence / shot, as the pipeline": 03_SHOTS/BQT/010/plates/main/PL01/v001 with vfx edit commit's file names, template folders, .metadata.json and source_info.txt.</li>
-<li><b>A cut pulled again.</b> When the shots folder already has plates, the cut is compared with them. A shot keeps the name it was pulled under wherever it now sits; a new shot takes a number between its neighbors. Rows say New, Match, Version, Extend, Trim or Replace, and a plate that is on disk already with every frame is left alone. Pull only what changed can be unticked. A plate that only grows (the cut runs longer at its tail, or its handles do) has its new frames added to the version on disk instead of being written again. The ingest CSV lists shots the cut no longer has as OMITTED, as the pipeline does, and INGEST typed on a shot that is on disk pulls it again.</li>
-<li><b>Second Reading… in the Conform window.</b> DaVinci Resolve reads the same cut file and the two readings are compared event by event: track, place in the cut, length. A line says they agree or lists what differs.</li>
-<li><b>Kitsu from a pull.</b> Make the shots in Kitsu makes the sequence, the shots and their Plates and Compositing tasks if they aren't there, sets each shot's frames, handles and plate folder, and uploads each plate's review movie to its Plates task. Check says what a pull would make before anything is sent. The project is never made. The upload's comment says what the cut did with the layer: its retime and reposition.</li>
-<li><b>Speed ramps and repositions from a DaVinci Resolve cut.</b> A speed that changes through a clip is read from Resolve's OTIO: the clip covers every source frame the ramp uses and its plate gets a frame map with a row per frame. The reading was checked against Resolve's own render. Zoom, Pan, Tilt, Rotation, Flip, Cropping and Opacity set in Resolve's Inspector are noted on the clip, as Premiere's already were.</li>
-<li><b>A clip keeps its PL.</b> In the pipeline's folders, a clip the shot's source_info.txt already names keeps the PL it has, and a new clip takes the first free number.</li>
-<li><b>A frame map for a retimed plate.</b> A plate sped up, slowed or frozen in the cut gets a CSV beside its record saying where each frame of the cut is in the plate, handles included, with the cut's and the source's timecode. The shot's conform text gives the same as one rule to type into a retime.</li>
-<li><b>Stacked clips are marked in the Playlist.</b> The layers of a stack from a cut wear a spine down their rows and a V1, V2 chip for the track each is on, in a color and shape of their own, apart from a compare pair's bracket and A / B. The stack's header shows a layers glyph.</li>
-<li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
+<li><b>Recording a session</b> no longer turns the call and the clip audio down on your Mac while it records.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1728.zip" length="79435584" type="application/octet-stream" sparkle:edSignature="XOlm72YvfYU81Fw+tcJQ/tbv+uqtOapW5CJbzkU92QY/4O7RRMpnN3UAVoJ/h37DigYOJvqTXFncIrdGQ9sPDw=="/>
@@ -118,33 +132,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1705.delta" sparkle:deltaFrom="1705" length="2618546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AGXtHPa6IKpMiHqhJiINNHLPht45nBu6Hxp/DCmikzr8CwkLky2sAgoGYjodcLb251sNPTN8iYQqCIPMR9OFDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1698.delta" sparkle:deltaFrom="1698" length="5484402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0qkJvyMLp4i3KmJ+X/EYjMHxGIeDRPj1nB+coOapES2ngblNIncgQtELI9TRSQ3XuCvKrtw9k83wH0UKH/KWBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1695.delta" sparkle:deltaFrom="1695" length="5491006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OwsX48lMqUHD+1vfORwXrL5ijmypGH3VupSnLMc3S2Pp0iREtS72ENeolKCyA5u160tDqmpO2k+97l0avJHjDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 14:15:05 -0700</pubDate>
-            <sparkle:version>1711</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1711)</h2>
-<ul>
-<li><b>A reel&#8217;s slates stay clean.</b> Burn-ins are drawn on the shots only, never over a slate or a gap.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1711.zip" length="79317348" type="application/octet-stream" sparkle:edSignature="ZypWyje6f/3uzM8/wV/RgxG3wCgmUIp95VP9tp40Y0CU2N2ePBcpXWovK52Z4HnJF+3PXuEgjasxI9g9I1kNCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1708.delta" sparkle:deltaFrom="1708" length="704686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Lpq+OODYGgTVfMAkqyBE6ZCgde5lfxJTd7i793yeBTdLOWy5KlYODZlUGmOulwq/qOD4oWRjMUlPQoL8vo4TBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1705.delta" sparkle:deltaFrom="1705" length="1568914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EUJGmnGl0pMxfRQSlR9qYJov9PxoLE1bw21J48qgHe2H6JEVSXPqE5YLu8/v0iV5sLZETkfDVU1JJqP4LfNQDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1698.delta" sparkle:deltaFrom="1698" length="5009670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8sp7Z7NIDD9J2P+okk5cILoumiQZE6XHx4uh2Kg8Y+vM/KM+g4hKTOkXjbf+LpBEg3KNgTlfluELJDXR4LbpAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1695.delta" sparkle:deltaFrom="1695" length="5122086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zLn6Kx9g/4QRL++5S6yoZ2Xr5PKHMOvC5NMXY+8A6IJzK6N948/N1cRIOMp3JT7b8VLyYLYYE5WakSgyEmT1AA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1687.delta" sparkle:deltaFrom="1687" length="5174686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+fSIRSXoiz5Gssh0pXuncxj19jC86TrTIlvSFDNL4Rj6yCFVw96g7uQlkR9pADUz2T8f9J4/bNx0mWrMCOrEBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

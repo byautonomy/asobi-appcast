@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 21:11:06 -0700</pubDate>
-            <sparkle:version>1724</sparkle:version>
+            <pubDate>Tue, 20 Oct 2026 19:04:30 -0700</pubDate>
+            <sparkle:version>1728</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,7 +20,13 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1724) <span class="when">Oct 19, 2026</span></h2>
+<h2>Asobi 1.0 (build 1728) <span class="when">Oct 20, 2026</span></h2>
+<ul>
+<li><b>Recording a session</b> no longer turns the call and the clip audio down on your Mac while it records.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1724) <span class="when">Oct 19, 2026</span></h3>
 <ul>
 <li><b>Update from Kitsu Playlist.</b> Media menu, or the circling arrows at the top of the Playlist: late shots and new versions from the same Kitsu playlist come into a running review, and go out to everyone in it, on the web and in Asobi.</li>
 <li><b>Export Compare with Edit Ref.</b> Media &#9656; Conformed Cut: the conform beside its Edit Ref as one QuickTime, lined up as Compare Edit Ref shows it.</li>
@@ -30,8 +36,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Studio-made shots</b> get their own card, and a shot in the cut with no footage gets its placeholder, pulled or not.</li>
 <li><b>A re-cut</b> keeps a shot&#8217;s name when its file isn&#8217;t on this Mac.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1711) <span class="when">Oct 19, 2026</span></h3>
 <ul>
 <li><b>A reel&#8217;s slates stay clean.</b> Burn-ins are drawn on the shots only, never over a slate or a gap.</li>
@@ -73,16 +77,38 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Stacked clips are marked in the Playlist.</b> The layers of a stack from a cut wear a spine down their rows and a V1, V2 chip for the track each is on, in a color and shape of their own, apart from a compare pair's bracket and A / B. The stack's header shows a layers glyph.</li>
 <li>A tall floating Playlist with thumbnails could stop the app. Fixed.</li>
 </ul>
-<h3>1.0 (build 1441) <span class="when">Oct 11, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1728.zip" length="79435584" type="application/octet-stream" sparkle:edSignature="XOlm72YvfYU81Fw+tcJQ/tbv+uqtOapW5CJbzkU92QY/4O7RRMpnN3UAVoJ/h37DigYOJvqTXFncIrdGQ9sPDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1724.delta" sparkle:deltaFrom="1724" length="626162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/+9xFwKJXQZNifBH3VDa3MvfGrDGr5npVTySsJPB+t/TebU1OwmUz4gtP9oMPWlXhsAk6f9AGbrp88rAzNUcBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1711.delta" sparkle:deltaFrom="1711" length="2490714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J4XkeX9vuQCEF4QG+aZtZql4QLBYCxwbENQeHIasFtrR2YnsqlkOlYQf/Zjm+wo3pCkt+LWrGbPnmJ53hr56CA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1708.delta" sparkle:deltaFrom="1708" length="2530694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZY2oJNdq9fIAJksklV+qr3CuN64nu1OGDDoNHZa2ISRWDOar37fZWOLy9EgO+K6e3WS15B+6zrUxc5Q6N3NlCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1705.delta" sparkle:deltaFrom="1705" length="2629786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9yFAEvD3CSwz11uN7TVifxHFnkVXt5lU82z8wjTJqOvxhQNj9rs45E9V5gxip0eQhZO3a8bA25ZR84mMpAeSBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1698.delta" sparkle:deltaFrom="1698" length="5476202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BLPcXy0+D9vlf7dUIvXKULHKpDOh6Pdk5xBXomhf7k6fvV0lM3Xf8rpgkQTGQZohyoIGF1Xq6Mo1MbHFJ87JDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 19 Oct 2026 21:11:06 -0700</pubDate>
+            <sparkle:version>1724</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1724)</h2>
 <ul>
-<li><b>A conform says what it is doing.</b> The Conform window opens as soon as the media folder is chosen, and a line there and above the toolbar says what is being read: the cut, how many files of the folder have been looked through, how many timecodes. Before, nothing showed until the cut had been read.</li>
-<li><b>A cut on a network drive no longer holds the window still.</b> The folder search and every check of a clip's file run off the main thread. Camera raw is no longer handed to the system movie reader for a thumbnail, which read a whole camera file across the network while everything else waited behind it.</li>
-<li><b>A conform report.</b> Report… in the Conform window writes the cut as a PDF. When files are missing, the first page opens with a yellow block saying how many, then lists each with the name the cut gives it, its track and both timecodes. Then camera originals to find, speed changes, resizes and repositions, and every shot in edit order, with missing rows marked in yellow. It uses Report Setup's studio name, project and logo.</li>
-<li><b>A cut conformed against camera files offers to develop them.</b> The offer says how many files and how much that is. Each camera file is developed whole, not only the part the cut uses. On a network drive it says that can take many hours, and Not Now is the default.</li>
-<li><b>Record TC, Dur, Source TC, Frames.</b> The Conform window's columns use the titles edit software uses. Dur is the clip's duration in the cut; Frames is how many source frames it uses.</li>
-<li><b>Network is in the Review menu, and the Conform window in Media.</b> Review ▸ Network and Media ▸ Conform Window; both were under Window. Network is also in the right-click Review menu.</li>
-<li><b>Relinking reads its folder in the background.</b> Relink Missing Media…, Locate Media… and the folders searched when a session opens say what they are looking through, and the window stays usable.</li>
-<li><b>Several EDLs as one cut.</b> An EDL holds one track. Select all of a cut's EDLs together in Conform a Cut… and each becomes a track, stacked by record timecode. This already worked; the Conform window now says so.</li>
+<li><b>Update from Kitsu Playlist.</b> Media menu, or the circling arrows at the top of the Playlist: late shots and new versions from the same Kitsu playlist come into a running review, and go out to everyone in it, on the web and in Asobi.</li>
+<li><b>Export Compare with Edit Ref.</b> Media &#9656; Conformed Cut: the conform beside its Edit Ref as one QuickTime, lined up as Compare Edit Ref shows it.</li>
+<li><b>Conform reports</b> show a picture for every stacked layer (PL02, PL03).</li>
+<li><b>Plate review movies</b> are always 16:9, a plate of another shape kept whole inside it, so Kitsu shows it unstretched.</li>
+<li><b>A pull of many plates</b> makes each review movie and proxy from its own plate, never another one in the same folder.</li>
+<li><b>Studio-made shots</b> get their own card, and a shot in the cut with no footage gets its placeholder, pulled or not.</li>
+<li><b>A re-cut</b> keeps a shot&#8217;s name when its file isn&#8217;t on this Mac.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1724.zip" length="79435878" type="application/octet-stream" sparkle:edSignature="z8oN6o62mQZN6y+C+iFFkTsKpMDwQL3o8pzRTGCZCrUGKpqBj1lNWKhuYK7qB0FFazRU9+0kkazTRIr9KQ85CQ=="/>
@@ -119,33 +145,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1698.delta" sparkle:deltaFrom="1698" length="5009670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8sp7Z7NIDD9J2P+okk5cILoumiQZE6XHx4uh2Kg8Y+vM/KM+g4hKTOkXjbf+LpBEg3KNgTlfluELJDXR4LbpAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1695.delta" sparkle:deltaFrom="1695" length="5122086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zLn6Kx9g/4QRL++5S6yoZ2Xr5PKHMOvC5NMXY+8A6IJzK6N948/N1cRIOMp3JT7b8VLyYLYYE5WakSgyEmT1AA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1711-1687.delta" sparkle:deltaFrom="1687" length="5174686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+fSIRSXoiz5Gssh0pXuncxj19jC86TrTIlvSFDNL4Rj6yCFVw96g7uQlkR9pADUz2T8f9J4/bNx0mWrMCOrEBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 13:32:07 -0700</pubDate>
-            <sparkle:version>1708</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1708)</h2>
-<ul>
-<li><b>Slates carry the studio and the review.</b> The Autonomy wordmark sits at the foot (another studio&#8217;s Report Setup logo, beside its name), and under the title the review in figures: project, client, date, how many shots and the running time. A title that nearly fits stays on one line.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1708.zip" length="79318379" type="application/octet-stream" sparkle:edSignature="Yg3EFAhCVqAaot6buBdeE9pp537y0HfjCtYvZQt1iVgfaJZYjFTFbRYfpfqwjM0VEHgssHJNgzfQV4UsHwQ3CA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1705.delta" sparkle:deltaFrom="1705" length="1580758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/OQ2QvSaFCgxzjP1kzHOvSbTcYZEejwVpxAPklBLCq5jJI3HZSOX735jcCotQvzP2gGWDbSL3a5wUtQWVk/WCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1698.delta" sparkle:deltaFrom="1698" length="5039390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hvPS7myg6hmOs5Xvz5hx2Vs/hReT71meH+Fm6AVu7SnK+dpwBuuT0naJgnoeC9qMIIUA12SOC0d1iG7EhQWVCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1695.delta" sparkle:deltaFrom="1695" length="5096722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cs0IArDzXXws8G1LxTiCH6kFC5pbMU9vHjmv3YKEa/1cnz/Xy0Z5oMWWbKSrndZgZkd7SETx7t2eVNWor/OxBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1687.delta" sparkle:deltaFrom="1687" length="5158158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="03uASq+5+g4oI1F8Szxhm0B4I8Dtn90z2vNpp4+MB4rWsE/8UG9xY28huEqCdt1VgH+JnaAwObnGVYrupehACA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1708-1685.delta" sparkle:deltaFrom="1685" length="5388610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lndylrerVrSuS0Nze+fWglTb75VZ7t6OKMEFGZxQnAB0EPGXUOSPX4LzY1slM1rSOsEii5yeHG1ZQFTaf+k7CQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

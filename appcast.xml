@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 22 Oct 2026 13:17:29 -0700</pubDate>
-            <sparkle:version>1763</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 14:18:10 -0700</pubDate>
+            <sparkle:version>1770</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1763) <span class="when">Oct 22, 2026</span></h2>
+<h2>Asobi 1.0 (build 1770) <span class="when">Oct 22, 2026</span></h2>
+<ul>
+<li><b>Activates on its own on the Autonomy network</b>: a copy with no seat, on the studio&#8217;s Tailscale network, gets one without a code, and it renews itself while the Mac stays on the network. Off the network nothing changes &#8212; a code still activates as before.</li>
+<li><b>Seats window</b>: seats from the network are marked Tailscale, and say they renew on the network.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1763) <span class="when">Oct 22, 2026</span></h3>
 <ul>
 <li><b>Camera raw in a folder</b>: dropping or opening a card, a clip folder or a RED .RDC offers its raw clips to develop (each RED clip once), instead of finding &#8220;no playable media&#8221;.</li>
 <li><b>Clips a conform developed in part</b> are offered whole when opened for a look: the offer says how many frames there are so far. Develop makes all of it; Not Now plays the part there is.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1760) <span class="when">Oct 22, 2026</span></h3>
 <ul>
 <li><b>Make Showcase&#8230; / Make Review</b> in the Review Manager: a live review becomes a showcase (title, sign-in, closing card, viewing counted), or a showcase becomes a review again &#8212; the same link and media, nothing sent again.</li>
@@ -63,11 +68,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Paste a review link</b> (&#8984;V) into an empty window to join, or drag one in from a browser or a message.</li>
 <li><b>Show Original Frame</b> (&#8997;R) on a review copy now says it is the review copy the host shared, not that it is the original.</li>
 </ul>
-<h3>1.0 (build 1734) <span class="when">Oct 21, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1770.zip" length="79638429" type="application/octet-stream" sparkle:edSignature="Zy21sWTzo5ev90v4UnhM5YjfG9aJpm5cLu4mVBeQGCiS/sYw6rD/p7/KovGlLW0eoHJyH0+rF957Dm/zXE/7AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1770-1763.delta" sparkle:deltaFrom="1763" length="1412214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="126F/poVD6SZMs3ATtwLQU/CZ3lrrOsvZIPtigIqiuuUMSpV189LyWg/51ss4NzWe60hohc5MsHG9FcwszhDCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1770-1760.delta" sparkle:deltaFrom="1760" length="1911398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Kf8CyXrjncnJGAcL0ZJvOO5d2KcJntm57t1RbMoLNEAhj18Q+C012tFd1ue9SYgcJmQYIijgMuuk0egjAu/zAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1770-1757.delta" sparkle:deltaFrom="1757" length="2243926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2Hqg1YVbFQQeMvKnx5FyRo2nLoXyaUVP1AnuCWcXGk9Org2aUn6pNnztvQ8UQ78I7PsYk7uHFlz4sApIqiVRAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1770-1752.delta" sparkle:deltaFrom="1752" length="2579550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mq8txBVlrEFxAH2Mn/YOaYI1/1XTc0Wt0FiAR+ua8lGSuLXMANh4NyXxji7tV+3D686rIvBOGNmANHJ2i9/mCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1770-1747.delta" sparkle:deltaFrom="1747" length="2786118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RRmuG5TIa1SWEr4aPsplLn/S6ncnD8KrlCe+DofN2yvuYhC9C91Rsp8ul5YcJfiXS66GcMgb+0fHeS8+962BAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 22 Oct 2026 13:17:29 -0700</pubDate>
+            <sparkle:version>1763</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1763)</h2>
 <ul>
-<li><b>Showcase viewing</b> shows how each viewer&#8217;s connection did: its speed against what the piece needs, how long the picture took to come up and the piece to start, and any stops to load. Per visit, summed up above the visits, and in the CSV.</li>
-<li><b>Conform reports</b> list a shot&#8217;s plates as its source when its clips came from outside the cut (a color ref, an email), and no longer count the cut&#8217;s stand-in for it as missing. A new section, Plates from outside the cut, lists them with where their ranges came from.</li>
-<li><b>Finding media</b> no longer takes a file whose name merely starts with the same eight letters for the one the cut names.</li>
+<li><b>Camera raw in a folder</b>: dropping or opening a card, a clip folder or a RED .RDC offers its raw clips to develop (each RED clip once), instead of finding &#8220;no playable media&#8221;.</li>
+<li><b>Clips a conform developed in part</b> are offered whole when opened for a look: the offer says how many frames there are so far. Develop makes all of it; Not Now plays the part there is.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1763.zip" length="79631510" type="application/octet-stream" sparkle:edSignature="hVddVsseM16MgDnr6Y/N7G4fo1fV0n0Wq5YvcoCJHG4PdEA+duCmap/cV1kvmdeehA5nFwz1+CS6BEnXKPaIBQ=="/>
@@ -104,37 +131,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1760-1747.delta" sparkle:deltaFrom="1747" length="2643906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HpGoVwA7BT2NG7u4D2yiqvwyYMaBnH3XBiU3u5kk5TUaXefweVg7NcrQwjv7UymXVmIkxOyhacBs1avK7JehCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1760-1742.delta" sparkle:deltaFrom="1742" length="2870558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z3Qo3I3nFYvVunypfDbFFTpr5msWiNtBHvw6qKijzPYPWWfWjchEtkgFcCRrCVkLmzNAfmthjrkhNT92f/DgDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1760-1737.delta" sparkle:deltaFrom="1737" length="2992422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4d3rrZgflfVzeImYOU3XVAmc1bZZZqXjxood2ldqdiXJsA3+7I24eB/QHXf68ChuDpTlD7wg8vgt8hPOaXX2DA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 22 Oct 2026 10:37:10 -0700</pubDate>
-            <sparkle:version>1757</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1757)</h2>
-<ul>
-<li><b>Fixed: reopening a review no longer removes its notes from Kitsu.</b> A review of a Kitsu playlist that was ended and reopened came back as it was before the review, and its live notes then took every note made in it out of Kitsu. Asobi now changes or removes a Kitsu note only when its frame is changed in this sitting.</li>
-<li><b>Reopen brings a review back as it was left</b>: End Review and Step Away keep its notes, marks, shots and recordings, saved or not. Your own session file isn&#8217;t written until you save.</li>
-<li><b>Record the Session checks first</b>: a microphone macOS won&#8217;t share stops it with the way to fix it; Siri and Dictation off says there&#8217;ll be no transcript. A recording that hears nothing says so within seconds, and one silent channel of the microphone no longer means a silent file.</li>
-<li><b>Recordings stay with their review</b>, so Replay Last Session Recording works after Reopen.</li>
-<li><b>Kitsu source paths written on Linux or Windows</b> (/media/&#8230;, K:\&#8230;, \\server\&#8230;) are found on this Mac, and a sequence named by its frames&#8217; shared name opens as its folder.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1757.zip" length="79598954" type="application/octet-stream" sparkle:edSignature="4k1RWcvB5J3NhFBIIHbOBKuaMTTSpd8wRMq/+5hEOgPv87dh9UeUgIdJRlA+LtuB79RxVyWf9nsu/ohpnW2+AQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1752.delta" sparkle:deltaFrom="1752" length="2169114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mnBetqqju8wilcByVql7vIzroNIX5NNSnXUss9jOINOnBP96jbdCkJhF4smbWDoW7Oe34nEikr7WDWWFKplmCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1747.delta" sparkle:deltaFrom="1747" length="2469854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qJi4UnZ1WPnXoq7oazUSmR04r1Sh65DaWRAmvQhvF4IgAyJzpBQERWxnhQ5igl45vx9JRcVnjGwzmnyDZZQBBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1742.delta" sparkle:deltaFrom="1742" length="2776090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TSxCihwZz+XxMXCeszAZWCAS01Oqu+DOfP7nplnPTU/fO0meCU6UeVR/Gn/RoOVknJFJIRtqUk3Bkq8xyTgdAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1737.delta" sparkle:deltaFrom="1737" length="2874062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="54SGA04ZcOP2sucKObgRawYDKcAnTo5EQE5tiz0RejcMi72lBJKAlLc5xWA+zueRlPS61IUMYnnkeHU8HPKOAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1734.delta" sparkle:deltaFrom="1734" length="2980954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JjSnbpE0tglQZVtVjcfE7HSCWkKKI+qjARY5XUwQ5eaVP4z/8VNqazxvJWuGbEibSkNrmMvbS3Nn1z9YTlfBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

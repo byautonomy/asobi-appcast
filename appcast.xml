@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 21 Oct 2026 15:55:12 -0700</pubDate>
-            <sparkle:version>1734</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 05:13:10 -0700</pubDate>
+            <sparkle:version>1737</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1734) <span class="when">Oct 21, 2026</span></h2>
+<h2>Asobi 1.0 (build 1737) <span class="when">Oct 22, 2026</span></h2>
+<ul>
+<li><b>Guests flip to source</b> in a review without a passphrase. The host sends where each clip&#8217;s source is, and a guest&#8217;s Flip to Source Media (&#8997;&#8984;F) or Flip All shows it on their own screen only, with a SOURCE badge; the room keeps the review copy. A review with a passphrase sends no paths.</li>
+<li><b>Paste a review link</b> (&#8984;V) into an empty window to join, or drag one in from a browser or a message.</li>
+<li><b>Show Original Frame</b> (&#8997;R) on a review copy now says it is the review copy the host shared, not that it is the original.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1734) <span class="when">Oct 21, 2026</span></h3>
 <ul>
 <li><b>Showcase viewing</b> shows how each viewer&#8217;s connection did: its speed against what the piece needs, how long the picture took to come up and the piece to start, and any stops to load. Per visit, summed up above the visits, and in the CSV.</li>
 <li><b>Conform reports</b> list a shot&#8217;s plates as its source when its clips came from outside the cut (a color ref, an email), and no longer count the cut&#8217;s stand-in for it as missing. A new section, Plates from outside the cut, lists them with where their ranges came from.</li>
 <li><b>Finding media</b> no longer takes a file whose name merely starts with the same eight letters for the one the cut names.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1728) <span class="when">Oct 20, 2026</span></h3>
 <ul>
 <li><b>Recording a session</b> no longer turns the call and the clip audio down on your Mac while it records.</li>
@@ -60,9 +66,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Joining a review brings in every clip.</b> A Mac that joins while the host is in the review gets the whole playlist, in the host&#8217;s order, not just the clip the host is on. Clips this Mac doesn&#8217;t have play as the review&#8217;s copies.</li>
 </ul>
-<h3>1.0 (build 1695) <span class="when">Oct 19, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1737.zip" length="79440416" type="application/octet-stream" sparkle:edSignature="RaVjTKSvH/gkdkTfPY0Vkpsv3+kChrFzHFYFZGTOrB7R4/uwr7MaLJharXc2gLWKRAESZzY5L5ojnrRaFovXCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1737-1734.delta" sparkle:deltaFrom="1734" length="2212650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ouhixXujlh0pX6o7cSyPVLeLkoZRVlVZ8q5SHpPleqcIh59Nxdlp2tezZuMkxxousGSBv4R+MkHuOguu3bTODA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1737-1728.delta" sparkle:deltaFrom="1728" length="2530846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="noXVj5vYZVqBQlXPzEZVrAAE/P8UsIzJ1ZPWtnAgXnXlixQMMMKyppHsca1h/Y0PvKgYg/OWXOiwYVwOzJCCCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1737-1724.delta" sparkle:deltaFrom="1724" length="2511958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4R6NnulAktdzuiKHfTC1tGlKjoz2641KhoF5NjuiSFVpgyHD5Iu91cyEaYluRGJm3HKM7z4F9NkIkdWzkXbqAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1737-1711.delta" sparkle:deltaFrom="1711" length="3087986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5gBJRTolIE0h0fUptq+qt6T0bUth9Sl/YikkgQP0gQlxnNc3R5VL1DPMjkg8OPMqB+nioMBpxFM5SHEFODmlAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1737-1708.delta" sparkle:deltaFrom="1708" length="3112218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+yCL2n5vpqhTofc/drV/CttqpmJ0BrmUShKL9ff8Huop3rDCjzfhUzkTA6zOnoNjG5R8Qo375nHCobp8fOvSAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 21 Oct 2026 15:55:12 -0700</pubDate>
+            <sparkle:version>1734</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1734)</h2>
 <ul>
-<li>Improvements and fixes.</li>
+<li><b>Showcase viewing</b> shows how each viewer&#8217;s connection did: its speed against what the piece needs, how long the picture took to come up and the piece to start, and any stops to load. Per visit, summed up above the visits, and in the CSV.</li>
+<li><b>Conform reports</b> list a shot&#8217;s plates as its source when its clips came from outside the cut (a color ref, an email), and no longer count the cut&#8217;s stand-in for it as missing. A new section, Plates from outside the cut, lists them with where their ranges came from.</li>
+<li><b>Finding media</b> no longer takes a file whose name merely starts with the same eight letters for the one the cut names.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1734.zip" length="79406463" type="application/octet-stream" sparkle:edSignature="En/35XJ5VyTRfCseM2hRYClZA1b3GbMd6xZWFTSavLntuJH0AxqEC3V/oCPcYxC5yWrFbgw9ef3PU0J+xL1eDA=="/>
@@ -99,39 +130,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1708.delta" sparkle:deltaFrom="1708" length="2530694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZY2oJNdq9fIAJksklV+qr3CuN64nu1OGDDoNHZa2ISRWDOar37fZWOLy9EgO+K6e3WS15B+6zrUxc5Q6N3NlCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1705.delta" sparkle:deltaFrom="1705" length="2629786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9yFAEvD3CSwz11uN7TVifxHFnkVXt5lU82z8wjTJqOvxhQNj9rs45E9V5gxip0eQhZO3a8bA25ZR84mMpAeSBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1728-1698.delta" sparkle:deltaFrom="1698" length="5476202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BLPcXy0+D9vlf7dUIvXKULHKpDOh6Pdk5xBXomhf7k6fvV0lM3Xf8rpgkQTGQZohyoIGF1Xq6Mo1MbHFJ87JDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 19 Oct 2026 21:11:06 -0700</pubDate>
-            <sparkle:version>1724</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1724)</h2>
-<ul>
-<li><b>Update from Kitsu Playlist.</b> Media menu, or the circling arrows at the top of the Playlist: late shots and new versions from the same Kitsu playlist come into a running review, and go out to everyone in it, on the web and in Asobi.</li>
-<li><b>Export Compare with Edit Ref.</b> Media &#9656; Conformed Cut: the conform beside its Edit Ref as one QuickTime, lined up as Compare Edit Ref shows it.</li>
-<li><b>Conform reports</b> show a picture for every stacked layer (PL02, PL03).</li>
-<li><b>Plate review movies</b> are always 16:9, a plate of another shape kept whole inside it, so Kitsu shows it unstretched.</li>
-<li><b>A pull of many plates</b> makes each review movie and proxy from its own plate, never another one in the same folder.</li>
-<li><b>Studio-made shots</b> get their own card, and a shot in the cut with no footage gets its placeholder, pulled or not.</li>
-<li><b>A re-cut</b> keeps a shot&#8217;s name when its file isn&#8217;t on this Mac.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1724.zip" length="79435878" type="application/octet-stream" sparkle:edSignature="z8oN6o62mQZN6y+C+iFFkTsKpMDwQL3o8pzRTGCZCrUGKpqBj1lNWKhuYK7qB0FFazRU9+0kkazTRIr9KQ85CQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1711.delta" sparkle:deltaFrom="1711" length="2490986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S8DsYHOKHpIElGjqStr9/5oNaP08PMvPFrBIQBXy/4AfiuyFvThywX+Wn1eGGSq22lvHTksvI+z/tfmGpINgDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1708.delta" sparkle:deltaFrom="1708" length="2537114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iRA8NpjWudWdzE6kPt3UeIxcYHG44Fa/KFLHBejJEL2ATl0ZSEUuvlFyUvTvnmry4sYdeHclrCPi9GagM6/PDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1705.delta" sparkle:deltaFrom="1705" length="2618546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AGXtHPa6IKpMiHqhJiINNHLPht45nBu6Hxp/DCmikzr8CwkLky2sAgoGYjodcLb251sNPTN8iYQqCIPMR9OFDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1698.delta" sparkle:deltaFrom="1698" length="5484402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0qkJvyMLp4i3KmJ+X/EYjMHxGIeDRPj1nB+coOapES2ngblNIncgQtELI9TRSQ3XuCvKrtw9k83wH0UKH/KWBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1724-1695.delta" sparkle:deltaFrom="1695" length="5491006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OwsX48lMqUHD+1vfORwXrL5ijmypGH3VupSnLMc3S2Pp0iREtS72ENeolKCyA5u160tDqmpO2k+97l0avJHjDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 22 Oct 2026 09:36:30 -0700</pubDate>
-            <sparkle:version>1752</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 10:37:10 -0700</pubDate>
+            <sparkle:version>1757</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,22 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1752) <span class="when">Oct 22, 2026</span></h2>
+<h2>Asobi 1.0 (build 1757) <span class="when">Oct 22, 2026</span></h2>
+<ul>
+<li><b>Fixed: reopening a review no longer removes its notes from Kitsu.</b> A review of a Kitsu playlist that was ended and reopened came back as it was before the review, and its live notes then took every note made in it out of Kitsu. Asobi now changes or removes a Kitsu note only when its frame is changed in this sitting.</li>
+<li><b>Reopen brings a review back as it was left</b>: End Review and Step Away keep its notes, marks, shots and recordings, saved or not. Your own session file isn&#8217;t written until you save.</li>
+<li><b>Record the Session checks first</b>: a microphone macOS won&#8217;t share stops it with the way to fix it; Siri and Dictation off says there&#8217;ll be no transcript. A recording that hears nothing says so within seconds, and one silent channel of the microphone no longer means a silent file.</li>
+<li><b>Recordings stay with their review</b>, so Replay Last Session Recording works after Reopen.</li>
+<li><b>Kitsu source paths written on Linux or Windows</b> (/media/&#8230;, K:\&#8230;, \\server\&#8230;) are found on this Mac, and a sequence named by its frames&#8217; shared name opens as its folder.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1752) <span class="when">Oct 22, 2026</span></h3>
 <ul>
 <li><b>The fastest Mac renders the source frames</b>: when the room is on a shot&#8217;s source, any studio Mac in the review that reaches it can render the full-resolution frames clients see when stopped, not only the host&#8217;s. The host times each Mac and asks the fastest; one that doesn&#8217;t answer in 3 seconds is passed over. The host can now push a shot it can&#8217;t reach itself.</li>
 <li><b>Fixed</b>: someone joining after a Flip for Everyone wasn&#8217;t told the room was on the source (a browser&#8217;s frame wasn&#8217;t marked source; Asobi Review kept the QuickTime).</li>
 <li><b>Fixed</b>: a Mac not in front was slowed by App Nap while delivering frames for the room.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1747) <span class="when">Oct 22, 2026</span></h3>
 <ul>
 <li><b>Flip for Everyone</b> (Playback &#9656; Source, &#8679;&#8997;&#8984;F) puts the whole room on a shot&#8217;s source in any review, clients included; again puts everyone back on the QuickTime. Flip All for Everyone does every shot with a source. &#8997;&#8984;F stays your own.</li>
@@ -66,9 +74,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Studio-made shots</b> get their own card, and a shot in the cut with no footage gets its placeholder, pulled or not.</li>
 <li><b>A re-cut</b> keeps a shot&#8217;s name when its file isn&#8217;t on this Mac.</li>
 </ul>
-<h3>1.0 (build 1711) <span class="when">Oct 19, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1757.zip" length="79598954" type="application/octet-stream" sparkle:edSignature="4k1RWcvB5J3NhFBIIHbOBKuaMTTSpd8wRMq/+5hEOgPv87dh9UeUgIdJRlA+LtuB79RxVyWf9nsu/ohpnW2+AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1752.delta" sparkle:deltaFrom="1752" length="2169114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mnBetqqju8wilcByVql7vIzroNIX5NNSnXUss9jOINOnBP96jbdCkJhF4smbWDoW7Oe34nEikr7WDWWFKplmCQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1747.delta" sparkle:deltaFrom="1747" length="2469854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qJi4UnZ1WPnXoq7oazUSmR04r1Sh65DaWRAmvQhvF4IgAyJzpBQERWxnhQ5igl45vx9JRcVnjGwzmnyDZZQBBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1742.delta" sparkle:deltaFrom="1742" length="2776090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TSxCihwZz+XxMXCeszAZWCAS01Oqu+DOfP7nplnPTU/fO0meCU6UeVR/Gn/RoOVknJFJIRtqUk3Bkq8xyTgdAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1737.delta" sparkle:deltaFrom="1737" length="2874062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="54SGA04ZcOP2sucKObgRawYDKcAnTo5EQE5tiz0RejcMi72lBJKAlLc5xWA+zueRlPS61IUMYnnkeHU8HPKOAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1757-1734.delta" sparkle:deltaFrom="1734" length="2980954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JjSnbpE0tglQZVtVjcfE7HSCWkKKI+qjARY5XUwQ5eaVP4z/8VNqazxvJWuGbEibSkNrmMvbS3Nn1z9YTlfBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 22 Oct 2026 09:36:30 -0700</pubDate>
+            <sparkle:version>1752</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 1752)</h2>
 <ul>
-<li><b>A reel&#8217;s slates stay clean.</b> Burn-ins are drawn on the shots only, never over a slate or a gap.</li>
+<li><b>The fastest Mac renders the source frames</b>: when the room is on a shot&#8217;s source, any studio Mac in the review that reaches it can render the full-resolution frames clients see when stopped, not only the host&#8217;s. The host times each Mac and asks the fastest; one that doesn&#8217;t answer in 3 seconds is passed over. The host can now push a shot it can&#8217;t reach itself.</li>
+<li><b>Fixed</b>: someone joining after a Flip for Everyone wasn&#8217;t told the room was on the source (a browser&#8217;s frame wasn&#8217;t marked source; Asobi Review kept the QuickTime).</li>
+<li><b>Fixed</b>: a Mac not in front was slowed by App Nap while delivering frames for the room.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1752.zip" length="79562123" type="application/octet-stream" sparkle:edSignature="auA4Tbqg0Tba67YGEbRUgnM44qaaVr0jaUUcuodlkJmR5AoYfDGC9HJvkoSjFko16+36DslKmyG/xVlLWdWaDA=="/>
@@ -106,36 +139,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1747-1734.delta" sparkle:deltaFrom="1734" length="2656342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dI0opXszUGUFpks3LprlsAwvWwMqhxu/LUDkcv2j/VGLZ03v99pvV1cljHhleOIGQMQaz+DomBigEICw+zKMBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1747-1728.delta" sparkle:deltaFrom="1728" length="2911098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MGOsqphgYSHO6jxk7OlgFKU/gBc2UiS74hqkfP9xHRtoIDF/Adpx6TmcFCy5bhXATPC70gzxWU2s3FRvmVA4Cg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1747-1724.delta" sparkle:deltaFrom="1724" length="2867610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UE4lHHnpr3Oq/QwcUeymldYm9u+NG+6WExxAcaILZWM1dkaJoi/u7KsQwiA88s4ctEWbDH2HiUpLtQR/xD2HCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 22 Oct 2026 06:56:58 -0700</pubDate>
-            <sparkle:version>1742</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1742)</h2>
-<ul>
-<li><b>Internal reviews</b>: Review &#9656; Internal Review, while hosting, says everyone in the review is from the studio. A flip to source (&#8997;&#8984;F or Flip All) on any Asobi seat then shows for the whole room, sources are shared even with a passphrase, latecomers land on what the room shows, and every seat sees INTERNAL beside LIVE.</li>
-<li><b>Browsers in an internal review</b> parked on a frame of a clip the room shows on its source get that frame from the source at full resolution, through the display transform, marked &#8220;full frame &#183; source&#8221;.</li>
-<li><b>Flipping in any shared review</b> now changes only the picture, for the host too, so the clip keeps its place for everyone.</li>
-<li><b>Fixed</b>: a clip shown on its source in a review was saved (and kept in the crash-recovery copy) with the source&#8217;s input space, so the QuickTime reopened decoded as the EXR.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1742.zip" length="79473216" type="application/octet-stream" sparkle:edSignature="hrQch0YiiKYNd5zXnUmj7ojnndTA7WzRX2Nylh2y/hKFHTOkNhrMyXcpXugo6od9wqkFg9Ihn0P+l3lBoWhdDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1742-1737.delta" sparkle:deltaFrom="1737" length="2318698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lQ3GpW3B0JdXvEWHkaA/SeDCujDtZGxgrj1NXk5BtNqHVySv3q/VUtVRcY6K6NWYX8qyApiuC017axLNl9EzDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1742-1734.delta" sparkle:deltaFrom="1734" length="2607546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z9N5PgBLPVks+LuBWnLmvKjDhwdg3JbgY/CBuBMZ5HTTEDJrelQrcTFBabzb2tR4azcAuwc90gh5JVqplvPpBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1742-1728.delta" sparkle:deltaFrom="1728" length="2832586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zhbJMhcItGiIl5yukDMoRRT0vTcP3k6UFVEQxTpSjstx1vRLbgDXxOFFYn7cdRrOVBxA2w3kRtytyKXdin32Cw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1742-1724.delta" sparkle:deltaFrom="1724" length="2805458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wi9aXj+ijVUbQ3fNq3N/Uj7oaFZgjgjsgmJGWxKaTmrdoaFT7Py/vxw1+bZPcTgGilNo80Xw5oAo8xjdgBfnCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1742-1711.delta" sparkle:deltaFrom="1711" length="3256594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iel6VK/mdIgLaSOfDdWtavSn+UUkn0snCmIi86gN7dh2W64rU5TGSWrLEmVSF7xEh18bzwgsihGUli8Doet8AQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

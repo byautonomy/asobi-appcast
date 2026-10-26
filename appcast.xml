@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 26 Oct 2026 10:57:17 -0700</pubDate>
-            <sparkle:version>1830</sparkle:version>
+            <pubDate>Mon, 26 Oct 2026 11:21:27 -0700</pubDate>
+            <sparkle:version>1833</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1830) <span class="when">Oct 26, 2026</span></h2>
+<h2>Asobi 1.0 (build 1833) <span class="when">Oct 26, 2026</span></h2>
+<ul>
+<li><b>Every studio Mac&#8217;s showcases in Studio Reviews</b>: studio Macs now register their reviews and showcases with the studio by default (an admin who turned it off stays off), and live showcases are registered once even when their host has closed, so they appear under On Other Macs.</li>
+<li><b>Showcase figures, tidied</b>: one set of columns down the whole panel (visits, time watched, watched to the end, clicked the closing link; hover a symbol for its name), full names on hover, one row per showcase, and the panel stays open if you leave it open.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1830) <span class="when">Oct 26, 2026</span></h3>
 <ul>
 <li><b>Fixed: showcases collect viewing again.</b> A showcase made on a Mac that holds the studio license wasn&#8217;t registered with the review server, so nobody&#8217;s viewing was recorded and its figures stayed empty. Showcases now register correctly, and Asobi registers your live showcases again each time it opens, so ones already sent start recording from then on. Viewing from before this update wasn&#8217;t kept.</li>
 <li><b>Showcases report to the studio&#8217;s analytics</b>, whichever studio Mac made them.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1827) <span class="when">Oct 24, 2026</span></h3>
 <ul>
 <li><b>Marked frames go to Kitsu as attachments</b>: the pictures sent with live notes and with Publish Review are now attached to their comment, so they no longer take the shot&#8217;s next revision number away from the next version.</li>
@@ -56,9 +61,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Right on every monitor</b>: Asobi now tells macOS what its picture is, so a Rec.709 picture is no longer shown a little too light, and a window dragged between a laptop and a calibrated monitor stays right on both. The Screen setting decides how movies and web proxies are encoded.</li>
 <li>The color chip in the toolbar names the preset in use, such as <b>QT Rec709</b> or <b>Seq ACEScg</b>.</li>
 </ul>
-<h3>1.0 (build 1793) <span class="when">Oct 23, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1833.zip" length="79913356" type="application/octet-stream" sparkle:edSignature="w9eykrR906hYPaH6sq5HGnXQPAyO3D8zrUnkdiWuWCSjg2ldP8C0u6iwhVxSnHjJmyxKTQVD2PWEVFor+35YDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1833-1830.delta" sparkle:deltaFrom="1830" length="1541458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6HUP3cBXOhznnICn80+dpd1LnFYbb+8dATrWSjInnNyZTyGtzEgeRxYlQAvGDWeWHIqdqm3n664EvXjM+wFOBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1833-1827.delta" sparkle:deltaFrom="1827" length="1565074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g2w0aaVJnGHyCFShI/3hmvHg2fqJaAA5SKDdUJJTRihZhunZyoljf9MP23pr6WLr5tnx3VbEHsH4GByoRmIRCQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1833-1824.delta" sparkle:deltaFrom="1824" length="4041526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2PdO0nhWNciTEQ6UOBJEJgnOOl79fuM2h+C9p1OpxDeHLA2YA3XRk5NjpG7jWSaMtFVkrGjARmRhEb6ZG9jiDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1833-1820.delta" sparkle:deltaFrom="1820" length="4319486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XNKACZ6OCNDF/qRxdCCS6nOjFE5sfkdvxRDmyPP1Qilkmeb3Gf92D5kw0BMB3TAKq7+5vZ79MSbK1CYJVTkJBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1833-1816.delta" sparkle:deltaFrom="1816" length="4451110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iwQUfk09REB9CwsOAsV6hxOg7JO6EZeZ2xcC/7HXU17IsaWBMwTaoOmUvtbxLfS6vvF+CT53QFtr5HhE07uGCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 26 Oct 2026 10:57:17 -0700</pubDate>
+            <sparkle:version>1830</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1830)</h2>
 <ul>
-<li><b>Color presets</b>: the color chip now leads with <b>Footage</b>, a menu of plain presets (Frame Sequence &#183; ACEScg, QuickTime &#183; Rec.709 (normal), Frame Sequence &#183; sRGB and more, plus From Kitsu on Kitsu clips), and <b>Screen</b> (Computer or Rec.709 monitor). Each clip keeps its own preset, saved with the session; Apply to All gives a whole format one. Input, Display and View are still there, under Advanced.</li>
+<li><b>Fixed: showcases collect viewing again.</b> A showcase made on a Mac that holds the studio license wasn&#8217;t registered with the review server, so nobody&#8217;s viewing was recorded and its figures stayed empty. Showcases now register correctly, and Asobi registers your live showcases again each time it opens, so ones already sent start recording from then on. Viewing from before this update wasn&#8217;t kept.</li>
+<li><b>Showcases report to the studio&#8217;s analytics</b>, whichever studio Mac made them.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1830.zip" length="79897847" type="application/octet-stream" sparkle:edSignature="0f4Is2vA3SacunlOTtkxqL0ttlSCI5NgnMmY5vjivERzzRrCmo5aSR8zEjMp88lanS8vmneOHBxQ0RczOfB2Aw=="/>
@@ -94,33 +122,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1827-1816.delta" sparkle:deltaFrom="1816" length="4292066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7P04mKkWF3i5QQfogN5GAyM8fOj3g2KauugDcSKyVFcgZe3a15EwdbE7obiAiAN2J4kHip+CpOWnis3OpfmNBA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1827-1807.delta" sparkle:deltaFrom="1807" length="4849086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bg3ggxK/TLBb+8pIwy8jK/nOy69huGHSCLQkZSePEozJLth0ODeJhLWYLtdrmUbjFY0/0jMukybQNyGGQcN+BA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1827-1800.delta" sparkle:deltaFrom="1800" length="5119330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fhzy2IYBBpP5XpOP9/pquImKFrkUSrapHV89xdBPzr2TUOcr//QB1Y0Qu9QI7EoldtxhS68xNGZa5MxVYZvdBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sat, 24 Oct 2026 06:58:56 -0700</pubDate>
-            <sparkle:version>1824</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1824)</h2>
-<ul>
-<li><b>Reviews in Open Recent</b>: every review you share is listed under its name, and choosing it reopens the review, as Reopen in the Review Manager does. Switching optimized media on or off no longer adds the clip on screen to the list.</li>
-<li><b>Save and Save As, plainly</b>: both write the session (.otio). Save writes to the file the session came from; Save As asks for a name and place. The playlist&#8217;s Export Timeline is now Save As too.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1824.zip" length="79893647" type="application/octet-stream" sparkle:edSignature="oFKsH4cBoUDY8DJOR3WzF6U90OY1v1ICqKywQNu0eYi1lSl+kxiGqiUX3V6QQ60iL9JNg8dNLVBhgRv7V9TeDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1824-1820.delta" sparkle:deltaFrom="1820" length="1417318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="koIhrRxdJO/n8huKA4InP/AF1ZQaWHc/svT1P94MMcYSiPEh856/MLfH0xU6s5Ck7bAlHMNIXUtVyXfH+FCZAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1824-1816.delta" sparkle:deltaFrom="1816" length="1819558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bq2Kgb/GeCkIhN5njGhIAZkKa7ULqSSE/4JGfbeW9wpt9TMxF2bZ62Ds4DwvjOWUeqxJZl/lkgQpNFrexF0CDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1824-1807.delta" sparkle:deltaFrom="1807" length="2367782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6m9reMsiwq70NgKla0rY5XzTvPfbBE01hMori+nOdkb11Zg9uPQhDXuXd5+gEVYzZrc07tBdmSSPIj/TNPOrBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1824-1800.delta" sparkle:deltaFrom="1800" length="2657474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r8UEoMpmn5p3A4afAXEXQplcCetY+9jh5F/1Ln8COTJPUMB3OKyEKozyWRG7nHTlqvoLGDAX0TU5WY/4KwP8Aw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1824-1793.delta" sparkle:deltaFrom="1793" length="2756350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i4B++ImE2QsgvBoAFHVU4sG2kEUaE63Ub1SQLipC6VuMMsLvGx6Kg/bZBnAXL8RbYHXDL6609OAFbC2LHZY9Dw=="/>
             </sparkle:deltas>
         </item>
     </channel>

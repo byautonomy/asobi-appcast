@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Tue, 27 Oct 2026 13:49:22 -0700</pubDate>
-            <sparkle:version>1866</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 15:02:24 -0700</pubDate>
+            <sparkle:version>1872</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1866) <span class="when">Oct 27, 2026</span></h2>
+<h2>Asobi 1.0 (build 1872) <span class="when">Oct 27, 2026</span></h2>
+<ul>
+<li><b>Studio Tutorials</b>: on the studio's Macs, Help ▸ Asobi Manual now opens on a new book of step-by-step tutorials: how renders reach dailies through @autobot, an internal dailies review from Kitsu (adding clips mid-review), a client review behind a passphrase, what happens during and after a review, and why and how to end one. It has its own PDF, from the manual's Open PDF Manual.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1866) <span class="when">Oct 27, 2026</span></h3>
 <ul>
 <li><b>See clips on their way to a live review</b>: a clip added to a review that is shared to the web shows its encode and upload on its playlist row (Waiting, Encoding 34%, Uploading 80%), with a bar. Everyone in the review sees it: other Macs list the clip, dimmed, until it arrives, and the web page shows the same bar in its playlist and on the Playlist button.</li>
 <li>A one-frame clip reads “1 frame”, not “1 frames”.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1861) <span class="when">Oct 27, 2026</span></h3>
 <ul>
 <li><b>Versioned stills stay stills</b>: a still named like <i>BOU_040_v004.png</i> opens as one picture, even with its earlier versions in the same folder. The version number was being read as a frame number, so the versions played as a short sequence and a shared review could fall out of step.</li>
@@ -52,9 +56,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Fixed: opening a colleague&#8217;s session of Kitsu clips</b>: their clips pointed at the other Mac&#8217;s preview cache, and Asobi searched your folders (all of Downloads) for them with the window empty. Kitsu clips now come from your own preview cache, or are fetched from their Kitsu playlist as the session opens. A clip whose version is no longer in the playlist stays offline, with a line saying so.</li>
 </ul>
-<h3>1.0 (build 1843) <span class="when">Oct 26, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1872.zip" length="81915936" type="application/octet-stream" sparkle:edSignature="WBGH8Ud5Y2hVL48o4Yw/V1jS2K1lJlBsnGAWPSEse1l7PWKF5RZpafp75sAjRIAfON1W2loyuHFUND787eVYAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1872-1866.delta" sparkle:deltaFrom="1866" length="3192194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tBhu6JH2f0BV22e3D8AcIjb5yC7MLxyPqqo8VIA7VK5u6ZIOIRGSuCYjz2qiLiijJOD0Ji6S3UOnnawbuEFZBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1872-1861.delta" sparkle:deltaFrom="1861" length="3863086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LQIIcI3m476IhUx4ElZMHl3D4wegDc0sLHa1jEYQwCx4hHR9eSGSDBi6cGMTxlHyVTI+QFSplLV5E/Ne+UkJBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1872-1858.delta" sparkle:deltaFrom="1858" length="3908574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vN0hqRqslntXJvMbwSLdJOgCVAgKSqKFbAG5kfamb0syzyzncFF+vHe3vHlDin93jLgSHBxho2EDeNgHaX1cDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1872-1855.delta" sparkle:deltaFrom="1855" length="3956486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fY0YnsPrkgXGTxkirGXmNjBB/05Dqi4tkuWpUrF3kya/kupr8rvCcEQHekwC7pL8PZb/zsZbI3WUcdHDZ3QWDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1872-1852.delta" sparkle:deltaFrom="1852" length="3967158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QqbKgX0sWWj/SK6RW0uYIqyCobrl69hI/seH7jpDJ2mw9X0SXU/myaZlDOGM+1/afGFDuklEMU2x0ahNiCTBDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Tue, 27 Oct 2026 13:49:22 -0700</pubDate>
+            <sparkle:version>1866</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1866)</h2>
 <ul>
-<li><b>Showcases on other Macs are marked</b>: in the Review Manager, a showcase under On Other Macs has the yellow Showcase tag and its finished / viewers count, as your own do. Click it for its viewing.</li>
+<li><b>See clips on their way to a live review</b>: a clip added to a review that is shared to the web shows its encode and upload on its playlist row (Waiting, Encoding 34%, Uploading 80%), with a bar. Everyone in the review sees it: other Macs list the clip, dimmed, until it arrives, and the web page shows the same bar in its playlist and on the Playlist button.</li>
+<li>A one-frame clip reads “1 frame”, not “1 frames”.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1866.zip" length="80012282" type="application/octet-stream" sparkle:edSignature="abWeIKsLFLRF8uLkPndLdGMlzDXxldXBRMQal2nGQOHcU0tBSdmcX+wvahxGkz7x0cu+4azxsYanPRPfkW5ZCg=="/>
@@ -90,32 +117,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1861-1852.delta" sparkle:deltaFrom="1852" length="1278694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ceIGkUPcFejyHJpy835mKH2XJS8GzsSMRvy6NkCRsnohwd3oKoYm8R8h+TRXZpsxZO+CZxUxIrwnALRWpP/XCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1861-1849.delta" sparkle:deltaFrom="1849" length="1774850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cROMq1mkpWiouBA1/wlH2JJOgc/MzodsZWc7s12r0rI1hlpTEHlVyLmW0XPu4JHr6NuHYgY804YlUYCGRmTLCg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1861-1846.delta" sparkle:deltaFrom="1846" length="1755842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YGfyfs1niv+fnjrnp5JXStlU31JVIPeu84Nzlw9ztC2kJo0rE+yfILLT/yH7sepB8vl4UD8y/Aan0u5+oTQUDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 27 Oct 2026 10:03:15 -0700</pubDate>
-            <sparkle:version>1858</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1858)</h2>
-<ul>
-<li><b>Live Only in the Review Manager</b>: a switch under the filter, on by default, lists just the reviews still running. Beside it, how many ended ones are hidden; click that to show them all.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1858.zip" length="79977966" type="application/octet-stream" sparkle:edSignature="vkGrX/tQFfQnC/PtZ/a5prLCFFFxhQWWkdT/bgTNMBsx+xV3P8wR8jERmUkEg7ynZ5xK26OWEWBBmukUadjoAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1855.delta" sparkle:deltaFrom="1855" length="1220782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cspbOuVsVtVZrstbLBwaxYKt3ySt6iLeYtQY6g/OtKaVhaVimd/Hs21jM4gZ1vC2eExsbsrS3Iy/DNlBknUcDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1852.delta" sparkle:deltaFrom="1852" length="1312242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lDZ3Z8JklELsuT1oIkGuz7Sj0NSQu9i6LQ6DR3+TQA1K+Jthr1GyFTAhZ2Db1apZ4ex/o95/1agNWFDGO+7rCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1849.delta" sparkle:deltaFrom="1849" length="1733690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MJTZJnm/1r9739cl5rIxVxvk3G8BXQMyDgmtxyj9bxyijevzGe0aMJ+Ur39EIxSc0skEClzPHvjKUWbfcrhKAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1846.delta" sparkle:deltaFrom="1846" length="1747274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEZVw+wbU1/smlXw5VJlEEf0Ed3TqlVoV+NGUweyF7UD1vwWESSFad0VuRq8fTRTNM4O2kcLPzqBIj/5iVmRBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1843.delta" sparkle:deltaFrom="1843" length="1838634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="utgewLzBcmq1qUtv0VMLhHSzZuPDqkoAXsbJza2umvQcvEo8MlFNH5egBjcBJkcUNdIq8EanWA4JZ7cvPuGkBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

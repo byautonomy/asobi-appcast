@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 26 Oct 2026 16:44:37 -0700</pubDate>
-            <sparkle:version>1855</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 10:03:15 -0700</pubDate>
+            <sparkle:version>1858</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1855) <span class="when">Oct 26, 2026</span></h2>
+<h2>Asobi 1.0 (build 1858) <span class="when">Oct 27, 2026</span></h2>
 <ul>
-<li><b>Much smaller notes reports</b>: each picture in an exported notes PDF is kept at the size it is printed (sharp in print and zoomed in on screen) instead of the whole 4K frame. A 7-page report that was 295 MB is now about 2 MB.</li>
+<li><b>Live Only in the Review Manager</b>: a switch under the filter, on by default, lists just the reviews still running. Beside it, how many ended ones are hidden; click that to show them all.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1855) <span class="when">Oct 26, 2026</span></h3>
+<ul>
+<li><b>Much smaller notes reports</b>: each picture in an exported notes PDF is kept at the size it is printed (sharp in print and zoomed in on screen) instead of the whole 4K frame. A 7-page report that was 295 MB is now about 2 MB.</li>
+</ul>
 <h3>1.0 (build 1852) <span class="when">Oct 26, 2026</span></h3>
 <ul>
 <li><b>Zoom 100% is the source&#8217;s own pixels</b>: an HD review copy of a 4K source zooms to the 4K at 1:1 (with Show Source When Zoomed In on); an HD source shows HD pixel for pixel. The zoom readout and the View menu&#8217;s checks count the same way, so an HD copy of a 4K source reads about 50% at fit.</li>
@@ -53,10 +57,31 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Mark a phone or laptop as ours</b>: the new button in Showcase figures copies a link; open it once on a device and its showcase visits are never counted. The link works for 30 days.</li>
 <li><b>Clear your marks from the web</b>: guests have a Clear button in the drawing tools and can right-click the picture for Clear My Marks on This Frame.</li>
 </ul>
-<h3>1.0 (build 1833) <span class="when">Oct 26, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1858.zip" length="79977966" type="application/octet-stream" sparkle:edSignature="vkGrX/tQFfQnC/PtZ/a5prLCFFFxhQWWkdT/bgTNMBsx+xV3P8wR8jERmUkEg7ynZ5xK26OWEWBBmukUadjoAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1855.delta" sparkle:deltaFrom="1855" length="1220782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cspbOuVsVtVZrstbLBwaxYKt3ySt6iLeYtQY6g/OtKaVhaVimd/Hs21jM4gZ1vC2eExsbsrS3Iy/DNlBknUcDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1852.delta" sparkle:deltaFrom="1852" length="1312242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lDZ3Z8JklELsuT1oIkGuz7Sj0NSQu9i6LQ6DR3+TQA1K+Jthr1GyFTAhZ2Db1apZ4ex/o95/1agNWFDGO+7rCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1849.delta" sparkle:deltaFrom="1849" length="1733690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MJTZJnm/1r9739cl5rIxVxvk3G8BXQMyDgmtxyj9bxyijevzGe0aMJ+Ur39EIxSc0skEClzPHvjKUWbfcrhKAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1846.delta" sparkle:deltaFrom="1846" length="1747274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEZVw+wbU1/smlXw5VJlEEf0Ed3TqlVoV+NGUweyF7UD1vwWESSFad0VuRq8fTRTNM4O2kcLPzqBIj/5iVmRBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1858-1843.delta" sparkle:deltaFrom="1843" length="1838634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="utgewLzBcmq1qUtv0VMLhHSzZuPDqkoAXsbJza2umvQcvEo8MlFNH5egBjcBJkcUNdIq8EanWA4JZ7cvPuGkBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 26 Oct 2026 16:44:37 -0700</pubDate>
+            <sparkle:version>1855</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1855)</h2>
 <ul>
-<li><b>Every studio Mac&#8217;s showcases in Studio Reviews</b>: studio Macs now register their reviews and showcases with the studio by default (an admin who turned it off stays off), and live showcases are registered once even when their host has closed, so they appear under On Other Macs.</li>
-<li><b>Showcase figures, tidied</b>: one set of columns down the whole panel (visits, time watched, watched to the end, clicked the closing link; hover a symbol for its name), full names on hover, one row per showcase, and the panel stays open if you leave it open.</li>
+<li><b>Much smaller notes reports</b>: each picture in an exported notes PDF is kept at the size it is printed (sharp in print and zoomed in on screen) instead of the whole 4K frame. A 7-page report that was 295 MB is now about 2 MB.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1855.zip" length="79967338" type="application/octet-stream" sparkle:edSignature="uk/DRLfdDoip7pGEjjyHK/lLP8UzFJCmQeIsAkW894KTlflwth+CD/g2cHrHMGr4Fm7hhj1ta84wGFan0N+pAw=="/>
@@ -93,32 +118,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1852-1843.delta" sparkle:deltaFrom="1843" length="1723798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yNupEz1T0Z2cQoHBOJPYE+w4nLLd4sFdpATybqwvqHZnAozkgq/WS7gdKB93XF+U5/Cjwmk3pOvJC5PTHA5JAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1852-1840.delta" sparkle:deltaFrom="1840" length="1817918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fBH+KoWD6RyewoZvrlhLeX+cNd6uReP8xZ/0JV+CI3FZmNkubJdtwDfGBjLPb/fYWAHZfckZml9DLZaAdWbvBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1852-1837.delta" sparkle:deltaFrom="1837" length="1941194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AYnqW47rPckntx7l34UaGRqcnWwF5edm7yI55HRQyzVDAUfP9w5KJ86ksVYYqgxSrDcW1feTYAH+14sRaM/5BQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 26 Oct 2026 15:12:49 -0700</pubDate>
-            <sparkle:version>1849</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1849)</h2>
-<ul>
-<li><b>Fixed: Fit to Window and Zoom 100%</b> are separate again. Where a picture&#8217;s fit was close to 100% (a 1920 picture on a 1920 screen), both were checked and 100% snapped back to fit at the next resize. Now the view stays at the zoom you chose, re-fits only when Fit is chosen, and the View menu checks one or the other.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1849.zip" length="79960898" type="application/octet-stream" sparkle:edSignature="TLPlKud9wLc/YA8mRwPdWOuIm8X5cnlLfLTm4DveQJNJXWA0FuwKcA1iSdXFYsjeADl1V553zMok81MyzaiIDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1849-1846.delta" sparkle:deltaFrom="1846" length="1352278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7O4WOcxpmJi/mbE8DOhUec+85ueVTNod2jt9Bl+oFbdWVP+S/D4nqk5qNX9X/hwxX05JCVYwzz6BTtBgmC5lDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1849-1843.delta" sparkle:deltaFrom="1843" length="1605806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bOrredAsbGeAsBmcGHfDwP4OBFw46XkKkNu0gsEtaaL6dIO64tBUu8UM0e5jXZYZ6K1JKr+3hrg0O74+g37CCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1849-1840.delta" sparkle:deltaFrom="1840" length="1763926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AOqTqAI+BIjIpPfhRQVYSBj9lU2v+zY7ZrdtM8zNl1NrlplCxXmJ7fb6MstjErWenzp8WHfmARaqM05dC1DcDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1849-1837.delta" sparkle:deltaFrom="1837" length="1896902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tcTwpjZ812tSa6dEYs1vsRiWEpfJEVMRzATXkx3Gh7R3jI+YBDIO9KiQwXEzKFGlmvoN75nDgBLQPF+cwYNgDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1849-1833.delta" sparkle:deltaFrom="1833" length="1963394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b6oyygizd6LuG1ObQqws+tAsr7sN01fBUAVbzR0kcZw9XzINCtlYAXn7CYWr7S95F8dLB8otAYwONKopiji8Dg=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 28 Oct 2026 13:04:50 -0700</pubDate>
-            <sparkle:version>1891</sparkle:version>
+            <pubDate>Wed, 28 Oct 2026 13:52:18 -0700</pubDate>
+            <sparkle:version>1894</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1891) <span class="when">Oct 28, 2026</span></h2>
+<h2>Asobi 1.0 (build 1894) <span class="when">Oct 28, 2026</span></h2>
+<ul>
+<li><b>Fixed:</b> several folders dropped together added only the last one's pictures. They are now searched together, with one Cancel, and a new drop no longer stops one that is still being added.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1891) <span class="when">Oct 28, 2026</span></h3>
 <ul>
 <li><b>Drop any folder:</b> Asobi searches it, and every folder inside it, for movies, image sequences and single pictures. A folder of stills used to be refused. When a picture is there as an EXR and a PNG, JPEG or TIFF, the display copy plays and the EXR is its source.</li>
 <li><b>Cancel:</b> while a folder is searched and added, its progress shows with a Cancel button. Cancelling takes back what it added.</li>
 <li>Progress and messages now sit under the title strip instead of at the foot of the picture, where the control bar covered them.</li>
 <li><b>Fixed:</b> two different pictures in one folder no longer open as a two-frame sequence, and a folder dropped on the Playlist panel is no longer refused.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1888) <span class="when">Oct 28, 2026</span></h3>
 <ul>
 <li><b>Compare with Plates in someone else's review:</b> a guest can now pair comps with their plates too. The plates are yours alone: they appear only in your playlist, and the wipe stays on your screen. You keep following the review, and see each comp against its plate whenever the review is on it. Before, a guest only got a note saying the host had to do it.</li>
@@ -60,9 +64,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>See clips on their way to a live review</b>: a clip added to a review that is shared to the web shows its encode and upload on its playlist row (Waiting, Encoding 34%, Uploading 80%), with a bar. Everyone in the review sees it: other Macs list the clip, dimmed, until it arrives, and the web page shows the same bar in its playlist and on the Playlist button.</li>
 <li>A one-frame clip reads “1 frame”, not “1 frames”.</li>
 </ul>
-<h3>1.0 (build 1861) <span class="when">Oct 27, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1894.zip" length="82064530" type="application/octet-stream" sparkle:edSignature="pKBNxI0IKddq5fiXfH05lrauEusZdgmU5hte0fyfeixmcGgKRNZ2HYfY4o4u7HOfKULGCHJqD0brJ/+WYwLVBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1894-1891.delta" sparkle:deltaFrom="1891" length="1337182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2XN5gUYej4t5bGXkYCcFKClGcU1POniKjTVl3ZzVVkAxuKI5H/jO3GrZArbeUaLvVRkTt6pZYfClZPOlvXi5CQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1894-1888.delta" sparkle:deltaFrom="1888" length="2168794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4KA70M6j3CRnK1IGu8vutz/2GWrGz5AOqa66RYW/cc8y8wILi/mLO7aPg1iN6T38kECyR2jFJx3t2eMJvTErCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1894-1885.delta" sparkle:deltaFrom="1885" length="2244502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uB4es9yS/7Nq8AROt4sIfpwJbkuFOUmGW5a2XUV9N8FQ6+owvEWu+iDSbuihp7kpxvki+vPdzmuCPb4zFyeCBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1894-1882.delta" sparkle:deltaFrom="1882" length="2393530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v16gdxMW1NB0tvn9aIOJFbSF5du6x39mfD9G/u+6F3dQxYsf5ADsiMp3evxsjge5t5DCFydIt2J560C2u1zaCQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1894-1875.delta" sparkle:deltaFrom="1875" length="4165334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zwtZ8Rmp4ej6M2ThdNMCg1ZTxRxl8dEakkCTDcha2zLe/7B7Djq6+aQgWETZrqILUatKomezrrjRprGZ4zZOAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 28 Oct 2026 13:04:50 -0700</pubDate>
+            <sparkle:version>1891</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1891)</h2>
 <ul>
-<li><b>Versioned stills stay stills</b>: a still named like <i>BOU_040_v004.png</i> opens as one picture, even with its earlier versions in the same folder. The version number was being read as a frame number, so the versions played as a short sequence and a shared review could fall out of step.</li>
+<li><b>Drop any folder:</b> Asobi searches it, and every folder inside it, for movies, image sequences and single pictures. A folder of stills used to be refused. When a picture is there as an EXR and a PNG, JPEG or TIFF, the display copy plays and the EXR is its source.</li>
+<li><b>Cancel:</b> while a folder is searched and added, its progress shows with a Cancel button. Cancelling takes back what it added.</li>
+<li>Progress and messages now sit under the title strip instead of at the foot of the picture, where the control bar covered them.</li>
+<li><b>Fixed:</b> two different pictures in one folder no longer open as a two-frame sequence, and a folder dropped on the Playlist panel is no longer refused.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1891.zip" length="82052671" type="application/octet-stream" sparkle:edSignature="k/OuGwYZCDaY53/uAo2fouoq7vj9iDpMcb91Avt8qTti6tykzhOWkEzg6+JveFL0sX/pCtqMimS1XMrbq+zVCA=="/>
@@ -98,33 +127,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1888-1875.delta" sparkle:deltaFrom="1875" length="3948562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Flh6fNLWcr1YErw9xZkKHhA+UMkL3PvpxO6N91lbokBjDv40Q9EOmJlnmN6qB2DFhev07J/LrF2bgVrTNQdRBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1888-1872.delta" sparkle:deltaFrom="1872" length="4002554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qW/vxFpqgPSULho48bFw5eeQhyO+9Vaya12bdJr6CPD4EZ94fD3TS9HvtBsC0/MGnZ1Gmrs5iG7V8rRurQGhCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1888-1866.delta" sparkle:deltaFrom="1866" length="5761426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EXxHPjHTxLr0paJfpzdv0r/eYxC+rq77/KvDhkz34EZsx7y07GXgeYcD/VCRczvgzjv/lyhZXYUWVGI0fCKgDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 28 Oct 2026 11:11:37 -0700</pubDate>
-            <sparkle:version>1885</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1885)</h2>
-<ul>
-<li><b>Fixed:</b> a live review with several Macs in it could get stuck re-sending the whole review to everyone several times a second. Playback stuttered, the picture jumped and menus wouldn't stay open. The host now brings newcomers up to date without setting that off. Hosts need this version; guests should update too.</li>
-<li>Menus and the window no longer wait on the keychain each time they redraw.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1885.zip" length="82022550" type="application/octet-stream" sparkle:edSignature="oPgGxnhA/gk0o7K8XM5K892G5UuFW+JUk0u/0n9HCuKsJ80lZzN1nRgZ/QDkBV1IOfUZDy0acSlvDvjOKo9LDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1882.delta" sparkle:deltaFrom="1882" length="1432838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Te/lkhj3I7b+IYtzC8O5YGsKALqbm8+m99kASq8zLH+p/UpUgCTDNrvgK7MQu4dpe/jIBWoKDg9h3ht+spX7Cg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1875.delta" sparkle:deltaFrom="1875" length="3940678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OLuvvVXNn8irTeLBvuxa6Ie3tE4us1XAsBk+/EDL8JwIetYpsay0hTEvXV1tog5p/+SMe3MywzXNxO6A/vgQCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1872.delta" sparkle:deltaFrom="1872" length="3995018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z3IggAaODLOXD1ExTDshEMQ8d9mgIiQbqossc206GhgOXY4aS4nc5CA2qMZ+cL/o+9WDlJNUKMwd17Cm3IxIDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1866.delta" sparkle:deltaFrom="1866" length="5747946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yF1ChRtOpnO9DvVxbDFee9J79yzO6tqNjpgC+d+1spkWUDDsCCQ7r8VEPoJeA3Pq+pcatmVvp9Erd2C6Me1wDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1861.delta" sparkle:deltaFrom="1861" length="5823342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TRXcORSFOPm6+KJ3uqrhsp5A3I9XY8FCjlbXf43R7RpRrbZGW9wFEdttvt7ZOrYho2/Nt1IulgFmOAVdjnc2Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>

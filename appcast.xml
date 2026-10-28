@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 28 Oct 2026 12:32:50 -0700</pubDate>
-            <sparkle:version>1888</sparkle:version>
+            <pubDate>Wed, 28 Oct 2026 13:04:50 -0700</pubDate>
+            <sparkle:version>1891</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1888) <span class="when">Oct 28, 2026</span></h2>
+<h2>Asobi 1.0 (build 1891) <span class="when">Oct 28, 2026</span></h2>
 <ul>
-<li><b>Compare with Plates in someone else's review:</b> a guest can now pair comps with their plates too. The plates are yours alone: they appear only in your playlist, and the wipe stays on your screen. You keep following the review, and see each comp against its plate whenever the review is on it. Before, a guest only got a note saying the host had to do it.</li>
+<li><b>Drop any folder:</b> Asobi searches it, and every folder inside it, for movies, image sequences and single pictures. A folder of stills used to be refused. When a picture is there as an EXR and a PNG, JPEG or TIFF, the display copy plays and the EXR is its source.</li>
+<li><b>Cancel:</b> while a folder is searched and added, its progress shows with a Cancel button. Cancelling takes back what it added.</li>
+<li>Progress and messages now sit under the title strip instead of at the foot of the picture, where the control bar covered them.</li>
+<li><b>Fixed:</b> two different pictures in one folder no longer open as a two-frame sequence, and a folder dropped on the Playlist panel is no longer refused.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1888) <span class="when">Oct 28, 2026</span></h3>
+<ul>
+<li><b>Compare with Plates in someone else's review:</b> a guest can now pair comps with their plates too. The plates are yours alone: they appear only in your playlist, and the wipe stays on your screen. You keep following the review, and see each comp against its plate whenever the review is on it. Before, a guest only got a note saying the host had to do it.</li>
+</ul>
 <h3>1.0 (build 1885) <span class="when">Oct 28, 2026</span></h3>
 <ul>
 <li><b>Fixed:</b> a live review with several Macs in it could get stuck re-sending the whole review to everyone several times a second. Playback stuttered, the picture jumped and menus wouldn't stay open. The host now brings newcomers up to date without setting that off. Hosts need this version; guests should update too.</li>
@@ -57,9 +64,31 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Versioned stills stay stills</b>: a still named like <i>BOU_040_v004.png</i> opens as one picture, even with its earlier versions in the same folder. The version number was being read as a frame number, so the versions played as a short sequence and a shared review could fall out of step.</li>
 </ul>
-<h3>1.0 (build 1858) <span class="when">Oct 27, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1891.zip" length="82052671" type="application/octet-stream" sparkle:edSignature="k/OuGwYZCDaY53/uAo2fouoq7vj9iDpMcb91Avt8qTti6tykzhOWkEzg6+JveFL0sX/pCtqMimS1XMrbq+zVCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1891-1888.delta" sparkle:deltaFrom="1888" length="2080634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lNHqcP41t03RJwJry3j7KfvHLJ8r2tG+ve81aeO8lmNcqd4Ccf3Onp4p0TJz1COTswGFCD2Sqnpvvn53LVubAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1891-1885.delta" sparkle:deltaFrom="1885" length="2190938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NVlBMKxx0e2tkZ0uKE36J+HesHObyk7cs4ia58OGRKmDEJuy5/VStLIpsG8ttXA7kQCCgvjuFLUrEqpoJ9rQAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1891-1882.delta" sparkle:deltaFrom="1882" length="2344958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TPxfAiKHQtKN/lVIQF7PmucK67cDPT+/fcBWDhruqIvegQgkOjG0hXmGnVRKcSTVMuziQMYBbDErPaVDMEgeAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1891-1875.delta" sparkle:deltaFrom="1875" length="4151370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NXXXfK/10Yy3ksUrCzrcG4teQSy6WHvMLtSagkMpEVfgG9jpGZ7RbFCPDMulRM+0NUhDgkKlDUZrl6wnpPR7DQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1891-1872.delta" sparkle:deltaFrom="1872" length="4204842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jK5vh/SoxJd5RDt+/XeahL+QWCItUIKOI6P4NBmqXPjDtyP11CFt/NU5vMAUQvi8k7rSDpiXLA8y2EjKVMqhBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 28 Oct 2026 12:32:50 -0700</pubDate>
+            <sparkle:version>1888</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1888)</h2>
 <ul>
-<li><b>Live Only in the Review Manager</b>: a switch under the filter, on by default, lists just the reviews still running. Beside it, how many ended ones are hidden; click that to show them all.</li>
+<li><b>Compare with Plates in someone else's review:</b> a guest can now pair comps with their plates too. The plates are yours alone: they appear only in your playlist, and the wipe stays on your screen. You keep following the review, and see each comp against its plate whenever the review is on it. Before, a guest only got a note saying the host had to do it.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1888.zip" length="82027077" type="application/octet-stream" sparkle:edSignature="uIHiuy9CrvAxyoCeYV6D9fN0TSk0uhnN/UjilllZTaZQY5dWjvoK0kvjJN1isguIk8NR43k+sMLoPkOOCJPEBQ=="/>
@@ -96,36 +125,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1872.delta" sparkle:deltaFrom="1872" length="3995018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z3IggAaODLOXD1ExTDshEMQ8d9mgIiQbqossc206GhgOXY4aS4nc5CA2qMZ+cL/o+9WDlJNUKMwd17Cm3IxIDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1866.delta" sparkle:deltaFrom="1866" length="5747946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yF1ChRtOpnO9DvVxbDFee9J79yzO6tqNjpgC+d+1spkWUDDsCCQ7r8VEPoJeA3Pq+pcatmVvp9Erd2C6Me1wDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1885-1861.delta" sparkle:deltaFrom="1861" length="5823342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TRXcORSFOPm6+KJ3uqrhsp5A3I9XY8FCjlbXf43R7RpRrbZGW9wFEdttvt7ZOrYho2/Nt1IulgFmOAVdjnc2Cg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 27 Oct 2026 18:19:16 -0700</pubDate>
-            <sparkle:version>1882</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1882)</h2>
-<ul>
-<li><b>Compare with Plates</b> (View ▸ Compare): every comp in the playlist against its shot's original plate, in a wipe, the plate under its comp. Clips from a Kitsu playlist take the plate movie from the shot's Plates task; clips from the shots folder take the plate's proxies, and zooming in shows the full-size plate. Right-click one comp for just that one.</li>
-<li>The plate row's right-click menu switches plate (PL01, PL02…), fits the plate to the comp's width (on by default) and centers it. Drag the small up and down handle above the wipe's handle to move the plate under a repositioned comp. Everyone in the review sees the same framing.</li>
-<li><b>Apply This Mode to All Pairs</b> (View ▸ Compare): every pair takes the mode on screen.</li>
-<li><b>Fixed:</b> Macs that joined a review on the studio network couldn't play clips they had no file for, such as a Kitsu playlist's previews ("isn't on this machine"), while browsers could. They now stream the same review copies. The host needs this version too.</li>
-<li><b>Fixed:</b> a paired Kitsu clip lost its pair when zooming in switched it to its source.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1882.zip" length="82017078" type="application/octet-stream" sparkle:edSignature="EVGk77JldpDZI+qTggdhTA+LRPIaekysEcH7wGWXCimdJoJTyjbV4wuzigzs4BfS4CTdkB/SQDLPwoKFweWaAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1882-1875.delta" sparkle:deltaFrom="1875" length="3938418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B9cZ3G0LVr+M9wkON62++X3U77etVul2xMyxIUJbiaCU6Qx6RAyLxnJyWmlABa0HfAPT0RRDsf+M6bMP/RMRCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1882-1872.delta" sparkle:deltaFrom="1872" length="3967698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="m1iEYQGgzvDOEczQvhpjEHR23tvPlZXHklOAMJTzFSvHf0eEpBEubrgfHxaNCSf1v0u40K3zrCo2aL8Pw1gMBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1882-1866.delta" sparkle:deltaFrom="1866" length="5741906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x8PKZbiCTwOY2KOJ6IBm6iRWb+uqm62WSBCniPv9jQ/Vsa/+1KwC0bJQs7YFtRQ72MxB1SvDw9LEfPUxJTzvBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1882-1861.delta" sparkle:deltaFrom="1861" length="5794942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kDcrgMyZgNHZUgbYjG21uAEKHqNzO75Dg5+FtHeScjNq1aUYYQuZHadZQxwG25476ZzOlWZM1HBiQcR2VB7IDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1882-1858.delta" sparkle:deltaFrom="1858" length="5785862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kCoNN8fOsSpATC2ViowtbFWLwtxFsEp8B5WHmZlz+M8liVmhVtSgb8hkQZVyhpc9Idj+Xp3iVIh6eVimOHEHAg=="/>
             </sparkle:deltas>
         </item>
     </channel>

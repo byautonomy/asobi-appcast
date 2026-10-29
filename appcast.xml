@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 28 Oct 2026 18:30:44 -0700</pubDate>
-            <sparkle:version>1917</sparkle:version>
+            <pubDate>Thu, 29 Oct 2026 10:54:08 -0700</pubDate>
+            <sparkle:version>1938</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,21 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1917) <span class="when">Oct 28, 2026</span></h2>
+<h2>Asobi 1.0 (build 1938) <span class="when">Oct 29, 2026</span></h2>
+<ul>
+<li><b>Remote control for AI assistants:</b> Settings ▸ Interface ▸ Remote control lets an assistant (Claude Code, Claude Desktop or any MCP client) work in Asobi on this Mac. It can review, reply to and resolve notes, write reports and movies, conform an updated edit, pull plates and read Kitsu. It never saves a session, and never deletes or replaces a file. Off until you turn it on.</li>
+<li><b>Notes to artists:</b> an assistant can group a review's notes by the artists assigned to each shot in Kitsu, and post each task its notes. Posting to Kitsu has its own switch, <b>Let them post to Kitsu</b>, off until you turn it on.</li>
+<li><b>Kento through Asobi:</b> with Kento's remote control on, the same assistant reaches Kento's tools too. It can put the shot on screen in a Kento comp as a Read, and bring a Kento render back to review beside the plate.</li>
+<li>During a live review an assistant can't change the window. The manual's new chapter 16 has the whole list.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1917) <span class="when">Oct 28, 2026</span></h3>
 <ul>
 <li><b>More than one presentation per project:</b> the menu under the Presentation panel's title lists the project's presentations. Switch between them, start a <b>New Presentation</b>, or <b>Duplicate This One</b> for a variation to send separately.</li>
 <li><b>Review Manager ▸ Presentations:</b> every presentation made on this Mac, by project, with its link (Copy, Open, the date it runs out) and every answer clients have sent.</li>
 <li>Making a new link no longer loses the old one: it's listed under Earlier Links, keeps working until it runs out, and its answers are still collected.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1910) <span class="when">Oct 28, 2026</span></h3>
 <ul>
 <li><b>Choosing online:</b> a link made for choosing now shows the layout you picked. Compare is a wipe the client drags across (or moves with the arrow keys), with a choice of what the first picture is set against; Grid shows each option as a card that opens all its pictures; Equal, Featured, Full page and Frames have their own arrangements.</li>
@@ -62,10 +69,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Compare with Plates in someone else's review:</b> a guest can now pair comps with their plates too. The plates are yours alone: they appear only in your playlist, and the wipe stays on your screen. You keep following the review, and see each comp against its plate whenever the review is on it. Before, a guest only got a note saying the host had to do it.</li>
 </ul>
-<h3>1.0 (build 1885) <span class="when">Oct 28, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1938.zip" length="83381940" type="application/octet-stream" sparkle:edSignature="GuBJI2aTUi3d5l2AuUpUgab10wGKXebvPNx1d+crN24aA3gL9srhi+XnYzxXp++sKzNJUJBJwiTLU+AS7tKVCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1938-1917.delta" sparkle:deltaFrom="1917" length="5769694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AuriD9/HMiCJ5H0STFBRimTtpyrw5TrfWyEurgqfyYDjPwHQUcAcA+u/xDHTNx1KgPJiPkNBvLSd8t1bXSyHBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1938-1910.delta" sparkle:deltaFrom="1910" length="6022514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fsjw2EzLXzQ5rcpx9l8UpUMoZMqoei8ghhz9sAZfrWIb1kjG6ERpKGxlpFqKk+y92CG/V3ssnCNhymStjQmoCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1938-1904.delta" sparkle:deltaFrom="1904" length="5995370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kEOOIvQVebOdaF3tPDSv1lPwKvSIM73p9DS3yU+CwwQddyRmD1V53s04k59R7BDSzPgSfoEc7CUgy9hlzUoVAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1938-1897.delta" sparkle:deltaFrom="1897" length="6507122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iMYxqA6xqJ+vGfNCJI3pVEngYJTAYE2EUeSWTHrj+rxTW9NoJR/xO20kWJ4P+MsYrFuw9pYJ28BUjDYgpNmyBg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1938-1894.delta" sparkle:deltaFrom="1894" length="6567786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nZ5llAE65NyF7LOjNGu7onDjbrUNDdjm4nHlBIFl+7EpzuRNRZu5UBPNagMZv0ctBg1lkXnYX8jnJjJTg6lICg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 28 Oct 2026 18:30:44 -0700</pubDate>
+            <sparkle:version>1917</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1917)</h2>
 <ul>
-<li><b>Fixed:</b> a live review with several Macs in it could get stuck re-sending the whole review to everyone several times a second. Playback stuttered, the picture jumped and menus wouldn't stay open. The host now brings newcomers up to date without setting that off. Hosts need this version; guests should update too.</li>
-<li>Menus and the window no longer wait on the keychain each time they redraw.</li>
+<li><b>More than one presentation per project:</b> the menu under the Presentation panel's title lists the project's presentations. Switch between them, start a <b>New Presentation</b>, or <b>Duplicate This One</b> for a variation to send separately.</li>
+<li><b>Review Manager ▸ Presentations:</b> every presentation made on this Mac, by project, with its link (Copy, Open, the date it runs out) and every answer clients have sent.</li>
+<li>Making a new link no longer loses the old one: it's listed under Earlier Links, keeps working until it runs out, and its answers are still collected.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1917.zip" length="82616806" type="application/octet-stream" sparkle:edSignature="TcnOKr+4A5coX0ebzXLefxAd8LCYqiWvsJLT815AY4R0FdH4x3yfmbqfIyUGhDp8q70NQ8GnF3fFTHigahSlCw=="/>
@@ -103,37 +133,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1910-1894.delta" sparkle:deltaFrom="1894" length="3074602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N07bAFbXLg5SSV37rDz9qL6B8/z/6hhNLCnLLwc1jdsGKXEWBXLJjHDe++7IE0uOQ1qJGnunm/2eTN9EEHrSBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1910-1891.delta" sparkle:deltaFrom="1891" length="3105290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/Q/DHDvmqLERQPA8J7HhFswHpD8lqO/dVUt8a7D5i2brft9jAxibxZr0f51oUE7rKfajSMCAQbuJIz2lUKkcAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1910-1888.delta" sparkle:deltaFrom="1888" length="3335658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uTjN+c5qfKdfWJhteljbzzVY2+nQ7H3JYc6gDxt/F/6bZjGdv0npL8Rn4bE/ip31bepm5ktHBOEnEutT0YFfCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 28 Oct 2026 16:05:12 -0700</pubDate>
-            <sparkle:version>1904</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1904)</h2>
-<ul>
-<li><b>Presentations</b> (File ▸ Export ▸ Presentation…): put material in front of a client to decide on, as a PDF in the reports' design. A panel of five steps beside the document itself, drawn live.</li>
-<li>Material from the playlist or a folder. Movies and sequences give their middle frame, start, middle and end (as one strip or separately), every Nth frame, or the frame on screen; a clip can have its own rule.</li>
-<li>What is compared with what is yours: pictures start grouped by name, then make a new option from a selection, drag pictures between options, split, merge, take out, tick, rename, reorder.</li>
-<li>Layouts: Featured, Equal, Grid, Full page, Frames and Compare. Any picture can also have a page of its own. Letter or A4, either orientation, a cover, captions, file names, dark pages, and room for the client's answer.</li>
-<li><b>Choosing online:</b> Make a Link for Choosing puts the options on a web page where the client picks one and adds a note. The answer comes back to the panel, marked on the option.</li>
-<li>The Contact Sheet window's PDF is now the Presentation panel.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1904.zip" length="82501516" type="application/octet-stream" sparkle:edSignature="vIBXIWYRU7Vg2KyZWO0aNbIhZYPh8qeIHqEdgXO8abVpbaw4XINj0cTMpDSltRJwZKvKsH4c5B2wi+zdnPhnAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1904-1897.delta" sparkle:deltaFrom="1897" length="2990526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iRY06vkbUu9vjLrzq4CuyGDkuuDk0sNklghHzEnO7t9z2h/CQSVwMHZEjo2WSURPQnc3diUgGK0U/WejJgiiDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1904-1894.delta" sparkle:deltaFrom="1894" length="3060770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LRAY7H3qVGo6nlHXClQs4Uo0KboynMNohO0hIh8PcUGivwxsWgSgFdWK6rnIgXkqBB6GyEmxQIBnHMilijlEDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1904-1891.delta" sparkle:deltaFrom="1891" length="3128594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sHL8Fq2rmEuJHuuTFUfUzioJQ2IVkqWc+An6mWR5ko1GNARbJJF0EPwkFSOLQnHk0G3b3gpJspUXy33MMpnvDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1904-1888.delta" sparkle:deltaFrom="1888" length="3339078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9+yiIeqUxc4r4zRkVV3QMCJIw0QcFP8ecxUYmffqcSYQa2R2NhWat8UciEED8gP2ibjgUUIM+zvLNiyXLrhZAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1904-1885.delta" sparkle:deltaFrom="1885" length="3355722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kPX47mU9l8pYhFvpeSJeKwoThCKBj0NRxky2toh6aLFBksR8T1LphmzkOSvhEs68r6VT7TVvyzkrjoSM+AIgCQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

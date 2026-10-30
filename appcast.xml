@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 29 Oct 2026 15:17:25 -0700</pubDate>
-            <sparkle:version>1960</sparkle:version>
+            <pubDate>Thu, 29 Oct 2026 21:45:10 -0700</pubDate>
+            <sparkle:version>1963</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 1960) <span class="when">Oct 29, 2026</span></h2>
+<h2>Asobi 1.0 (build 1963) <span class="when">Oct 29, 2026</span></h2>
+<ul>
+<li><b>Kura Hub through Asobi's remote control:</b> an assistant connected to Asobi now reaches Kura Hub too, through the Hub's own tools, while the Hub's remote control is on. Hub commands that post still need the Hub's own Let them post switch.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 1960) <span class="when">Oct 29, 2026</span></h3>
 <ul>
 <li><b>Answers at a glance:</b> Review Manager ▸ Presentations now shows a tally once two or more people have answered: how many chose each option, and how many chose it first.</li>
 <li><b>A person's choices together:</b> each answer shows the person once, their choices in order (first choice, second choice) with the note on each. When someone sends again, the earlier answer is marked as replaced and only the newest counts.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1954) <span class="when">Oct 29, 2026</span></h3>
 <ul>
 <li><b>Answers you won't miss:</b> when a client chooses on a presentation, a card appears under the title of every review window (who chose what, their note, Open and Dismiss), with a Mac notification and a count on the Dock icon until someone opens it.</li>
@@ -67,9 +71,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Choosing online:</b> Make a Link for Choosing puts the options on a web page where the client picks one and adds a note. The answer comes back to the panel, marked on the option.</li>
 <li>The Contact Sheet window's PDF is now the Presentation panel.</li>
 </ul>
-<h3>1.0 (build 1897) <span class="when">Oct 28, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1963.zip" length="83626418" type="application/octet-stream" sparkle:edSignature="qkxlgfCYOR/A8PF1EUuHkuDYzTl8O9SWZ9ZiWA5JD6wUcC04mUSZDC4LGFx/o8YbWE8sqPinSzmHHIJ3Xw1zBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1963-1960.delta" sparkle:deltaFrom="1960" length="1471302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L31lPgnc6Xj7UyzjM48WpnbXHa/d3ro/45jFt0ESIXdRUIQnCZjuyO6TadVV6QjZL07WIHkhBUpoxjHKvoNBDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1963-1954.delta" sparkle:deltaFrom="1954" length="1989046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i9JzhjjEcOzaj6V8mBQsNL2nA/1cxEbgrEaGAvZ8PWSRAdiPa/IyrFFcDgnJQzRD/Jf3+AVD23AP12JwK+jlAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1963-1945.delta" sparkle:deltaFrom="1945" length="2807182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P7kQPBi8Fm8YSxl8S8jkorP5dkPu4NBq4nUSzdw9DKmVjDfCH++KIGTeXw6iL/RQElX4o6qZn+5B1xdeRmbLCQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1963-1938.delta" sparkle:deltaFrom="1938" length="2969738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="F2WQNTyaJD28p8vpRW+2ZvO68a7OXg23mQMaKesID2Jjo3uD6hY9B1HrW6xFAXoQo1mYnpcScC/UZzGFG4gJCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1963-1917.delta" sparkle:deltaFrom="1917" length="6275990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kkZ08vnSz2zScxgFSoxq+BmafpYrOAmWO43GZvqSPw8TFdgyPCjr1uCbyaBf7DyIm1q3GFjKWf/HvOhIpgVGCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 29 Oct 2026 15:17:25 -0700</pubDate>
+            <sparkle:version>1960</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+<h2>Asobi 1.0 (build 1960)</h2>
 <ul>
-<li><b>Contact sheet as a PDF:</b> File ▸ Export ▸ Contact Sheet… can write design options as a PDF for a client, in the reports' design. Pictures whose names have the most in common make one option. A cover shows every option side by side, then each option has its page: its main picture large, its variants beside it, with captions you set once.</li>
+<li><b>Answers at a glance:</b> Review Manager ▸ Presentations now shows a tally once two or more people have answered: how many chose each option, and how many chose it first.</li>
+<li><b>A person's choices together:</b> each answer shows the person once, their choices in order (first choice, second choice) with the note on each. When someone sends again, the earlier answer is marked as replaced and only the newest counts.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1960.zip" length="83620791" type="application/octet-stream" sparkle:edSignature="GrBk63iXX3VRur/QVAWzYs7X5eWKLEfKd5C+1avqplzryY5/RztavokBHfP2MY22kJFSnLa0P9ZFolTeEZd/CQ=="/>
@@ -107,34 +134,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1954-1917.delta" sparkle:deltaFrom="1917" length="6166990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8awO7XIzMpcPWcFnprO9DF9UnMiGxIIiKKkB6roXQDfhR8XBhKcWCSDaPCJl4Sh396WEI+qcHFKbqgJwLzRnCQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1954-1910.delta" sparkle:deltaFrom="1910" length="6384726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="APLG9TNS6fsEUsCElRZ5f2nQNO96KrL4Rxkyll2dtp/00VLlej/DMTD8Znm0P3giDPn1WkJGB1uL+j31c0OzDA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1954-1904.delta" sparkle:deltaFrom="1904" length="6376314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N+U6JuqsgtW680PngkepKnf1SXhXy4r/Ox1oLyUGH+JVFTjM8pD1Vce2dz4vio97fO8fChb6l4wS4YzCl8HXBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 29 Oct 2026 12:39:32 -0700</pubDate>
-            <sparkle:version>1945</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-<h2>Asobi 1.0 (build 1945)</h2>
-<ul>
-<li><b>Each review window has its own panels:</b> Playlist, Notes, Comments, Grade and the rest show only their own window's session, sit just above their window, and go with it when it is minimized or closed. With several windows open, a panel's title says whose it is.</li>
-<li><b>Choosing more than one option:</b> on a presentation link, clients can choose several options in order of preference and write a note on each. Review Manager ▸ Presentations shows each answer as their first choice, second choice, and so on.</li>
-<li><b>Assistants can use every control:</b> through remote control, an AI assistant can now use the whole transport (loops, ping-pong, speed, audio), every color control, the View menu, and draw on the frame (lines, arrows, shapes and text), as well as the other menu commands while Asobi is the front app.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1945.zip" length="83453487" type="application/octet-stream" sparkle:edSignature="vta5mDH3V3241fSZ9vLn03xX73gq0S57NxvR6LLSkdjFAGwNLaFIPEUI9NwRueOQN3kNAU6gGmAPK4b4o7lSAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1945-1938.delta" sparkle:deltaFrom="1938" length="2469890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FDr8grHBwcsUAGoLm+lemsoCyIq1wnbqzsR9YtKKodd/tfa2ObJDYSIuJy/Vo2l0bWN5pX3R4th9+4393RCLBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1945-1917.delta" sparkle:deltaFrom="1917" length="5910186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c7hmw6dWnJj9bZ8AMydjgFcWoT+ZvX0aIqqsKv2tvwyX1NUG1YSTXd6Ylyu8eBpMLDDJ+tvDvgEN0oFyL/zEBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1945-1910.delta" sparkle:deltaFrom="1910" length="6156662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z3BuQLblAUcveWGLy4HTTL0pBVJn09j89q8UikAv+cD/jmAFoR6LOfrFIp1kRe7Bhcxp6ltCOwmBDJKM1MDLCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1945-1904.delta" sparkle:deltaFrom="1904" length="6151850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XliHasvq0OOL4dV5Qz1Qhbkbt8wiXLhBeuVhtRz+pxXfBj8VDKmbq+8okfZYdjkY+ug/JIDiywzbteoF3cIeCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1945-1897.delta" sparkle:deltaFrom="1897" length="6619858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fd+/g4uf+PSrL4Q7m2g5h2l5kvpO7E9IlDyKa0M0anQqgZ+uNRJHViDgOV1GVl0Uq1aCYHoFDK/zKF7hZGvTBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

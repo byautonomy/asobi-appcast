@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 30 Oct 2026 19:39:12 -0700</pubDate>
-            <sparkle:version>2002</sparkle:version>
+            <pubDate>Sun, 01 Nov 2026 15:43:20 -0800</pubDate>
+            <sparkle:version>2031</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,24 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2002) <span class="when">Oct 30, 2026</span></h2>
+<h2>Asobi 1.0 (build 2031) <span class="when">Nov 1, 2026</span></h2>
+<ul>
+<li><b>A conformed movie, shot by shot.</b> Conform ▸ Shots in a Movie finds the cuts in a client's conform QuickTime, or takes them from a cut file, and lays the movie out as a playlist of its shots. In the timeline a cut movie is one hatched violet band, with the current shot lit.</li>
+<li><b>Match Shots to Kitsu.</b> Each shot's middle frame sits beside its Kitsu shot's preview, with a progress bar while it matches. Click a row to jump to that shot and check the match, then Apply to name the shots as in Kitsu.</li>
+<li><b>Progress card in the Notes tab.</b> A matched shot shows its percentage, brief and progress notes. Type or dictate a note, pick its day, set the percentage: it goes to the shot's Tracker in Kura Hub.</li>
+<li><b>Progress Report (PDF).</b> File ▸ Export ▸ Progress Report: the shots in cut order with pictures, percentages and the latest progress notes, laid out as Kura Hub's report.</li>
+<li><b>Movie with Progress Notes.</b> File ▸ Export ▸ Movies: the cut with each shot's name and progress notes burned in as subtitles, across the shot or held on its first frame.</li>
+<li><b>Frame.io.</b> Review ▸ Frame.io…: link the movie already on Frame.io (or upload it), post your Asobi notes and each shot's progress at their frames, and bring the client's comments back as notes. Nothing is posted twice. Comments post as Peter King until you Sign In as Yourself, which needs the studio's Frame.io admin to add your Adobe ID first.</li>
+<li><b>Notes stay on their frame</b> when shots are cut or joined, and note ticks sit right on trimmed clips.</li>
+<li><b>Update Kura Hub to 1.6.55 or later.</b> An older Kura Hub with a Tracker open can overwrite progress notes and percentages Asobi adds, the next time someone edits that shot there.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2002) <span class="when">Oct 30, 2026</span></h3>
 <ul>
 <li><b>Both ACES looks in the View menu.</b> On an ACES 1.3 config, the ACES 2.0 views appear beside ACES 1.0 - SDR Video; on an ACES 2.0 config, the ACES 1.x views appear beside the 2.0 ones. Switching looks is picking the other view, on the same picture and display.</li>
 <li><b>Open PDF Manual is always in the manual's sidebar</b>, with the Tutorials or Reviewer Guide PDF under it when that book is open.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 1998) <span class="when">Oct 30, 2026</span></h3>
 <ul>
 <li><b>The manual's showcase pictures</b> show the showcase page as it is now, and the conform and sharing chapters use example job names throughout.</li>
@@ -60,11 +71,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Everyone named hears about it:</b> the presentation's maker and the project team's studio people get the same card on their own Asobi, an email if nobody has opened it within 15 minutes, and a push on a studio iPhone that has turned it on (Studio settings ▸ Answers to presentations).</li>
 <li><b>Assistants:</b> every remote-control action is now also a named command (commands, command help, run), the same way Kento's work, so one assistant drives both apps alike.</li>
 </ul>
-<h3>1.0 (build 1945) <span class="when">Oct 29, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2031.zip" length="93821104" type="application/octet-stream" sparkle:edSignature="tGF8V+YKjKYcXsNHlCFezW31TkB59gLO1pm3BEM/pHpdqEXVW9OzHlhKALjd1X++uHAOcsvVf8SbOxy2XgAeDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-2002.delta" sparkle:deltaFrom="2002" length="14577514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3nVXDIOV3fx9fbDLKUPyunkz6/dNBJbomw26PoEKNjhBD+6gr7D+y72/pqB6eyA0iJrfcUfSxd8uyym1k03/CQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1998.delta" sparkle:deltaFrom="1998" length="14814390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cQzzPTJQsfKcXE1IUq5qfWUrkzEKRyt0UZ2u+tpYTXSvdJ71KNOlGVqABEMoT2BcTJkAcaoFL6tcuyAohoXJBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1992.delta" sparkle:deltaFrom="1992" length="15528582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P9f7buj7kJnG0HJIYuMg9ToC6E85jU2pCi9ASHmEi3HOVhr7fy6FZdxTt6Qky/n3Rq5D5UzaU9hy6YS2ATfXCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1966.delta" sparkle:deltaFrom="1966" length="23719866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kenSYlMQ3KTOrOo3EHkAvsqz4DY5yBGx/8qYfbZj/zGedPO4kWLCkzyRFZJEiNLjhsV4ZX4pH3imSBkVKEUGDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1963.delta" sparkle:deltaFrom="1963" length="23709854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NeK9eoh6GN61E2udqa1FZsraoVyJBFQ9pdsPWUu/lcDbukNKqRrEb5p8hy7w5eqtqSiEkOrAMXLdQbuH/v1kCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 30 Oct 2026 19:39:12 -0700</pubDate>
+            <sparkle:version>2002</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2002)</h2>
 <ul>
-<li><b>Each review window has its own panels:</b> Playlist, Notes, Comments, Grade and the rest show only their own window's session, sit just above their window, and go with it when it is minimized or closed. With several windows open, a panel's title says whose it is.</li>
-<li><b>Choosing more than one option:</b> on a presentation link, clients can choose several options in order of preference and write a note on each. Review Manager ▸ Presentations shows each answer as their first choice, second choice, and so on.</li>
-<li><b>Assistants can use every control:</b> through remote control, an AI assistant can now use the whole transport (loops, ping-pong, speed, audio), every color control, the View menu, and draw on the frame (lines, arrows, shapes and text), as well as the other menu commands while Asobi is the front app.</li>
+<li><b>Both ACES looks in the View menu.</b> On an ACES 1.3 config, the ACES 2.0 views appear beside ACES 1.0 - SDR Video; on an ACES 2.0 config, the ACES 1.x views appear beside the 2.0 ones. Switching looks is picking the other view, on the same picture and display.</li>
+<li><b>Open PDF Manual is always in the manual's sidebar</b>, with the Tutorials or Reviewer Guide PDF under it when that book is open.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2002.zip" length="84617479" type="application/octet-stream" sparkle:edSignature="nPreEk15V6Iy4uJHJRSnTAxeNTvEX9uN7bfm1wwvwd7ltaEsEY2yIvLhnNphlQTKzaOKAAN9xXx5niuuFbWpBA=="/>
@@ -101,39 +134,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1998-1963.delta" sparkle:deltaFrom="1963" length="11634918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WP7/wuUcvMzokHmzi08Ud54JGkYhjY5vBhmSLnUCTQLwntPeR9ZcxeCwTDL4YNXBVYaphE7pwZIYwHcXvAYoAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1998-1960.delta" sparkle:deltaFrom="1960" length="11627474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bm1QJqvC9kuaLhtU+EUDM6DSR1pYj062vBCoBYAfNBYQ0w0/Y5DSc4kzFDqJ721BI8vprT/ThJXqMEMfJVr5Dg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1998-1954.delta" sparkle:deltaFrom="1954" length="11841574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Me7+bTNQawvMa1FPJjXUnIsjLaGDm4GUPdlMcsexYrzgrj0HvJVSm47xjRGgFXu7UNA5rhW6inHym6PY4WUeBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 30 Oct 2026 10:28:07 -0700</pubDate>
-            <sparkle:version>1992</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 1992)</h2>
-<ul>
-<li><b>A redesigned review window.</b> A title bar above the picture and one docked control bar below it, so nothing sits on the picture. Every control is an icon over its name; Loop and Speed are pop-ups that read as their value.</li>
-<li><b>One Sidebar.</b> Notes, Playlist and Grade are tabs of one panel beside the picture, opened and closed by the bar's Sidebar button. Every window opens with it showing Notes. A tab can pop out into its own window, combine with others in one window, and dock back: useful with a second monitor.</li>
-<li><b>A real timeline.</b> Each clip is a named block under the picture, stills wide enough to click, with its notes and one playhead. The film strip can sit in the timeline, be sized by its handle, or have a window of its own.</li>
-<li><b>Menus by job.</b> Notes and Conform have menus of their own, Kitsu lives under Review, recording the session is under Notes, and Command-? opens the manual.</li>
-<li><b>Drawing tools appear when you draw</b> (P, or the bar's Drawing button), so the picture stays clear the rest of the time.</li>
-<li><b>Clearer loop glyphs:</b> Ping-pong is now a single double-headed arrow.</li>
-<li><b>The manual</b> is updated throughout, with new figures.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.1992.zip" length="84490240" type="application/octet-stream" sparkle:edSignature="z+xjkhq2rhuWV3HePCXCUFEYt6meJ49wKFgHeejzmBEYtI6o+sni8FhNG/BpZP758/6L+vm8zLH+yDAljXPvCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1992-1966.delta" sparkle:deltaFrom="1966" length="11085746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YBOtH7+0Z1VHYE6rEpshP4sCCYXHCdwwXll68KJT3Dq2D5sygKIPl9X/W3bfqOOCzThx05VY/CUpQncMZolCDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1992-1963.delta" sparkle:deltaFrom="1963" length="11091014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u4pX9D5VQesr+r7XgBQa4guLl7FbwXg2yJ03TUJupooU+B20MYBI8idpl9fZgcR5yga39PATJjpIqhTCXCg3BA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1992-1960.delta" sparkle:deltaFrom="1960" length="11085826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YqCMnzb9bmClEsmhXNW2kkky+rVDhkLS+57eAyPa8Vk9dkVrv2yymWQxtPXrKTRuuEGTg7aIzWFQH3nDX8xvBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1992-1954.delta" sparkle:deltaFrom="1954" length="11308034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bUtNrBEVX2+0I+6/1O9AScZiRXsl8iLu4scVnV3EUE7qzv9s/DiDn2igzN81BFgiodPUIsqGJ+TRHi3gN8kHCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi1992-1945.delta" sparkle:deltaFrom="1945" length="11553426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qks/SZ9dUeihZj8ZbEQcvvo++27cHtukl4vWEMnG6vj77mFQnuS1urLqdo6Aii5TVYZabjqTRzexvGWiY2sXBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

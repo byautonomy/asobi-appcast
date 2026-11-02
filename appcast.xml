@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 02 Nov 2026 07:57:09 -0800</pubDate>
-            <sparkle:version>2048</sparkle:version>
+            <pubDate>Mon, 02 Nov 2026 09:10:14 -0800</pubDate>
+            <sparkle:version>2057</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,21 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2048) <span class="when">Nov 2, 2026</span></h2>
+<h2>Asobi 1.0 (build 2057) <span class="when">Nov 2, 2026</span></h2>
+<ul>
+<li><b>Movies with Notes Held.</b> File ▸ Export ▸ Movies ▸ Movies with Notes Held…: a movie cut into shots goes out whole, as its conform, with each shot's name burned in and every note held on its frame, with its marks, long enough to read. Other clips come out one movie each, or choose one movie per clip.</li>
+<li><b>Typed notes can hold in any movie export</b>, as voice notes already did, with their replies on screen.</li>
+<li><b>Match Shots works on the movie you're on.</b> With several cut movies in one playlist it used to match all their shots against one sequence.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2048) <span class="when">Nov 2, 2026</span></h3>
 <ul>
 <li><b>A cut movie plays straight through.</b> Playing across a movie cut into shots no longer stops at every cut: the movie stays open and the shot changes as the playhead reaches it.</li>
 <li><b>Clients see it the same way.</b> In a live review the web page plays a cut movie from one stream, in step with you, and draws it as the violet hatched band: the current shot lit, a movie header in the Playlist tab, and "shot 3 of 26" in the title on a phone.</li>
 <li><b>Trimmed clips sound right on the page.</b> A trimmed clip's sound and waveform are now its own part of the file, not the file's start.</li>
 <li><b>Shots cut by hand are numbered</b> (Shot 001, Shot 002) instead of named "movie (2)".</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2039) <span class="when">Nov 2, 2026</span></h3>
 <ul>
 <li><b>Trimmed clips show clients the right frame.</b> In a live review, a client on the web page or on Asobi Review now sees the frame you're on for a trimmed clip or a shot of a cut movie. Before, they saw a frame off by the trim's start, and their notes and marks could land outside the clip.</li>
@@ -69,9 +75,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Who's in a live review:</b> the remote control's window list now says who else is in a window's live review. A window with a shared link up counts as live even when nobody is in the room, and now it says so.</li>
 </ul>
-<h3>1.0 (build 1963) <span class="when">Oct 29, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2057.zip" length="93972689" type="application/octet-stream" sparkle:edSignature="/eUh6jLzm/75mIHRtuvECtJK+59fzM2VEYBSYfRC/pxIchrpjr7MJz7xCKzVkb0idMQ9pPyVABx6YYviEbIuDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2057-2048.delta" sparkle:deltaFrom="2048" length="2353146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8LJYeBxUubmd286A+/a0S3YWYs5ZLLqofzXDDny+ZI72vbDyPClYmieRbrJ0QEKWnXhJ7HpBH+BhkTowfi+NCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2057-2039.delta" sparkle:deltaFrom="2039" length="2441158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PfcyjL0yKCC69fNjbkqxAr9DNoFmskC4E9HjzJuIBQmuxAARC5Myra8X/i0YvpbFVyO1zARoD2k+11ii0+A0DQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2057-2031.delta" sparkle:deltaFrom="2031" length="2594778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/hxUO8sNwxt1J1gf1hr1OFg2e31RXV5NxjfucWlZuNOxkRDAt65YVSWWU2zTC6N7f6MnkptyV8TxBw4YysEvDA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2057-2002.delta" sparkle:deltaFrom="2002" length="14792994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UOCXCWrfgkTmHdcqM22yK3VJ5gSwM1z6qSiCNDC6aHTv6i/n+PbNtaRe9AXs0tfk8tpF+H+drgTez/CaYBs0BQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2057-1998.delta" sparkle:deltaFrom="1998" length="15036250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bd1kMgEgB5IOBCv/BxNzuyVLpY1lBEliz/Ph6F3Zjn9WDbUnI8hiJ2f2PMGaHIM6OI1KBcJSnJqOxgIpaDsABg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 02 Nov 2026 07:57:09 -0800</pubDate>
+            <sparkle:version>2048</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2048)</h2>
 <ul>
-<li><b>Kura Hub through Asobi's remote control:</b> an assistant connected to Asobi now reaches Kura Hub too, through the Hub's own tools, while the Hub's remote control is on. Hub commands that post still need the Hub's own Let them post switch.</li>
+<li><b>A cut movie plays straight through.</b> Playing across a movie cut into shots no longer stops at every cut: the movie stays open and the shot changes as the playhead reaches it.</li>
+<li><b>Clients see it the same way.</b> In a live review the web page plays a cut movie from one stream, in step with you, and draws it as the violet hatched band: the current shot lit, a movie header in the Playlist tab, and "shot 3 of 26" in the title on a phone.</li>
+<li><b>Trimmed clips sound right on the page.</b> A trimmed clip's sound and waveform are now its own part of the file, not the file's start.</li>
+<li><b>Shots cut by hand are numbered</b> (Shot 001, Shot 002) instead of named "movie (2)".</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2048.zip" length="93875371" type="application/octet-stream" sparkle:edSignature="XeOFMsHE4fWfsKCIPZpeia7A44UMNEsjQ43qDEYCwQnQEXmZaT40OFcPZPjeX4af2IgCAOcCH8aDTPDWoQUFAg=="/>
@@ -110,40 +142,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2039-1998.delta" sparkle:deltaFrom="1998" length="14877746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8uzE1qhqe2tHXNkGqZbXbQ7wHfJnIPMuioFKJDre9KlveTYavb/dFIXZR8uojtswrDAYwPuzth1PYUlPafE0BQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2039-1992.delta" sparkle:deltaFrom="1992" length="15599582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hS0z4z5fif8x5ZoFsRdh3VUzsrhIOwdgnJT8D9X3oRxPaDFYunSmAqs+UoIB3jkB9KxIJ9tGKUkQuO0zcxfSDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2039-1966.delta" sparkle:deltaFrom="1966" length="23763214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+pkf6SObgS9PVHvga9CPuJs7GgA6o1YsTedZrlqGRo2jddCILzbYfC2xAx/GuDk+riBHNHj4nogYs8Cb3+EACA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Sun, 01 Nov 2026 15:43:20 -0800</pubDate>
-            <sparkle:version>2031</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2031)</h2>
-<ul>
-<li><b>A conformed movie, shot by shot.</b> Conform ▸ Shots in a Movie finds the cuts in a client's conform QuickTime, or takes them from a cut file, and lays the movie out as a playlist of its shots. In the timeline a cut movie is one hatched violet band, with the current shot lit.</li>
-<li><b>Match Shots to Kitsu.</b> Each shot's middle frame sits beside its Kitsu shot's preview, with a progress bar while it matches. Click a row to jump to that shot and check the match, then Apply to name the shots as in Kitsu.</li>
-<li><b>Progress card in the Notes tab.</b> A matched shot shows its percentage, brief and progress notes. Type or dictate a note, pick its day, set the percentage: it goes to the shot's Tracker in Kura Hub.</li>
-<li><b>Progress Report (PDF).</b> File ▸ Export ▸ Progress Report: the shots in cut order with pictures, percentages and the latest progress notes, laid out as Kura Hub's report.</li>
-<li><b>Movie with Progress Notes.</b> File ▸ Export ▸ Movies: the cut with each shot's name and progress notes burned in as subtitles, across the shot or held on its first frame.</li>
-<li><b>Frame.io.</b> Review ▸ Frame.io…: link the movie already on Frame.io (or upload it), post your Asobi notes and each shot's progress at their frames, and bring the client's comments back as notes. Nothing is posted twice. Comments post as Peter King until you Sign In as Yourself, which needs the studio's Frame.io admin to add your Adobe ID first.</li>
-<li><b>Notes stay on their frame</b> when shots are cut or joined, and note ticks sit right on trimmed clips.</li>
-<li><b>Update Kura Hub to 1.6.55 or later.</b> An older Kura Hub with a Tracker open can overwrite progress notes and percentages Asobi adds, the next time someone edits that shot there.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2031.zip" length="93821104" type="application/octet-stream" sparkle:edSignature="tGF8V+YKjKYcXsNHlCFezW31TkB59gLO1pm3BEM/pHpdqEXVW9OzHlhKALjd1X++uHAOcsvVf8SbOxy2XgAeDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-2002.delta" sparkle:deltaFrom="2002" length="14577514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3nVXDIOV3fx9fbDLKUPyunkz6/dNBJbomw26PoEKNjhBD+6gr7D+y72/pqB6eyA0iJrfcUfSxd8uyym1k03/CQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1998.delta" sparkle:deltaFrom="1998" length="14814390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cQzzPTJQsfKcXE1IUq5qfWUrkzEKRyt0UZ2u+tpYTXSvdJ71KNOlGVqABEMoT2BcTJkAcaoFL6tcuyAohoXJBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1992.delta" sparkle:deltaFrom="1992" length="15528582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P9f7buj7kJnG0HJIYuMg9ToC6E85jU2pCi9ASHmEi3HOVhr7fy6FZdxTt6Qky/n3Rq5D5UzaU9hy6YS2ATfXCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1966.delta" sparkle:deltaFrom="1966" length="23719866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kenSYlMQ3KTOrOo3EHkAvsqz4DY5yBGx/8qYfbZj/zGedPO4kWLCkzyRFZJEiNLjhsV4ZX4pH3imSBkVKEUGDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2031-1963.delta" sparkle:deltaFrom="1963" length="23709854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NeK9eoh6GN61E2udqa1FZsraoVyJBFQ9pdsPWUu/lcDbukNKqRrEb5p8hy7w5eqtqSiEkOrAMXLdQbuH/v1kCA=="/>
             </sparkle:deltas>
         </item>
     </channel>

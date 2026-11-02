@@ -4,8 +4,8 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
-            <pubDate>Sun, 01 Nov 2026 15:47:39 -0800</pubDate>
-            <sparkle:version>2031</sparkle:version>
+            <pubDate>Mon, 02 Nov 2026 06:27:38 -0800</pubDate>
+            <sparkle:version>2039</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi Review 1.0 (build 2031) <span class="when">Nov 1, 2026</span></h2>
+<h2>Asobi Review 1.0 (build 2039) <span class="when">Nov 2, 2026</span></h2>
 <ul>
-<li><b>Note ticks sit on the right frame</b> on trimmed clips, and loading a new playlist no longer keeps the previous clip's notes on screen.</li>
+<li><b>Right frame in a live review.</b> On a trimmed clip or a shot of a cut movie, you now see the frame the host is on, and your notes and marks land where you made them.</li>
+<li><b>Joining on the right frame.</b> Joining a review in progress takes you to the frame the room is on, with earlier notes and marks in place.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2031) <span class="when">Nov 1, 2026</span></h3>
+<ul>
+<li><b>Note ticks sit on the right frame</b> on trimmed clips, and loading a new playlist no longer keeps the previous clip's notes on screen.</li>
+</ul>
 <h3>1.0 (build 2002) <span class="when">Oct 30, 2026</span></h3>
 <ul>
 <li><b>Both ACES looks in the View menu:</b> ACES 1.x and ACES 2.0 views side by side, whichever ACES config is in use.</li>
@@ -53,9 +58,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li>Small improvements.</li>
 </ul>
-<h3>1.0 (build 1954) <span class="when">Oct 29, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.2039.zip" length="72155977" type="application/octet-stream" sparkle:edSignature="JSrmhKu03yBdKh3fP25S2uzaEVF3+wyCLvV6SnfvFh1xlqs8OjpcF1N0IZQnVsoDPgABy/Ke/voY5qT9GYZGBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2039-2031.delta" sparkle:deltaFrom="2031" length="2009278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NzmBCUqx1TvitTZ8PJI9Qw2jz+1USou067MqAsBs2NqyxTE1I6lw6mn6EzVSgdUr3IJagM7N2kwbcBVowfcKCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2039-2002.delta" sparkle:deltaFrom="2002" length="14641774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tH4YtoBHqE+Dq/sBA1E/enRb55ez4uMwUgP1msPjd41EGY+Rc2hYQQnVbEKxSL09XQVWSp5CLMMAhq9l3FSTDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2039-1998.delta" sparkle:deltaFrom="1998" length="14890770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WpHQ26BlFvevvK54RNhD8GKgAoN46Dncd5Mevrerp47ep0hDmopmpJV82K3KZXD7wXFScr/+xHY4vcVzxwBDBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2039-1992.delta" sparkle:deltaFrom="1992" length="15581198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gzglxMMlJqNNwLoSEEfkpMoJxMQoDZ5aKP1Dofone02VwqIJQbxZGkzCa9C1wjK4GTAx4MtDZfwtGcm2ol8ADQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2039-1966.delta" sparkle:deltaFrom="1966" length="23320002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5rLdnta0nlMFc9s0OEmSBLoCj+GNB2+xRL2gAMghbP0XCUn6ygEU6VR6CT+oVLcJLabik4bV1mw7y1wFCHrIBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sun, 01 Nov 2026 15:47:39 -0800</pubDate>
+            <sparkle:version>2031</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi Review 1.0 (build 2031)</h2>
 <ul>
-<li>Small improvements.</li>
+<li><b>Note ticks sit on the right frame</b> on trimmed clips, and loading a new playlist no longer keeps the previous clip's notes on screen.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.2031.zip" length="72148368" type="application/octet-stream" sparkle:edSignature="cqtGQmTN3NxSzGs84LlyDZRUxCMufyb06yBR7bOM36LXM9vtvocCZeKb3aP9mSJP2hOhkGTysbMzFYisNAbtAQ=="/>
@@ -92,33 +120,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2002-1966.delta" sparkle:deltaFrom="1966" length="11203674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MDVn+NgxG/XhWzYjeniMUi7eijbZZuYHMUxEg3XvHb0Ssg9i2OuOaZwyagfpZEQ+adz69/KOEdHqNVkkWzzYCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2002-1963.delta" sparkle:deltaFrom="1963" length="11225986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/kIy+vMToSxYXUNiutagl1gvRbT0MfJ90DT5fDQT9H/KSMsxHMY/ygkSQ6k3XPFTcsRcOXkz2pqvRBunWRjZCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2002-1960.delta" sparkle:deltaFrom="1960" length="11230038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="095ZaRB8f3t5hLOgu3RBxJR3matnkhikrG+Wx7rJl0sOoonlfsx39zh57wDsNfu9NPkXYkiT3WiXynG1B/XgBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 30 Oct 2026 12:59:38 -0700</pubDate>
-            <sparkle:version>1998</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi Review 1.0 (build 1998)</h2>
-<ul>
-<li>Small improvements to the guide.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.1998.zip" length="62936223" type="application/octet-stream" sparkle:edSignature="vGJ9ytWSJ7udidRbKDFnZG2n5gdnEPJPp84ayxd3AmOclIhicULiyxkxVidj6o6texXf1MKSahzuSGtmjEKRAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1998-1992.delta" sparkle:deltaFrom="1992" length="754914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4/+SRvlv2w3WLYdaOlGcQC9QIoNJWncvOXuuJuPVvJdeLwpv+uMBLS2oSZOftTBIKHG2trySssYKXq6/tum3Dg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1998-1966.delta" sparkle:deltaFrom="1966" length="11177906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n2lOc6/dzuitkm+UCSeCeaGJJCpDmZlO9wJKJqGtfrk0ZrDlS3Gj+HCZ7J8LyLWui8slJEQfez94C9M/67DxAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1998-1963.delta" sparkle:deltaFrom="1963" length="11193154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k/YRl35jNaVJB5h9f4T+dRzRJajDa1FS7l1lQBLVJhza9ly1Qa/7/A845R5gTh4aWtU09Pse0orjuAAXDuI6DA=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1998-1960.delta" sparkle:deltaFrom="1960" length="11165670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VnFdKclpc8zBfGQOummpzFdB5fQFzQqPFuK4LBTbrU14x5ZFyX8HTZG84C4mz3mcvT9s0JuNvjs6Wp4Li4YEDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review1998-1954.delta" sparkle:deltaFrom="1954" length="11405210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X+USLr55znTbjReX37ScijOeV4R1LJqwC3ojDwuYpZ2nd6OnUi3q7be3BsZnO7gdPD1UriY4iqV8T2V3tvXiCw=="/>
             </sparkle:deltas>
         </item>
     </channel>

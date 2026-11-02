@@ -4,8 +4,8 @@
         <title>Asobi Review</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 02 Nov 2026 15:03:28 -0800</pubDate>
-            <sparkle:version>2089</sparkle:version>
+            <pubDate>Mon, 02 Nov 2026 15:49:30 -0800</pubDate>
+            <sparkle:version>2093</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,12 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi Review 1.0 (build 2089) <span class="when">Nov 2, 2026</span></h2>
+<h2>Asobi Review 1.0 (build 2093) <span class="when">Nov 2, 2026</span></h2>
 <ul>
-<li><b>Every shot of a long cut movie fits in the strip:</b> the last few shots no longer sit past the window's edge.</li>
+<li><b>Every comment of a cut movie in one list:</b> the Notes tab's Whole movie lists every shot's comments; click a timecode to go there.</li>
+<li>Comment subtitles are in the bar's Show menu too.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2089) <span class="when">Nov 2, 2026</span></h3>
+<ul>
+<li><b>Every shot of a long cut movie fits in the strip:</b> the last few shots no longer sit past the window's edge.</li>
+</ul>
 <h3>1.0 (build 2086) <span class="when">Nov 2, 2026</span></h3>
 <ul>
 <li><b>Comments as subtitles:</b> press U, or use Subtitles in the bar, to show each note over the picture as it plays. Show ▸ Comment Subtitles ▸ Position puts them in any of nine places.</li>
@@ -56,9 +61,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Right frame in a live review.</b> On a trimmed clip or a shot of a cut movie, you now see the frame the host is on, and your notes and marks land where you made them.</li>
 <li><b>Joining on the right frame.</b> Joining a review in progress takes you to the frame the room is on, with earlier notes and marks in place.</li>
 </ul>
-<h3>1.0 (build 2031) <span class="when">Nov 1, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.2093.zip" length="72555667" type="application/octet-stream" sparkle:edSignature="jTDs9kUZ+5lNQzKYL5/G21nVuuaxh8J9CrfbCJ6NnH9vlaib8UreKnnvA17CCbmEEuiUsUT9u5uwjjxibRwnAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2093-2089.delta" sparkle:deltaFrom="2089" length="2406858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="I3DQl9nwrXJts2/ZiUbpCKygXdYhnXcRsHCS4YZHIRG+xcv2fdP7Il/Mejq5nQnccyYRpeJkQ/JHt1l4HVAOAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2093-2086.delta" sparkle:deltaFrom="2086" length="2384394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qWhWuahQmMxx3r/WowQ6StNbzU77tNVCl7NgozNCILm5Bp3FS0DewOvW6HGe2sfcTIad6MtQP54zOLgfPuj1Cw=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2093-2079.delta" sparkle:deltaFrom="2079" length="2615050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ACoBsgL6B4kMR9SQ1TzbiKE9EP32NZpSmCwA9SKDEeiPH1fABqFYOO95iYzFt5BLoEJbPj3kcWllV2rgE75qAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2093-2060.delta" sparkle:deltaFrom="2060" length="7075018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RxzkjEcx5e11yIw58J4e0sbZjZ5hvBXwPg6d6XClomBdghCXyrGVHBf0hW26VRv5IVciPxnTs0MT7bXwGiVfCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2093-2057.delta" sparkle:deltaFrom="2057" length="7069486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ExNnCCfjTMfYko+5IKfB9WnDG1QY/Nf9NSW2jsK9dX1+pVifrYx4Fso9YhZlFVoXnGFgGJxd2VCQZABHe+16BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 02 Nov 2026 15:03:28 -0800</pubDate>
+            <sparkle:version>2089</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi Review 1.0 (build 2089)</h2>
 <ul>
-<li><b>Note ticks sit on the right frame</b> on trimmed clips, and loading a new playlist no longer keeps the previous clip's notes on screen.</li>
+<li><b>Every shot of a long cut movie fits in the strip:</b> the last few shots no longer sit past the window's edge.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.2089.zip" length="72476544" type="application/octet-stream" sparkle:edSignature="++gREFEFN2wsasg/ruqhZ9v/YMP5feBMhGk1Rp+TBZFj1SkOsEGyCd5uMB+v374bdtu7LlxEjUc3L9ToPz7wDw=="/>
@@ -96,36 +124,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2086-2057.delta" sparkle:deltaFrom="2057" length="6915270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8h1OQdI3C/X8mRn9lqaNiKv2JZB3nXmYFvBmvhKAc8YeoVpnMY1wVn1/KYPgLxRnDMPG5mjYAF+/HQ2lOnwUBg=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2086-2048.delta" sparkle:deltaFrom="2048" length="7023478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GUn/UXeAoUQOvm/Acv8CDZswQRPEWql6j0jFge/FJHrgF42TXEsER1kylFtBHlr010DqXMOUOxCRaciNNKnABg=="/>
                 <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2086-2039.delta" sparkle:deltaFrom="2039" length="7118374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="59nK356rerlmvHNaQd1uQWP48IVAiXzKztszvU6F4p2Y+4wOeBb9rKTXtxT+pOuOBn1Swh0WlherVLOLD61ZBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 02 Nov 2026 13:05:44 -0800</pubDate>
-            <sparkle:version>2079</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi Review 1.0 (build 2060)</h2>
-<h2>Asobi Review 1.0 (build 2079)</h2>
-<ul>
-<li><b>Reviews of a cut movie, shot by shot:</b> you see the host's shots in the host's order, following them at their frame, from the movie or its review copy fetched once.</li>
-<li><b>Every note is there when you join,</b> on every clip, not only the one the host is on.</li>
-<li><b>Click from comment to comment</b> in the clip strip: a clip opens on its first note, the next click goes to the next.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/review/AsobiReview-1.0.2079.zip" length="72438668" type="application/octet-stream" sparkle:edSignature="D85VqbL42lTDf73DJ017YrMZCkBB5/xxM69FzcNXelmrcPLJRYxA5ExtlVVhGHcCHi/rS4NE88on9vmbPEhlAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2079-2060.delta" sparkle:deltaFrom="2060" length="6752022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hiUaF/0ahoQePNc8pzqjY9JSt9ciLY/03RywjxECa2ib5DFUUOT/tbOB8hzEislSZjxeSWGxHevr5Tb/02trCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2079-2057.delta" sparkle:deltaFrom="2057" length="6765558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rB0ewO9JD/6CO/2zOeMia85HX/98qMTmaK1i4FThUcqnBxb2ux+QXFLr9W6XxE1zkN0yW2SUZExSIcAHGuoHDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2079-2048.delta" sparkle:deltaFrom="2048" length="6897874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3gaF9jnT/FLTS4NPpRIbl2XCJSAMlRq7ph/sl0YtiI21OpdVf2NZMkiIT4LphtpVfPCxf2+cTHDP4q1Ko9R5BQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2079-2039.delta" sparkle:deltaFrom="2039" length="6957182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CU47QSuNzqv94carg4397SnLkJnLmFHvg2fT5Cfqioruuedvz/TkC2wAtpbZxgfIAYifSDsPxhzBxGiKBQ2tAg=="/>
-                <enclosure url="https://review.byautonomy.com/download/review/Asobi%20Review2079-2031.delta" sparkle:deltaFrom="2031" length="7007690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0qAZz4TdkdaJFutulV/RHMDEojSryyxDNg9PAe9DmkqknfKr7SN2jxPy+0I8JwZ+kbeEibmmdj5kyo9vT19nBA=="/>
             </sparkle:deltas>
         </item>
     </channel>

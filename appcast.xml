@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 02 Nov 2026 14:42:32 -0800</pubDate>
-            <sparkle:version>2086</sparkle:version>
+            <pubDate>Mon, 02 Nov 2026 14:59:43 -0800</pubDate>
+            <sparkle:version>2089</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,18 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2086) <span class="when">Nov 2, 2026</span></h2>
+<h2>Asobi 1.0 (build 2089) <span class="when">Nov 2, 2026</span></h2>
+<ul>
+<li><b>Every shot of a long cut movie fits in the strip.</b> With many short shots, the strip could run past the window, hiding the last few shots of the last movie; they could only be reached with the arrow keys.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2086) <span class="when">Nov 2, 2026</span></h3>
 <ul>
 <li><b>Comments as subtitles.</b> Press U, or use Subtitles in the bar, to show each note over the picture as it plays: the author's name, then the words, held long enough to read. Notes on the same frame show together; resolved notes don't show. Off until you turn it on. Show ▸ Comment Subtitles ▸ Position puts them in any of nine places.</li>
 <li><b>Lighter web links for a cut movie.</b> Shots no longer get review copies of their own: the page, guest Macs and the phone play the movie's one stream, so sharing takes seconds, not one encode per shot.</li>
 <li>Guests who join a web link made with this build need Asobi 1.0 (2079) or later on their Mac.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2079) <span class="when">Nov 2, 2026</span></h3>
 <h2>Asobi 1.0 (build 2079)</h2>
 <ul>
@@ -73,10 +77,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Notes stay on their frame</b> when shots are cut or joined, and note ticks sit right on trimmed clips.</li>
 <li><b>Update Kura Hub to 1.6.55 or later.</b> An older Kura Hub with a Tracker open can overwrite progress notes and percentages Asobi adds, the next time someone edits that shot there.</li>
 </ul>
-<h3>1.0 (build 2002) <span class="when">Oct 30, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2089.zip" length="94149283" type="application/octet-stream" sparkle:edSignature="cECf6PmYt8tZQ6z6aQp7ZyKhSn8s2RqFK6IVWdPsv5tcrNxzG3xdQIIl6FtVsO65WhY1NfREcuCbDKsMimnYCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2089-2086.delta" sparkle:deltaFrom="2086" length="694202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aCrwODaxZd5z4IHoJ9lLbglDtfExKvHdwgarEJiQcWDouPMaYDMVScEpqpy2tVi0wFxbMWWGETCR2IQxfAYTAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2089-2079.delta" sparkle:deltaFrom="2079" length="2356010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DATpUWljA/jm0RwLSEebMm6mEEuPN9+7KKh6rAoDpRkjFeZ3I9yalryQ54MIYfgRKaMKNwC6XYvKgACWFvoQAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2089-2060.delta" sparkle:deltaFrom="2060" length="6926050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HekzE2wuchPjDAbkYsxd1sCTDx/2VPk690r12Mghyz3cJYMTc6H3n6GzqdkAmhJtBTZEgUA5os1/GoXkzku1Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2089-2057.delta" sparkle:deltaFrom="2057" length="6919686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6kv4wsZTmPJSuSZ/sbrbp4evgXbq1x2XASJz64Lh6WNxd9Z2QQ1mcN1meqbsotUuo7Jc7TnyVZ3H8pjC3OR1DQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2089-2048.delta" sparkle:deltaFrom="2048" length="7047674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sWgp+S/FaOo9rNtQaV9zPFPBKTZRZW9bpIG6o0fwnhTetvZP9nTSKAPwJzm+btyIdlw0jRUUMW99zetJf4BCDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 02 Nov 2026 14:42:32 -0800</pubDate>
+            <sparkle:version>2086</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2086)</h2>
 <ul>
-<li><b>Both ACES looks in the View menu.</b> On an ACES 1.3 config, the ACES 2.0 views appear beside ACES 1.0 - SDR Video; on an ACES 2.0 config, the ACES 1.x views appear beside the 2.0 ones. Switching looks is picking the other view, on the same picture and display.</li>
-<li><b>Open PDF Manual is always in the manual's sidebar</b>, with the Tutorials or Reviewer Guide PDF under it when that book is open.</li>
+<li><b>Comments as subtitles.</b> Press U, or use Subtitles in the bar, to show each note over the picture as it plays: the author's name, then the words, held long enough to read. Notes on the same frame show together; resolved notes don't show. Off until you turn it on. Show ▸ Comment Subtitles ▸ Position puts them in any of nine places.</li>
+<li><b>Lighter web links for a cut movie.</b> Shots no longer get review copies of their own: the page, guest Macs and the phone play the movie's one stream, so sharing takes seconds, not one encode per shot.</li>
+<li>Guests who join a web link made with this build need Asobi 1.0 (2079) or later on their Mac.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2086.zip" length="94149647" type="application/octet-stream" sparkle:edSignature="IY4mqrsTxXFRBWUZT4QCAq3MqwLSeUV5/1Lme/4Y/+pAMVNu9PxsnUII8EgiblhSmfM6ed/o+b3LEvXjEEm7Ag=="/>
@@ -120,33 +148,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2079-2048.delta" sparkle:deltaFrom="2048" length="6908074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t/43Cqc9F3YIh1oTBHy084S51IlCSdp+cRRCK6JK8HiOsNpxqadJMhm5c3gBQzM8bbDjP7uYXcqq84xDCrAADA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2079-2039.delta" sparkle:deltaFrom="2039" length="6964498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6XJCwAa/6mwHKvYDPzd+FrInFQyUnyJOGqx+4kVA74WsFTJLOqpFqww7DRLVFHaEhcoYowOQXV6kVe2wOvYRCw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2079-2031.delta" sparkle:deltaFrom="2031" length="7012078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZQ6W/pSR5Ah0lE86RqnwEtyCu/+U6XeEMbh/+KAgavJOutgzgBBNmhJed+qdW9+IxVJPFhTR8Cm3zyKvFNPcCA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 02 Nov 2026 09:32:30 -0800</pubDate>
-            <sparkle:version>2060</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2060)</h2>
-<ul>
-<li><b>See where the notes are on every shot.</b> The clip strip above the timeline shows each clip's notes (yellow ticks along the foot) and marked frames (white ticks along the top) on every clip, not only the one on screen, so a cut movie's band gives the whole picture at a glance.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2060.zip" length="93974819" type="application/octet-stream" sparkle:edSignature="aNB5CYv2df+VnwQVFdF0OhAVqVBdFQjG814uTgDcLy/PCqOe5spksVINBhusdYpOatjcNewOGggcSbl4+aqDBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2060-2057.delta" sparkle:deltaFrom="2057" length="1241794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="npfh+UMia52aweDVOboHqUtitV8zinwCPEGXuUqRic8W2x/mO+WJcnlvmtBqudhU2T/pacgLcKYnBPaS+JbYCg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2060-2048.delta" sparkle:deltaFrom="2048" length="2290158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hg9vw7/4hC2CF2P87O3VxHt3EUcO2v0CQYi2g6+2cvFUG9fB80auky1EjPwxnQp+wpxtZFiGxJPmoijQvBWkBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2060-2039.delta" sparkle:deltaFrom="2039" length="2402806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nm24Kn2EkcItfjx34Ip4oylzhPbsjSP9oFxnerdHN5DeUXOh3B1DFrfCzqTlCBPS7UT/YskMR/sI5U5FIly5Aw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2060-2031.delta" sparkle:deltaFrom="2031" length="2610146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DpOXWzwZPUDIWH46kD0yJeAtad5N94Bu9JigJepMrhMLDcWrM5312EHjMXwPaMN7JQeXmTXdllroW9+j2g8zCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2060-2002.delta" sparkle:deltaFrom="2002" length="14768378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="I1Yo187ahLahvuOaj7cuL7XpdTxELoE4VpOnAiFjpVKUBCdfXTH5wyLORh1Mzz+mm5qrWN88FDP7fyaWU6xECQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

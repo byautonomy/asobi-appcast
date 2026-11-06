@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Thu, 05 Nov 2026 13:44:17 -0800</pubDate>
-            <sparkle:version>2152</sparkle:version>
+            <pubDate>Thu, 05 Nov 2026 20:07:32 -0800</pubDate>
+            <sparkle:version>2162</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,7 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2152) <span class="when">Nov 5, 2026</span></h2>
+<h2>Asobi 1.0 (build 2162) <span class="when">Nov 5, 2026</span></h2>
+<ul>
+<li><b>Progress notes in the Notes column.</b> A new Progress view lists a movie's or a Kitsu playlist's shots with their progress notes, filtered by submission date, so the last round reads at a glance and today's goes in beside it. Notes can be edited in place. They are the Kura Hub Shot Tracker's progress notes.</li>
+<li><b>Review notes into progress notes.</b> Right-click a note ▸ Add to Progress Notes, or Send All to Progress Notes… from the Notes header. Settings ▸ Interface can send notes you type on a Kitsu shot straight to its progress notes (on by default).</li>
+<li><b>Match one shot's color to another.</b> Right-click a shot ▸ Match to, or a movie's header ▸ Match Every Shot to another cut: each shot is fitted to the same shot in the other cut, lined up in time, with no conform. Matches are kept with the shot in 03_SHOTS.</li>
+<li><b>Generate LUTs</b> for a shot or every shot (right-click, or the Color menu): each shot's match as its own .cube, with an index.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2152) <span class="when">Nov 5, 2026</span></h3>
 <ul>
 <li><b>Report a problem from Asobi.</b> Help ▸ Report a Problem… sends a report or a suggestion to the studio's bug tracker, with pictures (grab Asobi's window or a panel, paste or drop one, and mark it up), a voice note, or a short recording of what you did. Help ▸ My Reports shows each one's status and the reply. A report that can't be sent waits and goes later.</li>
 <li><b>Drop clips into someone else's review.</b> Dropped on the playlist (or Review ▸ Add Clips to the Review…), they go straight into the review for everyone.</li>
@@ -28,8 +37,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Resync.</b> Catch Up with the Room is now Review ▸ Resync. The host has Review ▸ Resync Viewers, and the web link has its own Resync button.</li>
 <li><b>Compare with Plate in someone else's review</b> now shows for everyone.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2140) <span class="when">Nov 5, 2026</span></h3>
 <ul>
 <li><b>Catch Up with the Room.</b> In someone else's review, Review ▸ Catch Up with the Room (or a right-click on the Live chip) takes you to the host's clip and frame at once, with any clips added since you joined.</li>
@@ -62,11 +69,36 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Kitsu gets each note once.</b> While you host, notes go to Kitsu only if Kitsu doesn't already have them. Notes sent from an earlier link of the same session, or pasted into Kitsu by hand, aren't sent again.</li>
 </ul>
-<h3>1.0 (build 2102) <span class="when">Nov 2, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2162.zip" length="96458017" type="application/octet-stream" sparkle:edSignature="5uOZxjha3o2GgtQGnePULwgE8BuesSAky4vQK/u+Qg2qQCjpx1aCnU1KZf/NO3TrKwdnhZVMHpXa4cZ3LRcCBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2152.delta" sparkle:deltaFrom="2152" length="7366854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xD0emE9qPq+h6Upq77QPMXr2YqbGLhMGJCePa8Pfg1uWcgOAZy4lPKaz6XpeY6ZS5MmE5f00D+Kv5/WAfrWxAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2140.delta" sparkle:deltaFrom="2140" length="8300982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y16pwKr4oReAWWI8aP7SEPDBpSuUZZIwGSCFv1ltzaXDXtIfnRlYdLdLmzvjSvhYP0p/HVxGmc4L8Izg5cqNDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2136.delta" sparkle:deltaFrom="2136" length="8314446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7QH/TLdcSEb7a8lRAQVN2aYAmC/UaVZOuP0rgfZOQiNT1panU9xI1PklatKOyTg3u/kb9jB8elnb/GNDzgCnDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2132.delta" sparkle:deltaFrom="2132" length="8306438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9Ddrr9NhUL3JTO8pYqAVoBqIMtWlLRdSPFi28I6SM4w6oRzBtLzxrWjguyXJu831TTuiWehhRi3zawr6a8/VDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2128.delta" sparkle:deltaFrom="2128" length="9028938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OLGwM5g6fMzaf3G5iFgLH3vCHDAKFLwhg8K2EodbBirKSFTnjhW5JIu5da+psKnvvJ9paCdF6picwp/R0TNWDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 05 Nov 2026 13:44:17 -0800</pubDate>
+            <sparkle:version>2152</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2152)</h2>
 <ul>
-<li><b>Notes on a conform's shots go to Kitsu.</b> A shot matched to Kitsu now sends its notes to the shot's Compositing task, live while you host a review and with Review ▸ Kitsu ▸ Publish. Each comment names the movie, its timecode and the frame within the shot. Comments brought in from Frame.io stay out.</li>
-<li><b>Comment subtitles for everyone.</b> While hosting, Review ▸ Comment Subtitles for Everyone (or the Show menu's Comment subtitles) turns them on for every Mac, page and phone in the room, at your position unless someone chose their own. Turning it off, or leaving, puts them back.</li>
-<li><b>Fixed:</b> joining a review of cut movies could show "Proxy stream failed… Cannot Open". A guest now waits for the host's copy of the movie, tries again, and says why if it can't get it.</li>
+<li><b>Report a problem from Asobi.</b> Help ▸ Report a Problem… sends a report or a suggestion to the studio's bug tracker, with pictures (grab Asobi's window or a panel, paste or drop one, and mark it up), a voice note, or a short recording of what you did. Help ▸ My Reports shows each one's status and the reply. A report that can't be sent waits and goes later.</li>
+<li><b>Drop clips into someone else's review.</b> Dropped on the playlist (or Review ▸ Add Clips to the Review…), they go straight into the review for everyone.</li>
+<li><b>New clips reach everyone fast.</b> Studio Macs open the original within seconds. Macs elsewhere and the web link wait for the clip's review copy, saying how far along it is, and go to it when it's ready.</li>
+<li><b>Resync.</b> Catch Up with the Room is now Review ▸ Resync. The host has Review ▸ Resync Viewers, and the web link has its own Resync button.</li>
+<li><b>Compare with Plate in someone else's review</b> now shows for everyone.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2152.zip" length="96076707" type="application/octet-stream" sparkle:edSignature="BVXvlAzhgFHFbNr0S5KTD2TDvQYD+gEf/vcVpdITdkzzHZCghp3bAMOIWUynScIbr/LoK71rjetZBdlZKI0RBw=="/>
@@ -106,33 +138,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2140-2128.delta" sparkle:deltaFrom="2128" length="7732426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BmAyD7UNzy4n3oToVdYTVorDT7cS75JyIzJC8OfrmFQEWW1GCuCQiJOxYXZDMlds8V/aRA+tEZn/JBKfUUrYAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2140-2107.delta" sparkle:deltaFrom="2107" length="8628142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g9NMBgP56/a4OvLobeioKOV6491D4ZQKKE1sxKFu+5vCt5vDAOVhQqEEXdjaYGgPA4MEXoTCiLGWapKIDH8UAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2140-2104.delta" sparkle:deltaFrom="2104" length="8607810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H9n/5rtSVLc+4JIegVOtN0zsJJppJF8vSIR/d1FD58m0eBRQFNIoEa/em820LtPKPDEh0VGe6wbOeJC768CoBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 04 Nov 2026 17:17:23 -0800</pubDate>
-            <sparkle:version>2136</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2136)</h2>
-<ul>
-<li><b>Kitsu playlists play the version they name.</b> A shot with the same version number on two tasks, such as a generative v006 and a comp v006, could play the one downloaded first. Each task's versions now keep their own file, and their name says the task.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2136.zip" length="95573674" type="application/octet-stream" sparkle:edSignature="4hQBfb+qTlvrIdm9aEsbC8FfAWQn9cqDPuURqhDDk3MGVFsEPS4AL2WzdmweyKs5yve9THqPFT0I+dc9Pe6vDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2136-2132.delta" sparkle:deltaFrom="2132" length="3569002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="duOzcqQ1MTk77z4NOWOLPOvZ0SiRhvZ851FVI15tPp9/Juygtcc7Lgyn1Yb/WeWXbx+ZvgMUlW8u9QRvOKt+Cw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2136-2128.delta" sparkle:deltaFrom="2128" length="5685334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LCAf5SYaH+6ODwaO2AXpCF5V7wzGPcFJ+iIsNOmJrBRbmT6roZ3oufVFOob2PWHLBBLKadZtexpajfdKxMyVDA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2136-2107.delta" sparkle:deltaFrom="2107" length="8153526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i/XpUlBeXXf2kTd3FUCLWO8dcr3lq4D6l8asl7tsDGA36Oy8JaC6i5MrDKG4AJ2WDCA6plKt2S78vVoHPuiDBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2136-2104.delta" sparkle:deltaFrom="2104" length="8172190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DeA4VUefI7J73lJ2gAY6l7LN1TRZHboN/kQiASyK0GYRUBE3S4G+mG3KC0PojLk43/uILhIOb0+5RTKjp20rDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2136-2102.delta" sparkle:deltaFrom="2102" length="8159818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2tEpDE+KmY81JGeHCqPafErTq2b4pFJWXDrZiqxqeNatAxZOgLGAGufL8hhBcjdWKPsfyVOkXa3FnU6agK6aCA=="/>
             </sparkle:deltas>
         </item>
     </channel>

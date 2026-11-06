@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 06 Nov 2026 12:06:08 -0800</pubDate>
-            <sparkle:version>2165</sparkle:version>
+            <pubDate>Fri, 06 Nov 2026 13:49:51 -0800</pubDate>
+            <sparkle:version>2172</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,13 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2165) <span class="when">Nov 6, 2026</span></h2>
+<h2>Asobi 1.0 (build 2172) <span class="when">Nov 6, 2026</span></h2>
+<ul>
+<li><b>Color, Media and Conform, sorted by the job.</b> Each menu groups what you're doing under a small heading (Color: Grade, Match the color, Versions, LUTs and CDLs; Conform: Bring in a cut, Edit the shots, Edit Ref, Send it out, Plates), and every command has one home. The Playlist's right-click menus follow the same groups.</li>
+<li><b>Set Kitsu Shot.</b> Which Kitsu shot a shot is (it was Match Shots to Kitsu), from a shot's right-click or Conform ▸ Edit the shots. "Match" now always means color: Match Color to ▸.</li>
+<li><b>One Split at Playhead, one Join with Next Shot,</b> for any shot, whether it came from a cut file or a movie.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2165) <span class="when">Nov 6, 2026</span></h3>
 <ul>
 <li><b>LUTs carry a shot's whole color.</b> Generate LUTs now bakes each shot's grade, looks and match together, for every shot with a correction or a match. The index says what each holds.</li>
 <li><b>Use a shot's LUT again.</b> Each generated LUT is kept with its shot. In a new conform, right-click the movie ▸ Use Each Shot's Latest LUT (or one clip ▸ Use Shot's Latest LUT) and each shot takes its own.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2162) <span class="when">Nov 5, 2026</span></h3>
 <ul>
 <li><b>Progress notes in the Notes column.</b> A new Progress view lists a movie's or a Kitsu playlist's shots with their progress notes, filtered by submission date, so the last round reads at a glance and today's goes in beside it. Notes can be edited in place. They are the Kura Hub Shot Tracker's progress notes.</li>
@@ -66,9 +72,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Place a reframed shot by hand.</b> Place on Edit Ref shows the shot as a ghost over the agency's frame, in a box you drag into place.</li>
 <li><b>Quitting no longer crashes</b> while EXR frames are still being read.</li>
 </ul>
-<h3>1.0 (build 2107) <span class="when">Nov 2, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2172.zip" length="96549545" type="application/octet-stream" sparkle:edSignature="hx6jRsrCNVhhuNb0ml8YY1zpwPTOWn5oOOiSzuBeRLnz4Nbp8ai1ll05s9z44TwUDge73VzJe6jzcYLUffkUAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2165.delta" sparkle:deltaFrom="2165" length="3251166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RDQOV4mfB3Ok8Em1LTTULK3p2KITtr6DCndL0Irt5l38bFHpX0ZvN1DRcvR7ch8jk6WeTGBuER0V2ZFEzWNYCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2162.delta" sparkle:deltaFrom="2162" length="3693062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q+d7psrOJQE+QcZH9q2dwJMcgD5ywbdaxfM+BnAkCvKuIax2RO4HwB6yGavNpLNmgfA/FNx3Q+aVZj/vU8q4Cg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2152.delta" sparkle:deltaFrom="2152" length="7748682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nby3uhTU+GXd/f4mM6VPDtq0S6Y8tOm9UCjEpr20G9BFW80QfCQ0EWqoCq5S/WLKm2/TgKSq0tSddzlxVzVzBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2140.delta" sparkle:deltaFrom="2140" length="8539446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hs1K72SLZpDWrnVrY0awh8+ZG7KTMSXQ1jamI276m7KLncXs0j3a89ZrvJhD3GZEWjm18EviC4bjVicUbhTQAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2136.delta" sparkle:deltaFrom="2136" length="8607102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ltBTw+ZGlxMeGndCrtQFP9aPHL6OD/g5djdiPZwdo6s3a10HtviHT0fu/512pxrOH4WFHvEnyDQwcXHDbpo0Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 06 Nov 2026 12:06:08 -0800</pubDate>
+            <sparkle:version>2165</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2165)</h2>
 <ul>
-<li><b>Kitsu gets each marked frame once.</b> Drawings brought in with Frame.io comments aren't sent to Kitsu, just as the comments aren't. A marked frame that an earlier link already sent isn't sent again unless it has a new note.</li>
+<li><b>LUTs carry a shot's whole color.</b> Generate LUTs now bakes each shot's grade, looks and match together, for every shot with a correction or a match. The index says what each holds.</li>
+<li><b>Use a shot's LUT again.</b> Each generated LUT is kept with its shot. In a new conform, right-click the movie ▸ Use Each Shot's Latest LUT (or one clip ▸ Use Shot's Latest LUT) and each shot takes its own.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2165.zip" length="96498243" type="application/octet-stream" sparkle:edSignature="MAGFlZ3gWnh3bfDh4Vf/UbzcnpNtmnVuNr2xXG4zsirLb1iiOoS5E4pAIUm+QrorZuNwC3pUDt1yEhBB33r0Bg=="/>
@@ -108,37 +138,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2136.delta" sparkle:deltaFrom="2136" length="8314446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7QH/TLdcSEb7a8lRAQVN2aYAmC/UaVZOuP0rgfZOQiNT1panU9xI1PklatKOyTg3u/kb9jB8elnb/GNDzgCnDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2132.delta" sparkle:deltaFrom="2132" length="8306438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9Ddrr9NhUL3JTO8pYqAVoBqIMtWlLRdSPFi28I6SM4w6oRzBtLzxrWjguyXJu831TTuiWehhRi3zawr6a8/VDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2162-2128.delta" sparkle:deltaFrom="2128" length="9028938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OLGwM5g6fMzaf3G5iFgLH3vCHDAKFLwhg8K2EodbBirKSFTnjhW5JIu5da+psKnvvJ9paCdF6picwp/R0TNWDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 05 Nov 2026 13:44:17 -0800</pubDate>
-            <sparkle:version>2152</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2152)</h2>
-<ul>
-<li><b>Report a problem from Asobi.</b> Help ▸ Report a Problem… sends a report or a suggestion to the studio's bug tracker, with pictures (grab Asobi's window or a panel, paste or drop one, and mark it up), a voice note, or a short recording of what you did. Help ▸ My Reports shows each one's status and the reply. A report that can't be sent waits and goes later.</li>
-<li><b>Drop clips into someone else's review.</b> Dropped on the playlist (or Review ▸ Add Clips to the Review…), they go straight into the review for everyone.</li>
-<li><b>New clips reach everyone fast.</b> Studio Macs open the original within seconds. Macs elsewhere and the web link wait for the clip's review copy, saying how far along it is, and go to it when it's ready.</li>
-<li><b>Resync.</b> Catch Up with the Room is now Review ▸ Resync. The host has Review ▸ Resync Viewers, and the web link has its own Resync button.</li>
-<li><b>Compare with Plate in someone else's review</b> now shows for everyone.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2152.zip" length="96076707" type="application/octet-stream" sparkle:edSignature="BVXvlAzhgFHFbNr0S5KTD2TDvQYD+gEf/vcVpdITdkzzHZCghp3bAMOIWUynScIbr/LoK71rjetZBdlZKI0RBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2152-2140.delta" sparkle:deltaFrom="2140" length="3873790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tmGAorvpG6d0BP+BpLhzo+BmSDhHlGxC4mlKs2J1Z3WZDGTn9bTNWQZB/rfLKd2nl3M9/U9CW7OPX9J7Cv7VBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2152-2136.delta" sparkle:deltaFrom="2136" length="3956242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bfd/j8sciA5v4XszR3ht85pSzjbpddjXMPzXZx/c0/hGKR5QlaDxZH1dBztFVMra3J5/uCMMXWRkOUK3vg5vBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2152-2132.delta" sparkle:deltaFrom="2132" length="7487594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uGuEouhGFdLLw66M60TGrut/YOCuiUgEBgzLG2AJYbjiyL6UCvCERxudSLY/A+y9LwvRCo5pkxq9BxWmhQwuBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2152-2128.delta" sparkle:deltaFrom="2128" length="8426538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OGVCAp/TC6ElhF3AWA+to0/RJNJKKv4QJ6ji1YTFl+kUY9VpuRoz3QTyuSg2QT4vP0MDdGkbL+wF/1y8/2ahAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2152-2107.delta" sparkle:deltaFrom="2107" length="9148610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/hYTAbfd6r7Ee+bsMpKwMTPT3gjomaHEfkr7/GRCHWoB2y5N/OoyQA11WoVYA2P/Uls0q/cJPG9N5SLrSyYNAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

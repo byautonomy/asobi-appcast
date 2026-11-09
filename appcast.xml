@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 09 Nov 2026 11:12:25 -0800</pubDate>
-            <sparkle:version>2186</sparkle:version>
+            <pubDate>Mon, 09 Nov 2026 12:15:29 -0800</pubDate>
+            <sparkle:version>2191</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,15 +20,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2186) <span class="when">Nov 9, 2026</span></h2>
+<h2>Asobi 1.0 (build 2191) <span class="when">Nov 9, 2026</span></h2>
+<ul>
+<li><b>A Kitsu tab in Notes.</b> The comments on the shot's Kitsu tasks, with their status, drawn frames and replies. Pick one task, several or every task; see the whole movie shot by shot; right-click to answer in a progress note, open in Kitsu or mark addressed.</li>
+<li><b>Yours alone.</b> On to start on the studio's Macs, off on any other licence (Settings ▸ Interface). Guests in a review never see it, and it never goes into a report.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2186) <span class="when">Nov 9, 2026</span></h3>
 <ul>
 <li><b>Bring Back knows who said it.</b> Frame.io doesn't give the names of guests on a share, so Asobi reads them off the share's own page: notes now say Art or Madeline, not Frame.io. Bring Back again to put names on comments brought back before.</li>
 <li><b>The agency's drawings come back as marks</b> on the frame they drew on.</li>
 <li><b>Also post them to Kitsu</b> now puts each comment once on its shot's Compositing task, with the drawn frame attached and the status kept, as well as in its agency notes.</li>
 <li><b>The Progress view shows the agency's latest comments</b> under the shot on screen, a count on the others, and an Agency chip to show them on every shot.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2175) <span class="when">Nov 6, 2026</span></h3>
 <ul>
 <li><b>Movies no longer look lifted on a Mac.</b> A reel or clip made for a Rec.709 screen is now tagged gamma 2.4, the curve the viewer shows, so QuickTime Player, Finder and Safari show it as the review looked. Before, mid-grey came up from 128 to 145. The pixels are the same; only the tag changed.</li>
@@ -67,9 +72,35 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>The host's file, not just its name.</b> A clip found by name must also match the host's file. If your Mac holds another file under the same name, Asobi switches to the host's when it can see it, and tells you when it can't.</li>
 <li><b>Add Clips to the Review…</b> A studio Mac in someone else's review can put clips into it. An internal review takes them straight in; otherwise the host is asked first.</li>
 </ul>
-<h3>1.0 (build 2136) <span class="when">Nov 4, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2191.zip" length="96717246" type="application/octet-stream" sparkle:edSignature="7GvGv0KuQOGMWh+Kh9H1lIlhtlY7XNgPndtxMmshbbluMGu2jEJPL3n+ShT21C0p4j5IaprNRxgCElcOhnpCDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2186.delta" sparkle:deltaFrom="2186" length="6029678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gKluyRCPebeFM+ITmxi4U/nPx++K3F536Jb8evrBEeA9BrMgyXRovf3GR4o+j4aXZXDWvyF5s+hdXqPEt1hADw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2175.delta" sparkle:deltaFrom="2175" length="6626918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OaO85nOCfEyQ2MF2z/n/kJlENoeBbaXl9Kh6IbpvfP3593rH/RbWeLblpyG6UqY5G0ShCUhO9fRQepnDd0mSCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2172.delta" sparkle:deltaFrom="2172" length="7030878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HBasj8u2bv67XIl/WXmtiUgiSwp/6dZCtKl50KXcE1H8R5fytNRe/ClJiU+D1WNuEENMjua3erQtqk0tdl8yAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2165.delta" sparkle:deltaFrom="2165" length="7318410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6+oK4KlAZJJAfFVfmlZHu6ZtOLPivwrkEpVM/kaPBCbWSb/3U6sbd2H0DkL8uH+IUz/dH/of3zaRPIgKVkg9DQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2162.delta" sparkle:deltaFrom="2162" length="7607082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4cTFnm2vlE6Z3aDnBpl4YLNZDhlEH3bb9SfFxZQvdr6FvH/dUFvNqKWA/Vo9LIc40zQp8b7RB2MRFuQcGBJzCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 09 Nov 2026 11:12:25 -0800</pubDate>
+            <sparkle:version>2186</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2186)</h2>
 <ul>
-<li><b>Kitsu playlists play the version they name.</b> A shot with the same version number on two tasks, such as a generative v006 and a comp v006, could play the one downloaded first. Each task's versions now keep their own file, and their name says the task.</li>
+<li><b>Bring Back knows who said it.</b> Frame.io doesn't give the names of guests on a share, so Asobi reads them off the share's own page: notes now say Art or Madeline, not Frame.io. Bring Back again to put names on comments brought back before.</li>
+<li><b>The agency's drawings come back as marks</b> on the frame they drew on.</li>
+<li><b>Also post them to Kitsu</b> now puts each comment once on its shot's Compositing task, with the drawn frame attached and the status kept, as well as in its agency notes.</li>
+<li><b>The Progress view shows the agency's latest comments</b> under the shot on screen, a count on the others, and an Agency chip to show them on every shot.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2186.zip" length="96616641" type="application/octet-stream" sparkle:edSignature="lBZfIErFUCZzGb1aJX4PXISlEU6xcf4pWxK7CzAD6fJt0oQmbaspF+dv6pVQkrWRXNJj2qRVuAA5sF1JLYXjBg=="/>
@@ -107,35 +138,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2175-2162.delta" sparkle:deltaFrom="2162" length="3711234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="whOEjJDf7g2BR4BP0Y66kJZNFA782jFVKlWJx2KAoGe3/jhn1TmkvKna5iC9KDJK88+XiYIlAASHT7ociOwLAQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2175-2152.delta" sparkle:deltaFrom="2152" length="7783182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4LdTOc71iy/E5Qh2sYJZ3kU3uF6aE4x2n6ih/uLT/q+zT+EWwS22OdcqE5LCFh0s7HR4c5C5IZv2fveEvxBiDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2175-2140.delta" sparkle:deltaFrom="2140" length="8565194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zs+CEDPoye4PT7BX1gZSjF4LGRWb+6dwmkfJ0zQZVhJq4qP3DHCosdPjPrMl5s7OT2eUgO6cauTnHWJpnJPWBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 06 Nov 2026 13:49:51 -0800</pubDate>
-            <sparkle:version>2172</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2172)</h2>
-<ul>
-<li><b>Color, Media and Conform, sorted by the job.</b> Each menu groups what you're doing under a small heading (Color: Grade, Match the color, Versions, LUTs and CDLs; Conform: Bring in a cut, Edit the shots, Edit Ref, Send it out, Plates), and every command has one home. The Playlist's right-click menus follow the same groups.</li>
-<li><b>Set Kitsu Shot.</b> Which Kitsu shot a shot is (it was Match Shots to Kitsu), from a shot's right-click or Conform ▸ Edit the shots. "Match" now always means color: Match Color to ▸.</li>
-<li><b>One Split at Playhead, one Join with Next Shot,</b> for any shot, whether it came from a cut file or a movie.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2172.zip" length="96549545" type="application/octet-stream" sparkle:edSignature="hx6jRsrCNVhhuNb0ml8YY1zpwPTOWn5oOOiSzuBeRLnz4Nbp8ai1ll05s9z44TwUDge73VzJe6jzcYLUffkUAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2165.delta" sparkle:deltaFrom="2165" length="3251166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RDQOV4mfB3Ok8Em1LTTULK3p2KITtr6DCndL0Irt5l38bFHpX0ZvN1DRcvR7ch8jk6WeTGBuER0V2ZFEzWNYCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2162.delta" sparkle:deltaFrom="2162" length="3693062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q+d7psrOJQE+QcZH9q2dwJMcgD5ywbdaxfM+BnAkCvKuIax2RO4HwB6yGavNpLNmgfA/FNx3Q+aVZj/vU8q4Cg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2152.delta" sparkle:deltaFrom="2152" length="7748682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nby3uhTU+GXd/f4mM6VPDtq0S6Y8tOm9UCjEpr20G9BFW80QfCQ0EWqoCq5S/WLKm2/TgKSq0tSddzlxVzVzBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2140.delta" sparkle:deltaFrom="2140" length="8539446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hs1K72SLZpDWrnVrY0awh8+ZG7KTMSXQ1jamI276m7KLncXs0j3a89ZrvJhD3GZEWjm18EviC4bjVicUbhTQAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2172-2136.delta" sparkle:deltaFrom="2136" length="8607102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ltBTw+ZGlxMeGndCrtQFP9aPHL6OD/g5djdiPZwdo6s3a10HtviHT0fu/512pxrOH4WFHvEnyDQwcXHDbpo0Aw=="/>
             </sparkle:deltas>
         </item>
     </channel>

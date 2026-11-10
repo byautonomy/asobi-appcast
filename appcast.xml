@@ -4,8 +4,8 @@
         <title>Asobi</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 09 Nov 2026 17:58:10 -0800</pubDate>
-            <sparkle:version>2205</sparkle:version>
+            <pubDate>Mon, 09 Nov 2026 21:05:16 -0800</pubDate>
+            <sparkle:version>2208</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
@@ -20,14 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0 (build 2205) <span class="when">Nov 9, 2026</span></h2>
+<h2>Asobi 1.0 (build 2208) <span class="when">Nov 9, 2026</span></h2>
+<ul>
+<li><b>Playlist actions on a right-click.</b> The playlist's More menu could vanish the moment it opened. Its items (Import Timeline, Save As, Trim to In and Out, Clear Trim, Auto-Pair) are now in a Playlist section when you right-click the playlist's footer, a movie's header or any row.</li>
+<li><b>Closing a floating panel brings it back.</b> Closing a floating Notes, Playlist or Grade window puts it back in the side panel and shows it, instead of leaving it hidden behind another tab.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0 (build 2205) <span class="when">Nov 9, 2026</span></h3>
 <ul>
 <li><b>Menus that closed by themselves.</b> Since 2199, menus and popovers in the window (the playlist's More, the color chip) could close the moment they opened, during playback or a busy review. Fixed. Edit ▸ Undo is plain "Undo" again; ⌘Z still takes back the last mark or playlist change.</li>
 <li><b>Progress header.</b> The Notes column's Progress view now reads "26 of 27 shots noted · 11 agency, Nov 8" and fits the column instead of being cut off.</li>
 <li><b>Studio Tutorials</b>: the Frame.io round with the agency now has step-by-step figures.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0 (build 2199) <span class="when">Nov 9, 2026</span></h3>
 <ul>
 <li><b>As on this Mac.</b> A new first choice in the color chip's Footage menu: Asobi leaves the color alone and the picture looks as it does in Preview or QuickTime Player. Stills, and movies from outside the shot folders that nobody has set a color for, start this way.</li>
@@ -65,12 +70,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>LUTs carry a shot's whole color.</b> Generate LUTs now bakes each shot's grade, looks and match together, for every shot with a correction or a match. The index says what each holds.</li>
 <li><b>Use a shot's LUT again.</b> Each generated LUT is kept with its shot. In a new conform, right-click the movie ▸ Use Each Shot's Latest LUT (or one clip ▸ Use Shot's Latest LUT) and each shot takes its own.</li>
 </ul>
-<h3>1.0 (build 2162) <span class="when">Nov 5, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2208.zip" length="97813757" type="application/octet-stream" sparkle:edSignature="Zd+QRq6PPi1TmftDXLoakhwdLH2siHDI+i6osA1j0jESvJ8SVFBNN3EVyD2tvllXl2ubzMfFUhrIcrZS4QjSAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2208-2205.delta" sparkle:deltaFrom="2205" length="3182034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XGg3p7ypwnBugs3xT+6rQq4FH2Ni/+O1HyJxSlyNNYZE+44bkvIGeAd5TC68B1N//WDltumisGfNpnj9xujLAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2208-2199.delta" sparkle:deltaFrom="2199" length="4315198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LKBfl8fIdvQRouEDJUs/RUqi4s5fAtEdoq0GNLg3MM0pC1WRrOichrDoCa0gtOaI8ehco0F42bGjZDpXt7yrCg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2208-2191.delta" sparkle:deltaFrom="2191" length="5111590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PRxOW2mOw3Wb7EtUqw7ftH0FeKJsbVh/GJ+QBp/26KfmNzsxjZVIC3McMis62UM2WWxJPbSc4it2KRbL/snQDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2208-2186.delta" sparkle:deltaFrom="2186" length="8746978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3nGkPQ8fM6mEcqjYAZqe7qQU2W91y8tVW7koZazgvnmf9iPuKPLRhlfKOZmzp3v/aU6dshYDP0HJ/0vcDWitDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2208-2175.delta" sparkle:deltaFrom="2175" length="8992938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xg7Q4QZepn94LrYhoCUTkL4y27xT5gN3DL5quj1ExNBBMpeT2Vjc4b00bT5Nwp8Sfod2uVyjuoXDQ+bCjvmDBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 09 Nov 2026 17:58:10 -0800</pubDate>
+            <sparkle:version>2205</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0 (build 2205)</h2>
 <ul>
-<li><b>Progress notes in the Notes column.</b> A new Progress view lists a movie's or a Kitsu playlist's shots with their progress notes, filtered by submission date, so the last round reads at a glance and today's goes in beside it. Notes can be edited in place. They are the Kura Hub Shot Tracker's progress notes.</li>
-<li><b>Review notes into progress notes.</b> Right-click a note ▸ Add to Progress Notes, or Send All to Progress Notes… from the Notes header. Settings ▸ Interface can send notes you type on a Kitsu shot straight to its progress notes (on by default).</li>
-<li><b>Match one shot's color to another.</b> Right-click a shot ▸ Match to, or a movie's header ▸ Match Every Shot to another cut: each shot is fitted to the same shot in the other cut, lined up in time, with no conform. Matches are kept with the shot in 03_SHOTS.</li>
-<li><b>Generate LUTs</b> for a shot or every shot (right-click, or the Color menu): each shot's match as its own .cube, with an index.</li>
+<li><b>Menus that closed by themselves.</b> Since 2199, menus and popovers in the window (the playlist's More, the color chip) could close the moment they opened, during playback or a busy review. Fixed. Edit ▸ Undo is plain "Undo" again; ⌘Z still takes back the last mark or playlist change.</li>
+<li><b>Progress header.</b> The Notes column's Progress view now reads "26 of 27 shots noted · 11 agency, Nov 8" and fits the column instead of being cut off.</li>
+<li><b>Studio Tutorials</b>: the Frame.io round with the agency now has step-by-step figures.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2205.zip" length="97823818" type="application/octet-stream" sparkle:edSignature="sHidVLhmYB1exLU66lnqPO6Gv/CiGpMovt6USmkHxrfhbHkR0mYCGiIbwW4Ok9PoSoVF9Nb6pEgn4W9IckxEDA=="/>
@@ -112,34 +139,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2199-2175.delta" sparkle:deltaFrom="2175" length="7520450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DKRqGhH1YnGtvhM6rY1XIDj8qnHiqnAvKsjfLSc721KMdTZzsyWkZZrR0KtwGZrIVWGRnjEdjn/al2u5ABSmBQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2199-2172.delta" sparkle:deltaFrom="2172" length="7794458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0zXYXinrHC0QJohi83R4E/x5wBUTMmyjbO3MQQSfv5xQau1EFRKvdtIoaPrpskPArnXBnFvUVockkUO44wwrBA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2199-2165.delta" sparkle:deltaFrom="2165" length="7839326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aSiaXGbFSPmuGG+Io1ZsZZZfFgeNY/MKIYibVw+U8Ut9+r0AgnOA+6Q3U1OgNFq2aprbSIz/566fODOPFRjtCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 09 Nov 2026 12:15:29 -0800</pubDate>
-            <sparkle:version>2191</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2191)</h2>
-<ul>
-<li><b>A Kitsu tab in Notes.</b> The comments on the shot's Kitsu tasks, with their status, drawn frames and replies. Pick one task, several or every task; see the whole movie shot by shot; right-click to answer in a progress note, open in Kitsu or mark addressed.</li>
-<li><b>Yours alone.</b> On to start on the studio's Macs, off on any other licence (Settings ▸ Interface). Guests in a review never see it, and it never goes into a report.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2191.zip" length="96717246" type="application/octet-stream" sparkle:edSignature="7GvGv0KuQOGMWh+Kh9H1lIlhtlY7XNgPndtxMmshbbluMGu2jEJPL3n+ShT21C0p4j5IaprNRxgCElcOhnpCDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2186.delta" sparkle:deltaFrom="2186" length="6029678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gKluyRCPebeFM+ITmxi4U/nPx++K3F536Jb8evrBEeA9BrMgyXRovf3GR4o+j4aXZXDWvyF5s+hdXqPEt1hADw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2175.delta" sparkle:deltaFrom="2175" length="6626918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OaO85nOCfEyQ2MF2z/n/kJlENoeBbaXl9Kh6IbpvfP3593rH/RbWeLblpyG6UqY5G0ShCUhO9fRQepnDd0mSCw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2172.delta" sparkle:deltaFrom="2172" length="7030878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HBasj8u2bv67XIl/WXmtiUgiSwp/6dZCtKl50KXcE1H8R5fytNRe/ClJiU+D1WNuEENMjua3erQtqk0tdl8yAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2165.delta" sparkle:deltaFrom="2165" length="7318410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6+oK4KlAZJJAfFVfmlZHu6ZtOLPivwrkEpVM/kaPBCbWSb/3U6sbd2H0DkL8uH+IUz/dH/of3zaRPIgKVkg9DQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2191-2162.delta" sparkle:deltaFrom="2162" length="7607082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4cTFnm2vlE6Z3aDnBpl4YLNZDhlEH3bb9SfFxZQvdr6FvH/dUFvNqKWA/Vo9LIc40zQp8b7RB2MRFuQcGBJzCw=="/>
             </sparkle:deltas>
         </item>
     </channel>

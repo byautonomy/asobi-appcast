@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 11 Nov 2026 21:08:09 -0800</pubDate>
-            <sparkle:version>2229</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Fri, 13 Nov 2026 19:36:16 -0800</pubDate>
+            <sparkle:version>2239</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,12 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.2 (build 2229) <span class="when">Nov 11, 2026</span></h2>
+<h2>Asobi 1.0.3 (build 2239) <span class="when">Nov 13, 2026</span></h2>
 <ul>
-<li><b>Web links show where they are.</b> While a web link is being made, the line under the progress bar names the clip it is working on and the step: encoding the picture, packaging it for streaming, or uploading. The clip count is also right now; it used to read one ahead.</li>
+<li><b>Swap a clip for another version.</b> Right-click a clip in the playlist and choose Swap Version: its other versions beside it are listed newest first, or Choose a Version… picks any file. A file that doesn't look like a version of the clip asks before it goes in. Swap Every Clip to Its Latest Version brings a whole playlist up to date for a progress report. Each version keeps its own notes and drawings, and they come back if you swap back.</li>
+<li><b>Relinking a moved conform finds it.</b> A review of a conform movie that was moved into another folder lost every shot, even when you chose the right folder. It now finds the movie by itself. When it does need to ask, the window names what is missing and lets you pick the file as well as a folder.</li>
+<li><b>Optimize keeps the app responsive.</b> Checking the files before each encode no longer holds up the app, which could freeze it on a slow connection to the server or with a long playlist.</li>
+<li><b>Slates keep the logo inside title safe.</b> The Autonomy wordmark at the foot of a slate sat below the title-safe line.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0.2 (build 2229) <span class="when">Nov 11, 2026</span></h3>
+<ul>
+<li><b>Web links show where they are.</b> While a web link is being made, the line under the progress bar names the clip it is working on and the step: encoding the picture, packaging it for streaming, or uploading. The clip count is also right now; it used to read one ahead.</li>
+</ul>
 <h3>1.0.1 (build 2226) <span class="when">Nov 11, 2026</span></h3>
 <ul>
 <li><b>Check Frames finds repeated frames in movies too.</b> A frame that repeats while the shot is moving is flagged in QuickTimes and MP4s as well as sequences, through H.264 and ProRes compression. A freeze or a hold isn't flagged, and a steady pattern, such as a frame-rate conversion, comes up as one row.</li>
@@ -64,10 +71,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Dragging in the playlist.</b> Hold a clip over a row to pair them; a drag that only passes over rows moves the clip, and says where it will land.</li>
 <li><b>A new studio tutorial</b>: a round with the agency on Frame.io, for coordinators and producers.</li>
 </ul>
-<h3>1.0 (build 2191) <span class="when">Nov 9, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.3.2239.zip" length="97982150" type="application/octet-stream" sparkle:edSignature="9qvmc1eY1AH+FldNesZa0af8t821kbCQPn/kDQXODu7/wvqQekWUd4ZT2FrBzL7xetNFgAtI67OkH1fjMZNpAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2229.delta" sparkle:deltaFrom="2229" length="2751266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IYVm6K3oAqi3o3kIfK61jlsocC3uxz1wn1mVy3AJX6bKeLB5VhP2vxSIRq+ohcKsaGF4stY7p8PZ+Uwr+49nBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2226.delta" sparkle:deltaFrom="2226" length="2824510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g88NmTobrJrsxqOxt47r5cfHg+qdEt7y3napG0qRCIppnaTaBS/r9mZoPswaZ5FB1WBT36mzv4A3q0/KBWdBCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2215.delta" sparkle:deltaFrom="2215" length="3392230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5HwPBAdcKsbknbuu9shfUqgdloAxAirunx8gpW+5yEO9HoLa1kRe9MJqCINjbZBTppzEsCLIAFsDKPY8ykRjDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2211.delta" sparkle:deltaFrom="2211" length="3476298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YHU9DAkdM8zI/3w+eqdUY0RV5Z5LtnsZoO/xWXb363ygCcRyde4OW9CRL6Z/WG5UXtZzI9pswWbrj8o6bSPyAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2208.delta" sparkle:deltaFrom="2208" length="3580966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WEr7AKQJPecYw2OfX0fCDCQ/fjjK2+GAsBGBDW+YALo+eOzeUUAkUY1rDXhrJ7gJJqwHemxzWDITB+lXd8OsCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Wed, 11 Nov 2026 21:08:09 -0800</pubDate>
+            <sparkle:version>2229</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.2 (build 2229)</h2>
 <ul>
-<li><b>A Kitsu tab in Notes.</b> The comments on the shot's Kitsu tasks, with their status, drawn frames and replies. Pick one task, several or every task; see the whole movie shot by shot; right-click to answer in a progress note, open in Kitsu or mark addressed.</li>
-<li><b>Yours alone.</b> On to start on the studio's Macs, off on any other licence (Settings ▸ Interface). Guests in a review never see it, and it never goes into a report.</li>
+<li><b>Web links show where they are.</b> While a web link is being made, the line under the progress bar names the clip it is working on and the step: encoding the picture, packaging it for streaming, or uploading. The clip count is also right now; it used to read one ahead.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2.2229.zip" length="97944062" type="application/octet-stream" sparkle:edSignature="n4p2KZJfM29iheBO2QJDAgpk79yAVpBTNnTDrGsDpDkMzpJww7vOcHlDylLW2MkzuDWAOzp6rSDza3RlvM7PCg=="/>
@@ -109,34 +138,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2226-2208.delta" sparkle:deltaFrom="2208" length="3404474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pMFL9/3coCCJc9cKCdYhh822SoKT8sZOxas3TFcVDdthKyRHDY/umnvaBWJ1SXLHWVvYIX6cRnyGv/nyiTTXDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2226-2205.delta" sparkle:deltaFrom="2205" length="3931566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9w21cfjhj0kl1T4PwOz8CxUWioFhPLJzAtwiPIsbue2ugF07e/vAlIkboqN16P8z7K7TC7VknY1HR68yYak4Dw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2226-2199.delta" sparkle:deltaFrom="2199" length="5016414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L9FKz0W8Gr/Nsoaa8rw/ub4S/wdr96nulZ/kpGgXAxPb+VwPDO5YPfOVU41dBVtH1IwsgoekKcDCUaQDBiTYCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Tue, 10 Nov 2026 13:10:15 -0800</pubDate>
-            <sparkle:version>2215</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0 (build 2215)</h2>
-<ul>
-<li><b>Removing a clip in a live review removes it for everyone.</b> When the host or anyone on a studio Mac takes a clip out of the playlist, it now leaves every other Asobi in the room and the web page too. Before, it stayed on everyone else's screen.</li>
-<li><b>Update from Kitsu removes shots taken off the Kitsu playlist.</b> Shots deleted from the Kitsu playlist now leave Asobi's playlist when you update, as one step you can undo. Clips you added yourself, and older versions of a shot that's still on the playlist, stay.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2215.zip" length="97826046" type="application/octet-stream" sparkle:edSignature="FdifPmEJNsezmZ9UwhnUWNPoib2SyHwh2Yh4dDGc+//DcVkrW/RpXcBCRBWyH6QyVCtDfHJ/rsUd2WD9GPd9CQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2215-2211.delta" sparkle:deltaFrom="2211" length="2024094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jcXOFCzfox4lbgz4vGBzrvVH2Jdul7xZ7qx2pI9bCEEejabtGccjXpKMIPtsmeYfaVc/MakvXBfgmEcvha/rCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2215-2208.delta" sparkle:deltaFrom="2208" length="2290598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2u/pTJnkIfpdqIWbdCFUnVR8meWUFk8CSZOLLRpie6Jojp4VwKDIVv860+jpTL9j01tnhMUgW9wy644DZ3cYDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2215-2205.delta" sparkle:deltaFrom="2205" length="3390742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b6/GVAgbBTqSJNebl5YBT/qJX6V8tl+R+jUHfy4gm9gs4xKLpNOfNryFNgfcxMazHxHVHgflz1qkoXvpToIdAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2215-2199.delta" sparkle:deltaFrom="2199" length="4483302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ktviSu5dVAZ9Nvl+giBtaVuNsvdmO0pnSI0tSFdJOJKRi6f7FH2g5nBWoHd/7AZgUuHPvT0b0gvehS07OZOiBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2215-2191.delta" sparkle:deltaFrom="2191" length="5316138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UyWrK0UumOpUiFHsG41bcR+B8z2n0N2YNboQ6kuhgcUBPYihyRX356BAtxYNwXRsm5sFSL+RubotvkdhCRlgBw=="/>
             </sparkle:deltas>
         </item>
     </channel>

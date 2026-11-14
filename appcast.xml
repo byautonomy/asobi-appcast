@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Sat, 14 Nov 2026 14:18:50 -0800</pubDate>
-            <sparkle:version>2251</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Sat, 14 Nov 2026 14:56:13 -0800</pubDate>
+            <sparkle:version>2254</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,7 +20,14 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.4 (build 2251) <span class="when">Nov 14, 2026</span></h2>
+<h2>Asobi 1.0.5 (build 2254) <span class="when">Nov 14, 2026</span></h2>
+<ul>
+<li><b>Zooming in stays on the source.</b> Zooming past 100% on a review movie whose source is a different shape (a 16:9 movie and its 3:2 EXR) showed the source and went straight back to the preview. The source now opens at the same zoom and place, and the preview comes back when you zoom out to fit.</li>
+<li><b>Flip back whenever you like.</b> A flip you make yourself stays put while you are zoomed in. The Source chip on the control bar now says Source when the source is on screen, and its menu offers Flip Back to the Preview.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0.4 (build 2251) <span class="when">Nov 14, 2026</span></h3>
 <ul>
 <li><b>Menus are regrouped.</b> File has Export Movie, Export PDF, Export Notes and Frames and Export Cut or Package, with Project Details… (it was Report Setup…) above them. Export Movie ▸ This Clip… picks its format in the save dialog. Conform is grouped as Shots, Conform a cut, Edit Ref and Plates; Recall Conform is Load Conform. Media has Optimized Media (Make, Delete) and Picture Source (Use Optimized Media and the flips to source). The Conform Report, Conformed Cut and Optimized Package are with the other exports in File; Send a Package and Request Higher-Resolution Clip are in Review. Nothing was removed, and every shortcut is the same.</li>
 <li><b>Finding a movie's shots leads to their Kitsu shots.</b> After Find the Shots in a Movie or Cut a Movie by a Cut File…, the Set Kitsu Shots window opens by itself.</li>
@@ -31,8 +38,6 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Guests Can Zoom the Room.</b> A new switch in the Review menu, on by default. Off, a client's zoom stays on their own screen; studio seats still move the room.</li>
 <li><b>Flip for Everyone When Zoomed In is steadier.</b> It goes to the source a little past 100% and comes back at 100%, so resting near 100% doesn't flip the room each time. It is now in Settings ▸ Notes, with Skip movies that are already light.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0.3 (build 2239) <span class="when">Nov 13, 2026</span></h3>
 <ul>
 <li><b>Swap a clip for another version.</b> Right-click a clip in the playlist and choose Swap Version: its other versions beside it are listed newest first, or Choose a Version… picks any file. A file that doesn't look like a version of the clip asks before it goes in. Swap Every Clip to Its Latest Version brings a whole playlist up to date for a progress report. Each version keeps its own notes and drawings, and they come back if you swap back.</li>
@@ -67,11 +72,39 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Playlist actions on a right-click.</b> The playlist's More menu could vanish the moment it opened. Its items (Import Timeline, Save As, Trim to In and Out, Clear Trim, Auto-Pair) are now in a Playlist section when you right-click the playlist's footer, a movie's header or any row.</li>
 <li><b>Closing a floating panel brings it back.</b> Closing a floating Notes, Playlist or Grade window puts it back in the side panel and shows it, instead of leaving it hidden behind another tab.</li>
 </ul>
-<h3>1.0 (build 2205) <span class="when">Nov 9, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.5.2254.zip" length="98199192" type="application/octet-stream" sparkle:edSignature="DzsjQoa5Y0Q89lK3sNTP2uvT7bgEhRxtWwdu3jfrHRa0qpT6ruqzavH0XlnFVC15ncxy1rnjTfEWuwlVcN8nAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2251.delta" sparkle:deltaFrom="2251" length="2303986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1iF/Lvs9nUzf2f41Ub5gHtHGtNwGPT7jL+zwz8ERjXzXB3//tbdIZmSf2XKVbUKnJY7h/JxqZZWNC+rBauMDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2239.delta" sparkle:deltaFrom="2239" length="4928566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YkEcdELTqo2Bi14yrrlUUNe/+Pp7QpHQ6w3tB9tJAojZITOZzIN4zpvrX84oM1uXNyGnUzK+SBrGS5eUuk8EAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2229.delta" sparkle:deltaFrom="2229" length="5140702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xJGJ9SJp2SMFaWUCp+NTQhLtztoHhl6s994E8xLGhHwCvKe0QY+p6pTUBbj2PAmvv/NsUTKVwjYJnFRAon5UBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2226.delta" sparkle:deltaFrom="2226" length="5145786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W76Ly4PIuMApjcrrYTJe873hBLUgGnCWXCKGVyYxJ7JR6e/YGhel+BFtxSUJZIsTs+rRVR/3hyZfTyyxRC3iBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2215.delta" sparkle:deltaFrom="2215" length="5336494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N52/ARxQDV19lcF5NgEF5jCMuveIt0oGrJ5/93iBjhzRftEFhib0DMKcn4MBdqVB0MLIKw4dLsGxlx5zGjstDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Sat, 14 Nov 2026 14:18:50 -0800</pubDate>
+            <sparkle:version>2251</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.4 (build 2251)</h2>
 <ul>
-<li><b>Menus that closed by themselves.</b> Since 2199, menus and popovers in the window (the playlist's More, the color chip) could close the moment they opened, during playback or a busy review. Fixed. Edit ▸ Undo is plain "Undo" again; ⌘Z still takes back the last mark or playlist change.</li>
-<li><b>Progress header.</b> The Notes column's Progress view now reads "26 of 27 shots noted · 11 agency, Nov 8" and fits the column instead of being cut off.</li>
-<li><b>Studio Tutorials</b>: the Frame.io round with the agency now has step-by-step figures.</li>
+<li><b>Menus are regrouped.</b> File has Export Movie, Export PDF, Export Notes and Frames and Export Cut or Package, with Project Details… (it was Report Setup…) above them. Export Movie ▸ This Clip… picks its format in the save dialog. Conform is grouped as Shots, Conform a cut, Edit Ref and Plates; Recall Conform is Load Conform. Media has Optimized Media (Make, Delete) and Picture Source (Use Optimized Media and the flips to source). The Conform Report, Conformed Cut and Optimized Package are with the other exports in File; Send a Package and Request Higher-Resolution Clip are in Review. Nothing was removed, and every shortcut is the same.</li>
+<li><b>Finding a movie's shots leads to their Kitsu shots.</b> After Find the Shots in a Movie or Cut a Movie by a Cut File…, the Set Kitsu Shots window opens by itself.</li>
+<li><b>Join several shots at once.</b> Click a shot in the playlist, Shift-click the last, and choose Join Selected Shots (Conform menu or right-click). One undo puts them back.</li>
+<li><b>The control bar shows the cache and the source.</b> Cache shows how much of the clip is ready; click it for Wait for Cache, the RAM budget and a new Clear Cache. Source says which file is on screen and flips to the source render. Res is there for movies too, and Compare appears while a second picture is loaded. In a live review the Color button's menu sends the grade to everyone.</li>
+<li><b>Overlay shows the comments that suit the review.</b> The Subtitles button is now Overlay. For dailies from Kitsu it shows the version's submission note and Kitsu's notes on that version; for an agency review, each shot's progress note and the agency's comments; always the notes made in the review. At most three show at once: click +N more (or press ⇧U) for everything on the shot, including notes on the previous version. Its menu sets what shows, the text size and the position. With For Everyone on, other seats get the progress note and agency comments too; submission and Kitsu notes stay on studio Macs.</li>
+<li><b>Zooming in a review no longer pumps back and forth.</b> A guest's Mac sent the host's zoom back to the room, which could pull everyone to an older zoom. Now only a zoom or pan a person makes is sent: resizing a window, opening the side panel or a clip loading never moves anyone else's picture.</li>
+<li><b>Guests Can Zoom the Room.</b> A new switch in the Review menu, on by default. Off, a client's zoom stays on their own screen; studio seats still move the room.</li>
+<li><b>Flip for Everyone When Zoomed In is steadier.</b> It goes to the source a little past 100% and comes back at 100%, so resting near 100% doesn't flip the room each time. It is now in Settings ▸ Notes, with Skip movies that are already light.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.4.2251.zip" length="98182849" type="application/octet-stream" sparkle:edSignature="SbFJWmhClkJ7kyF/r3yJz62nkSBeW7sY6Wn3xcZyguiJsakIFdMbB6jz49ghMOuY0/Htn6FqmGMxK+ssJ3ZYCg=="/>
@@ -111,33 +144,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2215.delta" sparkle:deltaFrom="2215" length="3392230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5HwPBAdcKsbknbuu9shfUqgdloAxAirunx8gpW+5yEO9HoLa1kRe9MJqCINjbZBTppzEsCLIAFsDKPY8ykRjDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2211.delta" sparkle:deltaFrom="2211" length="3476298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YHU9DAkdM8zI/3w+eqdUY0RV5Z5LtnsZoO/xWXb363ygCcRyde4OW9CRL6Z/WG5UXtZzI9pswWbrj8o6bSPyAw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2239-2208.delta" sparkle:deltaFrom="2208" length="3580966" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WEr7AKQJPecYw2OfX0fCDCQ/fjjK2+GAsBGBDW+YALo+eOzeUUAkUY1rDXhrJ7gJJqwHemxzWDITB+lXd8OsCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 11 Nov 2026 21:08:09 -0800</pubDate>
-            <sparkle:version>2229</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.2 (build 2229)</h2>
-<ul>
-<li><b>Web links show where they are.</b> While a web link is being made, the line under the progress bar names the clip it is working on and the step: encoding the picture, packaging it for streaming, or uploading. The clip count is also right now; it used to read one ahead.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.2.2229.zip" length="97944062" type="application/octet-stream" sparkle:edSignature="n4p2KZJfM29iheBO2QJDAgpk79yAVpBTNnTDrGsDpDkMzpJww7vOcHlDylLW2MkzuDWAOzp6rSDza3RlvM7PCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2229-2226.delta" sparkle:deltaFrom="2226" length="930262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hC06VjqLYCm94vuthvkojfp2eX9Wfph+5FO1o155CqZQbqgM2g0i4UxjQghowL/TCQzKyqNV6hQm/FsOsISLAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2229-2215.delta" sparkle:deltaFrom="2215" length="3270370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="44AxWSelmU15CgXyCavXxnu/iB5nQ8ghuvF64ag46fokIB1OvQqFuG+EnpxKUchHFXhIiOrj9ogvqyT6L3BWCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2229-2211.delta" sparkle:deltaFrom="2211" length="3406414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2H6zIrHirTHvybzSR3n/YuV9FfGMS/nM/AQnIMruR3Y74kU92O/eoUm4MBWOMZg2apBRaCsI82YgReDlTU+KBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2229-2208.delta" sparkle:deltaFrom="2208" length="3406118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i1vBOgkULwGhpuAua/9P/nZEW95ilx4FmOqJUuxMN4PeggrzeALkrJCArlWR420WRFYzJ+vVnhlE0I7KNEiuBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2229-2205.delta" sparkle:deltaFrom="2205" length="3915414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ezyE9/o0dFAidoVQxnbvLO90Drlb3AtzTPvcqg+/CAqHC/lwSHlMN9YuVxSIeJS9gVwHuuvKmcY69RoO0BeyDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

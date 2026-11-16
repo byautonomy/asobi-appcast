@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.7</title>
-            <pubDate>Mon, 16 Nov 2026 11:57:40 -0800</pubDate>
-            <sparkle:version>2265</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <title>1.0.8</title>
+            <pubDate>Mon, 16 Nov 2026 13:00:55 -0800</pubDate>
+            <sparkle:version>2268</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,12 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.7 (build 2265) <span class="when">Nov 16, 2026</span></h2>
+<h2>Asobi 1.0.8 (build 2268) <span class="when">Nov 16, 2026</span></h2>
 <ul>
-<li><b>Kura Hub knows each Frame.io round.</b> When Bring Back posts new agency comments to Kitsu, it also notes on each shot when the download happened and the day of the one before it, so the Hub's Tracker report can highlight the notes since then.</li>
+<li><b>Guests see each shot's progress and the agency's comments.</b> The host's Mac now sends them to the room whenever it hosts, so anyone who turns on their Overlay sees them, on a Mac, in a browser or on a phone. Before, they went only while the host had the Overlay on for everyone.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0.7 (build 2265) <span class="when">Nov 16, 2026</span></h3>
+<ul>
+<li><b>Kura Hub knows each Frame.io round.</b> When Bring Back posts new agency comments to Kitsu, it also notes on each shot when the download happened and the day of the one before it, so the Hub's Tracker report can highlight the notes since then.</li>
+</ul>
 <h3>1.0.6 (build 2262) <span class="when">Nov 16, 2026</span></h3>
 <ul>
 <li><b>Overlay comments stay with their shot.</b> On a movie cut into short shots, a comment read on over the next shots. Each now ends with its shot. Agency comments brought back from Frame.io show at their own frame, tagged Frame.io, without a second copy at the start of the shot.</li>
@@ -71,10 +75,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>The right take for a movie comp.</b> Compare with Plate picks the plate whose timecode a QuickTime comp was made from, as it already did for EXR comps.</li>
 <li><b>Push a grade in a live review.</b> A new icon beside Copy and Paste grade sends this clip's grade to everyone, or puts it on every clip for everyone, in one step you can undo. Reviewers on Asobi Review who aren't expert reviewers ask the host first, and the host can allow them for the rest of the review.</li>
 </ul>
-<h3>1.0 (build 2215) <span class="when">Nov 10, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.8.2268.zip" length="98218648" type="application/octet-stream" sparkle:edSignature="fbWmC4xXYHwR3P4Chr0mq60Mbwe+x3fwe3FiN/9Xbjvk/cez/OxqT6LjYnqVIXDFinEBrvsLXem6H9NtgoC6Aw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2265.delta" sparkle:deltaFrom="2265" length="1587398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TyF19Ey3FaVUtdyQ1xbJBdCboGmH3Vf8uukDM7I+oNt0ZSjGUmDB0K3l5yDaW+iVzNL84Vu3/vIL52n6pgglAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2262.delta" sparkle:deltaFrom="2262" length="5402518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hFxOWZ38fxCSDSvoV93Ac7rP23uf+o6e3++75F9t9CySeOj1eSLZTNM6xzj4i3FA7xRYFnycuIi4p0h+C+T1Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2254.delta" sparkle:deltaFrom="2254" length="6670922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6eRFWTiksA+TnuixggxrGPXr386bba6AeHdHPqEjvJEoXT3ujk9q5BpRrB/MhRt9l04BBpZyJj6ug9+MZENsDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2251.delta" sparkle:deltaFrom="2251" length="6997482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f9Bt+rL609ZW3IGsFgwio4/bHzSMDwGLxWmH6Wo2ohnGK+1zrgu6tqUQtS3+U977Hq5h0oW77DT/Hv8zoVl5DQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2239.delta" sparkle:deltaFrom="2239" length="8876686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ahYRsPmij5wKVVUVlqBIpFezSt9x7okP+PAFK8Wl42AwtH2U1hEafjwBRGBGbhl006RqW3nDmV6AR2/AsPoyCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.7</title>
+            <pubDate>Mon, 16 Nov 2026 11:57:40 -0800</pubDate>
+            <sparkle:version>2265</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.7 (build 2265)</h2>
 <ul>
-<li><b>Removing a clip in a live review removes it for everyone.</b> When the host or anyone on a studio Mac takes a clip out of the playlist, it now leaves every other Asobi in the room and the web page too. Before, it stayed on everyone else's screen.</li>
-<li><b>Update from Kitsu removes shots taken off the Kitsu playlist.</b> Shots deleted from the Kitsu playlist now leave Asobi's playlist when you update, as one step you can undo. Clips you added yourself, and older versions of a shot that's still on the playlist, stay.</li>
+<li><b>Kura Hub knows each Frame.io round.</b> When Bring Back posts new agency comments to Kitsu, it also notes on each shot when the download happened and the day of the one before it, so the Hub's Tracker report can highlight the notes since then.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.7.2265.zip" length="98216864" type="application/octet-stream" sparkle:edSignature="9B0rfElrpiqA8Cro7tQTUKCuBWGTIppiygAxYDroqsybRhlZIEyoYR/fqVgiYmRHnBPKfAjuSo/+jMKdxfE+Cg=="/>
@@ -116,34 +142,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2262-2239.delta" sparkle:deltaFrom="2239" length="8826902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4WTrEmhh6ZL+01KfSsgxsJoUtGtjUbLKUGohmijnMm9Q+iRIWYfI1n0fwNM/PxIMeOQQKvJec3PEkNnAbflFAg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2262-2229.delta" sparkle:deltaFrom="2229" length="8943410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NwaVQMIVCOO3IKa5dWOq5RvIFUEafW5Glg1z50axgS3OCTSJBQq0iSzum5wu79akSOylxSv4begAFMcXbsaCAg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2262-2226.delta" sparkle:deltaFrom="2226" length="8933934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9FAXRVnP1I48ZZFWXIsuzLQmim3ASiRhy9Xgu0pm2BEQOfG8pCk3w/g+rXUQMcaAFjyIGRp6Bvvu00B3e7+hDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Sat, 14 Nov 2026 14:56:13 -0800</pubDate>
-            <sparkle:version>2254</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.5 (build 2254)</h2>
-<ul>
-<li><b>Zooming in stays on the source.</b> Zooming past 100% on a review movie whose source is a different shape (a 16:9 movie and its 3:2 EXR) showed the source and went straight back to the preview. The source now opens at the same zoom and place, and the preview comes back when you zoom out to fit.</li>
-<li><b>Flip back whenever you like.</b> A flip you make yourself stays put while you are zoomed in. The Source chip on the control bar now says Source when the source is on screen, and its menu offers Flip Back to the Preview.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.5.2254.zip" length="98199192" type="application/octet-stream" sparkle:edSignature="DzsjQoa5Y0Q89lK3sNTP2uvT7bgEhRxtWwdu3jfrHRa0qpT6ruqzavH0XlnFVC15ncxy1rnjTfEWuwlVcN8nAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2251.delta" sparkle:deltaFrom="2251" length="2303986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1iF/Lvs9nUzf2f41Ub5gHtHGtNwGPT7jL+zwz8ERjXzXB3//tbdIZmSf2XKVbUKnJY7h/JxqZZWNC+rBauMDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2239.delta" sparkle:deltaFrom="2239" length="4928566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YkEcdELTqo2Bi14yrrlUUNe/+Pp7QpHQ6w3tB9tJAojZITOZzIN4zpvrX84oM1uXNyGnUzK+SBrGS5eUuk8EAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2229.delta" sparkle:deltaFrom="2229" length="5140702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xJGJ9SJp2SMFaWUCp+NTQhLtztoHhl6s994E8xLGhHwCvKe0QY+p6pTUBbj2PAmvv/NsUTKVwjYJnFRAon5UBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2226.delta" sparkle:deltaFrom="2226" length="5145786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="W76Ly4PIuMApjcrrYTJe873hBLUgGnCWXCKGVyYxJ7JR6e/YGhel+BFtxSUJZIsTs+rRVR/3hyZfTyyxRC3iBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2254-2215.delta" sparkle:deltaFrom="2215" length="5336494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N52/ARxQDV19lcF5NgEF5jCMuveIt0oGrJ5/93iBjhzRftEFhib0DMKcn4MBdqVB0MLIKw4dLsGxlx5zGjstDw=="/>
             </sparkle:deltas>
         </item>
     </channel>

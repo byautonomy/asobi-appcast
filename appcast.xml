@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.9</title>
-            <pubDate>Mon, 16 Nov 2026 15:48:09 -0800</pubDate>
-            <sparkle:version>2272</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <title>1.0.10</title>
+            <pubDate>Mon, 16 Nov 2026 17:54:41 -0800</pubDate>
+            <sparkle:version>2278</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,13 +20,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.9 (build 2272) <span class="when">Nov 16, 2026</span></h2>
+<h2>Asobi 1.0.10 (build 2278) <span class="when">Nov 16, 2026</span></h2>
+<ul>
+<li><b>Publish All Shots to Kitsu.</b> Review ▸ Kitsu has a new item that posts every shot's notes and marked frames at once, one comment on each shot's task. It leaves out comments that came from Kitsu or Frame.io, and anything already published, from either Publish sheet or by a live review.</li>
+<li><b>Choose what goes in a PDF report.</b> The Note Report asks which clips, which notes and whether to include the pictures; with pictures off it makes a quick text-only report. The Progress Report has Kura Hub's columns, can highlight this Frame.io round, and lets you leave shots out of the PDF without touching the Tracker.</li>
+<li><b>The agency's drawings in an internal Progress Report.</b> Turn on Agency frames to print each drawing on its frame of the movie, with a close-up of each place the agency drew. The PDF is marked Internal, and the switch is off again next time.</li>
+<li><b>Long shots no longer run off the page</b> in the Progress Report: a shot with a lot to say continues on the next page.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0.9 (build 2272) <span class="when">Nov 16, 2026</span></h3>
 <ul>
 <li><b>The agency's Frame.io drawings are kept with each shot.</b> Bring Back with <b>Also post them to Kitsu</b> on now stores every drawing in Kitsu with its shot and the agency note it belongs to, so it stays with the shot's progress notes. Comments already in Kitsu get their drawings too, without being posted again. Kura Hub shows them as a <b>Drawn</b> button on the agency notes.</li>
 <li><b>A Frame.io round reaches Kitsu even if you first brought it back without Kitsu.</b> Bring Back with Kitsu on records the round's dates for Kura Hub's Tracker as it posts the comments.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0.8 (build 2268) <span class="when">Nov 16, 2026</span></h3>
 <ul>
 <li><b>Guests see each shot's progress and the agency's comments.</b> The host's Mac now sends them to the room whenever it hosts, so anyone who turns on their Overlay sees them, on a Mac, in a browser or on a phone. Before, they went only while the host had the Overlay on for everyone.</li>
@@ -67,9 +74,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Optimize keeps the app responsive.</b> Checking the files before each encode no longer holds up the app, which could freeze it on a slow connection to the server or with a long playlist.</li>
 <li><b>Slates keep the logo inside title safe.</b> The Autonomy wordmark at the foot of a slate sat below the title-safe line.</li>
 </ul>
-<h3>1.0.2 (build 2229) <span class="when">Nov 11, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.10.2278.zip" length="98512067" type="application/octet-stream" sparkle:edSignature="lO2JLtI6C39J83rhwZXEjXBulyMi+0FcZWNLg4gEufVPcm9rxMNfUAxeaph6rwKIaUHIM1n0wppZnYWs2sExAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2278-2272.delta" sparkle:deltaFrom="2272" length="3852618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+zscPxDQSdzf6GXP1Ihy0jO6w64qj2YkOhRZz/ss/u26ZWQdf1taweYwxk4XLO2skBx9Vf05N30OBEkPfd4vAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2278-2268.delta" sparkle:deltaFrom="2268" length="7484098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2waIS1Y6lbiDcuHrDDjkuYD8l6HjD2wjUgm3tsGndJM9QBGWT4BGK04naj3NcmKKQEd21xJrCBMi1MIyVW5SBQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2278-2265.delta" sparkle:deltaFrom="2265" length="7473898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NBSz3YB0EyZYjwFB9O/UGfVg6N8RV1pn1UKXxk1UxgIK5iH4m43YM2vQqwXr41dRpFcakR+2VLXndD5v3yFUAg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2278-2262.delta" sparkle:deltaFrom="2262" length="7457682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gO1piAmlg44NntisU403Sn/E1nB7XcB1e/PKAOh0AEFSli/zkN4wMYqYhmMinWIcz4DeOr5VmpEz+w49zrRfCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2278-2254.delta" sparkle:deltaFrom="2254" length="7981454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xtr0W5CjGsipIdwh0OIKiuJm8o9Wx/QHJ9xNgdHx95YuKd+fhuSWLF0Yl7AM3eCjmQWFVdgsjzql3S9/tGuRCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.9</title>
+            <pubDate>Mon, 16 Nov 2026 15:48:09 -0800</pubDate>
+            <sparkle:version>2272</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.9 (build 2272)</h2>
 <ul>
-<li><b>Web links show where they are.</b> While a web link is being made, the line under the progress bar names the clip it is working on and the step: encoding the picture, packaging it for streaming, or uploading. The clip count is also right now; it used to read one ahead.</li>
+<li><b>The agency's Frame.io drawings are kept with each shot.</b> Bring Back with <b>Also post them to Kitsu</b> on now stores every drawing in Kitsu with its shot and the agency note it belongs to, so it stays with the shot's progress notes. Comments already in Kitsu get their drawings too, without being posted again. Kura Hub shows them as a <b>Drawn</b> button on the agency notes.</li>
+<li><b>A Frame.io round reaches Kitsu even if you first brought it back without Kitsu.</b> Bring Back with Kitsu on records the round's dates for Kura Hub's Tracker as it posts the comments.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.9.2272.zip" length="98226640" type="application/octet-stream" sparkle:edSignature="CzcsWo9WbvZH275tzD3F/T0Va1/tYtra7KP77n1oUBx3tQIq6oqGOCuyELsZ5lQzGUmqwEYO/eTEKPN+O39vAg=="/>
@@ -106,33 +137,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2254.delta" sparkle:deltaFrom="2254" length="6670922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6eRFWTiksA+TnuixggxrGPXr386bba6AeHdHPqEjvJEoXT3ujk9q5BpRrB/MhRt9l04BBpZyJj6ug9+MZENsDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2251.delta" sparkle:deltaFrom="2251" length="6997482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f9Bt+rL609ZW3IGsFgwio4/bHzSMDwGLxWmH6Wo2ohnGK+1zrgu6tqUQtS3+U977Hq5h0oW77DT/Hv8zoVl5DQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2268-2239.delta" sparkle:deltaFrom="2239" length="8876686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ahYRsPmij5wKVVUVlqBIpFezSt9x7okP+PAFK8Wl42AwtH2U1hEafjwBRGBGbhl006RqW3nDmV6AR2/AsPoyCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Mon, 16 Nov 2026 11:57:40 -0800</pubDate>
-            <sparkle:version>2265</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.7 (build 2265)</h2>
-<ul>
-<li><b>Kura Hub knows each Frame.io round.</b> When Bring Back posts new agency comments to Kitsu, it also notes on each shot when the download happened and the day of the one before it, so the Hub's Tracker report can highlight the notes since then.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.7.2265.zip" length="98216864" type="application/octet-stream" sparkle:edSignature="9B0rfElrpiqA8Cro7tQTUKCuBWGTIppiygAxYDroqsybRhlZIEyoYR/fqVgiYmRHnBPKfAjuSo/+jMKdxfE+Cg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2265-2262.delta" sparkle:deltaFrom="2262" length="4935510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0cw7ko8K6Dd1SY0xALcmMoyKdDxegO5tOo7NOsDR5l5fqSnNL2IKoRi0gaMJUFB/qwHlGWdGH548JD0ud3r+Dg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2265-2254.delta" sparkle:deltaFrom="2254" length="6665358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wc2TwZGH35tIVzucBjNrk8V8rnpw8E53fraNXOPIKTZjjRvHyGyREP/kHWa/72ZonAqtXg+Y0Ph37j04WpYoCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2265-2251.delta" sparkle:deltaFrom="2251" length="6940298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WEPpdt6IxSXYEpz2EPLItrS89JRyBt74+m5U1p9sT0D55I98x+EaUkStm8cXcevCnsDPu6HNwEZfx2eyPUvvBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2265-2239.delta" sparkle:deltaFrom="2239" length="8871794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Yj8ESz+OOoaw7Ogg2CKEOm41epC8houk0LCasiocU8tvmo76s678nTmzVKO+domYOpnxNgaUZLtO5s5oNEHZDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2265-2229.delta" sparkle:deltaFrom="2229" length="8979422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B+gi2GHCXF/h/lKDRHTqazWEpY6N4DvySAeH4tQ4AR/Uh4bdkzXYPINO+HKZqYUrcCTelmZs4cIVnMWvV/xcDg=="/>
             </sparkle:deltas>
         </item>
     </channel>

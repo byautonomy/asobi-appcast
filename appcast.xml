@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.13</title>
-            <pubDate>Tue, 17 Nov 2026 11:14:30 -0800</pubDate>
-            <sparkle:version>2294</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <title>1.0.14</title>
+            <pubDate>Wed, 18 Nov 2026 18:11:00 -0800</pubDate>
+            <sparkle:version>2298</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,12 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.13 (build 2294) <span class="when">Nov 17, 2026</span></h2>
+<h2>Asobi 1.0.14 (build 2298) <span class="when">Nov 18, 2026</span></h2>
 <ul>
-<li><b>Progress on the web page.</b> While you host a review whose shots are matched to Kitsu, people on the web link get a Progress tab beside Notes and Playlist: every shot's percentage and progress notes, and the agency's comments from this round. Drawn shows the agency's drawing on its frame. It is read only, and a review set to Review Notes Only doesn't show it.</li>
+<li><b>Guests Can Drive the Room.</b> A new switch in the Review menu, under Guests Can Zoom the Room, while you host. Turn it off and people on the web link watch what you play: their play, steps, timeline, shot band and compare are greyed, and they stay on your clip and frame. They can still write notes, reply, draw and point. Turn it back on at any time. Stepping away or ending the review lets them drive again. Studio seats are not affected.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0.13 (build 2294) <span class="when">Nov 17, 2026</span></h3>
+<ul>
+<li><b>Progress on the web page.</b> While you host a review whose shots are matched to Kitsu, people on the web link get a Progress tab beside Notes and Playlist: every shot's percentage and progress notes, and the agency's comments from this round. Drawn shows the agency's drawing on its frame. It is read only, and a review set to Review Notes Only doesn't show it.</li>
+</ul>
 <h3>1.0.12 (build 2291) <span class="when">Nov 17, 2026</span></h3>
 <ul>
 <li><b>Several reviews in one.</b> File &gt; Add Review to This One&hellip; adds another review's clips after these, with their notes, marks and grades. Dropping or opening a review file on a window that has clips asks whether to add it or open it instead. Each added review is a section in the Playlist that folds, and can be renamed or removed in one step that Undo brings back.</li>
@@ -60,14 +64,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Kura Hub knows each Frame.io round.</b> When Bring Back posts new agency comments to Kitsu, it also notes on each shot when the download happened and the day of the one before it, so the Hub's Tracker report can highlight the notes since then.</li>
 </ul>
-<h3>1.0.6 (build 2262) <span class="when">Nov 16, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.14.2298.zip" length="98776062" type="application/octet-stream" sparkle:edSignature="oOHjrdHgFXYkrwzn0FnrZ8gorV6vsIGw9vviy3hADRcPS5pRC5ARqqekmlg8EyiE8WZhsFkStTNZL+VXn7bGDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2294.delta" sparkle:deltaFrom="2294" length="2932786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NqNIwbYefI5nQ0DnrR5YlEY6OedE96JyH0rln6akCpFj6tCHY0zXNnToTJOIvfpah8vkyKhSm0Q5wpPHFxecDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2291.delta" sparkle:deltaFrom="2291" length="3204910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eqPIUu71ZM2rUVxo0rIJb2coIydxd7g8nBO9SF6pNd0kNwJu8ZYDmf81m4UL3KHywMxU1m2+2lKgmPqu86seDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2281.delta" sparkle:deltaFrom="2281" length="4000618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dYyl+EgZBDyWgL4ze4EjcoMcG9LuqA8ppjd9sSJtAXCJF780Z/WOa4Yv1rJp1mQCjFkB7olXI1gzZkXmIJY9DA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2278.delta" sparkle:deltaFrom="2278" length="4097174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n1X+Vbl85lD2GPjaqtkXTumpX0lnI2NGkxXb894o7dBOj1u3lmPFBfPIS3AWd4efbGcWcb5Uzg3XHtk9brI5Aw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2272.delta" sparkle:deltaFrom="2272" length="4626482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="78WLxbXPNuB7vMV1OVRaqEy4i1L1XV9ZFgAvM85YtOqdKGxShL01tT3OUP7VX725k/77Lh6yx/TDANi70wbTBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.13</title>
+            <pubDate>Tue, 17 Nov 2026 11:14:30 -0800</pubDate>
+            <sparkle:version>2294</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.13 (build 2294)</h2>
 <ul>
-<li><b>Overlay comments stay with their shot.</b> On a movie cut into short shots, a comment read on over the next shots. Each now ends with its shot. Agency comments brought back from Frame.io show at their own frame, tagged Frame.io, without a second copy at the start of the shot.</li>
-<li><b>Progress shows every agency comment since the last download.</b> When the agency comments over several days, all of them since the Frame.io download before the last one show, not only the newest day's. The column header says since when.</li>
-<li><b>Kitsu comments stay off guests' screens.</b> Kitsu's own comments (submission notes, a version's history) no longer go to a client's browser, Asobi Review or a phone. Review ▸ Kitsu ▸ Show Kitsu Comments to Guests sends them, off until you turn it on.</li>
-<li><b>Any studio seat can turn the Overlay on for everyone.</b> Not only the host: everyone's switch follows.</li>
-<li><b>Frame.io sign-in can be cancelled.</b> Adobe's sign-in opens in a browser window, which could be hidden behind others while the button spun. The button now reads Cancel while it waits, and says where the window is.</li>
-<li><b>A Frame.io folder link works.</b> Paste the link of the folder the movie is in: Asobi picks the movie named for the review, or says which movies are there.</li>
+<li><b>Progress on the web page.</b> While you host a review whose shots are matched to Kitsu, people on the web link get a Progress tab beside Notes and Playlist: every shot's percentage and progress notes, and the agency's comments from this round. Drawn shows the agency's drawing on its frame. It is read only, and a review set to Review Notes Only doesn't show it.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.13.2294.zip" length="98755560" type="application/octet-stream" sparkle:edSignature="pDrfSanEMhThFZrQAEKOD+LrgqisoxBpYCapN2yMiRokm79tJr7FMYLylu6oSjgeZMxUajRapfk33lWNiwsFCg=="/>
@@ -109,34 +131,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2291-2272.delta" sparkle:deltaFrom="2272" length="4449886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ex9qaH51tcGZsnVOYwfAEXyVgwvC8f2NV1tOMGsbEavoxFf3kxHvbLgDN0+PP9WAcEkvdM9NLFCegWK3BhNGDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2291-2268.delta" sparkle:deltaFrom="2268" length="8081770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wD8KFAiaCCru8euAInHNmUmnYZKLN5Fw9MVU4nsbc1gpaUAyJScdRwWiU5/TmcunzcLIPradpvlmaQdmmpO3DA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2291-2265.delta" sparkle:deltaFrom="2265" length="8052654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R3hozSIOCwAm2jNGjq/BgnqzFQhQNVy0Kqzt8HfU888VAXLP6VEV0UFx10adGqrSsNltKIUMxJYtvzXbaKxyCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.11</title>
-            <pubDate>Mon, 16 Nov 2026 20:29:29 -0800</pubDate>
-            <sparkle:version>2281</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.11 (build 2281)</h2>
-<ul>
-<li><b>See the agency's drawings in Asobi.</b> In the Progress tab, an agency comment that was drawn on in Frame.io has a Drawn button. Click it to go to that frame and see the drawing, in the agency's colors with the name of who drew it; click again to hide it. The frame is counted in the shot, so it lands on the same moment in a newer version.</li>
-<li><b>The Overlay moves out of the way.</b> While a drawing is on screen, the Overlay's words move to the top of the picture so they never cover it.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.11.2281.zip" length="98541715" type="application/octet-stream" sparkle:edSignature="azJ8HhO9KNmit870FyAzixjSRxWWxEcpkYzLR7NwwySXItF2Bp4xHiteDAyKfeeAaRfTr+O6VHkErXPOG4lDBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2281-2278.delta" sparkle:deltaFrom="2278" length="2734750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J6C2sad3IjrhVfBdtrsyqGBt2/2P0VjF0trWIHcpKqzFKxny95MKM360oT46hJKZ27XdirmH2bpPZVjho1ooCA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2281-2272.delta" sparkle:deltaFrom="2272" length="3983842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eY5UFHMlSDgtnAPJwerRH50B9VnBelSzr7x9aVyk/d3kebUz1874tEyizcRRWy6OD/12TrZmZVG6cWG5QIDwBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2281-2268.delta" sparkle:deltaFrom="2268" length="7606446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KEHXbdh8DDAMdtDYb38AOyLHeblbqiLK+p3Dv2grJtPcHyn2z8RzeL/VAGX2ifE/JJDA8TmOdFV0EFRFw9/DBQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2281-2265.delta" sparkle:deltaFrom="2265" length="7632002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vmJvldMeGcAOWcBkFaDhrLL86HrZIimpzmTI92DoJTIt50ZlPTaz2M9wvCbUwBH2FbXPs0xEfrVpUuPbuQCrDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2281-2262.delta" sparkle:deltaFrom="2262" length="7573870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="chFR3ikcA4mk3DQLxyelpba7zCgVyR6o9H1F2q6CRVBdezM4MnSpzgGln8jfn/Mzit5MbWUtw9zfqUmtxlD1Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.16</title>
-            <pubDate>Fri, 20 Nov 2026 11:35:05 -0800</pubDate>
-            <sparkle:version>2304</sparkle:version>
-            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <title>1.0.17</title>
+            <pubDate>Fri, 20 Nov 2026 12:21:07 -0800</pubDate>
+            <sparkle:version>2307</sparkle:version>
+            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,12 +20,16 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.16 (build 2304) <span class="when">Nov 20, 2026</span></h2>
+<h2>Asobi 1.0.17 (build 2307) <span class="when">Nov 20, 2026</span></h2>
 <ul>
-<li><b>Showcases and web links no longer stall taking the sound.</b> The clip's sound is read from the original once and reused, instead of up to three times, so a long movie on the server prepares much faster. The line under the bar shows the sound's progress, and if it stops moving for a minute the share goes on without it rather than waiting forever.</li>
+<li><b>Showcases no longer get stuck packaging.</b> Some clips stopped for good on "Packaging it for streaming — 1 of 3" while their picture and sound were joined into one stream. They now finish, and if packaging ever stalls the showcase stops with a reason instead of waiting forever.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0.16 (build 2304) <span class="when">Nov 20, 2026</span></h3>
+<ul>
+<li><b>Showcases and web links no longer stall taking the sound.</b> The clip's sound is read from the original once and reused, instead of up to three times, so a long movie on the server prepares much faster. The line under the bar shows the sound's progress, and if it stops moving for a minute the share goes on without it rather than waiting forever.</li>
+</ul>
 <h3>1.0.15 (build 2301) <span class="when">Nov 19, 2026</span></h3>
 <ul>
 <li><b>Frame.io sign-in no longer quits Asobi.</b> Changing Adobe accounts on the sign-in page, or Adobe answering from the browser, could close Asobi without a word. It now finishes the sign-in or says why it didn't.</li>
@@ -59,10 +63,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>The agency's drawings in an internal Progress Report.</b> Turn on Agency frames to print each drawing on its frame of the movie, with a close-up of each place the agency drew. The PDF is marked Internal, and the switch is off again next time.</li>
 <li><b>Long shots no longer run off the page</b> in the Progress Report: a shot with a lot to say continues on the next page.</li>
 </ul>
-<h3>1.0.9 (build 2272) <span class="when">Nov 16, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.17.2307.zip" length="98788397" type="application/octet-stream" sparkle:edSignature="OnkmWeGFuMxjJ8zLoDjsl+UX3PF7QNWrzg/VTBZqYp44ZlHcm0lybe152B7gbGYBz2HXM6bONsB6PGaarZBZAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2304.delta" sparkle:deltaFrom="2304" length="1192154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rlyStEHlWVR7p9TYrUs+ziOSQsQ17vH4Kp0RlWQmYzh5+MKIYapSncs2AkT4D6+Ji2Z9d4lM5TCbnP1SgssQDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2301.delta" sparkle:deltaFrom="2301" length="2240878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DSyVWF4Q1zIRyCKolwh/63r1P3JtQ/Jk/lmkEa4LCogwwM3p1e2DcmOm+vvUnXMiThtIumVMGY+289uvMhl+Ag=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2298.delta" sparkle:deltaFrom="2298" length="2351742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEvPwxFR6sXHtdK5g9hohg1Umfq7XOZn9xbne/bT1KLvna8Yc9ciuc78h3d2De3kIMprHGQo1yVSIGrfZdgDBA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2294.delta" sparkle:deltaFrom="2294" length="3100298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A9PanmGUokbV9Nq2QvepRgCAMbkJ7aLo7ewzUzY6WtLEu6cRpGACJugPQKBue/eKh9WOyYdNPnCgTXnE2NlvDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2291.delta" sparkle:deltaFrom="2291" length="3322534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YwSf/ssj5F5WclcFIOrpg/D5L13xNbJgqQmwgM0/dsZ2jubcfYo3Xt8pCriJfxyslqFZ7jMcPgRAcakrjwUABg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.16</title>
+            <pubDate>Fri, 20 Nov 2026 11:35:05 -0800</pubDate>
+            <sparkle:version>2304</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.16 (build 2304)</h2>
 <ul>
-<li><b>The agency's Frame.io drawings are kept with each shot.</b> Bring Back with <b>Also post them to Kitsu</b> on now stores every drawing in Kitsu with its shot and the agency note it belongs to, so it stays with the shot's progress notes. Comments already in Kitsu get their drawings too, without being posted again. Kura Hub shows them as a <b>Drawn</b> button on the agency notes.</li>
-<li><b>A Frame.io round reaches Kitsu even if you first brought it back without Kitsu.</b> Bring Back with Kitsu on records the round's dates for Kura Hub's Tracker as it posts the comments.</li>
+<li><b>Showcases and web links no longer stall taking the sound.</b> The clip's sound is read from the original once and reused, instead of up to three times, so a long movie on the server prepares much faster. The line under the bar shows the sound's progress, and if it stops moving for a minute the share goes on without it rather than waiting forever.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.16.2304.zip" length="98787642" type="application/octet-stream" sparkle:edSignature="xcleLDJx8h+w5dIqRtciOKBq15D3eZN6OGTV6lksH5aXRfK6jLXekFNeO9GwBRgs2fmYcBLoQ60YJ2cYdoFlCA=="/>
@@ -99,33 +125,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2301-2291.delta" sparkle:deltaFrom="2291" length="3243170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+hs7WJL6OwJYTJTdGSC7xWjgv/Nr6nLaY1Dcno0lf6ldpB2qAlAqTIA6NP91l0mr7BVvOOUB+QfOjg5X3Xo4BA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2301-2281.delta" sparkle:deltaFrom="2281" length="3989530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fgotx0TDamMTZd55la6DfY865TuILgTTzaBO4R2FDYiQ2LU2fP8Kf7o6BjagCi8/npNf3LSU18sObLCmlWC5AA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2301-2278.delta" sparkle:deltaFrom="2278" length="4152434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CODR109dfYRw9K0DoTnqQXaIWfVfoaC/OcT7HTHGwII+yRXc/WTfJycUDLuQuRP1VIF66btlfGUdXthqNLw7BQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.14</title>
-            <pubDate>Wed, 18 Nov 2026 18:11:00 -0800</pubDate>
-            <sparkle:version>2298</sparkle:version>
-            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.14 (build 2298)</h2>
-<ul>
-<li><b>Guests Can Drive the Room.</b> A new switch in the Review menu, under Guests Can Zoom the Room, while you host. Turn it off and people on the web link watch what you play: their play, steps, timeline, shot band and compare are greyed, and they stay on your clip and frame. They can still write notes, reply, draw and point. Turn it back on at any time. Stepping away or ending the review lets them drive again. Studio seats are not affected.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.14.2298.zip" length="98776062" type="application/octet-stream" sparkle:edSignature="oOHjrdHgFXYkrwzn0FnrZ8gorV6vsIGw9vviy3hADRcPS5pRC5ARqqekmlg8EyiE8WZhsFkStTNZL+VXn7bGDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2294.delta" sparkle:deltaFrom="2294" length="2932786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NqNIwbYefI5nQ0DnrR5YlEY6OedE96JyH0rln6akCpFj6tCHY0zXNnToTJOIvfpah8vkyKhSm0Q5wpPHFxecDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2291.delta" sparkle:deltaFrom="2291" length="3204910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eqPIUu71ZM2rUVxo0rIJb2coIydxd7g8nBO9SF6pNd0kNwJu8ZYDmf81m4UL3KHywMxU1m2+2lKgmPqu86seDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2281.delta" sparkle:deltaFrom="2281" length="4000618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dYyl+EgZBDyWgL4ze4EjcoMcG9LuqA8ppjd9sSJtAXCJF780Z/WOa4Yv1rJp1mQCjFkB7olXI1gzZkXmIJY9DA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2278.delta" sparkle:deltaFrom="2278" length="4097174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n1X+Vbl85lD2GPjaqtkXTumpX0lnI2NGkxXb894o7dBOj1u3lmPFBfPIS3AWd4efbGcWcb5Uzg3XHtk9brI5Aw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2298-2272.delta" sparkle:deltaFrom="2272" length="4626482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="78WLxbXPNuB7vMV1OVRaqEy4i1L1XV9ZFgAvM85YtOqdKGxShL01tT3OUP7VX725k/77Lh6yx/TDANi70wbTBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

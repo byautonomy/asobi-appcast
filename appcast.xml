@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.18</title>
-            <pubDate>Sat, 21 Nov 2026 10:09:10 -0800</pubDate>
-            <sparkle:version>2315</sparkle:version>
-            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <title>1.0.19</title>
+            <pubDate>Sat, 21 Nov 2026 13:14:20 -0800</pubDate>
+            <sparkle:version>2318</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,12 +20,17 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.18 (build 2315) <span class="when">Nov 21, 2026</span></h2>
+<h2>Asobi 1.0.19 (build 2318) <span class="when">Nov 21, 2026</span></h2>
 <ul>
-<li><b>The grade works on clips shown As on this Mac.</b> The Grade panel used to do nothing there. Now the picture still looks exactly as macOS shows it until you grade, and the grade goes on top, for a quick check. For a fully managed grade, choose a preset in the Color pop-up.</li>
+<li><b>Kitsu comments are in date order.</b> In This shot, a frame's notes from the review come first, in the order they were written, then its Kitsu comments, newest first.</li>
+<li><b>Filter the notes.</b> The filter button beside Export shows four pop-ups: Who, When, Version and From (this review or Kitsu). The list says how many notes it is showing, and Clear brings them all back. It works in This shot, Whole movie and the Kitsu tab, stays on this Mac, and exports still take every note.</li>
 </ul>
 <hr>
 <div class="earlier">Earlier updates</div>
+<h3>1.0.18 (build 2315) <span class="when">Nov 21, 2026</span></h3>
+<ul>
+<li><b>The grade works on clips shown As on this Mac.</b> The Grade panel used to do nothing there. Now the picture still looks exactly as macOS shows it until you grade, and the grade goes on top, for a quick check. For a fully managed grade, choose a preset in the Color pop-up.</li>
+</ul>
 <h3>1.0.17 (build 2307) <span class="when">Nov 20, 2026</span></h3>
 <ul>
 <li><b>Showcases no longer get stuck packaging.</b> Some clips stopped for good on "Packaging it for streaming — 1 of 3" while their picture and sound were joined into one stream. They now finish, and if packaging ever stalls the showcase stops with a reason instead of waiting forever.</li>
@@ -55,10 +60,32 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <li><b>Open Recent shows an unsaved review as a review</b>, named for what it holds (&ldquo;Opening, Product + 2 more (Unsaved Review)&rdquo;), instead of as one of its movies. It reopens as it was.</li>
 <li><b>Fixed:</b> changing clips while a sequence was first being read from Kitsu or Frame.io could freeze the window.</li>
 </ul>
-<h3>1.0.11 (build 2281) <span class="when">Nov 16, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.19.2318.zip" length="98882736" type="application/octet-stream" sparkle:edSignature="6GI0O6vPHTp8Y0ddg8cJUL0Qj33flhdkpZ/02aO/2dcFTUK/L5MjQavFm6hiacu88JdZvm7rzX5wQRyo+CvKCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2315.delta" sparkle:deltaFrom="2315" length="2613146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PMGnalHRlW/QNjrLP54RAKHKzJrp+PHFdvms2pZDFX4qFXT7TtQBy/KXVNWtK9OsP4fgWN+BQw7S86+k6qsUAw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2307.delta" sparkle:deltaFrom="2307" length="2639490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="09euiSjUSNvVCOWJlGap0sJgBk/GlvCHkQLc6VOQtNB7PTtp4sIpTfHxZ/E8Tu6jY69HIpkGX96NBlCKg2utDQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2304.delta" sparkle:deltaFrom="2304" length="2650298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KjCrYikccbuNSkfgb2cqD8ovcj3yy2GQ9PWA1GxcmxnPULoSOmRYGflsB8bUTyt4Jp1ES4WzTd4fntnVr3SaBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2301.delta" sparkle:deltaFrom="2301" length="2788398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p6TgqwV5vaXqtbTIE4WAHkdvZSvjmSUlbzwCQ5ris8oXWp6bHC6YN3jBf58F4tihvLwSPURfgk+YeHkBnex4Dg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2298.delta" sparkle:deltaFrom="2298" length="2872654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M3Q4LN0SGIqQ0voSDhu6JSJC1RZ9moaKjF+/tnVgTLiPNKXHqzGU22Oe5tRc39ijuqmWcmA8Oe90AS2XsxveAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.18</title>
+            <pubDate>Sat, 21 Nov 2026 10:09:10 -0800</pubDate>
+            <sparkle:version>2315</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.18 (build 2315)</h2>
 <ul>
-<li><b>See the agency's drawings in Asobi.</b> In the Progress tab, an agency comment that was drawn on in Frame.io has a Drawn button. Click it to go to that frame and see the drawing, in the agency's colors with the name of who drew it; click again to hide it. The frame is counted in the shot, so it lands on the same moment in a newer version.</li>
-<li><b>The Overlay moves out of the way.</b> While a drawing is on screen, the Overlay's words move to the top of the picture so they never cover it.</li>
+<li><b>The grade works on clips shown As on this Mac.</b> The Grade panel used to do nothing there. Now the picture still looks exactly as macOS shows it until you grade, and the grade goes on top, for a quick check. For a fully managed grade, choose a preset in the Color pop-up.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.18.2315.zip" length="98787887" type="application/octet-stream" sparkle:edSignature="W5x1GxEGH2Gqbwg93hZ4VTxB5iLxNwmjJFXQ+VaHKyLg7n0kQ7Ngdt/5m/lgQGgs9UF/qgipuwqmOIKzsnBzAg=="/>
@@ -95,33 +122,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2298.delta" sparkle:deltaFrom="2298" length="2351742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEvPwxFR6sXHtdK5g9hohg1Umfq7XOZn9xbne/bT1KLvna8Yc9ciuc78h3d2De3kIMprHGQo1yVSIGrfZdgDBA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2294.delta" sparkle:deltaFrom="2294" length="3100298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A9PanmGUokbV9Nq2QvepRgCAMbkJ7aLo7ewzUzY6WtLEu6cRpGACJugPQKBue/eKh9WOyYdNPnCgTXnE2NlvDQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2291.delta" sparkle:deltaFrom="2291" length="3322534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YwSf/ssj5F5WclcFIOrpg/D5L13xNbJgqQmwgM0/dsZ2jubcfYo3Xt8pCriJfxyslqFZ7jMcPgRAcakrjwUABg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.16</title>
-            <pubDate>Fri, 20 Nov 2026 11:35:05 -0800</pubDate>
-            <sparkle:version>2304</sparkle:version>
-            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.16 (build 2304)</h2>
-<ul>
-<li><b>Showcases and web links no longer stall taking the sound.</b> The clip's sound is read from the original once and reused, instead of up to three times, so a long movie on the server prepares much faster. The line under the bar shows the sound's progress, and if it stops moving for a minute the share goes on without it rather than waiting forever.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.16.2304.zip" length="98787642" type="application/octet-stream" sparkle:edSignature="xcleLDJx8h+w5dIqRtciOKBq15D3eZN6OGTV6lksH5aXRfK6jLXekFNeO9GwBRgs2fmYcBLoQ60YJ2cYdoFlCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2304-2301.delta" sparkle:deltaFrom="2301" length="2216582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x34MzeJ5Y/IfSVicwIcqM755/mgWxCmLKJk8080JDNPncOSuzCehvGD0Pz6qnHeEN0SORQBZgUViamK6AQbfCQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2304-2298.delta" sparkle:deltaFrom="2298" length="2304138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GTbjY6mt5OEj6+ymfm7mYRO9yz9j3qcr7BWbnv87T7gbqSHwCgiNAINs8kU+LFsw+TZCMMnoYzUuljSI7WZtAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2304-2294.delta" sparkle:deltaFrom="2294" length="3114598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="832lZyDRvzatBdQGO5EBi6QPecvpeu3HDh7YXg5iE+Xk5OvGoLEDB374AMXib+ZHlni7MRnqXNiZCh6U4KJhAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2304-2291.delta" sparkle:deltaFrom="2291" length="3320534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RzT8nP3ZMOZxr5lM/+560uJzWjtAsW/CbPFEVkQ49rBHona3/hRR39ErhNsHxL3YSil/0J99eMb90xHW+ornBg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2304-2281.delta" sparkle:deltaFrom="2281" length="4031330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nTO2imI8Mj8QezoBcZQdD9Xi8iQBQUhrtX4G6jnQYrud1ZT5X1PNLlVZpG99MIe5rIqadBiBiYFKgjHoU4+8CQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

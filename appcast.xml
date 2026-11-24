@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.19</title>
-            <pubDate>Sat, 21 Nov 2026 13:14:20 -0800</pubDate>
-            <sparkle:version>2318</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <title>1.0.20</title>
+            <pubDate>Tue, 24 Nov 2026 12:20:48 -0800</pubDate>
+            <sparkle:version>2325</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,13 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.19 (build 2318) <span class="when">Nov 21, 2026</span></h2>
+<h2>Asobi 1.0.20 (build 2325) <span class="when">Nov 24, 2026</span></h2>
+<ul>
+<li><b>Kitsu comments in internal reviews.</b> When a review is marked Internal Review, everyone in it sees its Kitsu comments, including people on the web page. Client reviews still keep them on the host's Mac unless Show Kitsu Comments to Guests is on.</li>
+<li><b>Joining a review in progress.</b> Someone who joins late now gets every comment on the right shot. A few could land on the shot they were leaving.</li>
+<li><b>Next and previous comment across shots.</b> In a cut movie, Command-] past a shot's last comment goes on to the next shot that has one, and Command-[ goes back the same way.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0.19 (build 2318) <span class="when">Nov 21, 2026</span></h3>
 <ul>
 <li><b>Kitsu comments are in date order.</b> In This shot, a frame's notes from the review come first, in the order they were written, then its Kitsu comments, newest first.</li>
 <li><b>Filter the notes.</b> The filter button beside Export shows four pop-ups: Who, When, Version and From (this review or Kitsu). The list says how many notes it is showing, and Clear brings them all back. It works in This shot, Whole movie and the Kitsu tab, stays on this Mac, and exports still take every note.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0.18 (build 2315) <span class="when">Nov 21, 2026</span></h3>
 <ul>
 <li><b>The grade works on clips shown As on this Mac.</b> The Grade panel used to do nothing there. Now the picture still looks exactly as macOS shows it until you grade, and the grade goes on top, for a quick check. For a fully managed grade, choose a preset in the Color pop-up.</li>
@@ -51,14 +57,33 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Progress on the web page.</b> While you host a review whose shots are matched to Kitsu, people on the web link get a Progress tab beside Notes and Playlist: every shot's percentage and progress notes, and the agency's comments from this round. Drawn shows the agency's drawing on its frame. It is read only, and a review set to Review Notes Only doesn't show it.</li>
 </ul>
-<h3>1.0.12 (build 2291) <span class="when">Nov 17, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.20.2325.zip" length="98882544" type="application/octet-stream" sparkle:edSignature="aqYo2+zZEnbz1gORmu2GZaCXkbaxdF5iYkGfhJ6KxyF6y83/fI35hAiPcPagE5xBEZt1k867mRp3oPrD7tn8Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2318.delta" sparkle:deltaFrom="2318" length="1745382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OQVfFiT1aYUF33pdk1hFGsmv0jWqQ4Z1bzZWZ8iMmuGLmlRbDkDgeD6wEO7EA1dKWZlQBIw/ttWEZwdL98RrAA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2315.delta" sparkle:deltaFrom="2315" length="2716262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aqM8I2vTVIZ/XzwQYgs5CeZMkMhq+30PGVPrpmJUvBWFQN62HK3kFttlEJZ9B7Mtxy1aY3p/0zQrrUBvHE6oDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2307.delta" sparkle:deltaFrom="2307" length="2714158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5ZqCA+T9nwwO1288VOYkZNPqrrR1XzrydsMhL0raHPThDafdEVV+AvFQ4h+0Vz+3Fftyov7Wzg43zbaxNSbhDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2304.delta" sparkle:deltaFrom="2304" length="2728826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQzdX0/j/alvbeapfAiac0Tac/GgjYuMuRRHE1bA92UN/OtWZbfGkExgZ63uJdkSWYT8SJiz4nSs0d2MYz0nAQ=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2301.delta" sparkle:deltaFrom="2301" length="2872290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qdtqQYLYkaEJ7gTBoMnlem6BjlHSeBFB5L/DfcuqJQtiFGGMqGgptk4AMuK4spUWIkh5UEDrIjxtx1bwK19Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.19</title>
+            <pubDate>Sat, 21 Nov 2026 13:14:20 -0800</pubDate>
+            <sparkle:version>2318</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.19 (build 2318)</h2>
 <ul>
-<li><b>Several reviews in one.</b> File &gt; Add Review to This One&hellip; adds another review's clips after these, with their notes, marks and grades. Dropping or opening a review file on a window that has clips asks whether to add it or open it instead. Each added review is a section in the Playlist that folds, and can be renamed or removed in one step that Undo brings back.</li>
-<li><b>Click a header to choose it.</b> Clicking a cut movie's or a section's header goes to it; Shift- or Command-click selects its shots. Right-click a header to publish just that section to Kitsu, make its Progress Report, or select its shots.</li>
-<li><b>The Progress Report covers every cut you choose.</b> The report's sheet lists the cuts, with the one on screen ticked: one PDF with a heading per cut, or a PDF for each cut. It used to cover only the first cut.</li>
-<li><b>Kitsu playlists have a header</b> in the Playlist, with the playlist's name, that folds and clicks like the others.</li>
-<li><b>Open Recent shows an unsaved review as a review</b>, named for what it holds (&ldquo;Opening, Product + 2 more (Unsaved Review)&rdquo;), instead of as one of its movies. It reopens as it was.</li>
-<li><b>Fixed:</b> changing clips while a sequence was first being read from Kitsu or Frame.io could freeze the window.</li>
+<li><b>Kitsu comments are in date order.</b> In This shot, a frame's notes from the review come first, in the order they were written, then its Kitsu comments, newest first.</li>
+<li><b>Filter the notes.</b> The filter button beside Export shows four pop-ups: Who, When, Version and From (this review or Kitsu). The list says how many notes it is showing, and Clear brings them all back. It works in This shot, Whole movie and the Kitsu tab, stays on this Mac, and exports still take every note.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.19.2318.zip" length="98882736" type="application/octet-stream" sparkle:edSignature="6GI0O6vPHTp8Y0ddg8cJUL0Qj33flhdkpZ/02aO/2dcFTUK/L5MjQavFm6hiacu88JdZvm7rzX5wQRyo+CvKCw=="/>
@@ -95,33 +120,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2315-2301.delta" sparkle:deltaFrom="2301" length="2303882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9Augbl6ZcUYG89to9p7tOeCQbVGZL8qpLAInmeCGHc/mcd+jXghQMvC954YehfAEi7slEiLntC3dDH5dgZRfDA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2315-2298.delta" sparkle:deltaFrom="2298" length="2410478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jOEGcce46ARYNQXYMtMwwvv991pj7ETZDNuSIYsQVxcPNbitlnSZGFTMSuJ4ITYOF4zW8djwrRzk7IFuyNh9Cg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2315-2294.delta" sparkle:deltaFrom="2294" length="3142038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M4hdGqOoH5HpDX6Veytp7aGLm0ZlhDKclBxa8S978ByduIW/R/aAX3Onlihf8ew72MX16u75cTNj4fP4lILhDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.17</title>
-            <pubDate>Fri, 20 Nov 2026 12:21:07 -0800</pubDate>
-            <sparkle:version>2307</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.17 (build 2307)</h2>
-<ul>
-<li><b>Showcases no longer get stuck packaging.</b> Some clips stopped for good on "Packaging it for streaming — 1 of 3" while their picture and sound were joined into one stream. They now finish, and if packaging ever stalls the showcase stops with a reason instead of waiting forever.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.17.2307.zip" length="98788397" type="application/octet-stream" sparkle:edSignature="OnkmWeGFuMxjJ8zLoDjsl+UX3PF7QNWrzg/VTBZqYp44ZlHcm0lybe152B7gbGYBz2HXM6bONsB6PGaarZBZAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2304.delta" sparkle:deltaFrom="2304" length="1192154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rlyStEHlWVR7p9TYrUs+ziOSQsQ17vH4Kp0RlWQmYzh5+MKIYapSncs2AkT4D6+Ji2Z9d4lM5TCbnP1SgssQDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2301.delta" sparkle:deltaFrom="2301" length="2240878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DSyVWF4Q1zIRyCKolwh/63r1P3JtQ/Jk/lmkEa4LCogwwM3p1e2DcmOm+vvUnXMiThtIumVMGY+289uvMhl+Ag=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2298.delta" sparkle:deltaFrom="2298" length="2351742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BEvPwxFR6sXHtdK5g9hohg1Umfq7XOZn9xbne/bT1KLvna8Yc9ciuc78h3d2De3kIMprHGQo1yVSIGrfZdgDBA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2294.delta" sparkle:deltaFrom="2294" length="3100298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A9PanmGUokbV9Nq2QvepRgCAMbkJ7aLo7ewzUzY6WtLEu6cRpGACJugPQKBue/eKh9WOyYdNPnCgTXnE2NlvDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2307-2291.delta" sparkle:deltaFrom="2291" length="3322534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YwSf/ssj5F5WclcFIOrpg/D5L13xNbJgqQmwgM0/dsZ2jubcfYo3Xt8pCriJfxyslqFZ7jMcPgRAcakrjwUABg=="/>
             </sparkle:deltas>
         </item>
     </channel>

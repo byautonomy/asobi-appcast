@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.21</title>
-            <pubDate>Tue, 24 Nov 2026 18:48:27 -0800</pubDate>
-            <sparkle:version>2340</sparkle:version>
-            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <title>1.0.22</title>
+            <pubDate>Wed, 25 Nov 2026 09:57:27 -0800</pubDate>
+            <sparkle:version>2357</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,14 +20,20 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.21 (build 2340) <span class="when">Nov 24, 2026</span></h2>
+<h2>Asobi 1.0.22 (build 2357) <span class="when">Nov 25, 2026</span></h2>
+<ul>
+<li><b>Live links with a passphrase.</b> When a live link needs a passphrase, Asobi asks for it as the link opens. The words come from whoever sent the link.</li>
+<li><b>Paste the whole invitation.</b> File &rsaquo; Open Live Link&hellip; now finds the live link inside whatever you paste, including a whole invitation from Asobi Live, and fills in just the link when one is on the clipboard.</li>
+<li><b>Asobi Live, updated.</b> File &rsaquo; Download Asobi Live&hellip; now gets a version with its own window: it checks every step before Go Live, shows what viewers see, warns when the picture goes black, keeps recent links with their passphrases, and updates itself.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0.21 (build 2340) <span class="when">Nov 24, 2026</span></h3>
 <ul>
 <li><b>Live pictures.</b> A live link from a grading Mac opens in its own window: File &rsaquo; Open Live Link&hellip;, a link pasted into Join a Review, or Open in Asobi Review on the live page. The picture is shown through Asobi's color like a Rec.709 movie, with its sound. Quality follows your connection (Auto) or picks Full, HD or Low, and full screen fades the bar away while the mouse is still.</li>
 <li><b>Display warnings.</b> When Night Shift or True Tone is changing the picture's color, an amber Display chip appears in the bar. It can turn them off while you review, and Asobi turns them back on when it quits. On an XDR display it suggests the HDTV Video (BT.709-BT.1886) preset for Rec.709 work. Settings &rsaquo; Interface &rsaquo; Display Warnings turns the chip off.</li>
 <li><b>Asobi Live for grading Macs.</b> File &rsaquo; Download Asobi Live&hellip; gets the sender that puts a grading Mac's picture and sound on a live link. It needs a license from the studio; Macs on the studio network get one by themselves.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0.20 (build 2325) <span class="when">Nov 24, 2026</span></h3>
 <ul>
 <li><b>Kitsu comments in internal reviews.</b> When a review is marked Internal Review, everyone in it sees its Kitsu comments, including people on the web page. Client reviews still keep them on the host's Mac unless Show Kitsu Comments to Guests is on.</li>
@@ -55,9 +61,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Frame.io sign-in no longer quits Asobi.</b> Changing Adobe accounts on the sign-in page, or Adobe answering from the browser, could close Asobi without a word. It now finishes the sign-in or says why it didn't.</li>
 </ul>
-<h3>1.0.14 (build 2298) <span class="when">Nov 18, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.22.2357.zip" length="99049295" type="application/octet-stream" sparkle:edSignature="KRQ8aLypoFQhCBmLDrptbADmZ2NX4aWiCFP9JTt/uXE/+zzF/j6hjHjI83FWMOZMQ9Al6OHpUSeCwJq2EbSjCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2357-2340.delta" sparkle:deltaFrom="2340" length="1986214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MQs1GB1LU6gPoqqFDZvYjzOg6bDYyDDz9eIV2STp2w0xrydEwnvIWuyaSfmDi24hjY/kXXmsUBL5O225mKUkCA=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2357-2325.delta" sparkle:deltaFrom="2325" length="3272402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="onJrTIs7748YUS2FzrTOF4WvrdAT0A3Q3i1W00rX/W+IOrfwjJsgXveco2utN1Bs3X4mlrg2byubnX1HTyeDDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2357-2318.delta" sparkle:deltaFrom="2318" length="3281970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UXvDoU4L7NvNRD2rXdRftWvVUSmtIgdUaraw9ABV9t0RSY/eEPWzUTDGMEz4+WJk4kFkYgK2SrMolQV5o3pCDw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2357-2315.delta" sparkle:deltaFrom="2315" length="3481730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lGbc3Bi2s8bFImI58P3CEahSQlg/bg6bpfegkQqXAv8QDS3UTN1Sqs4P6Icjw3sIiXRgsul+f5CAntHTS4SjCw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2357-2307.delta" sparkle:deltaFrom="2307" length="3488478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BcsHoNUp4JzNXvGl6a9SHxkobAkJFNDqXJZCrgEa20Tl6K0GD5IwC4ZoE24Fk5Hf35QESICXJE5HghB/6U3FDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.21</title>
+            <pubDate>Tue, 24 Nov 2026 18:48:27 -0800</pubDate>
+            <sparkle:version>2340</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.21 (build 2340)</h2>
 <ul>
-<li><b>Guests Can Drive the Room.</b> A new switch in the Review menu, under Guests Can Zoom the Room, while you host. Turn it off and people on the web link watch what you play: their play, steps, timeline, shot band and compare are greyed, and they stay on your clip and frame. They can still write notes, reply, draw and point. Turn it back on at any time. Stepping away or ending the review lets them drive again. Studio seats are not affected.</li>
+<li><b>Live pictures.</b> A live link from a grading Mac opens in its own window: File &rsaquo; Open Live Link&hellip;, a link pasted into Join a Review, or Open in Asobi Review on the live page. The picture is shown through Asobi's color like a Rec.709 movie, with its sound. Quality follows your connection (Auto) or picks Full, HD or Low, and full screen fades the bar away while the mouse is still.</li>
+<li><b>Display warnings.</b> When Night Shift or True Tone is changing the picture's color, an amber Display chip appears in the bar. It can turn them off while you review, and Asobi turns them back on when it quits. On an XDR display it suggests the HDTV Video (BT.709-BT.1886) preset for Rec.709 work. Settings &rsaquo; Interface &rsaquo; Display Warnings turns the chip off.</li>
+<li><b>Asobi Live for grading Macs.</b> File &rsaquo; Download Asobi Live&hellip; gets the sender that puts a grading Mac's picture and sound on a live link. It needs a license from the studio; Macs on the studio network get one by themselves.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.21.2340.zip" length="99042587" type="application/octet-stream" sparkle:edSignature="+JppIOkZ7VX2T00gaoiyJrzrP2ypVZ42j/ZzvhKOOtSHoTrm+IFiFJsA4V+ES3gz6rreik8woYWZToAZoXw6Cw=="/>
@@ -96,34 +127,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2307.delta" sparkle:deltaFrom="2307" length="2714158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5ZqCA+T9nwwO1288VOYkZNPqrrR1XzrydsMhL0raHPThDafdEVV+AvFQ4h+0Vz+3Fftyov7Wzg43zbaxNSbhDg=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2304.delta" sparkle:deltaFrom="2304" length="2728826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQzdX0/j/alvbeapfAiac0Tac/GgjYuMuRRHE1bA92UN/OtWZbfGkExgZ63uJdkSWYT8SJiz4nSs0d2MYz0nAQ=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2301.delta" sparkle:deltaFrom="2301" length="2872290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qdtqQYLYkaEJ7gTBoMnlem6BjlHSeBFB5L/DfcuqJQtiFGGMqGgptk4AMuK4spUWIkh5UEDrIjxtx1bwK19Ag=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.19</title>
-            <pubDate>Sat, 21 Nov 2026 13:14:20 -0800</pubDate>
-            <sparkle:version>2318</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.19 (build 2318)</h2>
-<ul>
-<li><b>Kitsu comments are in date order.</b> In This shot, a frame's notes from the review come first, in the order they were written, then its Kitsu comments, newest first.</li>
-<li><b>Filter the notes.</b> The filter button beside Export shows four pop-ups: Who, When, Version and From (this review or Kitsu). The list says how many notes it is showing, and Clear brings them all back. It works in This shot, Whole movie and the Kitsu tab, stays on this Mac, and exports still take every note.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.19.2318.zip" length="98882736" type="application/octet-stream" sparkle:edSignature="6GI0O6vPHTp8Y0ddg8cJUL0Qj33flhdkpZ/02aO/2dcFTUK/L5MjQavFm6hiacu88JdZvm7rzX5wQRyo+CvKCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2315.delta" sparkle:deltaFrom="2315" length="2613146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PMGnalHRlW/QNjrLP54RAKHKzJrp+PHFdvms2pZDFX4qFXT7TtQBy/KXVNWtK9OsP4fgWN+BQw7S86+k6qsUAw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2307.delta" sparkle:deltaFrom="2307" length="2639490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="09euiSjUSNvVCOWJlGap0sJgBk/GlvCHkQLc6VOQtNB7PTtp4sIpTfHxZ/E8Tu6jY69HIpkGX96NBlCKg2utDQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2304.delta" sparkle:deltaFrom="2304" length="2650298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KjCrYikccbuNSkfgb2cqD8ovcj3yy2GQ9PWA1GxcmxnPULoSOmRYGflsB8bUTyt4Jp1ES4WzTd4fntnVr3SaBw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2301.delta" sparkle:deltaFrom="2301" length="2788398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p6TgqwV5vaXqtbTIE4WAHkdvZSvjmSUlbzwCQ5ris8oXWp6bHC6YN3jBf58F4tihvLwSPURfgk+YeHkBnex4Dg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2318-2298.delta" sparkle:deltaFrom="2298" length="2872654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M3Q4LN0SGIqQ0voSDhu6JSJC1RZ9moaKjF+/tnVgTLiPNKXHqzGU22Oe5tRc39ijuqmWcmA8Oe90AS2XsxveAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

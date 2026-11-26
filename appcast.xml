@@ -3,10 +3,10 @@
     <channel>
         <title>Asobi</title>
         <item>
-            <title>1.0.22</title>
-            <pubDate>Wed, 25 Nov 2026 09:57:27 -0800</pubDate>
-            <sparkle:version>2357</sparkle:version>
-            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <title>1.0.23</title>
+            <pubDate>Thu, 26 Nov 2026 14:00:44 -0800</pubDate>
+            <sparkle:version>2363</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<meta charset="utf-8">
@@ -20,14 +20,19 @@ h3 { font-size: 13px; margin: 14px 0 4px; }
 .earlier { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #777; margin: 18px 0 2px; }
 hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 </style>
-<h2>Asobi 1.0.22 (build 2357) <span class="when">Nov 25, 2026</span></h2>
+<h2>Asobi 1.0.22 (build 2357) <span class="when">Nov 26, 2026</span></h2>
+<h2>Asobi 1.0.23 (build 2363)</h2>
+<ul>
+<li><b>A new icon.</b> Asobi now wears the Autonomy family's icon: the studio's halftone collage in Asobi's blue, with the same white figure. The iPhone app and the web page follow.</li>
+</ul>
+<hr>
+<div class="earlier">Earlier updates</div>
+<h3>1.0.22 (build 2357) <span class="when">Nov 25, 2026</span></h3>
 <ul>
 <li><b>Live links with a passphrase.</b> When a live link needs a passphrase, Asobi asks for it as the link opens. The words come from whoever sent the link.</li>
 <li><b>Paste the whole invitation.</b> File &rsaquo; Open Live Link&hellip; now finds the live link inside whatever you paste, including a whole invitation from Asobi Live, and fills in just the link when one is on the clipboard.</li>
 <li><b>Asobi Live, updated.</b> File &rsaquo; Download Asobi Live&hellip; now gets a version with its own window: it checks every step before Go Live, shows what viewers see, warns when the picture goes black, keeps recent links with their passphrases, and updates itself.</li>
 </ul>
-<hr>
-<div class="earlier">Earlier updates</div>
 <h3>1.0.21 (build 2340) <span class="when">Nov 24, 2026</span></h3>
 <ul>
 <li><b>Live pictures.</b> A live link from a grading Mac opens in its own window: File &rsaquo; Open Live Link&hellip;, a link pasted into Join a Review, or Open in Asobi Review on the live page. The picture is shown through Asobi's color like a Rec.709 movie, with its sound. Quality follows your connection (Auto) or picks Full, HD or Low, and full screen fades the bar away while the mouse is still.</li>
@@ -57,9 +62,34 @@ hr { border: 0; border-top: 1px solid #ddd; margin: 16px 0 0; }
 <ul>
 <li><b>Showcases and web links no longer stall taking the sound.</b> The clip's sound is read from the original once and reused, instead of up to three times, so a long movie on the server prepares much faster. The line under the bar shows the sound's progress, and if it stops moving for a minute the share goes on without it rather than waiting forever.</li>
 </ul>
-<h3>1.0.15 (build 2301) <span class="when">Nov 19, 2026</span></h3>
+]]></description>
+            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.23.2363.zip" length="98949651" type="application/octet-stream" sparkle:edSignature="0gfr9wSJZ9xnG/JUfSD4m6G8W9ti1WmPswRo5k8I4xqRGja5ujkcUe7nRbqFori8lySm5MnrQEWl3E3k/JMkBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2363-2357.delta" sparkle:deltaFrom="2357" length="2113478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8jRos8m/p9X7ISTFF+J/1J4t/5/iGSm7hZJWC8rbKqphTbtf3yWyE4VHtqkyGVTJuEoIbTyIiqqLDC6ycdkIBw=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2363-2340.delta" sparkle:deltaFrom="2340" length="4052774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BxEErpf0Q2oELOy8Uoffjd9eTBOIrVzqMJWniFHRGiSz9Ya7xkG+s0hZbyaU3lNZFuJIDS5PJPSjECIMtwKgDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2363-2325.delta" sparkle:deltaFrom="2325" length="5352494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JUSi38FyYz0S45yTogvgqKCkaeBJ7UqrZtwqyCpetTqkIW4MSVGU171QtUiwB6Vw8z0/pkrfdVPnosIRYLSYDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2363-2318.delta" sparkle:deltaFrom="2318" length="5348414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ROQbvzOame8TDaa3lWqQPtoIVA7JjEE2qliJrzTwNpZjmB12MYLfX/DPlKhwC6VCZns1xdq5FA7QoOAB1D7iDg=="/>
+                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2363-2315.delta" sparkle:deltaFrom="2315" length="5534586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kQ9lP0BZheOFaEDfZgUpNtYMCTpW9VyrjYnKtfc/ZUw8NnyqaAhaLVCX527SoPjZm1X+ofT0HIybkWnGIVVdCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.22</title>
+            <pubDate>Wed, 25 Nov 2026 09:57:27 -0800</pubDate>
+            <sparkle:version>2357</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
+@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
+h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
+</style>
+<h2>Asobi 1.0.22 (build 2357)</h2>
 <ul>
-<li><b>Frame.io sign-in no longer quits Asobi.</b> Changing Adobe accounts on the sign-in page, or Adobe answering from the browser, could close Asobi without a word. It now finishes the sign-in or says why it didn't.</li>
+<li><b>Live links with a passphrase.</b> When a live link needs a passphrase, Asobi asks for it as the link opens. The words come from whoever sent the link.</li>
+<li><b>Paste the whole invitation.</b> File &rsaquo; Open Live Link&hellip; now finds the live link inside whatever you paste, including a whole invitation from Asobi Live, and fills in just the link when one is on the clipboard.</li>
+<li><b>Asobi Live, updated.</b> File &rsaquo; Download Asobi Live&hellip; now gets a version with its own window: it checks every step before Go Live, shows what viewers see, warns when the picture goes black, keeps recent links with their passphrases, and updates itself.</li>
 </ul>
 ]]></description>
             <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.22.2357.zip" length="99049295" type="application/octet-stream" sparkle:edSignature="KRQ8aLypoFQhCBmLDrptbADmZ2NX4aWiCFP9JTt/uXE/+zzF/j6hjHjI83FWMOZMQ9Al6OHpUSeCwJq2EbSjCA=="/>
@@ -98,35 +128,6 @@ h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2340-2315.delta" sparkle:deltaFrom="2315" length="3400346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dYG4KjeskGz+RvejTdGvq7ixR0/Cyx0GqDjgCkZzut9Vk3aKNQw3rpejLaxi4xNmdn4BIpN6MalFEv+0SfBfDw=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2340-2307.delta" sparkle:deltaFrom="2307" length="3383338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N818RXi6mCUZClKdXJ25DrKZbs/fre5NuCIdcwd8TckdS6VmUH5HLHwviz45VA8jNAFET4eaj59i3OLIzKRzAA=="/>
                 <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2340-2304.delta" sparkle:deltaFrom="2304" length="3409334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OUStMc8wIkIYeauXn0v26zvHml5/XNLptf82PMSw4H7HsqNCV+W80a02Yrw675VP0FW4ERj5oj/+yNM6MsbEDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.20</title>
-            <pubDate>Tue, 24 Nov 2026 12:20:48 -0800</pubDate>
-            <sparkle:version>2325</sparkle:version>
-            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-:root { color-scheme: light dark; }
-body { font-family: -apple-system, 'Helvetica Neue', sans-serif; font-size: 13px; color: #1a1a1a; margin: 12px; }
-@media (prefers-color-scheme: dark) { body { color: #e6e6e6; } }
-h2 { font-size: 15px; margin: 0 0 8px; } ul { margin: 4px 0 10px; padding-left: 20px; } li { margin-bottom: 3px; }
-</style>
-<h2>Asobi 1.0.20 (build 2325)</h2>
-<ul>
-<li><b>Kitsu comments in internal reviews.</b> When a review is marked Internal Review, everyone in it sees its Kitsu comments, including people on the web page. Client reviews still keep them on the host's Mac unless Show Kitsu Comments to Guests is on.</li>
-<li><b>Joining a review in progress.</b> Someone who joins late now gets every comment on the right shot. A few could land on the shot they were leaving.</li>
-<li><b>Next and previous comment across shots.</b> In a cut movie, Command-] past a shot's last comment goes on to the next shot that has one, and Command-[ goes back the same way.</li>
-</ul>
-]]></description>
-            <enclosure url="https://review.byautonomy.com/download/asobi/Asobi-1.0.20.2325.zip" length="98882544" type="application/octet-stream" sparkle:edSignature="aqYo2+zZEnbz1gORmu2GZaCXkbaxdF5iYkGfhJ6KxyF6y83/fI35hAiPcPagE5xBEZt1k867mRp3oPrD7tn8Cg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2318.delta" sparkle:deltaFrom="2318" length="1745382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OQVfFiT1aYUF33pdk1hFGsmv0jWqQ4Z1bzZWZ8iMmuGLmlRbDkDgeD6wEO7EA1dKWZlQBIw/ttWEZwdL98RrAA=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2315.delta" sparkle:deltaFrom="2315" length="2716262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aqM8I2vTVIZ/XzwQYgs5CeZMkMhq+30PGVPrpmJUvBWFQN62HK3kFttlEJZ9B7Mtxy1aY3p/0zQrrUBvHE6oDw=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2307.delta" sparkle:deltaFrom="2307" length="2714158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5ZqCA+T9nwwO1288VOYkZNPqrrR1XzrydsMhL0raHPThDafdEVV+AvFQ4h+0Vz+3Fftyov7Wzg43zbaxNSbhDg=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2304.delta" sparkle:deltaFrom="2304" length="2728826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQzdX0/j/alvbeapfAiac0Tac/GgjYuMuRRHE1bA92UN/OtWZbfGkExgZ63uJdkSWYT8SJiz4nSs0d2MYz0nAQ=="/>
-                <enclosure url="https://review.byautonomy.com/download/asobi/Asobi2325-2301.delta" sparkle:deltaFrom="2301" length="2872290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qdtqQYLYkaEJ7gTBoMnlem6BjlHSeBFB5L/DfcuqJQtiFGGMqGgptk4AMuK4spUWIkh5UEDrIjxtx1bwK19Ag=="/>
             </sparkle:deltas>
         </item>
     </channel>
